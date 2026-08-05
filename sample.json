@@ -1,0 +1,383 @@
+{
+ "name": "UniTools World Recipes",
+ "version": "1.0.0",
+ "license": "CC BY-SA 4.0",
+ "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+ "attribution": "UniTools — theunitools.com",
+ "homepage": "https://theunitools.com/en/data",
+ "generatedAt": "2026-08-05",
+ "counts": {
+  "recipes": 501,
+  "countries": 127,
+  "ingredients": 757,
+  "steps": 3243
+ },
+ "note": "Two example records. The full 501-recipe file: https://theunitools.com/data/unitools-recipes-v1.json",
+ "recipes": [
+  {
+   "slug": "spaghetti-carbonara",
+   "url": "https://theunitools.com/en/recipes/italy/spaghetti-carbonara",
+   "country": "IT",
+   "name": {
+    "ru": "Спагетти карбонара",
+    "en": "Spaghetti carbonara"
+   },
+   "nativeName": "Spaghetti alla carbonara",
+   "summary": {
+    "ru": "Паста на четырёх ингредиентах: гуанчале, яйца, пекорино и перец. Сливок в ней нет и никогда не было.",
+    "en": "Pasta from four ingredients: guanciale, eggs, pecorino and pepper. There is no cream in it and never was."
+   },
+   "category": "main",
+   "diets": [],
+   "difficulty": "medium",
+   "baseServings": 2,
+   "prepMinutes": 10,
+   "cookMinutes": 15,
+   "nutritionPerServing": {
+    "calories": 690,
+    "protein": 32,
+    "fat": 34,
+    "carbs": 62
+   },
+   "ingredients": [
+    {
+     "id": "spaghetti",
+     "name": {
+      "ru": "Спагетти",
+      "en": "Spaghetti"
+     },
+     "quantity": 200,
+     "unit": "g",
+     "scaling": "linear",
+     "note": null
+    },
+    {
+     "id": "guanciale",
+     "name": {
+      "ru": "Гуанчале",
+      "en": "Guanciale"
+     },
+     "quantity": 100,
+     "unit": "g",
+     "scaling": "linear",
+     "note": {
+      "ru": "нарезать брусочками; можно панчетту",
+      "en": "cut into short strips; pancetta works"
+     }
+    },
+    {
+     "id": "yolks",
+     "name": {
+      "ru": "Яичные желтки",
+      "en": "Egg yolks"
+     },
+     "quantity": 3,
+     "unit": "piece",
+     "scaling": "linear",
+     "note": null
+    },
+    {
+     "id": "egg",
+     "name": {
+      "ru": "Яйцо целиком",
+      "en": "Whole egg"
+     },
+     "quantity": 1,
+     "unit": "piece",
+     "scaling": "linear",
+     "note": null
+    },
+    {
+     "id": "pecorino",
+     "name": {
+      "ru": "Пекорино романо",
+      "en": "Pecorino romano"
+     },
+     "quantity": 60,
+     "unit": "g",
+     "scaling": "linear",
+     "note": {
+      "ru": "натереть мелко",
+      "en": "finely grated"
+     }
+    },
+    {
+     "id": "pepper",
+     "name": {
+      "ru": "Чёрный перец",
+      "en": "Black pepper"
+     },
+     "quantity": 1,
+     "unit": "tsp",
+     "scaling": "damped",
+     "note": {
+      "ru": "крупного помола",
+      "en": "coarsely ground"
+     }
+    },
+    {
+     "id": "salt",
+     "name": {
+      "ru": "Соль для воды",
+      "en": "Salt for the water"
+     },
+     "quantity": null,
+     "unit": "toTaste",
+     "scaling": "fixed",
+     "note": null
+    }
+   ],
+   "steps": [
+    {
+     "text": {
+      "ru": "Поставьте кастрюлю с водой на сильный огонь и посолите её как следует — это единственная соль в блюде, сыр и гуанчале солёные сами по себе.",
+      "en": "Bring a large pot of water to the boil and salt it properly — this is the only salt in the dish, since the cheese and the guanciale bring their own."
+     },
+     "minutes": 8
+    },
+    {
+     "text": {
+      "ru": "Выложите гуанчале на холодную сковороду и включите средний огонь. Жир должен вытопиться постепенно, а кусочки — стать золотистыми и хрустящими по краям, минут за 6–8.",
+      "en": "Put the guanciale into a cold pan and turn the heat to medium. The fat should render gradually and the pieces turn golden and crisp at the edges, about 6 to 8 minutes."
+     },
+     "minutes": 8
+    },
+    {
+     "text": {
+      "ru": "Пока топится жир, разотрите желтки, целое яйцо, тёртый пекорино и перец в густую пасту. Она должна быть комнатной температуры, иначе свернётся от горячей пасты.",
+      "en": "While the fat renders, beat the yolks, the whole egg, the grated pecorino and the pepper into a thick paste. Let it sit at room temperature so it does not seize when it meets hot pasta."
+     },
+     "minutes": 3
+    },
+    {
+     "text": {
+      "ru": "Отварите спагетти на минуту меньше, чем написано на упаковке. Перед тем как сливать, отлейте стакан воды от варки — без неё соус не соберётся.",
+      "en": "Cook the spaghetti a minute short of the packet time. Before draining, save a cup of the cooking water — the sauce will not come together without it."
+     },
+     "minutes": 9
+    },
+    {
+     "text": {
+      "ru": "Снимите сковороду с огня, переложите в неё пасту и перемешайте с жиром. Дайте сковороде остыть секунд двадцать: она должна быть тёплой, а не горячей.",
+      "en": "Take the pan off the heat, add the pasta and toss it through the fat. Let the pan cool for twenty seconds — it should be warm, not hot."
+     },
+     "minutes": 1
+    },
+    {
+     "text": {
+      "ru": "Влейте яичную смесь и энергично мешайте, подливая воду от пасты по ложке, пока соус не станет гладким и не обволочёт каждую нить. Подавайте сразу.",
+      "en": "Pour in the egg mixture and stir hard, adding pasta water a spoonful at a time until the sauce turns glossy and coats every strand. Serve immediately."
+     },
+     "minutes": 2
+    }
+   ],
+   "photo": {
+    "url": "https://theunitools.com/recipes/spaghetti-carbonara.jpg",
+    "author": "Amin",
+    "license": "CC BY-SA 4.0"
+   }
+  },
+  {
+   "slug": "tom-yum-goong",
+   "url": "https://theunitools.com/en/recipes/thailand/tom-yum-goong",
+   "country": "TH",
+   "name": {
+    "ru": "Том ям с креветками",
+    "en": "Tom yum goong"
+   },
+   "nativeName": "ต้มยำกุ้ง",
+   "summary": {
+    "ru": "Кислый острый суп с креветками, где баланс правят в конце: рыбный соус, лайм и сахар добавляют по вкусу, а не по рецепту.",
+    "en": "A hot and sour prawn soup where the balance is set at the end: fish sauce, lime and sugar go in to taste rather than by the recipe."
+   },
+   "category": "soup",
+   "diets": [
+    "pescatarian"
+   ],
+   "difficulty": "medium",
+   "baseServings": 4,
+   "prepMinutes": 15,
+   "cookMinutes": 20,
+   "nutritionPerServing": {
+    "calories": 190,
+    "protein": 24,
+    "fat": 4,
+    "carbs": 12
+   },
+   "ingredients": [
+    {
+     "id": "prawns",
+     "name": {
+      "ru": "Креветки",
+      "en": "Prawns"
+     },
+     "quantity": 400,
+     "unit": "g",
+     "scaling": "linear",
+     "note": {
+      "ru": "с головами, панцири сохранить",
+      "en": "heads on, keep the shells"
+     }
+    },
+    {
+     "id": "stock",
+     "name": {
+      "ru": "Вода или бульон",
+      "en": "Water or stock"
+     },
+     "quantity": 1,
+     "unit": "l",
+     "scaling": "linear",
+     "note": null
+    },
+    {
+     "id": "lemongrass",
+     "name": {
+      "ru": "Лемонграсс",
+      "en": "Lemongrass"
+     },
+     "quantity": 2,
+     "unit": "piece",
+     "scaling": "damped",
+     "note": {
+      "ru": "отбить и нарезать",
+      "en": "bruised and cut"
+     }
+    },
+    {
+     "id": "galangal",
+     "name": {
+      "ru": "Галангал",
+      "en": "Galangal"
+     },
+     "quantity": 5,
+     "unit": "slice",
+     "scaling": "damped",
+     "note": null
+    },
+    {
+     "id": "limeleaves",
+     "name": {
+      "ru": "Листья кафрского лайма",
+      "en": "Kaffir lime leaves"
+     },
+     "quantity": 5,
+     "unit": "piece",
+     "scaling": "damped",
+     "note": null
+    },
+    {
+     "id": "mushrooms",
+     "name": {
+      "ru": "Шампиньоны",
+      "en": "Mushrooms"
+     },
+     "quantity": 200,
+     "unit": "g",
+     "scaling": "linear",
+     "note": null
+    },
+    {
+     "id": "chili",
+     "name": {
+      "ru": "Перец чили",
+      "en": "Chillies"
+     },
+     "quantity": 3,
+     "unit": "piece",
+     "scaling": "damped",
+     "note": null
+    },
+    {
+     "id": "fishsauce",
+     "name": {
+      "ru": "Рыбный соус",
+      "en": "Fish sauce"
+     },
+     "quantity": 3,
+     "unit": "tbsp",
+     "scaling": "damped",
+     "note": null
+    },
+    {
+     "id": "limejuice",
+     "name": {
+      "ru": "Сок лайма",
+      "en": "Lime juice"
+     },
+     "quantity": 3,
+     "unit": "tbsp",
+     "scaling": "damped",
+     "note": null
+    },
+    {
+     "id": "sugar",
+     "name": {
+      "ru": "Пальмовый сахар",
+      "en": "Palm sugar"
+     },
+     "quantity": 1,
+     "unit": "tsp",
+     "scaling": "damped",
+     "note": null
+    },
+    {
+     "id": "cilantro",
+     "name": {
+      "ru": "Кинза",
+      "en": "Coriander"
+     },
+     "quantity": null,
+     "unit": "toTaste",
+     "scaling": "fixed",
+     "note": null
+    }
+   ],
+   "steps": [
+    {
+     "text": {
+      "ru": "Очистите креветки, оставив хвосты. Панцири и головы не выбрасывайте — на них и держится бульон.",
+      "en": "Peel the prawns, leaving the tails on. Keep the shells and heads: the broth is built on them."
+     },
+     "minutes": 8
+    },
+    {
+     "text": {
+      "ru": "Обжарьте панцири в кастрюле пару минут до ярко-оранжевого цвета, залейте водой и варите пятнадцать минут. Процедите.",
+      "en": "Fry the shells in the pot for a couple of minutes until bright orange, cover with the water and simmer fifteen minutes. Strain."
+     },
+     "minutes": 17
+    },
+    {
+     "text": {
+      "ru": "Верните бульон на огонь, положите лемонграсс, галангал и листья лайма и дайте настояться пять минут на слабом кипении.",
+      "en": "Return the broth to the heat, add the lemongrass, galangal and lime leaves and let them steep at a low simmer for five minutes."
+     },
+     "minutes": 5
+    },
+    {
+     "text": {
+      "ru": "Добавьте грибы и раздавленный чили, через две минуты — креветки. Они готовы, как только свернутся в букву «С»: дальше станут резиновыми.",
+      "en": "Add the mushrooms and the crushed chillies, then after two minutes the prawns. They are done the moment they curl into a C — beyond that they turn rubbery."
+     },
+     "minutes": 4
+    },
+    {
+     "text": {
+      "ru": "Снимите с огня. Влейте рыбный соус, сок лайма и сахар, перемешайте и попробуйте. Правьте по одной ложке, пока кислое, солёное и острое не встанут на место.",
+      "en": "Take the pot off the heat. Add the fish sauce, lime juice and sugar, stir and taste. Adjust a spoon at a time until sour, salty and hot sit where you want them."
+     },
+     "minutes": 2
+    },
+    {
+     "text": {
+      "ru": "Разлейте по тарелкам и посыпьте кинзой. Лемонграсс и галангал оставьте в кастрюле или предупредите, что их не едят.",
+      "en": "Ladle into bowls and scatter over the coriander. Leave the lemongrass and galangal in the pot, or warn people not to eat them."
+     },
+     "minutes": 1
+    }
+   ],
+   "photo": null
+  }
+ ]
+}

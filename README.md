@@ -1,2 +1,50 @@
-# unitools-recipes
-Open dataset: 501 world recipes from 127 countries with per-serving nutrition, per-step times and ingredient scaling rules. RU+EN. CC BY-SA 4.0.
+# UniTools World Recipes — open dataset
+
+501 home-cooking recipes from 127 countries in Russian and English: per-serving nutrition for every dish, minutes on every step, and ingredient scaling rules that behave the way a kitchen does (meat scales linearly with servings, salt and spices are damped).
+
+**Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)** — free to use, commercially included. Credit "UniTools — theunitools.com" and share derivatives under the same licence.
+
+## Download
+
+The canonical files live on the site and are always the current version:
+
+- **JSON** (full dataset, ~2.6 MB): https://theunitools.com/data/unitools-recipes-v1.json
+- **CSV** (one dish per row): https://theunitools.com/data/unitools-recipes-v1.csv
+- Dataset page: https://theunitools.com/en/data
+
+This repository holds the documentation and a small `sample.json` so you can see the structure without downloading the full file.
+
+## What is inside
+
+| | |
+|---|---|
+| Recipes | 501 |
+| Countries | 127 |
+| Languages | Russian + English, each written natively, not machine-translated |
+| Ingredients | ~1,500 unique, with stable ids |
+| Steps | 3,000+ with minutes on each |
+| Nutrition | calories, protein, fat, carbs per serving — on every dish |
+| Photos | Wikimedia Commons, human-reviewed, author + licence per photo |
+
+## Recipe fields
+
+- `slug`, `url`, `country` — identity and the live page for the dish
+- `name`, `summary` — `{ ru, en }` objects
+- `nativeName` — the dish's name in its own language, when it has one
+- `category`, `diets`, `difficulty`
+- `baseServings`, `prepMinutes`, `cookMinutes`
+- `nutritionPerServing` — `{ calories, protein, fat, carbs }`
+- `ingredients[]` — `{ id, name, quantity, unit, scaling, note }`; `scaling` is `linear` | `sublinear` | `fixed`
+- `steps[]` — `{ text, minutes }`
+- `photo` — `{ url, author, license }` or `null`
+
+## Honest caveats
+
+- Nutrition is computed from ingredients, not measured in a lab — a planning reference, not medical data.
+- The dataset is maintained by one person. If you find a mistake, open an issue — the fix lands in the next version.
+
+## Attribution
+
+> Recipe data: [UniTools](https://theunitools.com/en/data), CC BY-SA 4.0
+
+Photos carry their own Commons licences — author and licence sit in each dish's `photo` field.

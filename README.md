@@ -14,6 +14,15 @@ The canonical files live on the site and are always the current version:
 
 This repository holds the documentation and a small `sample.json` so you can see the structure without downloading the full file.
 
+## Second dataset: oven cooking times
+
+The same repo also documents **UniTools Oven Cooking Times** — oven temperatures, practical time ranges, safe internal minimums and rest times for **200 products**, each with primary sources (FoodSafety.gov/FSIS charts, King Arthur, manufacturer package directions) and a confidence level.
+
+- **JSON** (~216 KB): https://theunitools.com/data/unitools-cooking-times-v1.json
+- **CSV** (one product per row): https://theunitools.com/data/unitools-cooking-times-v1.csv
+
+Same licence, same attribution rules as the recipes dataset.
+
 ## What is inside
 
 | | |

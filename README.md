@@ -12,7 +12,9 @@ The canonical files live on the site and are always the current version:
 - **CSV** (one dish per row): https://theunitools.com/data/unitools-recipes-v1.csv
 - Dataset page: https://theunitools.com/en/data
 
-This repository holds the documentation and a small `sample.json` so you can see the structure without downloading the full file.
+This repository holds the documentation, a small `sample.json` for a quick look at the structure, and a committed copy of all four data files so you can `git clone` the dataset or pin a specific revision. The copies here are kept in step with the canonical files above; both are version 1.1.0.
+
+The full licence text is in [LICENSE](LICENSE). Note it is CC BY-SA 4.0 — a content licence, not an OSI-approved software licence, because this repository is data rather than code.
 
 ## Second dataset: oven cooking times
 

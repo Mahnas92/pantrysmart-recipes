@@ -1,11 +1,11 @@
 {
  "name": "UniTools Oven Cooking Times",
- "version": "1.0.0",
+ "version": "1.1.0",
  "license": "CC BY-SA 4.0",
  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
  "attribution": "UniTools — theunitools.com",
  "homepage": "https://theunitools.com/en/data",
- "generatedAt": "2026-08-06",
+ "generatedAt": "2026-08-23",
  "note": "Times are practical ranges for a home oven; safety minimums follow official charts (FoodSafety.gov/FSIS). Every product carries its sources and a confidence level.",
  "counts": {
   "products": 200,

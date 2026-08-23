@@ -41,7 +41,7 @@ Same licence, same attribution rules as the recipes dataset.
 - `name`, `summary` — `{ ru, en }` objects
 - `nativeName` — the dish's name in its own language, when it has one
 - `category`, `diets`, `difficulty`
-- `baseServings`, `prepMinutes`, `cookMinutes`
+- `baseServings`, `prepMinutes`, `cookMinutes` — two separate fields. **Total time is `prepMinutes` + `cookMinutes`.** `prepMinutes` is hands-on preparation (chopping, measuring); `cookMinutes` is time on heat and is `0` for the 18 no-cook dishes such as guacamole, pesto or kibbeh nayyeh. The same two values are the `prep_minutes` and `cook_minutes` columns in the CSV.
 - `nutritionPerServing` — `{ calories, protein, fat, carbs }`
 - `ingredients[]` — `{ id, name, quantity, unit, scaling, note }`; `scaling` is `linear` | `sublinear` | `fixed`
 - `steps[]` — `{ text, minutes }`

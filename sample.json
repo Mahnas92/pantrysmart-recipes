@@ -1,22 +1,22 @@
 {
  "name": "UniTools World Recipes",
- "version": "1.0.0",
+ "version": "2.0.0",
+ "landingPage": "https://theunitools.com/en/data",
  "license": "CC BY-SA 4.0",
  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
  "attribution": "UniTools — theunitools.com",
  "homepage": "https://theunitools.com/en/data",
- "generatedAt": "2026-08-05",
+ "generatedAt": "2026-09-02",
  "counts": {
   "recipes": 501,
   "countries": 127,
-  "ingredients": 757,
-  "steps": 3243
+  "ingredients": 755,
+  "steps": 3242
  },
  "note": "Two example records. The full 501-recipe file: https://theunitools.com/data/unitools-recipes-v1.json",
  "recipes": [
   {
    "slug": "spaghetti-carbonara",
-   "url": "https://theunitools.com/en/recipes/italy/spaghetti-carbonara",
    "country": "IT",
    "name": {
     "ru": "Спагетти карбонара",
@@ -179,7 +179,6 @@
   },
   {
    "slug": "tom-yum-goong",
-   "url": "https://theunitools.com/en/recipes/thailand/tom-yum-goong",
    "country": "TH",
    "name": {
     "ru": "Том ям с креветками",

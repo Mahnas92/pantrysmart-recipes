@@ -1,11 +1,11 @@
 {
  "name": "UniTools Oven Cooking Times",
- "version": "1.1.0",
+ "version": "2.0.0",
  "license": "CC BY-SA 4.0",
  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
  "attribution": "UniTools — theunitools.com",
  "homepage": "https://theunitools.com/en/data",
- "generatedAt": "2026-08-23",
+ "generatedAt": "2026-09-02",
  "note": "Times are practical ranges for a home oven; safety minimums follow official charts (FoodSafety.gov/FSIS). Every product carries its sources and a confidence level.",
  "counts": {
   "products": 200,
@@ -14,7 +14,6 @@
  "products": [
   {
    "slug": "chicken-breast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chicken-breast",
    "name": {
     "ru": "куриная грудка (филе, без кости и кожи)",
     "en": "chicken breast (boneless, skinless)"
@@ -68,7 +67,6 @@
   },
   {
    "slug": "salmon-fillet",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/salmon-fillet",
    "name": {
     "ru": "филе лосося",
     "en": "salmon fillet"
@@ -121,7 +119,6 @@
   },
   {
    "slug": "pork-chops",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pork-chops",
    "name": {
     "ru": "свиные отбивные (корейка)",
     "en": "pork chops"
@@ -171,7 +168,6 @@
   },
   {
    "slug": "chicken-thighs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chicken-thighs",
    "name": {
     "ru": "куриные бёдра (на кости)",
     "en": "chicken thighs (bone-in)"
@@ -223,7 +219,6 @@
   },
   {
    "slug": "whole-chicken",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/whole-chicken",
    "name": {
     "ru": "цельная курица",
     "en": "whole chicken"
@@ -275,7 +270,6 @@
   },
   {
    "slug": "pork-ribs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pork-ribs",
    "name": {
     "ru": "свиные рёбра",
     "en": "pork ribs"
@@ -327,7 +321,6 @@
   },
   {
    "slug": "baked-potato",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-potato",
    "name": {
     "ru": "запечённый картофель (целиком)",
     "en": "baked potato (russet)"
@@ -374,7 +367,6 @@
   },
   {
    "slug": "meatballs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/meatballs",
    "name": {
     "ru": "мясные фрикадельки (примерно 5 см)",
     "en": "meatballs (2-inch)"
@@ -424,7 +416,6 @@
   },
   {
    "slug": "pork-tenderloin",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pork-tenderloin",
    "name": {
     "ru": "свиная вырезка",
     "en": "pork tenderloin"
@@ -476,7 +467,6 @@
   },
   {
    "slug": "chicken-wings",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chicken-wings",
    "name": {
     "ru": "куриные крылышки",
     "en": "chicken wings"
@@ -526,7 +516,6 @@
   },
   {
    "slug": "bacon",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/bacon",
    "name": {
     "ru": "бекон (ломтики)",
     "en": "bacon (slices)"
@@ -573,7 +562,6 @@
   },
   {
    "slug": "beef-steak",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/beef-steak",
    "name": {
     "ru": "говяжий стейк (духовка)",
     "en": "beef steak (oven, reverse sear / finish)"
@@ -627,7 +615,6 @@
   },
   {
    "slug": "turkey-breast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/turkey-breast",
    "name": {
     "ru": "грудка индейки (запекание)",
     "en": "turkey breast (roast)"
@@ -677,7 +664,6 @@
   },
   {
    "slug": "whole-turkey",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/whole-turkey",
    "name": {
     "ru": "цельная индейка",
     "en": "whole turkey"
@@ -726,7 +712,6 @@
   },
   {
    "slug": "ham",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/ham",
    "name": {
     "ru": "ветчина (готовая, разогрев; спиральная)",
     "en": "ham (precooked, reheat; spiral)"
@@ -773,7 +758,6 @@
   },
   {
    "slug": "sausage-links",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/sausage-links",
    "name": {
     "ru": "колбаски (сырые)",
     "en": "sausage links (raw)"
@@ -824,7 +808,6 @@
   },
   {
    "slug": "beef-rib-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/beef-rib-roast",
    "name": {
     "ru": "говяжий реберный ростбиф (на кости)",
     "en": "beef rib roast (bone-in / prime rib)"
@@ -875,7 +858,6 @@
   },
   {
    "slug": "beef-tenderloin-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/beef-tenderloin-roast",
    "name": {
     "ru": "говяжья вырезка (запекание куском)",
     "en": "beef tenderloin roast (whole)"
@@ -926,7 +908,6 @@
   },
   {
    "slug": "pork-loin-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pork-loin-roast",
    "name": {
     "ru": "свиная корейка (запекание куском)",
     "en": "pork loin roast"
@@ -975,7 +956,6 @@
   },
   {
    "slug": "pork-shoulder",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pork-shoulder",
    "name": {
     "ru": "свиная лопатка/плечо (Boston butt)",
     "en": "pork shoulder (Boston butt; pulled pork capable)"
@@ -1026,7 +1006,6 @@
   },
   {
    "slug": "beef-brisket",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/beef-brisket",
    "name": {
     "ru": "говяжья грудинка (брискет, духовка)",
     "en": "beef brisket (oven)"
@@ -1076,7 +1055,6 @@
   },
   {
    "slug": "meatloaf",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/meatloaf",
    "name": {
     "ru": "мясной рулет (meatloaf)",
     "en": "meatloaf (2 lb class)"
@@ -1125,7 +1103,6 @@
   },
   {
    "slug": "hamburger-patties",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/hamburger-patties",
    "name": {
     "ru": "котлеты для бургеров (духовка)",
     "en": "hamburger patties (oven)"
@@ -1177,7 +1154,6 @@
   },
   {
    "slug": "chicken-drumsticks",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chicken-drumsticks",
    "name": {
     "ru": "куриные голени",
     "en": "chicken drumsticks"
@@ -1228,7 +1204,6 @@
   },
   {
    "slug": "chicken-nuggets",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chicken-nuggets",
    "name": {
     "ru": "куриные наггетсы (замороженные, готовые)",
     "en": "chicken nuggets (frozen, fully cooked)"
@@ -1276,7 +1251,6 @@
   },
   {
    "slug": "chicken-tenders-strips",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chicken-tenders-strips",
    "name": {
     "ru": "куриные стрипсы/тендеры (замороженные, в панировке)",
     "en": "chicken tenders/strips (frozen, breaded)"
@@ -1326,7 +1300,6 @@
   },
   {
    "slug": "cod-fillet",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/cod-fillet",
    "name": {
     "ru": "филе трески",
     "en": "cod fillet"
@@ -1377,7 +1350,6 @@
   },
   {
    "slug": "tilapia-fillet",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/tilapia-fillet",
    "name": {
     "ru": "филе тилапии",
     "en": "tilapia fillet"
@@ -1428,7 +1400,6 @@
   },
   {
    "slug": "tuna-steak",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/tuna-steak",
    "name": {
     "ru": "стейк тунца",
     "en": "tuna steak"
@@ -1481,7 +1452,6 @@
   },
   {
    "slug": "trout-fillet",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/trout-fillet",
    "name": {
     "ru": "филе форели",
     "en": "trout fillet"
@@ -1533,7 +1503,6 @@
   },
   {
    "slug": "whole-fish",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/whole-fish",
    "name": {
     "ru": "цельная рыба (запекание)",
     "en": "whole fish (baked)"
@@ -1584,7 +1553,6 @@
   },
   {
    "slug": "shrimp",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/shrimp",
    "name": {
     "ru": "креветки (духовка)",
     "en": "shrimp (oven baked)"
@@ -1636,7 +1604,6 @@
   },
   {
    "slug": "scallops",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/scallops",
    "name": {
     "ru": "морские гребешки (гриль/бройл в духовке)",
     "en": "scallops (broil)"
@@ -1684,7 +1651,6 @@
   },
   {
    "slug": "lobster-tail",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/lobster-tail",
    "name": {
     "ru": "хвост лобстера (запекание)",
     "en": "lobster tail (bake)"
@@ -1733,7 +1699,6 @@
   },
   {
    "slug": "crab-legs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/crab-legs",
    "name": {
     "ru": "крабовые ноги (разогрев в духовке)",
     "en": "crab legs (reheat)"
@@ -1780,7 +1745,6 @@
   },
   {
    "slug": "baked-sweet-potato",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-sweet-potato",
    "name": {
     "ru": "батат (запекание целиком)",
     "en": "baked sweet potato (whole)"
@@ -1828,7 +1792,6 @@
   },
   {
    "slug": "roasted-potatoes",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-potatoes",
    "name": {
     "ru": "картофель кусочками (запекание)",
     "en": "roasted potatoes (chunks)"
@@ -1874,7 +1837,6 @@
   },
   {
    "slug": "potato-wedges",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/potato-wedges",
    "name": {
     "ru": "картофельные дольки",
     "en": "potato wedges"
@@ -1920,7 +1882,6 @@
   },
   {
    "slug": "frozen-french-fries",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-french-fries",
    "name": {
     "ru": "замороженный картофель фри (духовка)",
     "en": "frozen french fries (oven)"
@@ -1967,7 +1928,6 @@
   },
   {
    "slug": "roasted-broccoli-florets",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-broccoli-florets",
    "name": {
     "ru": "брокколи (запекание)",
     "en": "roasted broccoli florets"
@@ -2017,7 +1977,6 @@
   },
   {
    "slug": "roasted-brussels-sprouts",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-brussels-sprouts",
    "name": {
     "ru": "брюссельская капуста (запекание)",
     "en": "roasted brussels sprouts (halved)"
@@ -2067,7 +2026,6 @@
   },
   {
    "slug": "roasted-asparagus",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-asparagus",
    "name": {
     "ru": "спаржа (запекание)",
     "en": "roasted asparagus"
@@ -2117,7 +2075,6 @@
   },
   {
    "slug": "roasted-carrots",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-carrots",
    "name": {
     "ru": "морковь (запекание кусочками)",
     "en": "roasted carrots (chunks)"
@@ -2165,7 +2122,6 @@
   },
   {
    "slug": "roasted-cauliflower",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-cauliflower",
    "name": {
     "ru": "цветная капуста (запекание)",
     "en": "roasted cauliflower (florets/steaks)"
@@ -2215,7 +2171,6 @@
   },
   {
    "slug": "roasted-green-beans",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-green-beans",
    "name": {
     "ru": "стручковая фасоль (запекание)",
     "en": "roasted green beans"
@@ -2263,7 +2218,6 @@
   },
   {
    "slug": "roasted-bell-peppers",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-bell-peppers",
    "name": {
     "ru": "болгарский перец (запекание)",
     "en": "roasted bell peppers"
@@ -2310,7 +2264,6 @@
   },
   {
    "slug": "corn-on-the-cob",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/corn-on-the-cob",
    "name": {
     "ru": "кукуруза в початках (духовка)",
     "en": "corn on the cob (oven roasted)"
@@ -2360,7 +2313,6 @@
   },
   {
    "slug": "chocolate-chip-cookies",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chocolate-chip-cookies",
    "name": {
     "ru": "печенье с шоколадной крошкой",
     "en": "chocolate chip cookies"
@@ -2407,7 +2359,6 @@
   },
   {
    "slug": "brownies",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/brownies",
    "name": {
     "ru": "брауни (форма, духовка)",
     "en": "brownies (sheet pan class)"
@@ -2454,7 +2405,6 @@
   },
   {
    "slug": "frozen-pizza",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-pizza",
    "name": {
     "ru": "замороженная пицца (обычная)",
     "en": "frozen pizza (standard thin/regular)"
@@ -2501,7 +2451,6 @@
   },
   {
    "slug": "lamb-chops",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/lamb-chops",
    "name": {
     "ru": "бараньи отбивные (корейка)",
     "en": "lamb chops (loin or rib)"
@@ -2552,7 +2501,6 @@
   },
   {
    "slug": "leg-of-lamb",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/leg-of-lamb",
    "name": {
     "ru": "баранья нога (на кости)",
     "en": "leg of lamb (bone-in roast)"
@@ -2602,7 +2550,6 @@
   },
   {
    "slug": "rack-of-lamb",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/rack-of-lamb",
    "name": {
     "ru": "каре ягнёнка",
     "en": "rack of lamb"
@@ -2650,7 +2597,6 @@
   },
   {
    "slug": "chicken-leg-quarters",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chicken-leg-quarters",
    "name": {
     "ru": "куриные окорочка",
     "en": "chicken leg quarters"
@@ -2700,7 +2646,6 @@
   },
   {
    "slug": "frozen-chicken-breast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-chicken-breast",
    "name": {
     "ru": "куриная грудка из заморозки",
     "en": "frozen chicken breast (oven)"
@@ -2748,7 +2693,6 @@
   },
   {
    "slug": "stuffed-peppers",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/stuffed-peppers",
    "name": {
     "ru": "фаршированные перцы (фарш и рис)",
     "en": "stuffed peppers (ground beef and rice)"
@@ -2796,7 +2740,6 @@
   },
   {
    "slug": "chuck-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chuck-roast",
    "name": {
     "ru": "говяжья лопатка (пот-роуст под крышкой)",
     "en": "chuck roast (covered pot roast)"
@@ -2844,7 +2787,6 @@
   },
   {
    "slug": "tri-tip-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/tri-tip-roast",
    "name": {
     "ru": "трай-тип (говяжий кострец)",
     "en": "tri-tip roast"
@@ -2892,7 +2834,6 @@
   },
   {
    "slug": "london-broil",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/london-broil",
    "name": {
     "ru": "лондон-бройл (говядина, верх бедра)",
     "en": "london broil (top round, broiled)"
@@ -2940,7 +2881,6 @@
   },
   {
    "slug": "halibut-fillet",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/halibut-fillet",
    "name": {
     "ru": "филе палтуса",
     "en": "halibut fillet"
@@ -2987,7 +2927,6 @@
   },
   {
    "slug": "mahi-mahi-fillet",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/mahi-mahi-fillet",
    "name": {
     "ru": "филе махи-махи",
     "en": "mahi mahi fillet"
@@ -3034,7 +2973,6 @@
   },
   {
    "slug": "sea-bass-fillet",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/sea-bass-fillet",
    "name": {
     "ru": "филе сибаса",
     "en": "sea bass fillet"
@@ -3081,7 +3019,6 @@
   },
   {
    "slug": "catfish-fillet",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/catfish-fillet",
    "name": {
     "ru": "филе сома",
     "en": "catfish fillet"
@@ -3128,7 +3065,6 @@
   },
   {
    "slug": "swordfish-steak",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/swordfish-steak",
    "name": {
     "ru": "стейк меч-рыбы",
     "en": "swordfish steak"
@@ -3175,7 +3111,6 @@
   },
   {
    "slug": "roasted-zucchini",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-zucchini",
    "name": {
     "ru": "запечённые кабачки (ломтики)",
     "en": "roasted zucchini (slices)"
@@ -3220,7 +3155,6 @@
   },
   {
    "slug": "butternut-squash",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/butternut-squash",
    "name": {
     "ru": "тыква баттернат (кубики)",
     "en": "butternut squash (cubes)"
@@ -3264,7 +3198,6 @@
   },
   {
    "slug": "acorn-squash",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/acorn-squash",
    "name": {
     "ru": "тыква акорн (половинки)",
     "en": "acorn squash (halves)"
@@ -3307,7 +3240,6 @@
   },
   {
    "slug": "spaghetti-squash",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/spaghetti-squash",
    "name": {
     "ru": "тыква-спагетти (половинки)",
     "en": "spaghetti squash (halves)"
@@ -3350,7 +3282,6 @@
   },
   {
    "slug": "roasted-beets",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-beets",
    "name": {
     "ru": "запечённая свёкла (целиком, в фольге)",
     "en": "roasted beets (whole, wrapped)"
@@ -3394,7 +3325,6 @@
   },
   {
    "slug": "roasted-eggplant",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-eggplant",
    "name": {
     "ru": "запечённые баклажаны (ломтики)",
     "en": "roasted eggplant (slices)"
@@ -3439,7 +3369,6 @@
   },
   {
    "slug": "roasted-mushrooms",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-mushrooms",
    "name": {
     "ru": "запечённые шампиньоны (целиком)",
     "en": "roasted mushrooms (whole cremini)"
@@ -3483,7 +3412,6 @@
   },
   {
    "slug": "cabbage-steaks",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/cabbage-steaks",
    "name": {
     "ru": "капустные стейки",
     "en": "cabbage steaks"
@@ -3526,7 +3454,6 @@
   },
   {
    "slug": "banana-bread",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/banana-bread",
    "name": {
     "ru": "банановый хлеб (форма-кирпич)",
     "en": "banana bread (loaf)"
@@ -3568,7 +3495,6 @@
   },
   {
    "slug": "blueberry-muffins",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/blueberry-muffins",
    "name": {
     "ru": "маффины с черникой (стандартные)",
     "en": "blueberry muffins (standard)"
@@ -3610,7 +3536,6 @@
   },
   {
    "slug": "cornbread",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/cornbread",
    "name": {
     "ru": "кукурузный хлеб (форма 20 см)",
     "en": "cornbread (8-inch pan)"
@@ -3653,7 +3578,6 @@
   },
   {
    "slug": "lasagna",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/lasagna",
    "name": {
     "ru": "лазанья (собранная, из холодильника)",
     "en": "lasagna (assembled, chilled)"
@@ -3700,7 +3624,6 @@
   },
   {
    "slug": "baked-mac-and-cheese",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-mac-and-cheese",
    "name": {
     "ru": "запечённые макароны с сыром",
     "en": "baked mac and cheese (casserole)"
@@ -3744,7 +3667,6 @@
   },
   {
    "slug": "quiche",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/quiche",
    "name": {
     "ru": "киш (форма 23 см)",
     "en": "quiche (9-inch)"
@@ -3791,7 +3713,6 @@
   },
   {
    "slug": "garlic-bread",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/garlic-bread",
    "name": {
     "ru": "чесночный хлеб (половинки багета)",
     "en": "garlic bread (halved loaf)"
@@ -3835,7 +3756,6 @@
   },
   {
    "slug": "twice-baked-potatoes",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/twice-baked-potatoes",
    "name": {
     "ru": "дважды запечённый картофель (второй прогрев)",
     "en": "twice-baked potatoes (second bake)"
@@ -3878,7 +3798,6 @@
   },
   {
    "slug": "boneless-chicken-thighs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/boneless-chicken-thighs",
    "name": {
     "ru": "куриные бёдра без кости",
     "en": "boneless chicken thighs"
@@ -3930,7 +3849,6 @@
   },
   {
    "slug": "bone-in-chicken-breast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/bone-in-chicken-breast",
    "name": {
     "ru": "куриная грудка на кости",
     "en": "bone-in chicken breast (split)"
@@ -3981,7 +3899,6 @@
   },
   {
    "slug": "cornish-hen",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/cornish-hen",
    "name": {
     "ru": "цыплёнок корнишон (целиком)",
     "en": "cornish hen (whole)"
@@ -4032,7 +3949,6 @@
   },
   {
    "slug": "whole-duck",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/whole-duck",
    "name": {
     "ru": "утка целиком",
     "en": "whole duck"
@@ -4082,7 +3998,6 @@
   },
   {
    "slug": "duck-legs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/duck-legs",
    "name": {
     "ru": "утиные ножки",
     "en": "duck legs (bone-in)"
@@ -4131,7 +4046,6 @@
   },
   {
    "slug": "whole-goose",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/whole-goose",
    "name": {
     "ru": "гусь целиком",
     "en": "whole goose"
@@ -4181,7 +4095,6 @@
   },
   {
    "slug": "eye-of-round-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/eye-of-round-roast",
    "name": {
     "ru": "ростбиф из огузка (eye of round)",
     "en": "eye of round roast"
@@ -4232,7 +4145,6 @@
   },
   {
    "slug": "country-style-pork-ribs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/country-style-pork-ribs",
    "name": {
     "ru": "свиные рёбрышки по-деревенски",
     "en": "country-style pork ribs"
@@ -4284,7 +4196,6 @@
   },
   {
    "slug": "lamb-shoulder-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/lamb-shoulder-roast",
    "name": {
     "ru": "баранья лопатка (запекание куском)",
     "en": "lamb shoulder roast"
@@ -4333,7 +4244,6 @@
   },
   {
    "slug": "smoked-ham",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/smoked-ham",
    "name": {
     "ru": "свиной окорок (запекание, не готовый к употреблению)",
     "en": "smoked ham (bone-in, cook-before-eating)"
@@ -4381,7 +4291,6 @@
   },
   {
    "slug": "frozen-salmon-fillet",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-salmon-fillet",
    "name": {
     "ru": "замороженное филе лосося (без разморозки)",
     "en": "frozen salmon fillet (no thawing)"
@@ -4430,7 +4339,6 @@
   },
   {
    "slug": "fish-sticks",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/fish-sticks",
    "name": {
     "ru": "рыбные палочки (замороженные)",
     "en": "fish sticks (frozen)"
@@ -4478,7 +4386,6 @@
   },
   {
    "slug": "crab-cakes",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/crab-cakes",
    "name": {
     "ru": "крабовые котлеты (замороженные)",
     "en": "crab cakes (frozen, baked)"
@@ -4527,7 +4434,6 @@
   },
   {
    "slug": "roasted-sweet-potato-cubes",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-sweet-potato-cubes",
    "name": {
     "ru": "батат кусочками (запекание)",
     "en": "roasted sweet potato cubes"
@@ -4576,7 +4482,6 @@
   },
   {
    "slug": "roasted-parsnips",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-parsnips",
    "name": {
     "ru": "пастернак (запекание)",
     "en": "roasted parsnips"
@@ -4623,7 +4528,6 @@
   },
   {
    "slug": "pumpkin-halves",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pumpkin-halves",
    "name": {
     "ru": "тыква половинками (для пюре)",
     "en": "pumpkin halves (for puree)"
@@ -4670,7 +4574,6 @@
   },
   {
    "slug": "roasted-garlic",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-garlic",
    "name": {
     "ru": "чеснок целой головкой (запекание)",
     "en": "roasted garlic (whole head)"
@@ -4717,7 +4620,6 @@
   },
   {
    "slug": "kale-chips",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/kale-chips",
    "name": {
     "ru": "чипсы из кейла",
     "en": "kale chips"
@@ -4763,7 +4665,6 @@
   },
   {
    "slug": "cheesecake",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/cheesecake",
    "name": {
     "ru": "чизкейк классический (форма 23 см)",
     "en": "cheesecake (9-inch, classic)"
@@ -4811,7 +4712,6 @@
   },
   {
    "slug": "dinner-rolls",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/dinner-rolls",
    "name": {
     "ru": "дрожжевые булочки",
     "en": "dinner rolls (yeast)"
@@ -4858,7 +4758,6 @@
   },
   {
    "slug": "pumpkin-pie",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pumpkin-pie",
    "name": {
     "ru": "тыквенный пирог (классический)",
     "en": "pumpkin pie"
@@ -4906,7 +4805,6 @@
   },
   {
    "slug": "apple-pie",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/apple-pie",
    "name": {
     "ru": "яблочный пирог (закрытый, американский)",
     "en": "apple pie"
@@ -4955,7 +4853,6 @@
   },
   {
    "slug": "cinnamon-rolls",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/cinnamon-rolls",
    "name": {
     "ru": "булочки с корицей (синнабоны)",
     "en": "cinnamon rolls"
@@ -5002,7 +4899,6 @@
   },
   {
    "slug": "buttermilk-biscuits",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/buttermilk-biscuits",
    "name": {
     "ru": "бисквиты на пахте (американские)",
     "en": "buttermilk biscuits"
@@ -5051,7 +4947,6 @@
   },
   {
    "slug": "homemade-pizza",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/homemade-pizza",
    "name": {
     "ru": "домашняя пицца",
     "en": "homemade pizza (home oven)"
@@ -5098,7 +4993,6 @@
   },
   {
    "slug": "focaccia",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/focaccia",
    "name": {
     "ru": "фокачча",
     "en": "focaccia"
@@ -5145,7 +5039,6 @@
   },
   {
    "slug": "sugar-cookies",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/sugar-cookies",
    "name": {
     "ru": "сахарное печенье",
     "en": "sugar cookies"
@@ -5192,7 +5085,6 @@
   },
   {
    "slug": "frozen-lasagna",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-lasagna",
    "name": {
     "ru": "замороженная лазанья (полуфабрикат)",
     "en": "frozen lasagna (family size)"
@@ -5240,7 +5132,6 @@
   },
   {
    "slug": "tater-tots",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/tater-tots",
    "name": {
     "ru": "картофельные шарики татер тотс (замороженные)",
     "en": "tater tots (frozen)"
@@ -5287,7 +5178,6 @@
   },
   {
    "slug": "mozzarella-sticks",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/mozzarella-sticks",
    "name": {
     "ru": "моцарелла-стики (замороженные)",
     "en": "mozzarella sticks (frozen)"
@@ -5334,7 +5224,6 @@
   },
   {
    "slug": "frozen-breaded-shrimp",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-breaded-shrimp",
    "name": {
     "ru": "креветки в панировке (замороженные)",
     "en": "frozen breaded shrimp (butterfly)"
@@ -5381,7 +5270,6 @@
   },
   {
    "slug": "spatchcock-chicken",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/spatchcock-chicken",
    "name": {
     "ru": "цыплёнок бабочкой (спатчкок)",
     "en": "spatchcock chicken"
@@ -5432,7 +5320,6 @@
   },
   {
    "slug": "pork-belly",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pork-belly",
    "name": {
     "ru": "свиная грудинка (медленное запекание)",
     "en": "pork belly (slow-roasted)"
@@ -5483,7 +5370,6 @@
   },
   {
    "slug": "pork-crown-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pork-crown-roast",
    "name": {
     "ru": "свиная корона (crown roast)",
     "en": "pork crown roast"
@@ -5531,7 +5417,6 @@
   },
   {
    "slug": "goose-pieces",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/goose-pieces",
    "name": {
     "ru": "гусь кусочками",
     "en": "goose pieces (cut up)"
@@ -5579,7 +5464,6 @@
   },
   {
    "slug": "boneless-leg-of-lamb",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/boneless-leg-of-lamb",
    "name": {
     "ru": "баранья нога без кости (рулет)",
     "en": "boneless leg of lamb (rolled)"
@@ -5629,7 +5513,6 @@
   },
   {
    "slug": "capon",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/capon",
    "name": {
     "ru": "каплун (целиком)",
     "en": "capon (whole)"
@@ -5677,7 +5560,6 @@
   },
   {
    "slug": "turkey-thighs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/turkey-thighs",
    "name": {
     "ru": "бёдра индейки",
     "en": "turkey thighs"
@@ -5726,7 +5608,6 @@
   },
   {
    "slug": "frozen-garlic-bread",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-garlic-bread",
    "name": {
     "ru": "чесночный хлеб (замороженный)",
     "en": "frozen garlic bread (loaf)"
@@ -5773,7 +5654,6 @@
   },
   {
    "slug": "baked-apples",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-apples",
    "name": {
     "ru": "печёные яблоки (целиком)",
     "en": "baked apples (whole, stuffed)"
@@ -5821,7 +5701,6 @@
   },
   {
    "slug": "layer-cake",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/layer-cake",
    "name": {
     "ru": "коржи для торта (формы 23 см)",
     "en": "layer cake (9-inch rounds)"
@@ -5868,7 +5747,6 @@
   },
   {
    "slug": "vanilla-cupcakes",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/vanilla-cupcakes",
    "name": {
     "ru": "ванильные капкейки",
     "en": "vanilla cupcakes"
@@ -5915,7 +5793,6 @@
   },
   {
    "slug": "pound-cake",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pound-cake",
    "name": {
     "ru": "паунд-кейк (плотный кекс)",
     "en": "pound cake (loaf)"
@@ -5962,7 +5839,6 @@
   },
   {
    "slug": "zucchini-bread",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/zucchini-bread",
    "name": {
     "ru": "кекс из кабачков (цукини-хлеб)",
     "en": "zucchini bread (loaf)"
@@ -6009,7 +5885,6 @@
   },
   {
    "slug": "pumpkin-bread",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pumpkin-bread",
    "name": {
     "ru": "тыквенный кекс (хлеб)",
     "en": "pumpkin bread (loaf)"
@@ -6056,7 +5931,6 @@
   },
   {
    "slug": "scones",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/scones",
    "name": {
     "ru": "сконы",
     "en": "scones"
@@ -6103,7 +5977,6 @@
   },
   {
    "slug": "sandwich-bread",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/sandwich-bread",
    "name": {
     "ru": "тостовый хлеб в форме",
     "en": "sandwich bread (loaf)"
@@ -6150,7 +6023,6 @@
   },
   {
    "slug": "no-knead-crusty-bread",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/no-knead-crusty-bread",
    "name": {
     "ru": "хлеб без замеса (в чугунной кастрюле)",
     "en": "no-knead crusty bread (dutch oven)"
@@ -6197,7 +6069,6 @@
   },
   {
    "slug": "chicken-tenders",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chicken-tenders",
    "name": {
     "ru": "куриные тендеры свежие (без панировки)",
     "en": "chicken tenders (fresh, unbreaded)"
@@ -6246,7 +6117,6 @@
   },
   {
    "slug": "frozen-chicken-wings",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-chicken-wings",
    "name": {
     "ru": "замороженные куриные крылышки (сырые)",
     "en": "frozen chicken wings (uncooked)"
@@ -6294,7 +6164,6 @@
   },
   {
    "slug": "crescent-rolls",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/crescent-rolls",
    "name": {
     "ru": "рогалики из готового теста (crescent)",
     "en": "crescent rolls (refrigerated dough)"
@@ -6341,7 +6210,6 @@
   },
   {
    "slug": "pigs-in-a-blanket",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pigs-in-a-blanket",
    "name": {
     "ru": "сосиски в тесте (pigs in a blanket)",
     "en": "pigs in a blanket (crescent dogs)"
@@ -6388,7 +6256,6 @@
   },
   {
    "slug": "frozen-meatballs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-meatballs",
    "name": {
     "ru": "замороженные фрикадельки (готовые, разогрев)",
     "en": "frozen meatballs (fully cooked, reheat)"
@@ -6435,7 +6302,6 @@
   },
   {
    "slug": "sweet-potato-fries",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/sweet-potato-fries",
    "name": {
     "ru": "картофель фри из батата (запекание)",
     "en": "sweet potato fries"
@@ -6483,7 +6349,6 @@
   },
   {
    "slug": "baby-potatoes",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baby-potatoes",
    "name": {
     "ru": "мелкий картофель половинками (запекание)",
     "en": "baby potatoes (halved, roasted)"
@@ -6531,7 +6396,6 @@
   },
   {
    "slug": "whole-roasted-cauliflower",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/whole-roasted-cauliflower",
    "name": {
     "ru": "цветная капуста целиком (запекание)",
     "en": "whole roasted cauliflower"
@@ -6578,7 +6442,6 @@
   },
   {
    "slug": "pumpkin-seeds",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pumpkin-seeds",
    "name": {
     "ru": "тыквенные семечки (обжарка в духовке)",
     "en": "pumpkin seeds (roasted)"
@@ -6625,7 +6488,6 @@
   },
   {
    "slug": "chickpeas",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/chickpeas",
    "name": {
     "ru": "нут хрустящий (запекание)",
     "en": "chickpeas (crispy roasted)"
@@ -6672,7 +6534,6 @@
   },
   {
    "slug": "veal-rib-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/veal-rib-roast",
    "name": {
     "ru": "телячий ростбиф на кости",
     "en": "veal rib roast (bone-in)"
@@ -6721,7 +6582,6 @@
   },
   {
    "slug": "smoked-half-ham",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/smoked-half-ham",
    "name": {
     "ru": "половина окорока (запекание, не готовый)",
     "en": "smoked half ham (bone-in, cook-before-eating)"
@@ -6769,7 +6629,6 @@
   },
   {
    "slug": "beef-short-ribs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/beef-short-ribs",
    "name": {
     "ru": "говяжьи рёбра (томление в духовке)",
     "en": "beef short ribs (oven-braised)"
@@ -6819,7 +6678,6 @@
   },
   {
    "slug": "stuffed-chicken-breast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/stuffed-chicken-breast",
    "name": {
     "ru": "фаршированная куриная грудка",
     "en": "stuffed chicken breast"
@@ -6868,7 +6726,6 @@
   },
   {
    "slug": "baked-ziti",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-ziti",
    "name": {
     "ru": "запеканка дзити (паста в духовке)",
     "en": "baked ziti"
@@ -6916,7 +6773,6 @@
   },
   {
    "slug": "scalloped-potatoes",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/scalloped-potatoes",
    "name": {
     "ru": "картофельный гратен (скэллопд)",
     "en": "scalloped potatoes"
@@ -6963,7 +6819,6 @@
   },
   {
    "slug": "beef-enchiladas",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/beef-enchiladas",
    "name": {
     "ru": "энчилада с говядиной (запеканка)",
     "en": "beef enchiladas (casserole)"
@@ -7011,7 +6866,6 @@
   },
   {
    "slug": "stuffed-shells",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/stuffed-shells",
    "name": {
     "ru": "фаршированные ракушки (паста)",
     "en": "stuffed shells"
@@ -7059,7 +6913,6 @@
   },
   {
    "slug": "breakfast-egg-casserole",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/breakfast-egg-casserole",
    "name": {
     "ru": "яичная запеканка на завтрак",
     "en": "breakfast egg casserole (overnight)"
@@ -7107,7 +6960,6 @@
   },
   {
    "slug": "monkey-bread",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/monkey-bread",
    "name": {
     "ru": "манки-бред (обезьяний хлеб)",
     "en": "monkey bread (canned biscuits)"
@@ -7155,7 +7007,6 @@
   },
   {
    "slug": "pizza-rolls",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pizza-rolls",
    "name": {
     "ru": "пицца-роллы (замороженные)",
     "en": "pizza rolls (frozen)"
@@ -7202,7 +7053,6 @@
   },
   {
    "slug": "crispy-baked-tofu",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/crispy-baked-tofu",
    "name": {
     "ru": "хрустящий запечённый тофу",
     "en": "crispy baked tofu"
@@ -7249,7 +7099,6 @@
   },
   {
    "slug": "boneless-ribeye-roast",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/boneless-ribeye-roast",
    "name": {
     "ru": "ростбиф рибай без кости",
     "en": "boneless ribeye roast (rolled rib)"
@@ -7299,7 +7148,6 @@
   },
   {
    "slug": "boneless-ham",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/boneless-ham",
    "name": {
     "ru": "окорок без кости (готовый, разогрев)",
     "en": "boneless ham (fully cooked, reheat)"
@@ -7346,7 +7194,6 @@
   },
   {
    "slug": "turkey-bacon",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/turkey-bacon",
    "name": {
     "ru": "бекон из индейки (духовка)",
     "en": "turkey bacon (oven)"
@@ -7394,7 +7241,6 @@
   },
   {
    "slug": "apple-crisp",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/apple-crisp",
    "name": {
     "ru": "яблочный крамбл (крисп)",
     "en": "apple crisp"
@@ -7442,7 +7288,6 @@
   },
   {
    "slug": "peach-cobbler",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/peach-cobbler",
    "name": {
     "ru": "персиковый коблер",
     "en": "peach cobbler"
@@ -7490,7 +7335,6 @@
   },
   {
    "slug": "granola",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/granola",
    "name": {
     "ru": "гранола домашняя",
     "en": "granola (homemade)"
@@ -7537,7 +7381,6 @@
   },
   {
    "slug": "baked-oatmeal",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-oatmeal",
    "name": {
     "ru": "запечённая овсянка",
     "en": "baked oatmeal"
@@ -7584,7 +7427,6 @@
   },
   {
    "slug": "green-bean-casserole",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/green-bean-casserole",
    "name": {
     "ru": "запеканка из стручковой фасоли",
     "en": "green bean casserole"
@@ -7631,7 +7473,6 @@
   },
   {
    "slug": "sweet-potato-casserole",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/sweet-potato-casserole",
    "name": {
     "ru": "запеканка из батата (с маршмеллоу)",
     "en": "sweet potato casserole"
@@ -7679,7 +7520,6 @@
   },
   {
    "slug": "stuffed-whole-turkey",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/stuffed-whole-turkey",
    "name": {
     "ru": "фаршированная индейка целиком",
     "en": "stuffed whole turkey"
@@ -7727,7 +7567,6 @@
   },
   {
    "slug": "roasted-delicata-squash",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-delicata-squash",
    "name": {
     "ru": "тыква деликата (запекание)",
     "en": "roasted delicata squash"
@@ -7775,7 +7614,6 @@
   },
   {
    "slug": "roasted-turnips",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-turnips",
    "name": {
     "ru": "репа (запекание)",
     "en": "roasted turnips"
@@ -7825,7 +7663,6 @@
   },
   {
    "slug": "roasted-onions",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-onions",
    "name": {
     "ru": "лук дольками (запекание)",
     "en": "roasted onions (wedges)"
@@ -7873,7 +7710,6 @@
   },
   {
    "slug": "stuffed-mushrooms",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/stuffed-mushrooms",
    "name": {
     "ru": "фаршированные шампиньоны",
     "en": "stuffed mushrooms"
@@ -7920,7 +7756,6 @@
   },
   {
    "slug": "french-toast-casserole",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/french-toast-casserole",
    "name": {
     "ru": "запеканка из французских тостов",
     "en": "french toast casserole (overnight)"
@@ -7968,7 +7803,6 @@
   },
   {
    "slug": "ham-and-cheese-sliders",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/ham-and-cheese-sliders",
    "name": {
     "ru": "слайдеры с ветчиной и сыром",
     "en": "ham and cheese sliders"
@@ -8016,7 +7850,6 @@
   },
   {
    "slug": "turkey-meatloaf",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/turkey-meatloaf",
    "name": {
     "ru": "митлоф из индейки",
     "en": "turkey meatloaf"
@@ -8065,7 +7898,6 @@
   },
   {
    "slug": "mini-meatloaves",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/mini-meatloaves",
    "name": {
     "ru": "мини-митлофы в маффиннице",
     "en": "mini meatloaves (muffin tin)"
@@ -8114,7 +7946,6 @@
   },
   {
    "slug": "baked-brie",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-brie",
    "name": {
     "ru": "запечённый бри (целая головка)",
     "en": "baked brie (whole wheel)"
@@ -8161,7 +7992,6 @@
   },
   {
    "slug": "baked-feta-pasta",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-feta-pasta",
    "name": {
     "ru": "запечённая фета с томатами (для пасты)",
     "en": "baked feta pasta (sheet of feta and tomatoes)"
@@ -8209,7 +8039,6 @@
   },
   {
    "slug": "bread-pudding",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/bread-pudding",
    "name": {
     "ru": "хлебный пудинг",
     "en": "bread pudding"
@@ -8257,7 +8086,6 @@
   },
   {
    "slug": "lemon-bars",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/lemon-bars",
    "name": {
     "ru": "лимонные квадратики",
     "en": "lemon bars"
@@ -8302,7 +8130,6 @@
   },
   {
    "slug": "blondies",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/blondies",
    "name": {
     "ru": "блонди (светлые брауни)",
     "en": "blondies"
@@ -8349,7 +8176,6 @@
   },
   {
    "slug": "pecan-pie",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pecan-pie",
    "name": {
     "ru": "пекановый пирог",
     "en": "pecan pie"
@@ -8396,7 +8222,6 @@
   },
   {
    "slug": "hash-brown-patties",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/hash-brown-patties",
    "name": {
     "ru": "хашбраун котлетки (замороженные)",
     "en": "hash brown patties (frozen)"
@@ -8443,7 +8268,6 @@
   },
   {
    "slug": "breaded-fish-fillets",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/breaded-fish-fillets",
    "name": {
     "ru": "рыбное филе в панировке (замороженное)",
     "en": "breaded fish fillets (frozen)"
@@ -8491,7 +8315,6 @@
   },
   {
    "slug": "toasted-pecans",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/toasted-pecans",
    "name": {
     "ru": "жареный пекан (подсушка орехов)",
     "en": "toasted pecans (oven)"
@@ -8538,7 +8361,6 @@
   },
   {
    "slug": "frozen-pot-pie",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-pot-pie",
    "name": {
     "ru": "замороженный пот-пай (порционный)",
     "en": "frozen pot pie (single serve)"
@@ -8586,7 +8408,6 @@
   },
   {
    "slug": "corn-dogs",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/corn-dogs",
    "name": {
     "ru": "корн-доги (замороженные)",
     "en": "corn dogs (frozen)"
@@ -8633,7 +8454,6 @@
   },
   {
    "slug": "soft-pretzels",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/soft-pretzels",
    "name": {
     "ru": "мягкие крендели (замороженные)",
     "en": "soft pretzels (frozen)"
@@ -8679,7 +8499,6 @@
   },
   {
    "slug": "boxed-cake-mix",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/boxed-cake-mix",
    "name": {
     "ru": "торт из коробочной смеси",
     "en": "boxed cake mix (13x9 and rounds)"
@@ -8725,7 +8544,6 @@
   },
   {
    "slug": "carrot-cake",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/carrot-cake",
    "name": {
     "ru": "морковный торт (коржи)",
     "en": "carrot cake (layers)"
@@ -8771,7 +8589,6 @@
   },
   {
    "slug": "crumb-coffee-cake",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/crumb-coffee-cake",
    "name": {
     "ru": "кофейный кекс с крошкой (крамб-кейк)",
     "en": "crumb coffee cake"
@@ -8818,7 +8635,6 @@
   },
   {
    "slug": "pineapple-upside-down-cake",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/pineapple-upside-down-cake",
    "name": {
     "ru": "перевёрнутый ананасовый пирог",
     "en": "pineapple upside-down cake"
@@ -8866,7 +8682,6 @@
   },
   {
    "slug": "key-lime-pie",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/key-lime-pie",
    "name": {
     "ru": "пирог ки-лайм (лаймовый)",
     "en": "key lime pie"
@@ -8912,7 +8727,6 @@
   },
   {
    "slug": "homemade-baguettes",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/homemade-baguettes",
    "name": {
     "ru": "багеты домашние",
     "en": "homemade baguettes"
@@ -8959,7 +8773,6 @@
   },
   {
    "slug": "homemade-soft-pretzels",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/homemade-soft-pretzels",
    "name": {
     "ru": "крендели мягкие домашние",
     "en": "homemade soft pretzels"
@@ -9005,7 +8818,6 @@
   },
   {
    "slug": "baked-doughnuts",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-doughnuts",
    "name": {
     "ru": "пончики печёные (в форме)",
     "en": "baked doughnuts (pan)"
@@ -9051,7 +8863,6 @@
   },
   {
    "slug": "frozen-mac-and-cheese",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-mac-and-cheese",
    "name": {
     "ru": "макароны с сыром замороженные (полуфабрикат)",
     "en": "frozen mac and cheese (single serve)"
@@ -9098,7 +8909,6 @@
   },
   {
    "slug": "french-bread-pizza",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/french-bread-pizza",
    "name": {
     "ru": "пицца на багете (замороженная)",
     "en": "french bread pizza (frozen)"
@@ -9145,7 +8955,6 @@
   },
   {
    "slug": "frozen-burrito",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/frozen-burrito",
    "name": {
     "ru": "буррито замороженный",
     "en": "frozen burrito"
@@ -9193,7 +9002,6 @@
   },
   {
    "slug": "taquitos",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/taquitos",
    "name": {
     "ru": "такитос замороженные",
     "en": "taquitos (frozen)"
@@ -9241,7 +9049,6 @@
   },
   {
    "slug": "egg-rolls",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/egg-rolls",
    "name": {
     "ru": "яичные роллы (замороженные)",
     "en": "egg rolls (frozen)"
@@ -9289,7 +9096,6 @@
   },
   {
    "slug": "waffle-fries",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/waffle-fries",
    "name": {
     "ru": "картофель вафельный фри (замороженный)",
     "en": "waffle fries (frozen)"
@@ -9336,7 +9142,6 @@
   },
   {
    "slug": "bagel-bites",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/bagel-bites",
    "name": {
     "ru": "мини-пиццы бейгл байтс (замороженные)",
     "en": "bagel bites (frozen mini pizzas)"
@@ -9383,7 +9188,6 @@
   },
   {
    "slug": "baked-beans",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/baked-beans",
    "name": {
     "ru": "фасоль печёная (из банки, в духовке)",
     "en": "baked beans (canned, doctored)"
@@ -9430,7 +9234,6 @@
   },
   {
    "slug": "flank-steak",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/flank-steak",
    "name": {
     "ru": "фланк-стейк под грилем (бройлер)",
     "en": "flank steak (broiled)"
@@ -9480,7 +9283,6 @@
   },
   {
    "slug": "roasted-cherry-tomatoes",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/roasted-cherry-tomatoes",
    "name": {
     "ru": "черри томаты (запекание)",
     "en": "roasted cherry tomatoes"
@@ -9528,7 +9330,6 @@
   },
   {
    "slug": "sheet-pan-sausage-and-vegetables",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/sheet-pan-sausage-and-vegetables",
    "name": {
     "ru": "колбаски с овощами на противне",
     "en": "sheet pan sausage and vegetables"
@@ -9575,7 +9376,6 @@
   },
   {
    "slug": "sheet-pan-chicken-fajitas",
-   "url": "https://theunitools.com/en/cooking/how-long-to-cook/sheet-pan-chicken-fajitas",
    "name": {
     "ru": "фахитас с курицей на противне",
     "en": "sheet pan chicken fajitas"

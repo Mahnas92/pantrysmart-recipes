@@ -1,11 +1,12 @@
 {
  "name": "UniTools World Recipes",
- "version": "1.1.0",
+ "version": "2.0.0",
+ "landingPage": "https://theunitools.com/en/data",
  "license": "CC BY-SA 4.0",
  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
  "attribution": "UniTools — theunitools.com",
  "homepage": "https://theunitools.com/en/data",
- "generatedAt": "2026-08-23",
+ "generatedAt": "2026-09-02",
  "counts": {
   "recipes": 501,
   "countries": 127,
@@ -654,7 +655,7 @@
    "slug": "belgium",
    "name": {
     "ru": "Бельгия",
-    "en": "Belgian cuisine"
+    "en": "Belgium"
    },
    "cuisine": {
     "ru": "бельгийская кухня",
@@ -1541,7 +1542,6 @@
  "recipes": [
   {
    "slug": "spaghetti-carbonara",
-   "url": "https://theunitools.com/en/recipes/italy/spaghetti-carbonara",
    "country": "IT",
    "name": {
     "ru": "Спагетти карбонара",
@@ -1704,7 +1704,6 @@
   },
   {
    "slug": "risotto-alla-milanese",
-   "url": "https://theunitools.com/en/recipes/italy/risotto-alla-milanese",
    "country": "IT",
    "name": {
     "ru": "Ризотто по-милански",
@@ -1883,7 +1882,6 @@
   },
   {
    "slug": "ratatouille",
-   "url": "https://theunitools.com/en/recipes/france/ratatouille",
    "country": "FR",
    "name": {
     "ru": "Рататуй",
@@ -2086,7 +2084,6 @@
   },
   {
    "slug": "french-onion-soup",
-   "url": "https://theunitools.com/en/recipes/france/french-onion-soup",
    "country": "FR",
    "name": {
     "ru": "Луковый суп",
@@ -2271,7 +2268,6 @@
   },
   {
    "slug": "borscht",
-   "url": "https://theunitools.com/en/recipes/russia/borscht",
    "country": "RU",
    "name": {
     "ru": "Борщ",
@@ -2486,7 +2482,6 @@
   },
   {
    "slug": "khachapuri-imeruli",
-   "url": "https://theunitools.com/en/recipes/georgia/khachapuri-imeruli",
    "country": "GE",
    "name": {
     "ru": "Хачапури имеретинский",
@@ -2673,7 +2668,6 @@
   },
   {
    "slug": "miso-soup",
-   "url": "https://theunitools.com/en/recipes/japan/miso-soup",
    "country": "JP",
    "name": {
     "ru": "Мисо-суп",
@@ -2835,7 +2829,6 @@
   },
   {
    "slug": "guacamole",
-   "url": "https://theunitools.com/en/recipes/mexico/guacamole",
    "country": "MX",
    "name": {
     "ru": "Гуакамоле",
@@ -3001,7 +2994,6 @@
   },
   {
    "slug": "tom-yum-goong",
-   "url": "https://theunitools.com/en/recipes/thailand/tom-yum-goong",
    "country": "TH",
    "name": {
     "ru": "Том ям с креветками",
@@ -3203,7 +3195,6 @@
   },
   {
    "slug": "dal-tadka",
-   "url": "https://theunitools.com/en/recipes/india/dal-tadka",
    "country": "IN",
    "name": {
     "ru": "Дал тадка",
@@ -3410,7 +3401,6 @@
   },
   {
    "slug": "paella-valenciana",
-   "url": "https://theunitools.com/en/recipes/spain/paella-valenciana",
    "country": "ES",
    "name": {
     "ru": "Паэлья валенсиана",
@@ -3628,7 +3618,6 @@
   },
   {
    "slug": "tortilla-espanola",
-   "url": "https://theunitools.com/en/recipes/spain/tortilla-espanola",
    "country": "ES",
    "name": {
     "ru": "Испанская тортилья",
@@ -3765,7 +3754,6 @@
   },
   {
    "slug": "moussaka",
-   "url": "https://theunitools.com/en/recipes/greece/moussaka",
    "country": "GR",
    "name": {
     "ru": "Мусака",
@@ -4016,7 +4004,6 @@
   },
   {
    "slug": "horiatiki-salata",
-   "url": "https://theunitools.com/en/recipes/greece/horiatiki-salata",
    "country": "GR",
    "name": {
     "ru": "Хориатики",
@@ -4186,7 +4173,6 @@
   },
   {
    "slug": "pho-bo",
-   "url": "https://theunitools.com/en/recipes/vietnam/pho-bo",
    "country": "VN",
    "name": {
     "ru": "Фо бо",
@@ -4420,7 +4406,6 @@
   },
   {
    "slug": "banh-mi",
-   "url": "https://theunitools.com/en/recipes/vietnam/banh-mi",
    "country": "VN",
    "name": {
     "ru": "Бань ми",
@@ -4630,7 +4615,6 @@
   },
   {
    "slug": "pesto-alla-genovese",
-   "url": "https://theunitools.com/en/recipes/italy/pesto-alla-genovese",
    "country": "IT",
    "name": {
     "ru": "Песто алла дженовезе",
@@ -4779,7 +4763,6 @@
   },
   {
    "slug": "tacos-al-pastor",
-   "url": "https://theunitools.com/en/recipes/mexico/tacos-al-pastor",
    "country": "MX",
    "name": {
     "ru": "Такос аль пастор",
@@ -4987,7 +4970,6 @@
   },
   {
    "slug": "menemen",
-   "url": "https://theunitools.com/en/recipes/turkey/menemen",
    "country": "TR",
    "name": {
     "ru": "Менемен",
@@ -5155,7 +5137,6 @@
   },
   {
    "slug": "mercimek-corbasi",
-   "url": "https://theunitools.com/en/recipes/turkey/mercimek-corbasi",
    "country": "TR",
    "name": {
     "ru": "Мерджимек чорбасы",
@@ -5344,7 +5325,6 @@
   },
   {
    "slug": "khinkali",
-   "url": "https://theunitools.com/en/recipes/georgia/khinkali",
    "country": "GE",
    "name": {
     "ru": "Хинкали",
@@ -5533,7 +5513,6 @@
   },
   {
    "slug": "murgh-makhani",
-   "url": "https://theunitools.com/en/recipes/india/murgh-makhani",
    "country": "IN",
    "name": {
     "ru": "Курица масала в сливочном соусе",
@@ -5765,7 +5744,6 @@
   },
   {
    "slug": "katsudon",
-   "url": "https://theunitools.com/en/recipes/japan/katsudon",
    "country": "JP",
    "name": {
     "ru": "Кацудон",
@@ -5980,7 +5958,6 @@
   },
   {
    "slug": "syrniki",
-   "url": "https://theunitools.com/en/recipes/russia/syrniki",
    "country": "RU",
    "name": {
     "ru": "Сырники",
@@ -6139,7 +6116,6 @@
   },
   {
    "slug": "pad-thai",
-   "url": "https://theunitools.com/en/recipes/thailand/pad-thai",
    "country": "TH",
    "name": {
     "ru": "Пад тай",
@@ -6369,7 +6345,6 @@
   },
   {
    "slug": "tiramisu",
-   "url": "https://theunitools.com/en/recipes/italy/tiramisu",
    "country": "IT",
    "name": {
     "ru": "Тирамису",
@@ -6545,7 +6520,6 @@
   },
   {
    "slug": "gazpacho",
-   "url": "https://theunitools.com/en/recipes/spain/gazpacho",
    "country": "ES",
    "name": {
     "ru": "Гаспачо",
@@ -6705,7 +6679,6 @@
   },
   {
    "slug": "croquetas-de-jamon",
-   "url": "https://theunitools.com/en/recipes/spain/croquetas-de-jamon",
    "country": "ES",
    "name": {
     "ru": "Крокеты с хамоном",
@@ -6912,7 +6885,6 @@
   },
   {
    "slug": "ceviche",
-   "url": "https://theunitools.com/en/recipes/peru/ceviche",
    "country": "PE",
    "name": {
     "ru": "Севиче",
@@ -7081,7 +7053,6 @@
   },
   {
    "slug": "lomo-saltado",
-   "url": "https://theunitools.com/en/recipes/peru/lomo-saltado",
    "country": "PE",
    "name": {
     "ru": "Ломо сальтадо",
@@ -7281,7 +7252,6 @@
   },
   {
    "slug": "mapo-tofu",
-   "url": "https://theunitools.com/en/recipes/china/mapo-tofu",
    "country": "CN",
    "name": {
     "ru": "Мапо тофу",
@@ -7481,7 +7451,6 @@
   },
   {
    "slug": "gong-bao-chicken",
-   "url": "https://theunitools.com/en/recipes/china/gong-bao-chicken",
    "country": "CN",
    "name": {
     "ru": "Курица гунбао",
@@ -7697,7 +7666,6 @@
   },
   {
    "slug": "coq-au-vin",
-   "url": "https://theunitools.com/en/recipes/france/coq-au-vin",
    "country": "FR",
    "name": {
     "ru": "Кок-о-вен",
@@ -7909,7 +7877,6 @@
   },
   {
    "slug": "creme-brulee",
-   "url": "https://theunitools.com/en/recipes/france/creme-brulee",
    "country": "FR",
    "name": {
     "ru": "Крем-брюле",
@@ -8037,7 +8004,6 @@
   },
   {
    "slug": "kaesespaetzle",
-   "url": "https://theunitools.com/en/recipes/germany/kaesespaetzle",
    "country": "DE",
    "name": {
     "ru": "Кезешпецле",
@@ -8203,7 +8169,6 @@
   },
   {
    "slug": "rinderrouladen",
-   "url": "https://theunitools.com/en/recipes/germany/rinderrouladen",
    "country": "DE",
    "name": {
     "ru": "Руладен",
@@ -8407,7 +8372,6 @@
   },
   {
    "slug": "bibimbap",
-   "url": "https://theunitools.com/en/recipes/korea/bibimbap",
    "country": "KR",
    "name": {
     "ru": "Пибимпап",
@@ -8615,7 +8579,6 @@
   },
   {
    "slug": "kimchi-jjigae",
-   "url": "https://theunitools.com/en/recipes/korea/kimchi-jjigae",
    "country": "KR",
    "name": {
     "ru": "Кимчхи чиге",
@@ -8804,7 +8767,6 @@
   },
   {
    "slug": "souvlaki",
-   "url": "https://theunitools.com/en/recipes/greece/souvlaki",
    "country": "GR",
    "name": {
     "ru": "Сувлаки",
@@ -8982,7 +8944,6 @@
   },
   {
    "slug": "chicken-biryani",
-   "url": "https://theunitools.com/en/recipes/india/chicken-biryani",
    "country": "IN",
    "name": {
     "ru": "Бирьяни с курицей",
@@ -9230,7 +9191,6 @@
   },
   {
    "slug": "shoyu-ramen",
-   "url": "https://theunitools.com/en/recipes/japan/shoyu-ramen",
    "country": "JP",
    "name": {
     "ru": "Сёю рамен",
@@ -9450,7 +9410,6 @@
   },
   {
    "slug": "pierogi-ruskie",
-   "url": "https://theunitools.com/en/recipes/poland/pierogi-ruskie",
    "country": "PL",
    "name": {
     "ru": "Пероги руске",
@@ -9631,7 +9590,6 @@
   },
   {
    "slug": "zurek",
-   "url": "https://theunitools.com/en/recipes/poland/zurek",
    "country": "PL",
    "name": {
     "ru": "Журек",
@@ -9828,7 +9786,6 @@
   },
   {
    "slug": "sauerbraten",
-   "url": "https://theunitools.com/en/recipes/germany/sauerbraten",
    "country": "DE",
    "name": {
     "ru": "Заурбратен",
@@ -10040,7 +9997,6 @@
   },
   {
    "slug": "schwaebischer-kartoffelsalat",
-   "url": "https://theunitools.com/en/recipes/germany/schwaebischer-kartoffelsalat",
    "country": "DE",
    "name": {
     "ru": "Швабский картофельный салат",
@@ -10203,7 +10159,6 @@
   },
   {
    "slug": "bucatini-all-amatriciana",
-   "url": "https://theunitools.com/en/recipes/italy/bucatini-all-amatriciana",
    "country": "IT",
    "name": {
     "ru": "Аматричана",
@@ -10356,7 +10311,6 @@
   },
   {
    "slug": "shakshuka",
-   "url": "https://theunitools.com/en/recipes/israel/shakshuka",
    "country": "IL",
    "name": {
     "ru": "Шакшука",
@@ -10550,7 +10504,6 @@
   },
   {
    "slug": "hummus",
-   "url": "https://theunitools.com/en/recipes/israel/hummus",
    "country": "IL",
    "name": {
     "ru": "Хумус",
@@ -10729,7 +10682,6 @@
   },
   {
    "slug": "feijoada",
-   "url": "https://theunitools.com/en/recipes/brazil/feijoada",
    "country": "BR",
    "name": {
     "ru": "Фейжоада",
@@ -10947,7 +10899,6 @@
   },
   {
    "slug": "pao-de-queijo",
-   "url": "https://theunitools.com/en/recipes/brazil/pao-de-queijo",
    "country": "BR",
    "name": {
     "ru": "Пан-ди-кейжу",
@@ -11114,7 +11065,6 @@
   },
   {
    "slug": "pad-krapow-moo",
-   "url": "https://theunitools.com/en/recipes/thailand/pad-krapow-moo",
    "country": "TH",
    "name": {
     "ru": "Пад кра пао",
@@ -11308,7 +11258,6 @@
   },
   {
    "slug": "gyudon",
-   "url": "https://theunitools.com/en/recipes/japan/gyudon",
    "country": "JP",
    "name": {
     "ru": "Гюдон",
@@ -11494,7 +11443,6 @@
   },
   {
    "slug": "solyanka",
-   "url": "https://theunitools.com/en/recipes/russia/solyanka",
    "country": "RU",
    "name": {
     "ru": "Солянка мясная сборная",
@@ -11712,7 +11660,6 @@
   },
   {
    "slug": "tagine-de-poulet",
-   "url": "https://theunitools.com/en/recipes/morocco/tagine-de-poulet",
    "country": "MA",
    "name": {
     "ru": "Тажин с курицей и лимоном",
@@ -11922,7 +11869,6 @@
   },
   {
    "slug": "harira",
-   "url": "https://theunitools.com/en/recipes/morocco/harira",
    "country": "MA",
    "name": {
     "ru": "Харира",
@@ -12144,7 +12090,6 @@
   },
   {
    "slug": "goulash",
-   "url": "https://theunitools.com/en/recipes/hungary/goulash",
    "country": "HU",
    "name": {
     "ru": "Гуляш",
@@ -12332,7 +12277,6 @@
   },
   {
    "slug": "langos",
-   "url": "https://theunitools.com/en/recipes/hungary/langos",
    "country": "HU",
    "name": {
     "ru": "Лангош",
@@ -12527,7 +12471,6 @@
   },
   {
    "slug": "fish-and-chips",
-   "url": "https://theunitools.com/en/recipes/united-kingdom/fish-and-chips",
    "country": "GB",
    "name": {
     "ru": "Фиш-энд-чипс",
@@ -12707,7 +12650,6 @@
   },
   {
    "slug": "shepherds-pie",
-   "url": "https://theunitools.com/en/recipes/united-kingdom/shepherds-pie",
    "country": "GB",
    "name": {
     "ru": "Пастуший пирог",
@@ -12930,7 +12872,6 @@
   },
   {
    "slug": "wiener-schnitzel",
-   "url": "https://theunitools.com/en/recipes/austria/wiener-schnitzel",
    "country": "AT",
    "name": {
     "ru": "Венский шницель",
@@ -13083,7 +13024,6 @@
   },
   {
    "slug": "apfelstrudel",
-   "url": "https://theunitools.com/en/recipes/austria/apfelstrudel",
    "country": "AT",
    "name": {
     "ru": "Яблочный штрудель",
@@ -13278,7 +13218,6 @@
   },
   {
    "slug": "bacalhau-a-bras",
-   "url": "https://theunitools.com/en/recipes/portugal/bacalhau-a-bras",
    "country": "PT",
    "name": {
     "ru": "Бакаляу а браш",
@@ -13469,7 +13408,6 @@
   },
   {
    "slug": "pastel-de-nata",
-   "url": "https://theunitools.com/en/recipes/portugal/pastel-de-nata",
    "country": "PT",
    "name": {
     "ru": "Паштел де ната",
@@ -13640,7 +13578,6 @@
   },
   {
    "slug": "empanadas-argentinas",
-   "url": "https://theunitools.com/en/recipes/argentina/empanadas-argentinas",
    "country": "AR",
    "name": {
     "ru": "Аргентинские эмпанадас",
@@ -13847,7 +13784,6 @@
   },
   {
    "slug": "chimichurri",
-   "url": "https://theunitools.com/en/recipes/argentina/chimichurri",
    "country": "AR",
    "name": {
     "ru": "Чимичурри",
@@ -14005,7 +13941,6 @@
   },
   {
    "slug": "nasi-goreng",
-   "url": "https://theunitools.com/en/recipes/indonesia/nasi-goreng",
    "country": "ID",
    "name": {
     "ru": "Наси горенг",
@@ -14216,7 +14151,6 @@
   },
   {
    "slug": "rendang",
-   "url": "https://theunitools.com/en/recipes/indonesia/rendang",
    "country": "ID",
    "name": {
     "ru": "Ренданг",
@@ -14430,7 +14364,6 @@
   },
   {
    "slug": "adobo",
-   "url": "https://theunitools.com/en/recipes/philippines/adobo",
    "country": "PH",
    "name": {
     "ru": "Адобо",
@@ -14610,7 +14543,6 @@
   },
   {
    "slug": "sinigang",
-   "url": "https://theunitools.com/en/recipes/philippines/sinigang",
    "country": "PH",
    "name": {
     "ru": "Синиганг",
@@ -14815,7 +14747,6 @@
   },
   {
    "slug": "borshch-ukrainskyi",
-   "url": "https://theunitools.com/en/recipes/ukraine/borshch-ukrainskyi",
    "country": "UA",
    "name": {
     "ru": "Украинский борщ с пампушками",
@@ -15045,7 +14976,6 @@
   },
   {
    "slug": "varenyky-z-vyshnyamy",
-   "url": "https://theunitools.com/en/recipes/ukraine/varenyky-z-vyshnyamy",
    "country": "UA",
    "name": {
     "ru": "Вареники с вишней",
@@ -15227,7 +15157,6 @@
   },
   {
    "slug": "svickova",
-   "url": "https://theunitools.com/en/recipes/czechia/svickova",
    "country": "CZ",
    "name": {
     "ru": "Свичкова",
@@ -15450,7 +15379,6 @@
   },
   {
    "slug": "trdelnik",
-   "url": "https://theunitools.com/en/recipes/czechia/trdelnik",
    "country": "CZ",
    "name": {
     "ru": "Трдельник",
@@ -15645,7 +15573,6 @@
   },
   {
    "slug": "koettbullar",
-   "url": "https://theunitools.com/en/recipes/sweden/koettbullar",
    "country": "SE",
    "name": {
     "ru": "Шведские фрикадельки",
@@ -15871,7 +15798,6 @@
   },
   {
    "slug": "kanelbullar",
-   "url": "https://theunitools.com/en/recipes/sweden/kanelbullar",
    "country": "SE",
    "name": {
     "ru": "Кулебяка с корицей",
@@ -16088,7 +16014,6 @@
   },
   {
    "slug": "koshari",
-   "url": "https://theunitools.com/en/recipes/egypt/koshari",
    "country": "EG",
    "name": {
     "ru": "Кушари",
@@ -16306,7 +16231,6 @@
   },
   {
    "slug": "ful-medames",
-   "url": "https://theunitools.com/en/recipes/egypt/ful-medames",
    "country": "EG",
    "name": {
     "ru": "Фуль медамес",
@@ -16485,7 +16409,6 @@
   },
   {
    "slug": "tabbouleh",
-   "url": "https://theunitools.com/en/recipes/lebanon/tabbouleh",
    "country": "LB",
    "name": {
     "ru": "Табуле",
@@ -16659,7 +16582,6 @@
   },
   {
    "slug": "kibbeh-nayyeh",
-   "url": "https://theunitools.com/en/recipes/lebanon/kibbeh-nayyeh",
    "country": "LB",
    "name": {
     "ru": "Киббе нейе",
@@ -16834,7 +16756,6 @@
   },
   {
    "slug": "ghormeh-sabzi",
-   "url": "https://theunitools.com/en/recipes/iran/ghormeh-sabzi",
    "country": "IR",
    "name": {
     "ru": "Гормэ сабзи",
@@ -17044,7 +16965,6 @@
   },
   {
    "slug": "tahdig",
-   "url": "https://theunitools.com/en/recipes/iran/tahdig",
    "country": "IR",
    "name": {
     "ru": "Тахдиг",
@@ -17214,7 +17134,6 @@
   },
   {
    "slug": "plov-uzbekskiy",
-   "url": "https://theunitools.com/en/recipes/uzbekistan/plov-uzbekskiy",
    "country": "UZ",
    "name": {
     "ru": "Узбекский плов",
@@ -17423,7 +17342,6 @@
   },
   {
    "slug": "samsa",
-   "url": "https://theunitools.com/en/recipes/uzbekistan/samsa",
    "country": "UZ",
    "name": {
     "ru": "Самса",
@@ -17608,7 +17526,6 @@
   },
   {
    "slug": "clam-chowder",
-   "url": "https://theunitools.com/en/recipes/united-states/clam-chowder",
    "country": "US",
    "name": {
     "ru": "Новоанглийский клэм-чаудер",
@@ -17828,7 +17745,6 @@
   },
   {
    "slug": "buffalo-wings",
-   "url": "https://theunitools.com/en/recipes/united-states/buffalo-wings",
    "country": "US",
    "name": {
     "ru": "Куриные крылья баффало",
@@ -18009,7 +17925,6 @@
   },
   {
    "slug": "pizza-margherita",
-   "url": "https://theunitools.com/en/recipes/italy/pizza-margherita",
    "country": "IT",
    "name": {
     "ru": "Пицца маргарита",
@@ -18179,7 +18094,6 @@
   },
   {
    "slug": "lasagne-alla-bolognese",
-   "url": "https://theunitools.com/en/recipes/italy/lasagne-alla-bolognese",
    "country": "IT",
    "name": {
     "ru": "Лазанья болоньезе",
@@ -18419,7 +18333,6 @@
   },
   {
    "slug": "palak-paneer",
-   "url": "https://theunitools.com/en/recipes/india/palak-paneer",
    "country": "IN",
    "name": {
     "ru": "Палак панир",
@@ -18627,7 +18540,6 @@
   },
   {
    "slug": "samosa",
-   "url": "https://theunitools.com/en/recipes/india/samosa",
    "country": "IN",
    "name": {
     "ru": "Самоса",
@@ -18853,7 +18765,6 @@
   },
   {
    "slug": "jiaozi",
-   "url": "https://theunitools.com/en/recipes/china/jiaozi",
    "country": "CN",
    "name": {
     "ru": "Цзяоцзы",
@@ -19068,7 +18979,6 @@
   },
   {
    "slug": "yangzhou-fried-rice",
-   "url": "https://theunitools.com/en/recipes/china/yangzhou-fried-rice",
    "country": "CN",
    "name": {
     "ru": "Янчжоуский жареный рис",
@@ -19268,7 +19178,6 @@
   },
   {
    "slug": "chiles-en-nogada",
-   "url": "https://theunitools.com/en/recipes/mexico/chiles-en-nogada",
    "country": "MX",
    "name": {
     "ru": "Чиле рельено",
@@ -19457,7 +19366,6 @@
   },
   {
    "slug": "pozole-rojo",
-   "url": "https://theunitools.com/en/recipes/mexico/pozole-rojo",
    "country": "MX",
    "name": {
     "ru": "Посоле рохо",
@@ -19660,7 +19568,6 @@
   },
   {
    "slug": "nihari",
-   "url": "https://theunitools.com/en/recipes/pakistan/nihari",
    "country": "PK",
    "name": {
     "ru": "Нихари",
@@ -19865,7 +19772,6 @@
   },
   {
    "slug": "chapli-kebab",
-   "url": "https://theunitools.com/en/recipes/pakistan/chapli-kebab",
    "country": "PK",
    "name": {
     "ru": "Чапли кебаб",
@@ -20068,7 +19974,6 @@
   },
   {
    "slug": "laksa-lemak",
-   "url": "https://theunitools.com/en/recipes/malaysia/laksa-lemak",
    "country": "MY",
    "name": {
     "ru": "Лакса лемак",
@@ -20281,7 +20186,6 @@
   },
   {
    "slug": "roti-canai",
-   "url": "https://theunitools.com/en/recipes/malaysia/roti-canai",
    "country": "MY",
    "name": {
     "ru": "Роти чанай",
@@ -20440,7 +20344,6 @@
   },
   {
    "slug": "stamppot",
-   "url": "https://theunitools.com/en/recipes/netherlands/stamppot",
    "country": "NL",
    "name": {
     "ru": "Стамппот",
@@ -20618,7 +20521,6 @@
   },
   {
    "slug": "poffertjes",
-   "url": "https://theunitools.com/en/recipes/netherlands/poffertjes",
    "country": "NL",
    "name": {
     "ru": "Поффертьес",
@@ -20796,7 +20698,6 @@
   },
   {
    "slug": "doro-wat",
-   "url": "https://theunitools.com/en/recipes/ethiopia/doro-wat",
    "country": "ET",
    "name": {
     "ru": "Доро уот",
@@ -20991,7 +20892,6 @@
   },
   {
    "slug": "misir-wat",
-   "url": "https://theunitools.com/en/recipes/ethiopia/misir-wat",
    "country": "ET",
    "name": {
     "ru": "Мисир уот",
@@ -21166,7 +21066,6 @@
   },
   {
    "slug": "ropa-vieja",
-   "url": "https://theunitools.com/en/recipes/cuba/ropa-vieja",
    "country": "CU",
    "name": {
     "ru": "Ропа вьеха",
@@ -21376,7 +21275,6 @@
   },
   {
    "slug": "moros-y-cristianos",
-   "url": "https://theunitools.com/en/recipes/cuba/moros-y-cristianos",
    "country": "CU",
    "name": {
     "ru": "Морос и кристианос",
@@ -21574,7 +21472,6 @@
   },
   {
    "slug": "jerk-chicken",
-   "url": "https://theunitools.com/en/recipes/jamaica/jerk-chicken",
    "country": "JM",
    "name": {
     "ru": "Курица джерк",
@@ -21783,7 +21680,6 @@
   },
   {
    "slug": "ackee-and-saltfish",
-   "url": "https://theunitools.com/en/recipes/jamaica/ackee-and-saltfish",
    "country": "JM",
    "name": {
     "ru": "Аки с солёной рыбой",
@@ -21975,7 +21871,6 @@
   },
   {
    "slug": "jollof-rice",
-   "url": "https://theunitools.com/en/recipes/nigeria/jollof-rice",
    "country": "NG",
    "name": {
     "ru": "Джоллоф рис",
@@ -22191,7 +22086,6 @@
   },
   {
    "slug": "suya",
-   "url": "https://theunitools.com/en/recipes/nigeria/suya",
    "country": "NG",
    "name": {
     "ru": "Суйя",
@@ -22376,7 +22270,6 @@
   },
   {
    "slug": "arepas",
-   "url": "https://theunitools.com/en/recipes/colombia/arepas",
    "country": "CO",
    "name": {
     "ru": "Арепас",
@@ -22525,7 +22418,6 @@
   },
   {
    "slug": "ajiaco-bogotano",
-   "url": "https://theunitools.com/en/recipes/colombia/ajiaco-bogotano",
    "country": "CO",
    "name": {
     "ru": "Ахиако",
@@ -22738,7 +22630,6 @@
   },
   {
    "slug": "quiche-lorraine",
-   "url": "https://theunitools.com/en/recipes/france/quiche-lorraine",
    "country": "FR",
    "name": {
     "ru": "Киш лорен",
@@ -22931,7 +22822,6 @@
   },
   {
    "slug": "croissant",
-   "url": "https://theunitools.com/en/recipes/france/croissant",
    "country": "FR",
    "name": {
     "ru": "Круассан",
@@ -23111,7 +23001,6 @@
   },
   {
    "slug": "tempura",
-   "url": "https://theunitools.com/en/recipes/japan/tempura",
    "country": "JP",
    "name": {
     "ru": "Темпура",
@@ -23317,7 +23206,6 @@
   },
   {
    "slug": "okonomiyaki",
-   "url": "https://theunitools.com/en/recipes/japan/okonomiyaki",
    "country": "JP",
    "name": {
     "ru": "Окономияки",
@@ -23535,7 +23423,6 @@
   },
   {
    "slug": "lahmacun",
-   "url": "https://theunitools.com/en/recipes/turkey/lahmacun",
    "country": "TR",
    "name": {
     "ru": "Лахмаджун",
@@ -23744,7 +23631,6 @@
   },
   {
    "slug": "baklava",
-   "url": "https://theunitools.com/en/recipes/turkey/baklava",
    "country": "TR",
    "name": {
     "ru": "Пахлава",
@@ -23899,7 +23785,6 @@
   },
   {
    "slug": "spanakopita",
-   "url": "https://theunitools.com/en/recipes/greece/spanakopita",
    "country": "GR",
    "name": {
     "ru": "Спанакопита",
@@ -24080,7 +23965,6 @@
   },
   {
    "slug": "patatas-bravas",
-   "url": "https://theunitools.com/en/recipes/spain/patatas-bravas",
    "country": "ES",
    "name": {
     "ru": "Пататас бравас",
@@ -24272,7 +24156,6 @@
   },
   {
    "slug": "momo",
-   "url": "https://theunitools.com/en/recipes/nepal/momo",
    "country": "NP",
    "name": {
     "ru": "Момо",
@@ -24491,7 +24374,6 @@
   },
   {
    "slug": "dal-bhat",
-   "url": "https://theunitools.com/en/recipes/nepal/dal-bhat",
    "country": "NP",
    "name": {
     "ru": "Дал бхат",
@@ -24703,7 +24585,6 @@
   },
   {
    "slug": "kottu-roti",
-   "url": "https://theunitools.com/en/recipes/sri-lanka/kottu-roti",
    "country": "LK",
    "name": {
     "ru": "Котту роти",
@@ -24917,7 +24798,6 @@
   },
   {
    "slug": "pol-sambol",
-   "url": "https://theunitools.com/en/recipes/sri-lanka/pol-sambol",
    "country": "LK",
    "name": {
     "ru": "Пол самбол",
@@ -25057,7 +24937,6 @@
   },
   {
    "slug": "cevapi",
-   "url": "https://theunitools.com/en/recipes/serbia/cevapi",
    "country": "RS",
    "name": {
     "ru": "Чевапи",
@@ -25258,7 +25137,6 @@
   },
   {
    "slug": "ajvar",
-   "url": "https://theunitools.com/en/recipes/serbia/ajvar",
    "country": "RS",
    "name": {
     "ru": "Айвар",
@@ -25405,7 +25283,6 @@
   },
   {
    "slug": "frikadeller",
-   "url": "https://theunitools.com/en/recipes/denmark/frikadeller",
    "country": "DK",
    "name": {
     "ru": "Фрикаделлер",
@@ -25606,7 +25483,6 @@
   },
   {
    "slug": "smorrebrod",
-   "url": "https://theunitools.com/en/recipes/denmark/smorrebrod",
    "country": "DK",
    "name": {
     "ru": "Смёрребрёд",
@@ -25797,7 +25673,6 @@
   },
   {
    "slug": "sarmale",
-   "url": "https://theunitools.com/en/recipes/romania/sarmale",
    "country": "RO",
    "name": {
     "ru": "Сармале",
@@ -25998,7 +25873,6 @@
   },
   {
    "slug": "mamaliga",
-   "url": "https://theunitools.com/en/recipes/romania/mamaliga",
    "country": "RO",
    "name": {
     "ru": "Мамалыга",
@@ -26140,7 +26014,6 @@
   },
   {
    "slug": "shopska-salata",
-   "url": "https://theunitools.com/en/recipes/bulgaria/shopska-salata",
    "country": "BG",
    "name": {
     "ru": "Шопский салат",
@@ -26325,7 +26198,6 @@
   },
   {
    "slug": "banitsa",
-   "url": "https://theunitools.com/en/recipes/bulgaria/banitsa",
    "country": "BG",
    "name": {
     "ru": "Баница",
@@ -26487,7 +26359,6 @@
   },
   {
    "slug": "lohikeitto",
-   "url": "https://theunitools.com/en/recipes/finland/lohikeitto",
    "country": "FI",
    "name": {
     "ru": "Лохикейтто",
@@ -26694,7 +26565,6 @@
   },
   {
    "slug": "karjalanpiirakka",
-   "url": "https://theunitools.com/en/recipes/finland/karjalanpiirakka",
    "country": "FI",
    "name": {
     "ru": "Карельские пирожки",
@@ -26860,7 +26730,6 @@
   },
   {
    "slug": "irish-stew",
-   "url": "https://theunitools.com/en/recipes/ireland/irish-stew",
    "country": "IE",
    "name": {
     "ru": "Ирландское рагу",
@@ -27029,7 +26898,6 @@
   },
   {
    "slug": "soda-bread",
-   "url": "https://theunitools.com/en/recipes/ireland/soda-bread",
    "country": "IE",
    "name": {
     "ru": "Содовый хлеб",
@@ -27177,7 +27045,6 @@
   },
   {
    "slug": "crni-rizot",
-   "url": "https://theunitools.com/en/recipes/croatia/crni-rizot",
    "country": "HR",
    "name": {
     "ru": "Чёрный ризотто",
@@ -27380,7 +27247,6 @@
   },
   {
    "slug": "zagorski-strukli",
-   "url": "https://theunitools.com/en/recipes/croatia/zagorski-strukli",
    "country": "HR",
    "name": {
     "ru": "Загорски штрукли",
@@ -27569,7 +27435,6 @@
   },
   {
    "slug": "gravlaks",
-   "url": "https://theunitools.com/en/recipes/norway/gravlaks",
    "country": "NO",
    "name": {
     "ru": "Гравлакс",
@@ -27753,7 +27618,6 @@
   },
   {
    "slug": "farikal",
-   "url": "https://theunitools.com/en/recipes/norway/farikal",
    "country": "NO",
    "name": {
     "ru": "Форикол",
@@ -27909,7 +27773,6 @@
   },
   {
    "slug": "moules-marinieres",
-   "url": "https://theunitools.com/en/recipes/belgium/moules-marinieres",
    "country": "BE",
    "name": {
     "ru": "Мидии по-мариньерски",
@@ -28094,7 +27957,6 @@
   },
   {
    "slug": "carbonade-flamande",
-   "url": "https://theunitools.com/en/recipes/belgium/carbonade-flamande",
    "country": "BE",
    "name": {
     "ru": "Фламандская карбонада",
@@ -28287,7 +28149,6 @@
   },
   {
    "slug": "fondue-moitie-moitie",
-   "url": "https://theunitools.com/en/recipes/switzerland/fondue-moitie-moitie",
    "country": "CH",
    "name": {
     "ru": "Сырное фондю",
@@ -28474,7 +28335,6 @@
   },
   {
    "slug": "roesti",
-   "url": "https://theunitools.com/en/recipes/switzerland/roesti",
    "country": "CH",
    "name": {
     "ru": "Рёшти",
@@ -28632,7 +28492,6 @@
   },
   {
    "slug": "ghapama",
-   "url": "https://theunitools.com/en/recipes/armenia/ghapama",
    "country": "AM",
    "name": {
     "ru": "Гапама",
@@ -28846,7 +28705,6 @@
   },
   {
    "slug": "spas",
-   "url": "https://theunitools.com/en/recipes/armenia/spas",
    "country": "AM",
    "name": {
     "ru": "Спас",
@@ -29024,7 +28882,6 @@
   },
   {
    "slug": "shah-plov",
-   "url": "https://theunitools.com/en/recipes/azerbaijan/shah-plov",
    "country": "AZ",
    "name": {
     "ru": "Шах-плов",
@@ -29235,7 +29092,6 @@
   },
   {
    "slug": "kufta-bozbash",
-   "url": "https://theunitools.com/en/recipes/azerbaijan/kufta-bozbash",
    "country": "AZ",
    "name": {
     "ru": "Кюфта-бозбаш",
@@ -29442,7 +29298,6 @@
   },
   {
    "slug": "beshbarmak",
-   "url": "https://theunitools.com/en/recipes/kazakhstan/beshbarmak",
    "country": "KZ",
    "name": {
     "ru": "Бешбармак",
@@ -29642,7 +29497,6 @@
   },
   {
    "slug": "baursaki",
-   "url": "https://theunitools.com/en/recipes/kazakhstan/baursaki",
    "country": "KZ",
    "name": {
     "ru": "Баурсаки",
@@ -29822,7 +29676,6 @@
   },
   {
    "slug": "bryndzove-halusky",
-   "url": "https://theunitools.com/en/recipes/slovakia/bryndzove-halusky",
    "country": "SK",
    "name": {
     "ru": "Брынзове галушки",
@@ -29971,7 +29824,6 @@
   },
   {
    "slug": "kapustnica",
-   "url": "https://theunitools.com/en/recipes/slovakia/kapustnica",
    "country": "SK",
    "name": {
     "ru": "Капустница",
@@ -30178,7 +30030,6 @@
   },
   {
    "slug": "pastel-de-choclo",
-   "url": "https://theunitools.com/en/recipes/chile/pastel-de-choclo",
    "country": "CL",
    "name": {
     "ru": "Пастель-де-чокло",
@@ -30407,7 +30258,6 @@
   },
   {
    "slug": "empanadas-de-pino",
-   "url": "https://theunitools.com/en/recipes/chile/empanadas-de-pino",
    "country": "CL",
    "name": {
     "ru": "Эмпанадас-де-пино",
@@ -30621,7 +30471,6 @@
   },
   {
    "slug": "pabellon-criollo",
-   "url": "https://theunitools.com/en/recipes/venezuela/pabellon-criollo",
    "country": "VE",
    "name": {
     "ru": "Пабельон-криольо",
@@ -30832,7 +30681,6 @@
   },
   {
    "slug": "cachapas",
-   "url": "https://theunitools.com/en/recipes/venezuela/cachapas",
    "country": "VE",
    "name": {
     "ru": "Качапас",
@@ -30981,7 +30829,6 @@
   },
   {
    "slug": "saltenas",
-   "url": "https://theunitools.com/en/recipes/bolivia/saltenas",
    "country": "BO",
    "name": {
     "ru": "Сальтеньяс",
@@ -31239,7 +31086,6 @@
   },
   {
    "slug": "silpancho",
-   "url": "https://theunitools.com/en/recipes/bolivia/silpancho",
    "country": "BO",
    "name": {
     "ru": "Сильпанчо",
@@ -31453,7 +31299,6 @@
   },
   {
    "slug": "encebollado",
-   "url": "https://theunitools.com/en/recipes/ecuador/encebollado",
    "country": "EC",
    "name": {
     "ru": "Энсебольядо",
@@ -31652,7 +31497,6 @@
   },
   {
    "slug": "llapingachos",
-   "url": "https://theunitools.com/en/recipes/ecuador/llapingachos",
    "country": "EC",
    "name": {
     "ru": "Льяпингачос",
@@ -31844,7 +31688,6 @@
   },
   {
    "slug": "masgouf",
-   "url": "https://theunitools.com/en/recipes/iraq/masgouf",
    "country": "IQ",
    "name": {
     "ru": "Масгуф",
@@ -32033,7 +31876,6 @@
   },
   {
    "slug": "dolma-iraqi",
-   "url": "https://theunitools.com/en/recipes/iraq/dolma-iraqi",
    "country": "IQ",
    "name": {
     "ru": "Иракская долма",
@@ -32274,7 +32116,6 @@
   },
   {
    "slug": "mansaf",
-   "url": "https://theunitools.com/en/recipes/jordan/mansaf",
    "country": "JO",
    "name": {
     "ru": "Мансаф",
@@ -32485,7 +32326,6 @@
   },
   {
    "slug": "maqluba",
-   "url": "https://theunitools.com/en/recipes/jordan/maqluba",
    "country": "JO",
    "name": {
     "ru": "Маклюба",
@@ -32704,7 +32544,6 @@
   },
   {
    "slug": "brik",
-   "url": "https://theunitools.com/en/recipes/tunisia/brik",
    "country": "TN",
    "name": {
     "ru": "Брик",
@@ -32905,7 +32744,6 @@
   },
   {
    "slug": "shakshuka-tunisienne",
-   "url": "https://theunitools.com/en/recipes/tunisia/shakshuka-tunisienne",
    "country": "TN",
    "name": {
     "ru": "Тунисский лаблаби",
@@ -33122,7 +32960,6 @@
   },
   {
    "slug": "couscous-algerien",
-   "url": "https://theunitools.com/en/recipes/algeria/couscous-algerien",
    "country": "DZ",
    "name": {
     "ru": "Алжирский кускус",
@@ -33369,7 +33206,6 @@
   },
   {
    "slug": "chorba-frik",
-   "url": "https://theunitools.com/en/recipes/algeria/chorba-frik",
    "country": "DZ",
    "name": {
     "ru": "Чорба-фрик",
@@ -33598,7 +33434,6 @@
   },
   {
    "slug": "cepelinai",
-   "url": "https://theunitools.com/en/recipes/lithuania/cepelinai",
    "country": "LT",
    "name": {
     "ru": "Цеппелинай",
@@ -33787,7 +33622,6 @@
   },
   {
    "slug": "saltibarsciai",
-   "url": "https://theunitools.com/en/recipes/lithuania/saltibarsciai",
    "country": "LT",
    "name": {
     "ru": "Шалтибарщяй",
@@ -33977,7 +33811,6 @@
   },
   {
    "slug": "pelekie-zirni-ar-speki",
-   "url": "https://theunitools.com/en/recipes/latvia/pelekie-zirni-ar-speki",
    "country": "LV",
    "name": {
     "ru": "Серый горох со шпеком",
@@ -34125,7 +33958,6 @@
   },
   {
    "slug": "rupjmaizes-kartojums",
-   "url": "https://theunitools.com/en/recipes/latvia/rupjmaizes-kartojums",
    "country": "LV",
    "name": {
     "ru": "Слоёный ржаной десерт",
@@ -34283,7 +34115,6 @@
   },
   {
    "slug": "mulgipuder",
-   "url": "https://theunitools.com/en/recipes/estonia/mulgipuder",
    "country": "EE",
    "name": {
     "ru": "Мульгипудер",
@@ -34443,7 +34274,6 @@
   },
   {
    "slug": "kama",
-   "url": "https://theunitools.com/en/recipes/estonia/kama",
    "country": "EE",
    "name": {
     "ru": "Кама",
@@ -34595,7 +34425,6 @@
   },
   {
    "slug": "draniki",
-   "url": "https://theunitools.com/en/recipes/belarus/draniki",
    "country": "BY",
    "name": {
     "ru": "Драники",
@@ -34744,7 +34573,6 @@
   },
   {
    "slug": "machanka",
-   "url": "https://theunitools.com/en/recipes/belarus/machanka",
    "country": "BY",
    "name": {
     "ru": "Мачанка",
@@ -34948,7 +34776,6 @@
   },
   {
    "slug": "mohinga",
-   "url": "https://theunitools.com/en/recipes/myanmar/mohinga",
    "country": "MM",
    "name": {
     "ru": "Мохинга",
@@ -35227,7 +35054,6 @@
   },
   {
    "slug": "lahpet-thoke",
-   "url": "https://theunitools.com/en/recipes/myanmar/lahpet-thoke",
    "country": "MM",
    "name": {
     "ru": "Лапет-тхоке",
@@ -35444,7 +35270,6 @@
   },
   {
    "slug": "fish-amok",
-   "url": "https://theunitools.com/en/recipes/cambodia/fish-amok",
    "country": "KH",
    "name": {
     "ru": "Фиш-амок",
@@ -35699,7 +35524,6 @@
   },
   {
    "slug": "lok-lak",
-   "url": "https://theunitools.com/en/recipes/cambodia/lok-lak",
    "country": "KH",
    "name": {
     "ru": "Лок-лак",
@@ -35933,7 +35757,6 @@
   },
   {
    "slug": "hainanese-chicken-rice",
-   "url": "https://theunitools.com/en/recipes/singapore/hainanese-chicken-rice",
    "country": "SG",
    "name": {
     "ru": "Хайнаньский рис с курицей",
@@ -36152,7 +35975,6 @@
   },
   {
    "slug": "chilli-crab",
-   "url": "https://theunitools.com/en/recipes/singapore/chilli-crab",
    "country": "SG",
    "name": {
     "ru": "Краб в соусе чили",
@@ -36406,7 +36228,6 @@
   },
   {
    "slug": "lu-rou-fan",
-   "url": "https://theunitools.com/en/recipes/taiwan/lu-rou-fan",
    "country": "TW",
    "name": {
     "ru": "Лу-жоу-фань",
@@ -36650,7 +36471,6 @@
   },
   {
    "slug": "beef-noodle-soup-taiwan",
-   "url": "https://theunitools.com/en/recipes/taiwan/beef-noodle-soup-taiwan",
    "country": "TW",
    "name": {
     "ru": "Тайваньский суп с говядиной",
@@ -36913,7 +36733,6 @@
   },
   {
    "slug": "nyama-choma",
-   "url": "https://theunitools.com/en/recipes/kenya/nyama-choma",
    "country": "KE",
    "name": {
     "ru": "Ньяма-чома",
@@ -37108,7 +36927,6 @@
   },
   {
    "slug": "sukuma-wiki",
-   "url": "https://theunitools.com/en/recipes/kenya/sukuma-wiki",
    "country": "KE",
    "name": {
     "ru": "Сукума-вики",
@@ -37280,7 +37098,6 @@
   },
   {
    "slug": "waakye",
-   "url": "https://theunitools.com/en/recipes/ghana/waakye",
    "country": "GH",
    "name": {
     "ru": "Ваакье",
@@ -37492,7 +37309,6 @@
   },
   {
    "slug": "banku-with-tilapia",
-   "url": "https://theunitools.com/en/recipes/ghana/banku-with-tilapia",
    "country": "GH",
    "name": {
     "ru": "Банку с тиляпией",
@@ -37694,7 +37510,6 @@
   },
   {
    "slug": "thieboudienne",
-   "url": "https://theunitools.com/en/recipes/senegal/thieboudienne",
    "country": "SN",
    "name": {
     "ru": "Тьебуджен",
@@ -37948,7 +37763,6 @@
   },
   {
    "slug": "yassa-poulet",
-   "url": "https://theunitools.com/en/recipes/senegal/yassa-poulet",
    "country": "SN",
    "name": {
     "ru": "Ясса с курицей",
@@ -38164,7 +37978,6 @@
   },
   {
    "slug": "bobotie",
-   "url": "https://theunitools.com/en/recipes/south-africa/bobotie",
    "country": "ZA",
    "name": {
     "ru": "Бобóти",
@@ -38413,7 +38226,6 @@
   },
   {
    "slug": "chakalaka",
-   "url": "https://theunitools.com/en/recipes/south-africa/chakalaka",
    "country": "ZA",
    "name": {
     "ru": "Чакалака",
@@ -38635,7 +38447,6 @@
   },
   {
    "slug": "plokkfiskur",
-   "url": "https://theunitools.com/en/recipes/iceland/plokkfiskur",
    "country": "IS",
    "name": {
     "ru": "Плоккфискюр",
@@ -38826,7 +38637,6 @@
   },
   {
    "slug": "kjotsupa",
-   "url": "https://theunitools.com/en/recipes/iceland/kjotsupa",
    "country": "IS",
    "name": {
     "ru": "Кьётсупа",
@@ -39005,7 +38815,6 @@
   },
   {
    "slug": "potica",
-   "url": "https://theunitools.com/en/recipes/slovenia/potica",
    "country": "SI",
    "name": {
     "ru": "Потица",
@@ -39240,7 +39049,6 @@
   },
   {
    "slug": "jota",
-   "url": "https://theunitools.com/en/recipes/slovenia/jota",
    "country": "SI",
    "name": {
     "ru": "Йота",
@@ -39437,7 +39245,6 @@
   },
   {
    "slug": "bosanski-lonac",
-   "url": "https://theunitools.com/en/recipes/bosnia/bosanski-lonac",
    "country": "BA",
    "name": {
     "ru": "Босански лонац",
@@ -39677,7 +39484,6 @@
   },
   {
    "slug": "burek-bosanski",
-   "url": "https://theunitools.com/en/recipes/bosnia/burek-bosanski",
    "country": "BA",
    "name": {
     "ru": "Боснийский бурек",
@@ -39855,7 +39661,6 @@
   },
   {
    "slug": "tavce-gravce",
-   "url": "https://theunitools.com/en/recipes/north-macedonia/tavce-gravce",
    "country": "MK",
    "name": {
     "ru": "Тавче-гравче",
@@ -40044,7 +39849,6 @@
   },
   {
    "slug": "selsko-meso",
-   "url": "https://theunitools.com/en/recipes/north-macedonia/selsko-meso",
    "country": "MK",
    "name": {
     "ru": "Селско месо",
@@ -40263,7 +40067,6 @@
   },
   {
    "slug": "lamingtons",
-   "url": "https://theunitools.com/en/recipes/australia/lamingtons",
    "country": "AU",
    "name": {
     "ru": "Ламингтоны",
@@ -40481,7 +40284,6 @@
   },
   {
    "slug": "meat-pie-australian",
-   "url": "https://theunitools.com/en/recipes/australia/meat-pie-australian",
    "country": "AU",
    "name": {
     "ru": "Австралийский мясной пирог",
@@ -40706,7 +40508,6 @@
   },
   {
    "slug": "pavlova",
-   "url": "https://theunitools.com/en/recipes/new-zealand/pavlova",
    "country": "NZ",
    "name": {
     "ru": "Павлова",
@@ -40892,7 +40693,6 @@
   },
   {
    "slug": "hangi-style-chicken",
-   "url": "https://theunitools.com/en/recipes/new-zealand/hangi-style-chicken",
    "country": "NZ",
    "name": {
     "ru": "Курица в стиле ханги",
@@ -41091,7 +40891,6 @@
   },
   {
    "slug": "poutine",
-   "url": "https://theunitools.com/en/recipes/canada/poutine",
    "country": "CA",
    "name": {
     "ru": "Путин",
@@ -41288,7 +41087,6 @@
   },
   {
    "slug": "tourtiere",
-   "url": "https://theunitools.com/en/recipes/canada/tourtiere",
    "country": "CA",
    "name": {
     "ru": "Туртьер",
@@ -41521,7 +41319,6 @@
   },
   {
    "slug": "gallo-pinto",
-   "url": "https://theunitools.com/en/recipes/costa-rica/gallo-pinto",
    "country": "CR",
    "name": {
     "ru": "Гальо-пинто",
@@ -41735,7 +41532,6 @@
   },
   {
    "slug": "casado",
-   "url": "https://theunitools.com/en/recipes/costa-rica/casado",
    "country": "CR",
    "name": {
     "ru": "Касадо",
@@ -41979,7 +41775,6 @@
   },
   {
    "slug": "buuz",
-   "url": "https://theunitools.com/en/recipes/mongolia/buuz",
    "country": "MN",
    "name": {
     "ru": "Буузы",
@@ -42143,7 +41938,6 @@
   },
   {
    "slug": "tsuivan",
-   "url": "https://theunitools.com/en/recipes/mongolia/tsuivan",
    "country": "MN",
    "name": {
     "ru": "Цуйван",
@@ -42340,7 +42134,6 @@
   },
   {
    "slug": "beshbarmak-kyrgyz",
-   "url": "https://theunitools.com/en/recipes/kyrgyzstan/beshbarmak-kyrgyz",
    "country": "KG",
    "name": {
     "ru": "Кыргызский бешбармак",
@@ -42534,7 +42327,6 @@
   },
   {
    "slug": "lagman",
-   "url": "https://theunitools.com/en/recipes/kyrgyzstan/lagman",
    "country": "KG",
    "name": {
     "ru": "Лагман",
@@ -42786,7 +42578,6 @@
   },
   {
    "slug": "kurutob",
-   "url": "https://theunitools.com/en/recipes/tajikistan/kurutob",
    "country": "TJ",
    "name": {
     "ru": "Курутоб",
@@ -42967,7 +42758,6 @@
   },
   {
    "slug": "oshi-plov-tajik",
-   "url": "https://theunitools.com/en/recipes/tajikistan/oshi-plov-tajik",
    "country": "TJ",
    "name": {
     "ru": "Таджикский оши палав",
@@ -43173,7 +42963,6 @@
   },
   {
    "slug": "kabuli-pulao",
-   "url": "https://theunitools.com/en/recipes/afghanistan/kabuli-pulao",
    "country": "AF",
    "name": {
     "ru": "Кабули палав",
@@ -43406,7 +43195,6 @@
   },
   {
    "slug": "mantu-afghan",
-   "url": "https://theunitools.com/en/recipes/afghanistan/mantu-afghan",
    "country": "AF",
    "name": {
     "ru": "Афганское манту",
@@ -43625,7 +43413,6 @@
   },
   {
    "slug": "fattoush",
-   "url": "https://theunitools.com/en/recipes/syria/fattoush",
    "country": "SY",
    "name": {
     "ru": "Фаттуш",
@@ -43862,7 +43649,6 @@
   },
   {
    "slug": "kibbeh-bil-sanieh",
-   "url": "https://theunitools.com/en/recipes/syria/kibbeh-bil-sanieh",
    "country": "SY",
    "name": {
     "ru": "Киббе в противне",
@@ -44051,7 +43837,6 @@
   },
   {
    "slug": "shuwa",
-   "url": "https://theunitools.com/en/recipes/oman/shuwa",
    "country": "OM",
    "name": {
     "ru": "Шува",
@@ -44268,7 +44053,6 @@
   },
   {
    "slug": "omani-mishkak",
-   "url": "https://theunitools.com/en/recipes/oman/omani-mishkak",
    "country": "OM",
    "name": {
     "ru": "Мишкак",
@@ -44489,7 +44273,6 @@
   },
   {
    "slug": "ful-sudani",
-   "url": "https://theunitools.com/en/recipes/sudan/ful-sudani",
    "country": "SD",
    "name": {
     "ru": "Суданский фул",
@@ -44705,7 +44488,6 @@
   },
   {
    "slug": "asida-sudanese",
-   "url": "https://theunitools.com/en/recipes/sudan/asida-sudanese",
    "country": "SD",
    "name": {
     "ru": "Асида с мулах",
@@ -44898,7 +44680,6 @@
   },
   {
    "slug": "zanzibar-pilau",
-   "url": "https://theunitools.com/en/recipes/tanzania/zanzibar-pilau",
    "country": "TZ",
    "name": {
     "ru": "Занзибарский пилау",
@@ -45131,7 +44912,6 @@
   },
   {
    "slug": "ndizi-nyama",
-   "url": "https://theunitools.com/en/recipes/tanzania/ndizi-nyama",
    "country": "TZ",
    "name": {
     "ru": "Ндизи ня ньяма",
@@ -45330,7 +45110,6 @@
   },
   {
    "slug": "shorshe-ilish",
-   "url": "https://theunitools.com/en/recipes/bangladesh/shorshe-ilish",
    "country": "BD",
    "name": {
     "ru": "Шорше илиш",
@@ -45514,7 +45293,6 @@
   },
   {
    "slug": "bhuna-khichuri",
-   "url": "https://theunitools.com/en/recipes/bangladesh/bhuna-khichuri",
    "country": "BD",
    "name": {
     "ru": "Бхуна кхичури",
@@ -45743,7 +45521,6 @@
   },
   {
    "slug": "larb-lao",
-   "url": "https://theunitools.com/en/recipes/laos/larb-lao",
    "country": "LA",
    "name": {
     "ru": "Лаап",
@@ -45957,7 +45734,6 @@
   },
   {
    "slug": "tam-mak-hoong",
-   "url": "https://theunitools.com/en/recipes/laos/tam-mak-hoong",
    "country": "LA",
    "name": {
     "ru": "Там мак хунг",
@@ -46157,7 +45933,6 @@
   },
   {
    "slug": "souvla",
-   "url": "https://theunitools.com/en/recipes/cyprus/souvla",
    "country": "CY",
    "name": {
     "ru": "Сувла",
@@ -46332,7 +46107,6 @@
   },
   {
    "slug": "halloumi-grilled",
-   "url": "https://theunitools.com/en/recipes/cyprus/halloumi-grilled",
    "country": "CY",
    "name": {
     "ru": "Жареный халуми с арбузом",
@@ -46499,7 +46273,6 @@
   },
   {
    "slug": "maltese-rabbit-stew",
-   "url": "https://theunitools.com/en/recipes/malta/maltese-rabbit-stew",
    "country": "MT",
    "name": {
     "ru": "Кролик по-мальтийски",
@@ -46709,7 +46482,6 @@
   },
   {
    "slug": "pastizzi",
-   "url": "https://theunitools.com/en/recipes/malta/pastizzi",
    "country": "MT",
    "name": {
     "ru": "Пастицци",
@@ -46905,7 +46677,6 @@
   },
   {
    "slug": "chivito",
-   "url": "https://theunitools.com/en/recipes/uruguay/chivito",
    "country": "UY",
    "name": {
     "ru": "Чивито",
@@ -47124,7 +46895,6 @@
   },
   {
    "slug": "milanesa-a-la-napolitana",
-   "url": "https://theunitools.com/en/recipes/uruguay/milanesa-a-la-napolitana",
    "country": "UY",
    "name": {
     "ru": "Миланеса а-ля наполитана",
@@ -47328,7 +47098,6 @@
   },
   {
    "slug": "pepian",
-   "url": "https://theunitools.com/en/recipes/guatemala/pepian",
    "country": "GT",
    "name": {
     "ru": "Пепиан",
@@ -47585,7 +47354,6 @@
   },
   {
    "slug": "tamales-guatemaltecos",
-   "url": "https://theunitools.com/en/recipes/guatemala/tamales-guatemaltecos",
    "country": "GT",
    "name": {
     "ru": "Гватемальские тамалес",
@@ -47815,7 +47583,6 @@
   },
   {
    "slug": "sancocho-dominicano",
-   "url": "https://theunitools.com/en/recipes/dominican-republic/sancocho-dominicano",
    "country": "DO",
    "name": {
     "ru": "Доминиканский санкочо",
@@ -48077,7 +47844,6 @@
   },
   {
    "slug": "mangu",
-   "url": "https://theunitools.com/en/recipes/dominican-republic/mangu",
    "country": "DO",
    "name": {
     "ru": "Мангу",
@@ -48253,7 +48019,6 @@
   },
   {
    "slug": "doubles",
-   "url": "https://theunitools.com/en/recipes/trinidad-and-tobago/doubles",
    "country": "TT",
    "name": {
     "ru": "Даблс",
@@ -48496,7 +48261,6 @@
   },
   {
    "slug": "callaloo",
-   "url": "https://theunitools.com/en/recipes/trinidad-and-tobago/callaloo",
    "country": "TT",
    "name": {
     "ru": "Каллалу",
@@ -48687,7 +48451,6 @@
   },
   {
    "slug": "tave-kosi",
-   "url": "https://theunitools.com/en/recipes/albania/tave-kosi",
    "country": "AL",
    "name": {
     "ru": "Таве коси",
@@ -48873,7 +48636,6 @@
   },
   {
    "slug": "byrek-me-spinaq",
-   "url": "https://theunitools.com/en/recipes/albania/byrek-me-spinaq",
    "country": "AL",
    "name": {
     "ru": "Бюрек со шпинатом",
@@ -49036,7 +48798,6 @@
   },
   {
    "slug": "placinta",
-   "url": "https://theunitools.com/en/recipes/moldova/placinta",
    "country": "MD",
    "name": {
     "ru": "Плацинда",
@@ -49224,7 +48985,6 @@
   },
   {
    "slug": "zeama",
-   "url": "https://theunitools.com/en/recipes/moldova/zeama",
    "country": "MD",
    "name": {
     "ru": "Зама",
@@ -49434,7 +49194,6 @@
   },
   {
    "slug": "judd-mat-gaardebounen",
-   "url": "https://theunitools.com/en/recipes/luxembourg/judd-mat-gaardebounen",
    "country": "LU",
    "name": {
     "ru": "Копчёная шейка с бобами",
@@ -49637,7 +49396,6 @@
   },
   {
    "slug": "gromperekichelcher",
-   "url": "https://theunitools.com/en/recipes/luxembourg/gromperekichelcher",
    "country": "LU",
    "name": {
     "ru": "Громперекихельхер",
@@ -49817,7 +49575,6 @@
   },
   {
    "slug": "dograma",
-   "url": "https://theunitools.com/en/recipes/turkmenistan/dograma",
    "country": "TM",
    "name": {
     "ru": "Дограма",
@@ -49977,7 +49734,6 @@
   },
   {
    "slug": "ichlekli",
-   "url": "https://theunitools.com/en/recipes/turkmenistan/ichlekli",
    "country": "TM",
    "name": {
     "ru": "Ишлекли",
@@ -50165,7 +49921,6 @@
   },
   {
    "slug": "kabsa",
-   "url": "https://theunitools.com/en/recipes/saudi-arabia/kabsa",
    "country": "SA",
    "name": {
     "ru": "Кабса",
@@ -50417,7 +50172,6 @@
   },
   {
    "slug": "jareesh",
-   "url": "https://theunitools.com/en/recipes/saudi-arabia/jareesh",
    "country": "SA",
    "name": {
     "ru": "Джариш",
@@ -50592,7 +50346,6 @@
   },
   {
    "slug": "saltah",
-   "url": "https://theunitools.com/en/recipes/yemen/saltah",
    "country": "YE",
    "name": {
     "ru": "Сальта",
@@ -50820,7 +50573,6 @@
   },
   {
    "slug": "bint-al-sahn",
-   "url": "https://theunitools.com/en/recipes/yemen/bint-al-sahn",
    "country": "YE",
    "name": {
     "ru": "Бинт ас-сахн",
@@ -51005,7 +50757,6 @@
   },
   {
    "slug": "machboos",
-   "url": "https://theunitools.com/en/recipes/united-arab-emirates/machboos",
    "country": "AE",
    "name": {
     "ru": "Мачбус",
@@ -51233,7 +50984,6 @@
   },
   {
    "slug": "luqaimat",
-   "url": "https://theunitools.com/en/recipes/united-arab-emirates/luqaimat",
    "country": "AE",
    "name": {
     "ru": "Лукаймат",
@@ -51447,7 +51197,6 @@
   },
   {
    "slug": "murabyan",
-   "url": "https://theunitools.com/en/recipes/kuwait/murabyan",
    "country": "KW",
    "name": {
     "ru": "Мурабьян",
@@ -51664,7 +51413,6 @@
   },
   {
    "slug": "harees",
-   "url": "https://theunitools.com/en/recipes/kuwait/harees",
    "country": "KW",
    "name": {
     "ru": "Харис",
@@ -51820,7 +51568,6 @@
   },
   {
    "slug": "ndole",
-   "url": "https://theunitools.com/en/recipes/cameroon/ndole",
    "country": "CM",
    "name": {
     "ru": "Ндоле",
@@ -52045,7 +51792,6 @@
   },
   {
    "slug": "poulet-dg",
-   "url": "https://theunitools.com/en/recipes/cameroon/poulet-dg",
    "country": "CM",
    "name": {
     "ru": "Пуле DG",
@@ -52273,7 +52019,6 @@
   },
   {
    "slug": "attieke-poisson",
-   "url": "https://theunitools.com/en/recipes/ivory-coast/attieke-poisson",
    "country": "CI",
    "name": {
     "ru": "Атьеке с рыбой",
@@ -52484,7 +52229,6 @@
   },
   {
    "slug": "kedjenou",
-   "url": "https://theunitools.com/en/recipes/ivory-coast/kedjenou",
    "country": "CI",
    "name": {
     "ru": "Кеджену",
@@ -52708,7 +52452,6 @@
   },
   {
    "slug": "matapa",
-   "url": "https://theunitools.com/en/recipes/mozambique/matapa",
    "country": "MZ",
    "name": {
     "ru": "Матапа",
@@ -52918,7 +52661,6 @@
   },
   {
    "slug": "frango-piri-piri",
-   "url": "https://theunitools.com/en/recipes/mozambique/frango-piri-piri",
    "country": "MZ",
    "name": {
     "ru": "Курица пири-пири",
@@ -53114,7 +52856,6 @@
   },
   {
    "slug": "romazava",
-   "url": "https://theunitools.com/en/recipes/madagascar/romazava",
    "country": "MG",
    "name": {
     "ru": "Ромазава",
@@ -53341,7 +53082,6 @@
   },
   {
    "slug": "ravitoto",
-   "url": "https://theunitools.com/en/recipes/madagascar/ravitoto",
    "country": "MG",
    "name": {
     "ru": "Равитуту",
@@ -53525,7 +53265,6 @@
   },
   {
    "slug": "baleadas",
-   "url": "https://theunitools.com/en/recipes/honduras/baleadas",
    "country": "HN",
    "name": {
     "ru": "Балеадас",
@@ -53741,7 +53480,6 @@
   },
   {
    "slug": "sopa-de-caracol",
-   "url": "https://theunitools.com/en/recipes/honduras/sopa-de-caracol",
    "country": "HN",
    "name": {
     "ru": "Суп из ракушек",
@@ -53971,7 +53709,6 @@
   },
   {
    "slug": "gallo-pinto-nicaraguense",
-   "url": "https://theunitools.com/en/recipes/nicaragua/gallo-pinto-nicaraguense",
    "country": "NI",
    "name": {
     "ru": "Никарагуанский гальо-пинто",
@@ -54174,7 +53911,6 @@
   },
   {
    "slug": "nacatamal",
-   "url": "https://theunitools.com/en/recipes/nicaragua/nacatamal",
    "country": "NI",
    "name": {
     "ru": "Накатамаль",
@@ -54421,7 +54157,6 @@
   },
   {
    "slug": "sancocho-panameno",
-   "url": "https://theunitools.com/en/recipes/panama/sancocho-panameno",
    "country": "PA",
    "name": {
     "ru": "Панамский санкочо",
@@ -54623,7 +54358,6 @@
   },
   {
    "slug": "ropa-vieja-panamena",
-   "url": "https://theunitools.com/en/recipes/panama/ropa-vieja-panamena",
    "country": "PA",
    "name": {
     "ru": "Панамская ропа вьеха",
@@ -54866,7 +54600,6 @@
   },
   {
    "slug": "sopa-paraguaya",
-   "url": "https://theunitools.com/en/recipes/paraguay/sopa-paraguaya",
    "country": "PY",
    "name": {
     "ru": "Парагвайский суп",
@@ -55044,7 +54777,6 @@
   },
   {
    "slug": "chipa",
-   "url": "https://theunitools.com/en/recipes/paraguay/chipa",
    "country": "PY",
    "name": {
     "ru": "Чипа",
@@ -55201,7 +54933,6 @@
   },
   {
    "slug": "flia",
-   "url": "https://theunitools.com/en/recipes/kosovo/flia",
    "country": "XK",
    "name": {
     "ru": "Флия",
@@ -55370,7 +55101,6 @@
   },
   {
    "slug": "tave-elbasani",
-   "url": "https://theunitools.com/en/recipes/kosovo/tave-elbasani",
    "country": "XK",
    "name": {
     "ru": "Таве Эльбасани",
@@ -55556,7 +55286,6 @@
   },
   {
    "slug": "njeguski-steak",
-   "url": "https://theunitools.com/en/recipes/montenegro/njeguski-steak",
    "country": "ME",
    "name": {
     "ru": "Негушский стейк",
@@ -55752,7 +55481,6 @@
   },
   {
    "slug": "kacamak",
-   "url": "https://theunitools.com/en/recipes/montenegro/kacamak",
    "country": "ME",
    "name": {
     "ru": "Качамак",
@@ -55909,7 +55637,6 @@
   },
   {
    "slug": "ema-datshi",
-   "url": "https://theunitools.com/en/recipes/bhutan/ema-datshi",
    "country": "BT",
    "name": {
     "ru": "Эма датши",
@@ -56083,7 +55810,6 @@
   },
   {
    "slug": "jasha-maroo",
-   "url": "https://theunitools.com/en/recipes/bhutan/jasha-maroo",
    "country": "BT",
    "name": {
     "ru": "Джаша мару",
@@ -56281,7 +56007,6 @@
   },
   {
    "slug": "mas-huni",
-   "url": "https://theunitools.com/en/recipes/maldives/mas-huni",
    "country": "MV",
    "name": {
     "ru": "Мас хуни",
@@ -56480,7 +56205,6 @@
   },
   {
    "slug": "garudhiya",
-   "url": "https://theunitools.com/en/recipes/maldives/garudhiya",
    "country": "MV",
    "name": {
     "ru": "Гарудия",
@@ -56653,7 +56377,6 @@
   },
   {
    "slug": "matoke",
-   "url": "https://theunitools.com/en/recipes/uganda/matoke",
    "country": "UG",
    "name": {
     "ru": "Матоке",
@@ -56817,7 +56540,6 @@
   },
   {
    "slug": "rolex-uganda",
-   "url": "https://theunitools.com/en/recipes/uganda/rolex-uganda",
    "country": "UG",
    "name": {
     "ru": "Ролекс",
@@ -57016,7 +56738,6 @@
   },
   {
    "slug": "sadza-ne-nyama",
-   "url": "https://theunitools.com/en/recipes/zimbabwe/sadza-ne-nyama",
    "country": "ZW",
    "name": {
     "ru": "Садза с мясом",
@@ -57201,7 +56922,6 @@
   },
   {
    "slug": "muriwo-unedovi",
-   "url": "https://theunitools.com/en/recipes/zimbabwe/muriwo-unedovi",
    "country": "ZW",
    "name": {
     "ru": "Зелень в арахисовом соусе",
@@ -57361,7 +57081,6 @@
   },
   {
    "slug": "poulet-moambe",
-   "url": "https://theunitools.com/en/recipes/dr-congo/poulet-moambe",
    "country": "CD",
    "name": {
     "ru": "Курица моамбе",
@@ -57588,7 +57307,6 @@
   },
   {
    "slug": "liboke-de-poisson",
-   "url": "https://theunitools.com/en/recipes/dr-congo/liboke-de-poisson",
    "country": "CD",
    "name": {
     "ru": "Либоке с рыбой",
@@ -57802,7 +57520,6 @@
   },
   {
    "slug": "tigadegena",
-   "url": "https://theunitools.com/en/recipes/mali/tigadegena",
    "country": "ML",
    "name": {
     "ru": "Тигадегена",
@@ -58029,7 +57746,6 @@
   },
   {
    "slug": "capitaine-braise",
-   "url": "https://theunitools.com/en/recipes/mali/capitaine-braise",
    "country": "ML",
    "name": {
     "ru": "Капитан на углях",
@@ -58236,7 +57952,6 @@
   },
   {
    "slug": "osso-buco-alla-milanese",
-   "url": "https://theunitools.com/en/recipes/italy/osso-buco-alla-milanese",
    "country": "IT",
    "name": {
     "ru": "Оссобуко по-милански",
@@ -58455,7 +58170,6 @@
   },
   {
    "slug": "melanzane-alla-parmigiana",
-   "url": "https://theunitools.com/en/recipes/italy/melanzane-alla-parmigiana",
    "country": "IT",
    "name": {
     "ru": "Пармиджана из баклажанов",
@@ -58625,7 +58339,6 @@
   },
   {
    "slug": "hong-shao-rou",
-   "url": "https://theunitools.com/en/recipes/china/hong-shao-rou",
    "country": "CN",
    "name": {
     "ru": "Хун шао жоу",
@@ -58832,7 +58545,6 @@
   },
   {
    "slug": "qingzheng-yu",
-   "url": "https://theunitools.com/en/recipes/china/qingzheng-yu",
    "country": "CN",
    "name": {
     "ru": "Рыба на пару по-кантонски",
@@ -59019,7 +58731,6 @@
   },
   {
    "slug": "rogan-josh",
-   "url": "https://theunitools.com/en/recipes/india/rogan-josh",
    "country": "IN",
    "name": {
     "ru": "Роган джош",
@@ -59246,7 +58957,6 @@
   },
   {
    "slug": "masala-dosa",
-   "url": "https://theunitools.com/en/recipes/india/masala-dosa",
    "country": "IN",
    "name": {
     "ru": "Масала доса",
@@ -59486,7 +59196,6 @@
   },
   {
    "slug": "bouillabaisse",
-   "url": "https://theunitools.com/en/recipes/france/bouillabaisse",
    "country": "FR",
    "name": {
     "ru": "Буйабес",
@@ -59738,7 +59447,6 @@
   },
   {
    "slug": "tarte-tatin",
-   "url": "https://theunitools.com/en/recipes/france/tarte-tatin",
    "country": "FR",
    "name": {
     "ru": "Тарт татен",
@@ -59911,7 +59619,6 @@
   },
   {
    "slug": "nikujaga",
-   "url": "https://theunitools.com/en/recipes/japan/nikujaga",
    "country": "JP",
    "name": {
     "ru": "Никудзяга",
@@ -60136,7 +59843,6 @@
   },
   {
    "slug": "chawanmushi",
-   "url": "https://theunitools.com/en/recipes/japan/chawanmushi",
    "country": "JP",
    "name": {
     "ru": "Тяванмуси",
@@ -60328,7 +60034,6 @@
   },
   {
    "slug": "mole-poblano",
-   "url": "https://theunitools.com/en/recipes/mexico/mole-poblano",
    "country": "MX",
    "name": {
     "ru": "Моле поблано",
@@ -60613,7 +60318,6 @@
   },
   {
    "slug": "cochinita-pibil",
-   "url": "https://theunitools.com/en/recipes/mexico/cochinita-pibil",
    "country": "MX",
    "name": {
     "ru": "Кочинита пибиль",
@@ -60844,7 +60548,6 @@
   },
   {
    "slug": "iskender-kebab",
-   "url": "https://theunitools.com/en/recipes/turkey/iskender-kebab",
    "country": "TR",
    "name": {
     "ru": "Искендер-кебаб",
@@ -61066,7 +60769,6 @@
   },
   {
    "slug": "manti-turkish",
-   "url": "https://theunitools.com/en/recipes/turkey/manti-turkish",
    "country": "TR",
    "name": {
     "ru": "Турецкие манты",
@@ -61288,7 +60990,6 @@
   },
   {
    "slug": "fabada-asturiana",
-   "url": "https://theunitools.com/en/recipes/spain/fabada-asturiana",
    "country": "ES",
    "name": {
     "ru": "Фабада астурийская",
@@ -61498,7 +61199,6 @@
   },
   {
    "slug": "pulpo-a-feira",
-   "url": "https://theunitools.com/en/recipes/spain/pulpo-a-feira",
    "country": "ES",
    "name": {
     "ru": "Осьминог по-галисийски",
@@ -61676,7 +61376,6 @@
   },
   {
    "slug": "khao-soi",
-   "url": "https://theunitools.com/en/recipes/thailand/khao-soi",
    "country": "TH",
    "name": {
     "ru": "Кхао сой",
@@ -61909,7 +61608,6 @@
   },
   {
    "slug": "massaman-curry",
-   "url": "https://theunitools.com/en/recipes/thailand/massaman-curry",
    "country": "TH",
    "name": {
     "ru": "Массаман карри",
@@ -62144,7 +61842,6 @@
   },
   {
    "slug": "gemista",
-   "url": "https://theunitools.com/en/recipes/greece/gemista",
    "country": "GR",
    "name": {
     "ru": "Гемиста",
@@ -62352,7 +62049,6 @@
   },
   {
    "slug": "avgolemono",
-   "url": "https://theunitools.com/en/recipes/greece/avgolemono",
    "country": "GR",
    "name": {
     "ru": "Авголемоно",
@@ -62551,7 +62247,6 @@
   },
   {
    "slug": "pelmeni",
-   "url": "https://theunitools.com/en/recipes/russia/pelmeni",
    "country": "RU",
    "name": {
     "ru": "Пельмени",
@@ -62776,7 +62471,6 @@
   },
   {
    "slug": "beef-stroganoff",
-   "url": "https://theunitools.com/en/recipes/russia/beef-stroganoff",
    "country": "RU",
    "name": {
     "ru": "Бефстроганов",
@@ -62984,7 +62678,6 @@
   },
   {
    "slug": "schweinshaxe",
-   "url": "https://theunitools.com/en/recipes/germany/schweinshaxe",
    "country": "DE",
    "name": {
     "ru": "Швайнсхаксе",
@@ -63198,7 +62891,6 @@
   },
   {
    "slug": "schwarzwaelder-kirschtorte",
-   "url": "https://theunitools.com/en/recipes/germany/schwarzwaelder-kirschtorte",
    "country": "DE",
    "name": {
     "ru": "Шварцвальдский торт",
@@ -63419,7 +63111,6 @@
   },
   {
    "slug": "pulled-pork",
-   "url": "https://theunitools.com/en/recipes/united-states/pulled-pork",
    "country": "US",
    "name": {
     "ru": "Раздёрганная свинина",
@@ -63644,7 +63335,6 @@
   },
   {
    "slug": "key-lime-pie",
-   "url": "https://theunitools.com/en/recipes/united-states/key-lime-pie",
    "country": "US",
    "name": {
     "ru": "Пирог с лаймом",
@@ -63832,7 +63522,6 @@
   },
   {
    "slug": "bun-cha",
-   "url": "https://theunitools.com/en/recipes/vietnam/bun-cha",
    "country": "VN",
    "name": {
     "ru": "Бун ча",
@@ -64073,7 +63762,6 @@
   },
   {
    "slug": "goi-cuon",
-   "url": "https://theunitools.com/en/recipes/vietnam/goi-cuon",
    "country": "VN",
    "name": {
     "ru": "Гой куон",
@@ -64289,7 +63977,6 @@
   },
   {
    "slug": "galbijjim",
-   "url": "https://theunitools.com/en/recipes/korea/galbijjim",
    "country": "KR",
    "name": {
     "ru": "Кальбиччим",
@@ -64541,7 +64228,6 @@
   },
   {
    "slug": "samgyetang",
-   "url": "https://theunitools.com/en/recipes/korea/samgyetang",
    "country": "KR",
    "name": {
     "ru": "Самгетан",
@@ -64721,7 +64407,6 @@
   },
   {
    "slug": "roast-beef-yorkshire",
-   "url": "https://theunitools.com/en/recipes/united-kingdom/roast-beef-yorkshire",
    "country": "GB",
    "name": {
     "ru": "Ростбиф с йоркширским пудингом",
@@ -64943,7 +64628,6 @@
   },
   {
    "slug": "sticky-toffee-pudding",
-   "url": "https://theunitools.com/en/recipes/united-kingdom/sticky-toffee-pudding",
    "country": "GB",
    "name": {
     "ru": "Финиковый пудинг с ирисочным соусом",
@@ -65142,7 +64826,6 @@
   },
   {
    "slug": "bigos",
-   "url": "https://theunitools.com/en/recipes/poland/bigos",
    "country": "PL",
    "name": {
     "ru": "Бигос",
@@ -65402,7 +65085,6 @@
   },
   {
    "slug": "sernik",
-   "url": "https://theunitools.com/en/recipes/poland/sernik",
    "country": "PL",
    "name": {
     "ru": "Сырник польский",
@@ -65620,7 +65302,6 @@
   },
   {
    "slug": "moqueca-baiana",
-   "url": "https://theunitools.com/en/recipes/brazil/moqueca-baiana",
    "country": "BR",
    "name": {
     "ru": "Мокека баиана",
@@ -65859,7 +65540,6 @@
   },
   {
    "slug": "coxinha",
-   "url": "https://theunitools.com/en/recipes/brazil/coxinha",
    "country": "BR",
    "name": {
     "ru": "Кошинья",
@@ -66086,7 +65766,6 @@
   },
   {
    "slug": "aji-de-gallina",
-   "url": "https://theunitools.com/en/recipes/peru/aji-de-gallina",
    "country": "PE",
    "name": {
     "ru": "Ахи де гальина",
@@ -66344,7 +66023,6 @@
   },
   {
    "slug": "causa-limena",
-   "url": "https://theunitools.com/en/recipes/peru/causa-limena",
    "country": "PE",
    "name": {
     "ru": "Кауса лименья",
@@ -66566,7 +66244,6 @@
   },
   {
    "slug": "fesenjan",
-   "url": "https://theunitools.com/en/recipes/iran/fesenjan",
    "country": "IR",
    "name": {
     "ru": "Фесенджан",
@@ -66793,7 +66470,6 @@
   },
   {
    "slug": "joojeh-kabab",
-   "url": "https://theunitools.com/en/recipes/iran/joojeh-kabab",
    "country": "IR",
    "name": {
     "ru": "Джудже-кебаб",
@@ -67005,7 +66681,6 @@
   },
   {
    "slug": "caldo-verde",
-   "url": "https://theunitools.com/en/recipes/portugal/caldo-verde",
    "country": "PT",
    "name": {
     "ru": "Калду верде",
@@ -67183,7 +66858,6 @@
   },
   {
    "slug": "sardinhas-assadas",
-   "url": "https://theunitools.com/en/recipes/portugal/sardinhas-assadas",
    "country": "PT",
    "name": {
     "ru": "Сардины на углях",
@@ -67371,7 +67045,6 @@
   },
   {
    "slug": "sate-ayam",
-   "url": "https://theunitools.com/en/recipes/indonesia/sate-ayam",
    "country": "ID",
    "name": {
     "ru": "Сатэ аям",
@@ -67612,7 +67285,6 @@
   },
   {
    "slug": "soto-ayam",
-   "url": "https://theunitools.com/en/recipes/indonesia/soto-ayam",
    "country": "ID",
    "name": {
     "ru": "Сото аям",
@@ -67863,7 +67535,6 @@
   },
   {
    "slug": "salo-po-ukrainski",
-   "url": "https://theunitools.com/en/recipes/ukraine/salo-po-ukrainski",
    "country": "UA",
    "name": {
     "ru": "Сало по-домашнему",
@@ -68043,7 +67714,6 @@
   },
   {
    "slug": "kyivskyi-tort",
-   "url": "https://theunitools.com/en/recipes/ukraine/kyivskyi-tort",
    "country": "UA",
    "name": {
     "ru": "Киевский торт",
@@ -68238,7 +67908,6 @@
   },
   {
    "slug": "chakhokhbili",
-   "url": "https://theunitools.com/en/recipes/georgia/chakhokhbili",
    "country": "GE",
    "name": {
     "ru": "Чахохбили",
@@ -68459,7 +68128,6 @@
   },
   {
    "slug": "satsivi",
-   "url": "https://theunitools.com/en/recipes/georgia/satsivi",
    "country": "GE",
    "name": {
     "ru": "Сациви",
@@ -68677,7 +68345,6 @@
   },
   {
    "slug": "sabich",
-   "url": "https://theunitools.com/en/recipes/israel/sabich",
    "country": "IL",
    "name": {
     "ru": "Сабих",
@@ -68891,7 +68558,6 @@
   },
   {
    "slug": "malabi",
-   "url": "https://theunitools.com/en/recipes/israel/malabi",
    "country": "IL",
    "name": {
     "ru": "Малаби",
@@ -69073,7 +68739,6 @@
   },
   {
    "slug": "fattet-hummus",
-   "url": "https://theunitools.com/en/recipes/lebanon/fattet-hummus",
    "country": "LB",
    "name": {
     "ru": "Фатте с нутом",
@@ -69294,7 +68959,6 @@
   },
   {
    "slug": "sfiha",
-   "url": "https://theunitools.com/en/recipes/lebanon/sfiha",
    "country": "LB",
    "name": {
     "ru": "Сфиха",
@@ -69533,7 +69197,6 @@
   },
   {
    "slug": "pastilla",
-   "url": "https://theunitools.com/en/recipes/morocco/pastilla",
    "country": "MA",
    "name": {
     "ru": "Пастилья",
@@ -69763,7 +69426,6 @@
   },
   {
    "slug": "chebakia",
-   "url": "https://theunitools.com/en/recipes/morocco/chebakia",
    "country": "MA",
    "name": {
     "ru": "Марокканский чебакия",
@@ -69992,7 +69654,6 @@
   },
   {
    "slug": "molokhia",
-   "url": "https://theunitools.com/en/recipes/egypt/molokhia",
    "country": "EG",
    "name": {
     "ru": "Молохия",
@@ -70208,7 +69869,6 @@
   },
   {
    "slug": "kunafa",
-   "url": "https://theunitools.com/en/recipes/egypt/kunafa",
    "country": "EG",
    "name": {
     "ru": "Кунафа",
@@ -70406,7 +70066,6 @@
   },
   {
    "slug": "asado-argentino",
-   "url": "https://theunitools.com/en/recipes/argentina/asado-argentino",
    "country": "AR",
    "name": {
     "ru": "Асадо",
@@ -70631,7 +70290,6 @@
   },
   {
    "slug": "alfajores",
-   "url": "https://theunitools.com/en/recipes/argentina/alfajores",
    "country": "AR",
    "name": {
     "ru": "Альфахорес",
@@ -70849,7 +70507,6 @@
   },
   {
    "slug": "tafelspitz",
-   "url": "https://theunitools.com/en/recipes/austria/tafelspitz",
    "country": "AT",
    "name": {
     "ru": "Тафельшпиц",
@@ -71092,7 +70749,6 @@
   },
   {
    "slug": "sachertorte",
-   "url": "https://theunitools.com/en/recipes/austria/sachertorte",
    "country": "AT",
    "name": {
     "ru": "Захер",
@@ -71312,7 +70968,6 @@
   },
   {
    "slug": "halaszle",
-   "url": "https://theunitools.com/en/recipes/hungary/halaszle",
    "country": "HU",
    "name": {
     "ru": "Халасле",
@@ -71531,7 +71186,6 @@
   },
   {
    "slug": "dobos-torta",
-   "url": "https://theunitools.com/en/recipes/hungary/dobos-torta",
    "country": "HU",
    "name": {
     "ru": "Торт Добош",
@@ -71749,7 +71403,6 @@
   },
   {
    "slug": "vepro-knedlo-zelo",
-   "url": "https://theunitools.com/en/recipes/czechia/vepro-knedlo-zelo",
    "country": "CZ",
    "name": {
     "ru": "Вепрево колено с кнедликами",
@@ -71985,7 +71638,6 @@
   },
   {
    "slug": "kulajda",
-   "url": "https://theunitools.com/en/recipes/czechia/kulajda",
    "country": "CZ",
    "name": {
     "ru": "Кулайда",
@@ -72203,7 +71855,6 @@
   },
   {
    "slug": "toast-skagen",
-   "url": "https://theunitools.com/en/recipes/sweden/toast-skagen",
    "country": "SE",
    "name": {
     "ru": "Тост Скаген",
@@ -72402,7 +72053,6 @@
   },
   {
    "slug": "appelkaka",
-   "url": "https://theunitools.com/en/recipes/sweden/appelkaka",
    "country": "SE",
    "name": {
     "ru": "Шведский яблочный пирог",
@@ -72629,7 +72279,6 @@
   },
   {
    "slug": "stegt-flaesk",
-   "url": "https://theunitools.com/en/recipes/denmark/stegt-flaesk",
    "country": "DK",
    "name": {
     "ru": "Стегт флеск",
@@ -72818,7 +72467,6 @@
   },
   {
    "slug": "risalamande",
-   "url": "https://theunitools.com/en/recipes/denmark/risalamande",
    "country": "DK",
    "name": {
     "ru": "Рисаламанде",
@@ -73032,7 +72680,6 @@
   },
   {
    "slug": "erwtensoep",
-   "url": "https://theunitools.com/en/recipes/netherlands/erwtensoep",
    "country": "NL",
    "name": {
     "ru": "Эртенсуп",
@@ -73251,7 +72898,6 @@
   },
   {
    "slug": "bitterballen",
-   "url": "https://theunitools.com/en/recipes/netherlands/bitterballen",
    "country": "NL",
    "name": {
     "ru": "Биттербаллен",
@@ -73473,7 +73119,6 @@
   },
   {
    "slug": "colcannon",
-   "url": "https://theunitools.com/en/recipes/ireland/colcannon",
    "country": "IE",
    "name": {
     "ru": "Колканнон",
@@ -73640,7 +73285,6 @@
   },
   {
    "slug": "guinness-beef-stew",
-   "url": "https://theunitools.com/en/recipes/ireland/guinness-beef-stew",
    "country": "IE",
    "name": {
     "ru": "Говядина в тёмном пиве",
@@ -73877,7 +73521,6 @@
   },
   {
    "slug": "shurpa",
-   "url": "https://theunitools.com/en/recipes/uzbekistan/shurpa",
    "country": "UZ",
    "name": {
     "ru": "Шурпа",
@@ -74108,7 +73751,6 @@
   },
   {
    "slug": "chuchvara",
-   "url": "https://theunitools.com/en/recipes/uzbekistan/chuchvara",
    "country": "UZ",
    "name": {
     "ru": "Чучвара",
@@ -74323,7 +73965,6 @@
   },
   {
    "slug": "armenian-tolma",
-   "url": "https://theunitools.com/en/recipes/armenia/armenian-tolma",
    "country": "AM",
    "name": {
     "ru": "Пасуц толма",
@@ -74544,7 +74185,6 @@
   },
   {
    "slug": "gata",
-   "url": "https://theunitools.com/en/recipes/armenia/gata",
    "country": "AM",
    "name": {
     "ru": "Гата",
@@ -74743,7 +74383,6 @@
   },
   {
    "slug": "nasi-lemak",
-   "url": "https://theunitools.com/en/recipes/malaysia/nasi-lemak",
    "country": "MY",
    "name": {
     "ru": "Наси лемак",
@@ -75003,7 +74642,6 @@
   },
   {
    "slug": "char-kway-teow",
-   "url": "https://theunitools.com/en/recipes/malaysia/char-kway-teow",
    "country": "MY",
    "name": {
     "ru": "Чар квай теу",
@@ -75233,7 +74871,6 @@
   },
   {
    "slug": "kare-kare",
-   "url": "https://theunitools.com/en/recipes/philippines/kare-kare",
    "country": "PH",
    "name": {
     "ru": "Каре-каре",
@@ -75480,7 +75117,6 @@
   },
   {
    "slug": "leche-flan",
-   "url": "https://theunitools.com/en/recipes/philippines/leche-flan",
    "country": "PH",
    "name": {
     "ru": "Лече флан",
@@ -75644,7 +75280,6 @@
   },
   {
    "slug": "injera",
-   "url": "https://theunitools.com/en/recipes/ethiopia/injera",
    "country": "ET",
    "name": {
     "ru": "Ынджера",
@@ -75790,7 +75425,6 @@
   },
   {
    "slug": "kitfo",
-   "url": "https://theunitools.com/en/recipes/ethiopia/kitfo",
    "country": "ET",
    "name": {
     "ru": "Кытфо",
@@ -76017,7 +75651,6 @@
   },
   {
    "slug": "egusi-soup",
-   "url": "https://theunitools.com/en/recipes/nigeria/egusi-soup",
    "country": "NG",
    "name": {
     "ru": "Суп эгуси",
@@ -76232,7 +75865,6 @@
   },
   {
    "slug": "puff-puff",
-   "url": "https://theunitools.com/en/recipes/nigeria/puff-puff",
    "country": "NG",
    "name": {
     "ru": "Паф-паф",
@@ -76409,7 +76041,6 @@
   },
   {
    "slug": "arroz-con-pollo-cubano",
-   "url": "https://theunitools.com/en/recipes/cuba/arroz-con-pollo-cubano",
    "country": "CU",
    "name": {
     "ru": "Аррос кон польо",
@@ -76672,7 +76303,6 @@
   },
   {
    "slug": "tostones",
-   "url": "https://theunitools.com/en/recipes/cuba/tostones",
    "country": "CU",
    "name": {
     "ru": "Тостонес",
@@ -76848,7 +76478,6 @@
   },
   {
    "slug": "jamaican-patty",
-   "url": "https://theunitools.com/en/recipes/jamaica/jamaican-patty",
    "country": "JM",
    "name": {
     "ru": "Ямайские патти",
@@ -77085,7 +76714,6 @@
   },
   {
    "slug": "rice-and-peas",
-   "url": "https://theunitools.com/en/recipes/jamaica/rice-and-peas",
    "country": "JM",
    "name": {
     "ru": "Райс энд пис",
@@ -77275,7 +76903,6 @@
   },
   {
    "slug": "ruisleipa",
-   "url": "https://theunitools.com/en/recipes/finland/ruisleipa",
    "country": "FI",
    "name": {
     "ru": "Руислейпя",
@@ -77430,7 +77057,6 @@
   },
   {
    "slug": "poronkaristys",
-   "url": "https://theunitools.com/en/recipes/finland/poronkaristys",
    "country": "FI",
    "name": {
     "ru": "Поронкяристюс",
@@ -77633,7 +77259,6 @@
   },
   {
    "slug": "kjottkaker",
-   "url": "https://theunitools.com/en/recipes/norway/kjottkaker",
    "country": "NO",
    "name": {
     "ru": "Чёттакакер",
@@ -77866,7 +77491,6 @@
   },
   {
    "slug": "skolebrod",
-   "url": "https://theunitools.com/en/recipes/norway/skolebrod",
    "country": "NO",
    "name": {
     "ru": "Школьная булочка",
@@ -78109,7 +77733,6 @@
   },
   {
    "slug": "waterzooi",
-   "url": "https://theunitools.com/en/recipes/belgium/waterzooi",
    "country": "BE",
    "name": {
     "ru": "Ватерзой",
@@ -78350,7 +77973,6 @@
   },
   {
    "slug": "belgian-waffles",
-   "url": "https://theunitools.com/en/recipes/belgium/belgian-waffles",
    "country": "BE",
    "name": {
     "ru": "Льежские вафли",
@@ -78552,7 +78174,6 @@
   },
   {
    "slug": "zuercher-geschnetzeltes",
-   "url": "https://theunitools.com/en/recipes/switzerland/zuercher-geschnetzeltes",
    "country": "CH",
    "name": {
     "ru": "Цюрихское жаркое",
@@ -78767,7 +78388,6 @@
   },
   {
    "slug": "birchermuesli",
-   "url": "https://theunitools.com/en/recipes/switzerland/birchermuesli",
    "country": "CH",
    "name": {
     "ru": "Бирхермюсли",
@@ -78952,7 +78572,6 @@
   },
   {
    "slug": "peka",
-   "url": "https://theunitools.com/en/recipes/croatia/peka",
    "country": "HR",
    "name": {
     "ru": "Пека",
@@ -79161,7 +78780,6 @@
   },
   {
    "slug": "fritule",
-   "url": "https://theunitools.com/en/recipes/croatia/fritule",
    "country": "HR",
    "name": {
     "ru": "Фритуле",
@@ -79393,7 +79011,6 @@
   },
   {
    "slug": "sarma-serbian",
-   "url": "https://theunitools.com/en/recipes/serbia/sarma-serbian",
    "country": "RS",
    "name": {
     "ru": "Сарма",
@@ -79620,7 +79237,6 @@
   },
   {
    "slug": "gibanica",
-   "url": "https://theunitools.com/en/recipes/serbia/gibanica",
    "country": "RS",
    "name": {
     "ru": "Гибаница",
@@ -79801,7 +79417,6 @@
   },
   {
    "slug": "ciorba-de-burta",
-   "url": "https://theunitools.com/en/recipes/romania/ciorba-de-burta",
    "country": "RO",
    "name": {
     "ru": "Чорба де бурта",
@@ -80025,7 +79640,6 @@
   },
   {
    "slug": "papanasi",
-   "url": "https://theunitools.com/en/recipes/romania/papanasi",
    "country": "RO",
    "name": {
     "ru": "Папанаши",
@@ -80246,7 +79860,6 @@
   },
   {
    "slug": "tarator",
-   "url": "https://theunitools.com/en/recipes/bulgaria/tarator",
    "country": "BG",
    "name": {
     "ru": "Таратор",
@@ -80421,7 +80034,6 @@
   },
   {
    "slug": "kavarma",
-   "url": "https://theunitools.com/en/recipes/bulgaria/kavarma",
    "country": "BG",
    "name": {
     "ru": "Каварма",
@@ -80649,7 +80261,6 @@
   },
   {
    "slug": "hoppers",
-   "url": "https://theunitools.com/en/recipes/sri-lanka/hoppers",
    "country": "LK",
    "name": {
     "ru": "Хопперы",
@@ -80877,7 +80488,6 @@
   },
   {
    "slug": "sri-lankan-fish-curry",
-   "url": "https://theunitools.com/en/recipes/sri-lanka/sri-lankan-fish-curry",
    "country": "LK",
    "name": {
     "ru": "Шри-ланкийское рыбное карри",
@@ -81131,7 +80741,6 @@
   },
   {
    "slug": "sel-roti",
-   "url": "https://theunitools.com/en/recipes/nepal/sel-roti",
    "country": "NP",
    "name": {
     "ru": "Сель роти",
@@ -81320,7 +80929,6 @@
   },
   {
    "slug": "gundruk-soup",
-   "url": "https://theunitools.com/en/recipes/nepal/gundruk-soup",
    "country": "NP",
    "name": {
     "ru": "Суп из гундрука",
@@ -81553,7 +81161,6 @@
   },
   {
    "slug": "haleem",
-   "url": "https://theunitools.com/en/recipes/pakistan/haleem",
    "country": "PK",
    "name": {
     "ru": "Халим",
@@ -81819,7 +81426,6 @@
   },
   {
    "slug": "seekh-kebab",
-   "url": "https://theunitools.com/en/recipes/pakistan/seekh-kebab",
    "country": "PK",
    "name": {
     "ru": "Сикх-кебаб",
@@ -82061,7 +81667,6 @@
   },
   {
    "slug": "chapati-kenyan",
-   "url": "https://theunitools.com/en/recipes/kenya/chapati-kenyan",
    "country": "KE",
    "name": {
     "ru": "Кенийская чапати",
@@ -82203,7 +81808,6 @@
   },
   {
    "slug": "mandazi",
-   "url": "https://theunitools.com/en/recipes/kenya/mandazi",
    "country": "KE",
    "name": {
     "ru": "Мандази",
@@ -82391,7 +81995,6 @@
   },
   {
    "slug": "bunny-chow",
-   "url": "https://theunitools.com/en/recipes/south-africa/bunny-chow",
    "country": "ZA",
    "name": {
     "ru": "Банни чау",
@@ -82627,7 +82230,6 @@
   },
   {
    "slug": "melktert",
-   "url": "https://theunitools.com/en/recipes/south-africa/melktert",
    "country": "ZA",
    "name": {
     "ru": "Мелктерт",
@@ -82834,7 +82436,6 @@
   },
   {
    "slug": "bandeja-paisa",
-   "url": "https://theunitools.com/en/recipes/colombia/bandeja-paisa",
    "country": "CO",
    "name": {
     "ru": "Бандеха пайса",
@@ -83089,7 +82690,6 @@
   },
   {
    "slug": "sancocho-colombiano",
-   "url": "https://theunitools.com/en/recipes/colombia/sancocho-colombiano",
    "country": "CO",
    "name": {
     "ru": "Колумбийский санкочо",
@@ -83360,7 +82960,6 @@
   },
   {
    "slug": "curanto-en-olla",
-   "url": "https://theunitools.com/en/recipes/chile/curanto-en-olla",
    "country": "CL",
    "name": {
     "ru": "Куранто в кастрюле",
@@ -83593,7 +83192,6 @@
   },
   {
    "slug": "completo-italiano",
-   "url": "https://theunitools.com/en/recipes/chile/completo-italiano",
    "country": "CL",
    "name": {
     "ru": "Комплето",
@@ -83782,7 +83380,6 @@
   },
   {
    "slug": "kuyrdak",
-   "url": "https://theunitools.com/en/recipes/kazakhstan/kuyrdak",
    "country": "KZ",
    "name": {
     "ru": "Куырдак",
@@ -83988,7 +83585,6 @@
   },
   {
    "slug": "shelpek",
-   "url": "https://theunitools.com/en/recipes/kazakhstan/shelpek",
    "country": "KZ",
    "name": {
     "ru": "Шелпек",
@@ -84161,7 +83757,6 @@
   },
   {
    "slug": "dolma-azerbaijani",
-   "url": "https://theunitools.com/en/recipes/azerbaijan/dolma-azerbaijani",
    "country": "AZ",
    "name": {
     "ru": "Азербайджанская долма",
@@ -84380,7 +83975,6 @@
   },
   {
    "slug": "pakhlava-baku",
-   "url": "https://theunitools.com/en/recipes/azerbaijan/pakhlava-baku",
    "country": "AZ",
    "name": {
     "ru": "Бакинская пахлава",
@@ -84607,7 +84201,6 @@
   },
   {
    "slug": "iraqi-biryani",
-   "url": "https://theunitools.com/en/recipes/iraq/iraqi-biryani",
    "country": "IQ",
    "name": {
     "ru": "Иракский бирьяни",
@@ -84848,7 +84441,6 @@
   },
   {
    "slug": "kleicha",
-   "url": "https://theunitools.com/en/recipes/iraq/kleicha",
    "country": "IQ",
    "name": {
     "ru": "Клейча",
@@ -85068,7 +84660,6 @@
   },
   {
    "slug": "shakshuka-tunisian",
-   "url": "https://theunitools.com/en/recipes/tunisia/shakshuka-tunisian",
    "country": "TN",
    "name": {
     "ru": "Тунисская чакчука",
@@ -85296,7 +84887,6 @@
   },
   {
    "slug": "ojja-merguez",
-   "url": "https://theunitools.com/en/recipes/tunisia/ojja-merguez",
    "country": "TN",
    "name": {
     "ru": "Оджа с мергезом",
@@ -85511,7 +85101,6 @@
   },
   {
    "slug": "muhammara",
-   "url": "https://theunitools.com/en/recipes/syria/muhammara",
    "country": "SY",
    "name": {
     "ru": "Мухаммара",
@@ -85722,7 +85311,6 @@
   },
   {
    "slug": "shish-barak",
-   "url": "https://theunitools.com/en/recipes/syria/shish-barak",
    "country": "SY",
    "name": {
     "ru": "Шиш барак",
@@ -85966,7 +85554,6 @@
   },
   {
    "slug": "anzac-biscuits",
-   "url": "https://theunitools.com/en/recipes/australia/anzac-biscuits",
    "country": "AU",
    "name": {
     "ru": "Печенье АНЗАК",
@@ -86151,7 +85738,6 @@
   },
   {
    "slug": "barramundi-on-the-barbie",
-   "url": "https://theunitools.com/en/recipes/australia/barramundi-on-the-barbie",
    "country": "AU",
    "name": {
     "ru": "Барамунди на гриле",
@@ -86353,7 +85939,6 @@
   },
   {
    "slug": "afghan-biscuits",
-   "url": "https://theunitools.com/en/recipes/new-zealand/afghan-biscuits",
    "country": "NZ",
    "name": {
     "ru": "Афганское печенье",
@@ -86548,7 +86133,6 @@
   },
   {
    "slug": "whitebait-fritters",
-   "url": "https://theunitools.com/en/recipes/new-zealand/whitebait-fritters",
    "country": "NZ",
    "name": {
     "ru": "Оладьи из вайтбейта",
@@ -86710,7 +86294,6 @@
   },
   {
    "slug": "butter-tarts",
-   "url": "https://theunitools.com/en/recipes/canada/butter-tarts",
    "country": "CA",
    "name": {
     "ru": "Масляные тарталетки",
@@ -86923,7 +86506,6 @@
   },
   {
    "slug": "montreal-bagels",
-   "url": "https://theunitools.com/en/recipes/canada/montreal-bagels",
    "country": "CA",
    "name": {
     "ru": "Монреальские бейглы",
@@ -87118,7 +86700,6 @@
   },
   {
    "slug": "skyr-with-berries",
-   "url": "https://theunitools.com/en/recipes/iceland/skyr-with-berries",
    "country": "IS",
    "name": {
     "ru": "Скир с ягодами",
@@ -87288,7 +86869,6 @@
   },
   {
    "slug": "rugbraud",
-   "url": "https://theunitools.com/en/recipes/iceland/rugbraud",
    "country": "IS",
    "name": {
     "ru": "Исландский чёрный хлеб",
@@ -87476,7 +87056,6 @@
   },
   {
    "slug": "laksa-singapore",
-   "url": "https://theunitools.com/en/recipes/singapore/laksa-singapore",
    "country": "SG",
    "name": {
     "ru": "Катонг лакса",
@@ -87752,7 +87331,6 @@
   },
   {
    "slug": "kaya-toast",
-   "url": "https://theunitools.com/en/recipes/singapore/kaya-toast",
    "country": "SG",
    "name": {
     "ru": "Тост с кайей",
@@ -87940,7 +87518,6 @@
   },
   {
    "slug": "gua-bao",
-   "url": "https://theunitools.com/en/recipes/taiwan/gua-bao",
    "country": "TW",
    "name": {
     "ru": "Гуа бао",
@@ -88178,7 +87755,6 @@
   },
   {
    "slug": "pineapple-cake",
-   "url": "https://theunitools.com/en/recipes/taiwan/pineapple-cake",
    "country": "TW",
    "name": {
     "ru": "Тайваньское ананасовое печенье",
@@ -88399,7 +87975,6 @@
   },
   {
    "slug": "shan-noodles",
-   "url": "https://theunitools.com/en/recipes/myanmar/shan-noodles",
    "country": "MM",
    "name": {
     "ru": "Шанская лапша",
@@ -88648,7 +88223,6 @@
   },
   {
    "slug": "ohn-no-khao-swe",
-   "url": "https://theunitools.com/en/recipes/myanmar/ohn-no-khao-swe",
    "country": "MM",
    "name": {
     "ru": "Он но кхао свэ",
@@ -88903,7 +88477,6 @@
   },
   {
    "slug": "num-banh-chok",
-   "url": "https://theunitools.com/en/recipes/cambodia/num-banh-chok",
    "country": "KH",
    "name": {
     "ru": "Ном банчок",
@@ -89157,7 +88730,6 @@
   },
   {
    "slug": "samlor-korko",
-   "url": "https://theunitools.com/en/recipes/cambodia/samlor-korko",
    "country": "KH",
    "name": {
     "ru": "Самло корко",
@@ -89423,7 +88995,6 @@
   },
   {
    "slug": "torta-frita",
-   "url": "https://theunitools.com/en/recipes/uruguay/torta-frita",
    "country": "UY",
    "name": {
     "ru": "Торта фрита",
@@ -89606,7 +89177,6 @@
   },
   {
    "slug": "buseca",
-   "url": "https://theunitools.com/en/recipes/uruguay/buseca",
    "country": "UY",
    "name": {
     "ru": "Бусека",
@@ -89852,7 +89422,6 @@
   },
   {
    "slug": "kak-ik",
-   "url": "https://theunitools.com/en/recipes/guatemala/kak-ik",
    "country": "GT",
    "name": {
     "ru": "Как-ик",
@@ -90098,7 +89667,6 @@
   },
   {
    "slug": "rellenitos",
-   "url": "https://theunitools.com/en/recipes/guatemala/rellenitos",
    "country": "GT",
    "name": {
     "ru": "Рельенитос",
@@ -90317,7 +89885,6 @@
   },
   {
    "slug": "pollo-guisado-dominicano",
-   "url": "https://theunitools.com/en/recipes/dominican-republic/pollo-guisado-dominicano",
    "country": "DO",
    "name": {
     "ru": "Польо гисадо",
@@ -90559,7 +90126,6 @@
   },
   {
    "slug": "habichuelas-con-dulce",
-   "url": "https://theunitools.com/en/recipes/dominican-republic/habichuelas-con-dulce",
    "country": "DO",
    "name": {
     "ru": "Сладкая фасоль",
@@ -90784,7 +90350,6 @@
   },
   {
    "slug": "trinidad-roti",
-   "url": "https://theunitools.com/en/recipes/trinidad-and-tobago/trinidad-roti",
    "country": "TT",
    "name": {
     "ru": "Тринидадская роти",
@@ -91006,7 +90571,6 @@
   },
   {
    "slug": "pelau",
-   "url": "https://theunitools.com/en/recipes/trinidad-and-tobago/pelau",
    "country": "TT",
    "name": {
     "ru": "Пелау",
@@ -91255,7 +90819,6 @@
   },
   {
    "slug": "hallaca",
-   "url": "https://theunitools.com/en/recipes/venezuela/hallaca",
    "country": "VE",
    "name": {
     "ru": "Айяка",
@@ -91510,7 +91073,6 @@
   },
   {
    "slug": "asado-negro",
-   "url": "https://theunitools.com/en/recipes/venezuela/asado-negro",
    "country": "VE",
    "name": {
     "ru": "Асадо негро",
@@ -91756,7 +91318,6 @@
   },
   {
    "slug": "pique-macho",
-   "url": "https://theunitools.com/en/recipes/bolivia/pique-macho",
    "country": "BO",
    "name": {
     "ru": "Пике мачо",
@@ -91989,7 +91550,6 @@
   },
   {
    "slug": "api-morado",
-   "url": "https://theunitools.com/en/recipes/bolivia/api-morado",
    "country": "BO",
    "name": {
     "ru": "Апи морадо",
@@ -92167,7 +91727,6 @@
   },
   {
    "slug": "ceviche-ecuatoriano",
-   "url": "https://theunitools.com/en/recipes/ecuador/ceviche-ecuatoriano",
    "country": "EC",
    "name": {
     "ru": "Эквадорский севиче",
@@ -92406,7 +91965,6 @@
   },
   {
    "slug": "fanesca",
-   "url": "https://theunitools.com/en/recipes/ecuador/fanesca",
    "country": "EC",
    "name": {
     "ru": "Фанеска",
@@ -92692,7 +92250,6 @@
   },
   {
    "slug": "carimanola",
-   "url": "https://theunitools.com/en/recipes/panama/carimanola",
    "country": "PA",
    "name": {
     "ru": "Кариманьола",
@@ -92897,7 +92454,6 @@
   },
   {
    "slug": "arroz-con-coco",
-   "url": "https://theunitools.com/en/recipes/panama/arroz-con-coco",
    "country": "PA",
    "name": {
     "ru": "Рис с кокосом",
@@ -93057,7 +92613,6 @@
   },
   {
    "slug": "kugelis",
-   "url": "https://theunitools.com/en/recipes/lithuania/kugelis",
    "country": "LT",
    "name": {
     "ru": "Кугелис",
@@ -93241,7 +92796,6 @@
   },
   {
    "slug": "sakotis",
-   "url": "https://theunitools.com/en/recipes/lithuania/sakotis",
    "country": "LT",
    "name": {
     "ru": "Шакотис",
@@ -93426,7 +92980,6 @@
   },
   {
    "slug": "sklandrausis",
-   "url": "https://theunitools.com/en/recipes/latvia/sklandrausis",
    "country": "LV",
    "name": {
     "ru": "Складраусис",
@@ -93633,7 +93186,6 @@
   },
   {
    "slug": "skabu-putra",
-   "url": "https://theunitools.com/en/recipes/latvia/skabu-putra",
    "country": "LV",
    "name": {
     "ru": "Скабу путра",
@@ -93806,7 +93358,6 @@
   },
   {
    "slug": "verivorst",
-   "url": "https://theunitools.com/en/recipes/estonia/verivorst",
    "country": "EE",
    "name": {
     "ru": "Веривёрст",
@@ -94009,7 +93560,6 @@
   },
   {
    "slug": "kohuke",
-   "url": "https://theunitools.com/en/recipes/estonia/kohuke",
    "country": "EE",
    "name": {
     "ru": "Кохуке",
@@ -94204,7 +93754,6 @@
   },
   {
    "slug": "kolduny",
-   "url": "https://theunitools.com/en/recipes/belarus/kolduny",
    "country": "BY",
    "name": {
     "ru": "Колдуны",
@@ -94397,7 +93946,6 @@
   },
   {
    "slug": "kholodnik",
-   "url": "https://theunitools.com/en/recipes/belarus/kholodnik",
    "country": "BY",
    "name": {
     "ru": "Халаднік",
@@ -94609,7 +94157,6 @@
   },
   {
    "slug": "zemiakove-placky",
-   "url": "https://theunitools.com/en/recipes/slovakia/zemiakove-placky",
    "country": "SK",
    "name": {
     "ru": "Земьякове плацки",
@@ -94775,7 +94322,6 @@
   },
   {
    "slug": "sladke-buchty",
-   "url": "https://theunitools.com/en/recipes/slovakia/sladke-buchty",
    "country": "SK",
    "name": {
     "ru": "Бухты",
@@ -94982,7 +94528,6 @@
   },
   {
    "slug": "struklji",
-   "url": "https://theunitools.com/en/recipes/slovenia/struklji",
    "country": "SI",
    "name": {
     "ru": "Штрукли",
@@ -95203,7 +94748,6 @@
   },
   {
    "slug": "kranjska-klobasa",
-   "url": "https://theunitools.com/en/recipes/slovenia/kranjska-klobasa",
    "country": "SI",
    "name": {
     "ru": "Краньская колбаса",
@@ -95406,7 +94950,6 @@
   },
   {
    "slug": "begova-corba",
-   "url": "https://theunitools.com/en/recipes/bosnia/begova-corba",
    "country": "BA",
    "name": {
     "ru": "Бегова чорба",
@@ -95642,7 +95185,6 @@
   },
   {
    "slug": "tufahije",
-   "url": "https://theunitools.com/en/recipes/bosnia/tufahije",
    "country": "BA",
    "name": {
     "ru": "Туфахие",
@@ -95830,7 +95372,6 @@
   },
   {
    "slug": "ohridska-pastrmka",
-   "url": "https://theunitools.com/en/recipes/north-macedonia/ohridska-pastrmka",
    "country": "MK",
    "name": {
     "ru": "Охридская форель",
@@ -96030,7 +95571,6 @@
   },
   {
    "slug": "pastrmajlija",
-   "url": "https://theunitools.com/en/recipes/north-macedonia/pastrmajlija",
    "country": "MK",
    "name": {
     "ru": "Пастрмалия",
@@ -96219,7 +95759,6 @@
   },
   {
    "slug": "olla-de-carne",
-   "url": "https://theunitools.com/en/recipes/costa-rica/olla-de-carne",
    "country": "CR",
    "name": {
     "ru": "Олья де карне",
@@ -96460,7 +95999,6 @@
   },
   {
    "slug": "chorreadas",
-   "url": "https://theunitools.com/en/recipes/costa-rica/chorreadas",
    "country": "CR",
    "name": {
     "ru": "Чорреадас",
@@ -96644,7 +96182,6 @@
   },
   {
    "slug": "montucas",
-   "url": "https://theunitools.com/en/recipes/honduras/montucas",
    "country": "HN",
    "name": {
     "ru": "Монтукас",
@@ -96850,7 +96387,6 @@
   },
   {
    "slug": "pastelitos-hondurenos",
-   "url": "https://theunitools.com/en/recipes/honduras/pastelitos-hondurenos",
    "country": "HN",
    "name": {
     "ru": "Пастелитос",
@@ -97053,7 +96589,6 @@
   },
   {
    "slug": "vigoron",
-   "url": "https://theunitools.com/en/recipes/nicaragua/vigoron",
    "country": "NI",
    "name": {
     "ru": "Вигорон",
@@ -97252,7 +96787,6 @@
   },
   {
    "slug": "indio-viejo",
-   "url": "https://theunitools.com/en/recipes/nicaragua/indio-viejo",
    "country": "NI",
    "name": {
     "ru": "Индио вьехо",
@@ -97462,7 +96996,6 @@
   },
   {
    "slug": "vori-vori",
-   "url": "https://theunitools.com/en/recipes/paraguay/vori-vori",
    "country": "PY",
    "name": {
     "ru": "Вори вори",
@@ -97697,7 +97230,6 @@
   },
   {
    "slug": "mbeju",
-   "url": "https://theunitools.com/en/recipes/paraguay/mbeju",
    "country": "PY",
    "name": {
     "ru": "Мбеху",
@@ -97853,7 +97385,6 @@
   },
   {
    "slug": "musakhan",
-   "url": "https://theunitools.com/en/recipes/jordan/musakhan",
    "country": "JO",
    "name": {
     "ru": "Мусахан",
@@ -98064,7 +97595,6 @@
   },
   {
    "slug": "galayet-bandora",
-   "url": "https://theunitools.com/en/recipes/jordan/galayet-bandora",
    "country": "JO",
    "name": {
     "ru": "Галает бандора",
@@ -98241,7 +97771,6 @@
   },
   {
    "slug": "omani-halwa",
-   "url": "https://theunitools.com/en/recipes/oman/omani-halwa",
    "country": "OM",
    "name": {
     "ru": "Оманская халва",
@@ -98427,7 +97956,6 @@
   },
   {
    "slug": "maqdeed",
-   "url": "https://theunitools.com/en/recipes/oman/maqdeed",
    "country": "OM",
    "name": {
     "ru": "Макдид",
@@ -98614,7 +98142,6 @@
   },
   {
    "slug": "zurbian",
-   "url": "https://theunitools.com/en/recipes/yemen/zurbian",
    "country": "YE",
    "name": {
     "ru": "Зурбиан",
@@ -98835,7 +98362,6 @@
   },
   {
    "slug": "fahsa",
-   "url": "https://theunitools.com/en/recipes/yemen/fahsa",
    "country": "YE",
    "name": {
     "ru": "Фахса",
@@ -99046,7 +98572,6 @@
   },
   {
    "slug": "kuwaiti-jireesh",
-   "url": "https://theunitools.com/en/recipes/kuwait/kuwaiti-jireesh",
    "country": "KW",
    "name": {
     "ru": "Кувейтский гриш",
@@ -99239,7 +98764,6 @@
   },
   {
    "slug": "kuwaiti-darabeel",
-   "url": "https://theunitools.com/en/recipes/kuwait/kuwaiti-darabeel",
    "country": "KW",
    "name": {
     "ru": "Дарабиль",
@@ -99442,7 +98966,6 @@
   },
   {
    "slug": "rechta",
-   "url": "https://theunitools.com/en/recipes/algeria/rechta",
    "country": "DZ",
    "name": {
     "ru": "Решта",
@@ -99653,7 +99176,6 @@
   },
   {
    "slug": "makroud",
-   "url": "https://theunitools.com/en/recipes/algeria/makroud",
    "country": "DZ",
    "name": {
     "ru": "Макруд",
@@ -99856,7 +99378,6 @@
   },
   {
    "slug": "gurasa",
-   "url": "https://theunitools.com/en/recipes/sudan/gurasa",
    "country": "SD",
    "name": {
     "ru": "Гураса",
@@ -100009,7 +99530,6 @@
   },
   {
    "slug": "salata-aswad",
-   "url": "https://theunitools.com/en/recipes/sudan/salata-aswad",
    "country": "SD",
    "name": {
     "ru": "Салата асвад",
@@ -100195,7 +99715,6 @@
   },
   {
    "slug": "mchuzi-wa-samaki",
-   "url": "https://theunitools.com/en/recipes/tanzania/mchuzi-wa-samaki",
    "country": "TZ",
    "name": {
     "ru": "Мчузи ва самаки",
@@ -100413,7 +99932,6 @@
   },
   {
    "slug": "vitumbua",
-   "url": "https://theunitools.com/en/recipes/tanzania/vitumbua",
    "country": "TZ",
    "name": {
     "ru": "Витумбуа",
@@ -100592,7 +100110,6 @@
   },
   {
    "slug": "eru",
-   "url": "https://theunitools.com/en/recipes/cameroon/eru",
    "country": "CM",
    "name": {
     "ru": "Эру",
@@ -100805,7 +100322,6 @@
   },
   {
    "slug": "koki-corn",
-   "url": "https://theunitools.com/en/recipes/cameroon/koki-corn",
    "country": "CM",
    "name": {
     "ru": "Коки",
@@ -100994,7 +100510,6 @@
   },
   {
    "slug": "kleftiko",
-   "url": "https://theunitools.com/en/recipes/cyprus/kleftiko",
    "country": "CY",
    "name": {
     "ru": "Клефтико",
@@ -101196,7 +100711,6 @@
   },
   {
    "slug": "koupepia",
-   "url": "https://theunitools.com/en/recipes/cyprus/koupepia",
    "country": "CY",
    "name": {
     "ru": "Купепья",
@@ -101417,7 +100931,6 @@
   },
   {
    "slug": "lampuki-pie",
-   "url": "https://theunitools.com/en/recipes/malta/lampuki-pie",
    "country": "MT",
    "name": {
     "ru": "Пирог с лампукой",
@@ -101648,7 +101161,6 @@
   },
   {
    "slug": "imqaret",
-   "url": "https://theunitools.com/en/recipes/malta/imqaret",
    "country": "MT",
    "name": {
     "ru": "Имарет",
@@ -101848,7 +101360,6 @@
   },
   {
    "slug": "fergese",
-   "url": "https://theunitools.com/en/recipes/albania/fergese",
    "country": "AL",
    "name": {
     "ru": "Фергесе",
@@ -102044,7 +101555,6 @@
   },
   {
    "slug": "ballokume",
-   "url": "https://theunitools.com/en/recipes/albania/ballokume",
    "country": "AL",
    "name": {
     "ru": "Баллокуме",
@@ -102214,7 +101724,6 @@
   },
   {
    "slug": "sarmale-moldovenesti",
-   "url": "https://theunitools.com/en/recipes/moldova/sarmale-moldovenesti",
    "country": "MD",
    "name": {
     "ru": "Молдавские сармале",
@@ -102421,7 +101930,6 @@
   },
   {
    "slug": "mucenici",
-   "url": "https://theunitools.com/en/recipes/moldova/mucenici",
    "country": "MD",
    "name": {
     "ru": "Мученичи",
@@ -102631,7 +102139,6 @@
   },
   {
    "slug": "kuurdak",
-   "url": "https://theunitools.com/en/recipes/kyrgyzstan/kuurdak",
    "country": "KG",
    "name": {
     "ru": "Куурдак",
@@ -102820,7 +102327,6 @@
   },
   {
    "slug": "boorsok",
-   "url": "https://theunitools.com/en/recipes/kyrgyzstan/boorsok",
    "country": "KG",
    "name": {
     "ru": "Боорсок",
@@ -102990,7 +102496,6 @@
   },
   {
    "slug": "tushbera",
-   "url": "https://theunitools.com/en/recipes/tajikistan/tushbera",
    "country": "TJ",
    "name": {
     "ru": "Тушбера",
@@ -103194,7 +102699,6 @@
   },
   {
    "slug": "chakka",
-   "url": "https://theunitools.com/en/recipes/tajikistan/chakka",
    "country": "TJ",
    "name": {
     "ru": "Чакка",
@@ -103382,7 +102886,6 @@
   },
   {
    "slug": "khuushuur",
-   "url": "https://theunitools.com/en/recipes/mongolia/khuushuur",
    "country": "MN",
    "name": {
     "ru": "Хуушуур",
@@ -103571,7 +103074,6 @@
   },
   {
    "slug": "suutei-tsai",
-   "url": "https://theunitools.com/en/recipes/mongolia/suutei-tsai",
    "country": "MN",
    "name": {
     "ru": "Сутэй цай",
@@ -103729,7 +103231,6 @@
   },
   {
    "slug": "ashak",
-   "url": "https://theunitools.com/en/recipes/afghanistan/ashak",
    "country": "AF",
    "name": {
     "ru": "Ашак",
@@ -103944,7 +103445,6 @@
   },
   {
    "slug": "bolani",
-   "url": "https://theunitools.com/en/recipes/afghanistan/bolani",
    "country": "AF",
    "name": {
     "ru": "Болани",

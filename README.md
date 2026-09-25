@@ -12,7 +12,7 @@ The canonical files live on the site and are always the current version:
 - **CSV** (one dish per row): https://theunitools.com/data/unitools-recipes-v1.csv
 - Dataset page: https://theunitools.com/en/data
 
-This repository holds the documentation, a small `sample.json` for a quick look at the structure, and a committed copy of all four data files so you can `git clone` the dataset or pin a specific revision. The copies here are kept in step with the canonical files above; both are version 1.1.0.
+This repository holds the documentation, a small `sample.json` for a quick look at the structure, and a committed copy of all four data files so you can `git clone` the dataset or pin a specific revision. The copies here are kept in step with the canonical files above; both are version 2.0.0 — see the [changelog](#changelog).
 
 The full licence text is in [LICENSE](LICENSE). Note it is CC BY-SA 4.0 — a content licence, not an OSI-approved software licence, because this repository is data rather than code.
 
@@ -39,7 +39,7 @@ Same licence, same attribution rules as the recipes dataset.
 
 ## Recipe fields
 
-- `slug`, `url`, `country` — identity and the live page for the dish
+- `slug`, `country` — identity of the dish and its country code (the per-dish `url` was removed in 2.0.0, see the changelog)
 - `name`, `summary` — `{ ru, en }` objects
 - `nativeName` — the dish's name in its own language, when it has one
 - `category`, `diets`, `difficulty`
@@ -48,6 +48,20 @@ Same licence, same attribution rules as the recipes dataset.
 - `ingredients[]` — `{ id, name, quantity, unit, scaling, note }`; `scaling` is `linear` | `sublinear` | `fixed`
 - `steps[]` — `{ text, minutes }`
 - `photo` — `{ url, author, license }` or `null`
+
+## Stable addresses
+
+Other projects build on these files, so the following addresses are kept working. If one ever has to move, it will answer with a permanent redirect (301), never with 404 or 410:
+
+- the dataset pages https://theunitools.com/en/data and https://theunitools.com/ru/data — the address to credit;
+- the four data files under `https://theunitools.com/data/`, including the `-v1` file names, which stay the same across versions;
+- every photo address in the recipes' `photo.url` field (`https://theunitools.com/recipes/<slug>.jpg`).
+
+## Changelog
+
+- **2.0.0** (generated 2026-09-02, copied here 2026-09-26). Removed the per-recipe `url` field and the per-product `url` field of the cooking-times file: the individual recipe pages and cooking guides on theunitools.com were retired on 2026-08-30, and those addresses answer 410 Gone. The recipes file gains a `landingPage` field, and both files keep `homepage` — one live address for everything: https://theunitools.com/en/data. The `url` column is gone from both CSV files as well. Belgium's English country name corrected from "Belgian cuisine" to "Belgium". Every other value is unchanged: 501 recipes, 127 countries, 200 products. The major version went up because a field was removed — if your code reads `url`, drop it or use `homepage` instead.
+- **1.1.0** (2026-08-23). Rebuilt from the recipes as corrected up to 2026-08-20; among other fixes, kibbeh nayyeh no longer duplicated the baked kibbeh record.
+- **1.0.0** (2026-08-06). First release.
 
 ## Honest caveats
 

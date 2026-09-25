@@ -1,502 +1,502 @@
-slug,country,name_en,name_ru,native_name,category,diets,difficulty,servings,prep_minutes,cook_minutes,kcal,protein_g,fat_g,carbs_g,ingredients_count,steps_count,photo_url,url
-spaghetti-carbonara,IT,Spaghetti carbonara,Спагетти карбонара,Spaghetti alla carbonara,main,,medium,2,10,15,690,32,34,62,7,6,https://theunitools.com/recipes/spaghetti-carbonara.jpg,https://theunitools.com/en/recipes/italy/spaghetti-carbonara
-risotto-alla-milanese,IT,Risotto alla milanese,Ризотто по-милански,Risotto alla milanese,main,vegetarian,medium,4,10,25,560,15,22,71,8,6,https://theunitools.com/recipes/risotto-alla-milanese.jpg,https://theunitools.com/en/recipes/italy/risotto-alla-milanese
-ratatouille,FR,Ratatouille,Рататуй,Ratatouille niçoise,main,vegetarian|vegan|gluten-free,easy,4,20,45,240,5,16,20,10,6,https://theunitools.com/recipes/ratatouille.jpg,https://theunitools.com/en/recipes/france/ratatouille
-french-onion-soup,FR,French onion soup,Луковый суп,Soupe à l'oignon gratinée,soup,,easy,4,15,60,430,17,21,40,9,6,https://theunitools.com/recipes/french-onion-soup.jpg,https://theunitools.com/en/recipes/france/french-onion-soup
-borscht,RU,Borscht,Борщ,,soup,,medium,6,30,120,320,18,14,30,12,6,https://theunitools.com/recipes/borscht.jpg,https://theunitools.com/en/recipes/russia/borscht
-khachapuri-imeruli,GE,Imeretian khachapuri,Хачапури имеретинский,იმერული ხაჭაპური,bread,vegetarian,medium,4,90,20,620,28,30,58,9,6,https://theunitools.com/recipes/khachapuri-imeruli.jpg,https://theunitools.com/en/recipes/georgia/khachapuri-imeruli
-miso-soup,JP,Miso soup,Мисо-суп,味噌汁,soup,pescatarian,easy,4,5,15,110,9,4,8,7,6,https://theunitools.com/recipes/miso-soup.jpg,https://theunitools.com/en/recipes/japan/miso-soup
-guacamole,MX,Guacamole,Гуакамоле,,snack,vegetarian|vegan|gluten-free,easy,4,15,0,230,3,20,12,7,5,https://theunitools.com/recipes/guacamole.jpg,https://theunitools.com/en/recipes/mexico/guacamole
-tom-yum-goong,TH,Tom yum goong,Том ям с креветками,ต้มยำกุ้ง,soup,pescatarian,medium,4,15,20,190,24,4,12,11,6,,https://theunitools.com/en/recipes/thailand/tom-yum-goong
-dal-tadka,IN,Dal tadka,Дал тадка,दाल तड़का,main,vegetarian|gluten-free,easy,4,10,35,340,16,12,42,11,6,https://theunitools.com/recipes/dal-tadka.jpg,https://theunitools.com/en/recipes/india/dal-tadka
-paella-valenciana,ES,Paella valenciana,Паэлья валенсиана,Paella valenciana,main,,medium,4,25,45,620,38,24,62,12,6,https://theunitools.com/recipes/paella-valenciana.jpg,https://theunitools.com/en/recipes/spain/paella-valenciana
-tortilla-espanola,ES,Spanish tortilla,Испанская тортилья,Tortilla española,main,vegetarian|gluten-free,medium,4,15,35,430,15,28,30,5,5,https://theunitools.com/recipes/tortilla-espanola.jpg,https://theunitools.com/en/recipes/spain/tortilla-espanola
-moussaka,GR,Moussaka,Мусака,Μουσακάς,main,,hard,6,40,75,580,28,36,34,15,6,https://theunitools.com/recipes/moussaka.jpg,https://theunitools.com/en/recipes/greece/moussaka
-horiatiki-salata,GR,Horiatiki salad,Хориатики,Χωριάτικη σαλάτα,salad,vegetarian|gluten-free,easy,4,15,0,320,10,27,11,9,3,https://theunitools.com/recipes/horiatiki-salata.jpg,https://theunitools.com/en/recipes/greece/horiatiki-salata
-pho-bo,VN,Phở bò,Фо бо,Phở bò,soup,,hard,4,30,240,520,34,14,62,14,6,https://theunitools.com/recipes/pho-bo.jpg,https://theunitools.com/en/recipes/vietnam/pho-bo
-banh-mi,VN,Bánh mì,Бань ми,Bánh mì,snack,,easy,4,25,15,560,28,24,58,12,4,https://theunitools.com/recipes/banh-mi.jpg,https://theunitools.com/en/recipes/vietnam/banh-mi
-pesto-alla-genovese,IT,Pesto alla genovese,Песто алла дженовезе,Pesto alla genovese,sauce,vegetarian|gluten-free,easy,4,20,0,340,8,34,3,7,4,https://theunitools.com/recipes/pesto-alla-genovese.jpg,https://theunitools.com/en/recipes/italy/pesto-alla-genovese
-tacos-al-pastor,MX,Tacos al pastor,Такос аль пастор,Tacos al pastor,main,,medium,4,30,20,610,36,26,55,12,5,https://theunitools.com/recipes/tacos-al-pastor.jpg,https://theunitools.com/en/recipes/mexico/tacos-al-pastor
-menemen,TR,Menemen,Менемен,Menemen,breakfast,vegetarian|gluten-free,easy,2,10,20,310,16,22,12,9,4,https://theunitools.com/recipes/menemen.jpg,https://theunitools.com/en/recipes/turkey/menemen
-mercimek-corbasi,TR,Mercimek çorbası,Мерджимек чорбасы,Mercimek çorbası,soup,vegetarian,easy,4,10,35,330,16,10,45,11,4,https://theunitools.com/recipes/mercimek-corbasi.jpg,https://theunitools.com/en/recipes/turkey/mercimek-corbasi
-khinkali,GE,Khinkali,Хинкали,ხინკალი,main,,hard,4,60,15,480,26,18,52,10,5,https://theunitools.com/recipes/khinkali.jpg,https://theunitools.com/en/recipes/georgia/khinkali
-murgh-makhani,IN,Butter chicken,Курица масала в сливочном соусе,मुर्ग़ मक्खनी,main,gluten-free,medium,4,30,40,640,42,42,18,14,5,https://theunitools.com/recipes/murgh-makhani.jpg,https://theunitools.com/en/recipes/india/murgh-makhani
-katsudon,JP,Katsudon,Кацудон,カツ丼,main,,medium,2,20,20,780,42,32,78,12,6,https://theunitools.com/recipes/katsudon.jpg,https://theunitools.com/en/recipes/japan/katsudon
-syrniki,RU,Syrniki,Сырники,Сырники,breakfast,vegetarian,easy,4,15,15,340,22,16,26,8,4,https://theunitools.com/recipes/syrniki.jpg,https://theunitools.com/en/recipes/russia/syrniki
-pad-thai,TH,Pad thai,Пад тай,ผัดไทย,main,,medium,2,30,10,690,34,24,82,14,5,https://theunitools.com/recipes/pad-thai.jpg,https://theunitools.com/en/recipes/thailand/pad-thai
-tiramisu,IT,Tiramisu,Тирамису,Tiramisù,dessert,vegetarian,medium,6,30,0,520,10,34,42,8,6,https://theunitools.com/recipes/tiramisu.jpg,https://theunitools.com/en/recipes/italy/tiramisu
-gazpacho,ES,Gazpacho,Гаспачо,Gazpacho andaluz,soup,vegetarian|vegan,easy,4,20,0,220,4,16,17,8,4,https://theunitools.com/recipes/gazpacho.jpg,https://theunitools.com/en/recipes/spain/gazpacho
-croquetas-de-jamon,ES,Ham croquetas,Крокеты с хамоном,Croquetas de jamón,snack,,medium,4,30,25,480,18,30,34,11,6,https://theunitools.com/recipes/croquetas-de-jamon.jpg,https://theunitools.com/en/recipes/spain/croquetas-de-jamon
-ceviche,PE,Ceviche,Севиче,Cebiche,main,pescatarian|gluten-free,easy,4,20,0,290,34,3,30,8,4,https://theunitools.com/recipes/ceviche.jpg,https://theunitools.com/en/recipes/peru/ceviche
-lomo-saltado,PE,Lomo saltado,Ломо сальтадо,Lomo saltado,main,,medium,4,20,20,720,42,26,76,11,5,https://theunitools.com/recipes/lomo-saltado.jpg,https://theunitools.com/en/recipes/peru/lomo-saltado
-mapo-tofu,CN,Mapo tofu,Мапо тофу,麻婆豆腐,main,,medium,4,15,15,380,24,26,12,11,5,https://theunitools.com/recipes/mapo-tofu.jpg,https://theunitools.com/en/recipes/china/mapo-tofu
-gong-bao-chicken,CN,Gong bao chicken,Курица гунбао,宫保鸡丁,main,,medium,4,25,10,470,38,24,22,13,5,https://theunitools.com/recipes/gong-bao-chicken.jpg,https://theunitools.com/en/recipes/china/gong-bao-chicken
-coq-au-vin,FR,Coq au vin,Кок-о-вен,Coq au vin,main,,medium,4,30,90,680,48,38,16,12,6,https://theunitools.com/recipes/coq-au-vin.jpg,https://theunitools.com/en/recipes/france/coq-au-vin
-creme-brulee,FR,Crème brûlée,Крем-брюле,Crème brûlée,dessert,vegetarian|gluten-free,medium,4,20,45,490,6,42,24,5,5,https://theunitools.com/recipes/creme-brulee.jpg,https://theunitools.com/en/recipes/france/creme-brulee
-kaesespaetzle,DE,Käsespätzle,Кезешпецле,Käsespätzle,main,vegetarian,medium,4,25,30,720,30,32,78,8,5,https://theunitools.com/recipes/kaesespaetzle.jpg,https://theunitools.com/en/recipes/germany/kaesespaetzle
-rinderrouladen,DE,Rinderrouladen,Руладен,Rinderrouladen,main,,medium,4,30,100,640,52,34,14,12,5,,https://theunitools.com/en/recipes/germany/rinderrouladen
-bibimbap,KR,Bibimbap,Пибимпап,비빔밥,main,,medium,4,40,20,640,34,22,76,12,5,https://theunitools.com/recipes/bibimbap.jpg,https://theunitools.com/en/recipes/korea/bibimbap
-kimchi-jjigae,KR,Kimchi jjigae,Кимчхи чиге,김치찌개,soup,,easy,4,10,30,470,28,32,16,10,5,https://theunitools.com/recipes/kimchi-jjigae.jpg,https://theunitools.com/en/recipes/korea/kimchi-jjigae
-souvlaki,GR,Souvlaki,Сувлаки,Σουβλάκι,main,,easy,4,20,15,660,46,38,32,9,5,https://theunitools.com/recipes/souvlaki.jpg,https://theunitools.com/en/recipes/greece/souvlaki
-chicken-biryani,IN,Chicken biryani,Бирьяни с курицей,बिरयानी,main,,hard,6,45,60,720,42,26,82,15,6,https://theunitools.com/recipes/chicken-biryani.jpg,https://theunitools.com/en/recipes/india/chicken-biryani
-shoyu-ramen,JP,Shoyu ramen,Сёю рамен,醤油ラーメン,soup,,hard,4,30,180,780,44,30,82,13,6,https://theunitools.com/recipes/shoyu-ramen.jpg,https://theunitools.com/en/recipes/japan/shoyu-ramen
-pierogi-ruskie,PL,Pierogi ruskie,Пероги руске,Pierogi ruskie,main,vegetarian,medium,4,50,20,590,20,20,82,9,6,https://theunitools.com/recipes/pierogi-ruskie.jpg,https://theunitools.com/en/recipes/poland/pierogi-ruskie
-zurek,PL,Żurek,Журек,Żurek,soup,,medium,4,20,50,540,26,38,22,11,5,https://theunitools.com/recipes/zurek.jpg,https://theunitools.com/en/recipes/poland/zurek
-sauerbraten,DE,Sauerbraten,Заурбратен,Rheinischer Sauerbraten,main,,medium,6,30,150,610,54,26,26,12,6,https://theunitools.com/recipes/sauerbraten.jpg,https://theunitools.com/en/recipes/germany/sauerbraten
-schwaebischer-kartoffelsalat,DE,Swabian potato salad,Швабский картофельный салат,Schwäbischer Kartoffelsalat,salad,vegetarian,easy,4,15,25,290,5,14,36,8,5,https://theunitools.com/recipes/schwaebischer-kartoffelsalat.jpg,https://theunitools.com/en/recipes/germany/schwaebischer-kartoffelsalat
-bucatini-all-amatriciana,IT,Bucatini all'amatriciana,Аматричана,Bucatini all'amatriciana,main,,easy,4,10,20,610,24,24,74,7,5,https://theunitools.com/recipes/bucatini-all-amatriciana.jpg,https://theunitools.com/en/recipes/italy/bucatini-all-amatriciana
-shakshuka,IL,Shakshuka,Шакшука,שקשוקה,breakfast,vegetarian|gluten-free,easy,4,10,30,340,18,22,18,11,5,https://theunitools.com/recipes/shakshuka.jpg,https://theunitools.com/en/recipes/israel/shakshuka
-hummus,IL,Hummus,Хумус,חומוס,snack,vegetarian|vegan|gluten-free,easy,6,20,90,320,12,20,26,9,5,https://theunitools.com/recipes/hummus.jpg,https://theunitools.com/en/recipes/israel/hummus
-feijoada,BR,Feijoada,Фейжоада,Feijoada,main,,hard,8,40,180,780,46,38,62,12,6,https://theunitools.com/recipes/feijoada.jpg,https://theunitools.com/en/recipes/brazil/feijoada
-pao-de-queijo,BR,Pão de queijo,Пан-ди-кейжу,Pão de queijo,bread,vegetarian|gluten-free,medium,6,25,25,380,12,20,40,8,5,https://theunitools.com/recipes/pao-de-queijo.jpg,https://theunitools.com/en/recipes/brazil/pao-de-queijo
-pad-krapow-moo,TH,Pad krapow,Пад кра пао,ผัดกะเพรา,main,,easy,2,10,8,680,36,34,56,11,5,https://theunitools.com/recipes/pad-krapow-moo.jpg,https://theunitools.com/en/recipes/thailand/pad-krapow-moo
-gyudon,JP,Gyudon,Гюдон,牛丼,main,,easy,2,10,15,640,34,18,82,10,5,https://theunitools.com/recipes/gyudon.jpg,https://theunitools.com/en/recipes/japan/gyudon
-solyanka,RU,Meat solyanka,Солянка мясная сборная,Солянка,soup,,medium,6,25,120,420,32,26,12,12,6,https://theunitools.com/recipes/solyanka.jpg,https://theunitools.com/en/recipes/russia/solyanka
-tagine-de-poulet,MA,Chicken tagine with preserved lemon,Тажин с курицей и лимоном,طاجين الدجاج,main,gluten-free,medium,4,25,70,560,44,36,12,12,5,https://theunitools.com/recipes/tagine-de-poulet.jpg,https://theunitools.com/en/recipes/morocco/tagine-de-poulet
-harira,MA,Harira,Харира,حريرة,soup,,medium,6,25,90,380,22,12,46,13,5,https://theunitools.com/recipes/harira.jpg,https://theunitools.com/en/recipes/morocco/harira
-goulash,HU,Goulash,Гуляш,Gulyás,soup,gluten-free,easy,6,20,150,520,42,24,32,10,5,https://theunitools.com/recipes/goulash.jpg,https://theunitools.com/en/recipes/hungary/goulash
-langos,HU,Lángos,Лангош,Lángos,snack,vegetarian,medium,4,90,20,640,18,32,68,10,6,https://theunitools.com/recipes/langos.jpg,https://theunitools.com/en/recipes/hungary/langos
-fish-and-chips,GB,Fish and chips,Фиш-энд-чипс,Fish and chips,main,pescatarian,medium,4,25,35,890,46,40,88,9,5,https://theunitools.com/recipes/fish-and-chips.jpg,https://theunitools.com/en/recipes/united-kingdom/fish-and-chips
-shepherds-pie,GB,Shepherd's pie,Пастуший пирог,Shepherd's pie,main,,easy,6,30,60,620,34,32,48,13,6,https://theunitools.com/recipes/shepherds-pie.jpg,https://theunitools.com/en/recipes/united-kingdom/shepherds-pie
-wiener-schnitzel,AT,Wiener Schnitzel,Венский шницель,Wiener Schnitzel,main,,medium,4,20,15,680,44,38,38,7,5,https://theunitools.com/recipes/wiener-schnitzel.jpg,https://theunitools.com/en/recipes/austria/wiener-schnitzel
-apfelstrudel,AT,Apfelstrudel,Яблочный штрудель,Apfelstrudel,dessert,vegetarian,hard,8,60,45,420,5,16,66,10,6,https://theunitools.com/recipes/apfelstrudel.jpg,https://theunitools.com/en/recipes/austria/apfelstrudel
-bacalhau-a-bras,PT,Bacalhau à brás,Бакаляу а браш,Bacalhau à Brás,main,pescatarian,medium,4,30,25,610,42,34,34,10,5,https://theunitools.com/recipes/bacalhau-a-bras.jpg,https://theunitools.com/en/recipes/portugal/bacalhau-a-bras
-pastel-de-nata,PT,Pastel de nata,Паштел де ната,Pastel de nata,dessert,vegetarian,hard,12,40,15,290,4,16,33,9,5,https://theunitools.com/recipes/pastel-de-nata.jpg,https://theunitools.com/en/recipes/portugal/pastel-de-nata
-empanadas-argentinas,AR,Argentinian empanadas,Аргентинские эмпанадас,Empanadas argentinas,snack,,medium,6,50,25,520,26,28,42,11,6,https://theunitools.com/recipes/empanadas-argentinas.jpg,https://theunitools.com/en/recipes/argentina/empanadas-argentinas
-chimichurri,AR,Chimichurri,Чимичурри,Chimichurri,sauce,vegetarian|vegan|gluten-free,easy,8,15,0,190,1,20,2,8,4,https://theunitools.com/recipes/chimichurri.jpg,https://theunitools.com/en/recipes/argentina/chimichurri
-nasi-goreng,ID,Nasi goreng,Наси горенг,Nasi goreng,main,,easy,4,20,15,620,34,22,70,12,5,https://theunitools.com/recipes/nasi-goreng.jpg,https://theunitools.com/en/recipes/indonesia/nasi-goreng
-rendang,ID,Rendang,Ренданг,Rendang,main,gluten-free,hard,6,30,240,720,46,52,14,12,6,https://theunitools.com/recipes/rendang.jpg,https://theunitools.com/en/recipes/indonesia/rendang
-adobo,PH,Chicken adobo,Адобо,Adobo,main,,easy,4,15,45,580,44,26,42,10,5,https://theunitools.com/recipes/adobo.jpg,https://theunitools.com/en/recipes/philippines/adobo
-sinigang,PH,Sinigang,Синиганг,Sinigang,soup,,easy,6,20,75,460,34,26,24,12,5,https://theunitools.com/recipes/sinigang.jpg,https://theunitools.com/en/recipes/philippines/sinigang
-borshch-ukrainskyi,UA,Ukrainian borscht with pampushky,Украинский борщ с пампушками,Український борщ,soup,,medium,6,40,120,480,26,28,32,14,5,https://theunitools.com/recipes/borshch-ukrainskyi.jpg,https://theunitools.com/en/recipes/ukraine/borshch-ukrainskyi
-varenyky-z-vyshnyamy,UA,Cherry varenyky,Вареники с вишней,Вареники з вишнями,dessert,vegetarian,medium,4,50,15,520,12,12,92,10,5,https://theunitools.com/recipes/varenyky-z-vyshnyamy.jpg,https://theunitools.com/en/recipes/ukraine/varenyky-z-vyshnyamy
-svickova,CZ,Svíčková na smetaně,Свичкова,Svíčková na smetaně,main,,hard,6,40,150,680,48,42,24,13,6,https://theunitools.com/recipes/svickova.jpg,https://theunitools.com/en/recipes/czechia/svickova
-trdelnik,CZ,Trdelník,Трдельник,Trdelník,dessert,vegetarian,medium,6,90,20,470,9,18,68,10,6,https://theunitools.com/recipes/trdelnik.jpg,https://theunitools.com/en/recipes/czechia/trdelnik
-koettbullar,SE,Köttbullar,Шведские фрикадельки,Köttbullar,main,,easy,4,30,30,690,38,48,24,13,6,https://theunitools.com/recipes/koettbullar.jpg,https://theunitools.com/en/recipes/sweden/koettbullar
-kanelbullar,SE,Kanelbullar,Кулебяка с корицей,Kanelbullar,dessert,vegetarian,medium,12,120,15,380,6,16,54,12,6,https://theunitools.com/recipes/kanelbullar.jpg,https://theunitools.com/en/recipes/sweden/kanelbullar
-koshari,EG,Koshari,Кушари,كشري,main,vegetarian|vegan,medium,6,30,60,640,22,18,100,12,6,https://theunitools.com/recipes/koshari.jpg,https://theunitools.com/en/recipes/egypt/koshari
-ful-medames,EG,Ful medames,Фуль медамес,فول مدمس,breakfast,vegetarian|vegan|gluten-free,easy,4,15,240,420,22,18,46,9,5,https://theunitools.com/recipes/ful-medames.jpg,https://theunitools.com/en/recipes/egypt/ful-medames
-tabbouleh,LB,Tabbouleh,Табуле,تبولة,salad,vegetarian|vegan,easy,4,25,0,210,5,14,19,9,4,https://theunitools.com/recipes/tabbouleh.jpg,https://theunitools.com/en/recipes/lebanon/tabbouleh
-kibbeh-nayyeh,LB,Kibbeh nayyeh,Киббе нейе,كبة نية,main,,medium,4,40,0,380,30,22,16,9,5,https://theunitools.com/recipes/kibbeh-nayyeh.jpg,https://theunitools.com/en/recipes/lebanon/kibbeh-nayyeh
-ghormeh-sabzi,IR,Ghormeh sabzi,Гормэ сабзи,قورمه‌سبزی,main,gluten-free,medium,6,40,150,640,42,32,46,12,5,https://theunitools.com/recipes/ghormeh-sabzi.jpg,https://theunitools.com/en/recipes/iran/ghormeh-sabzi
-tahdig,IR,Tahdig,Тахдиг,ته‌دیگ,side,vegetarian|gluten-free,medium,6,90,60,420,8,14,66,7,7,https://theunitools.com/recipes/tahdig.jpg,https://theunitools.com/en/recipes/iran/tahdig
-plov-uzbekskiy,UZ,Uzbek plov,Узбекский плов,Palov,main,gluten-free,medium,6,30,100,780,38,34,82,11,6,https://theunitools.com/recipes/plov-uzbekskiy.jpg,https://theunitools.com/en/recipes/uzbekistan/plov-uzbekskiy
-samsa,UZ,Samsa,Самса,Somsa,snack,,hard,6,90,35,580,24,34,46,9,6,https://theunitools.com/recipes/samsa.jpg,https://theunitools.com/en/recipes/uzbekistan/samsa
-clam-chowder,US,New England clam chowder,Новоанглийский клэм-чаудер,New England clam chowder,soup,pescatarian,easy,4,20,35,520,28,30,34,12,6,https://theunitools.com/recipes/clam-chowder.jpg,https://theunitools.com/en/recipes/united-states/clam-chowder
-buffalo-wings,US,Buffalo wings,Куриные крылья баффало,Buffalo wings,snack,gluten-free,easy,4,15,50,620,42,48,3,9,6,https://theunitools.com/recipes/buffalo-wings.jpg,https://theunitools.com/en/recipes/united-states/buffalo-wings
-pizza-margherita,IT,Pizza margherita,Пицца маргарита,Pizza margherita,main,vegetarian,medium,4,60,10,720,30,26,92,8,6,https://theunitools.com/recipes/pizza-margherita.jpg,https://theunitools.com/en/recipes/italy/pizza-margherita
-lasagne-alla-bolognese,IT,Lasagne alla bolognese,Лазанья болоньезе,Lasagne alla bolognese,main,,hard,8,40,220,780,42,42,58,14,7,,https://theunitools.com/en/recipes/italy/lasagne-alla-bolognese
-palak-paneer,IN,Palak paneer,Палак панир,पालक पनीर,main,vegetarian|gluten-free,easy,4,20,25,420,22,30,16,12,5,https://theunitools.com/recipes/palak-paneer.jpg,https://theunitools.com/en/recipes/india/palak-paneer
-samosa,IN,Samosa,Самоса,समोसा,snack,vegetarian|vegan,medium,6,60,30,380,8,20,44,13,6,https://theunitools.com/recipes/samosa.jpg,https://theunitools.com/en/recipes/india/samosa
-jiaozi,CN,Jiaozi dumplings,Цзяоцзы,饺子,main,,medium,4,60,15,580,26,24,62,12,6,https://theunitools.com/recipes/jiaozi.jpg,https://theunitools.com/en/recipes/china/jiaozi
-yangzhou-fried-rice,CN,Yangzhou fried rice,Янчжоуский жареный рис,扬州炒饭,main,,easy,4,15,10,540,26,18,68,11,5,https://theunitools.com/recipes/yangzhou-fried-rice.jpg,https://theunitools.com/en/recipes/china/yangzhou-fried-rice
-chiles-en-nogada,MX,Chiles rellenos,Чиле рельено,Chiles rellenos,main,vegetarian,hard,4,40,30,520,24,36,24,10,6,https://theunitools.com/recipes/chiles-en-nogada.jpg,https://theunitools.com/en/recipes/mexico/chiles-en-nogada
-pozole-rojo,MX,Pozole rojo,Посоле рохо,Pozole rojo,soup,gluten-free,medium,8,30,180,560,38,26,44,11,6,https://theunitools.com/recipes/pozole-rojo.jpg,https://theunitools.com/en/recipes/mexico/pozole-rojo
-nihari,PK,Nihari,Нихари,نہاری,main,,hard,6,30,300,720,52,46,20,12,5,https://theunitools.com/recipes/nihari.jpg,https://theunitools.com/en/recipes/pakistan/nihari
-chapli-kebab,PK,Chapli kebab,Чапли кебаб,چپلی کباب,main,,easy,4,25,20,560,34,40,16,11,5,https://theunitools.com/recipes/chapli-kebab.jpg,https://theunitools.com/en/recipes/pakistan/chapli-kebab
-laksa-lemak,MY,Laksa lemak,Лакса лемак,Laksa lemak,soup,,medium,4,30,30,720,32,40,62,13,5,https://theunitools.com/recipes/laksa-lemak.jpg,https://theunitools.com/en/recipes/malaysia/laksa-lemak
-roti-canai,MY,Roti canai,Роти чанай,Roti canai,bread,vegetarian,hard,6,30,20,420,8,20,52,7,6,https://theunitools.com/recipes/roti-canai.jpg,https://theunitools.com/en/recipes/malaysia/roti-canai
-stamppot,NL,Stamppot,Стамппот,Stamppot boerenkool,main,,easy,4,20,35,780,30,46,62,9,5,https://theunitools.com/recipes/stamppot.jpg,https://theunitools.com/en/recipes/netherlands/stamppot
-poffertjes,NL,Poffertjes,Поффертьес,Poffertjes,dessert,vegetarian,easy,4,70,20,420,11,18,54,9,6,https://theunitools.com/recipes/poffertjes.jpg,https://theunitools.com/en/recipes/netherlands/poffertjes
-doro-wat,ET,Doro wat,Доро уот,ዶሮ ወጥ,main,gluten-free,medium,6,25,120,620,46,40,18,10,6,https://theunitools.com/recipes/doro-wat.jpg,https://theunitools.com/en/recipes/ethiopia/doro-wat
-misir-wat,ET,Misir wat,Мисир уот,ምስር ወጥ,main,vegetarian|vegan|gluten-free,easy,4,15,70,420,20,18,48,9,5,,https://theunitools.com/en/recipes/ethiopia/misir-wat
-ropa-vieja,CU,Ropa vieja,Ропа вьеха,Ropa vieja,main,gluten-free,easy,6,25,150,620,46,26,48,12,5,https://theunitools.com/recipes/ropa-vieja.jpg,https://theunitools.com/en/recipes/cuba/ropa-vieja
-moros-y-cristianos,CU,Moros y cristianos,Морос и кристианос,Moros y cristianos,side,vegetarian|vegan|gluten-free,easy,6,20,90,460,15,11,76,11,5,https://theunitools.com/recipes/moros-y-cristianos.jpg,https://theunitools.com/en/recipes/cuba/moros-y-cristianos
-jerk-chicken,JM,Jerk chicken,Курица джерк,Jerk chicken,main,,medium,6,30,120,560,48,36,10,12,6,https://theunitools.com/recipes/jerk-chicken.jpg,https://theunitools.com/en/recipes/jamaica/jerk-chicken
-ackee-and-saltfish,JM,Ackee and saltfish,Аки с солёной рыбой,Ackee and saltfish,breakfast,pescatarian|gluten-free,easy,4,20,25,380,28,24,14,10,5,https://theunitools.com/recipes/ackee-and-saltfish.jpg,https://theunitools.com/en/recipes/jamaica/ackee-and-saltfish
-jollof-rice,NG,Jollof rice,Джоллоф рис,Jollof rice,main,vegetarian|vegan|gluten-free,medium,6,20,60,520,10,18,80,12,6,https://theunitools.com/recipes/jollof-rice.jpg,https://theunitools.com/en/recipes/nigeria/jollof-rice
-suya,NG,Suya,Суйя,Suya,snack,gluten-free,easy,4,40,15,520,42,34,12,10,5,https://theunitools.com/recipes/suya.jpg,https://theunitools.com/en/recipes/nigeria/suya
-arepas,CO,Arepas,Арепас,Arepas,bread,vegetarian|gluten-free,easy,4,15,25,380,12,14,52,6,6,https://theunitools.com/recipes/arepas.jpg,https://theunitools.com/en/recipes/colombia/arepas
-ajiaco-bogotano,CO,Ajiaco bogotano,Ахиако,Ajiaco bogotano,soup,gluten-free,easy,6,25,75,520,38,20,48,12,5,https://theunitools.com/recipes/ajiaco-bogotano.jpg,https://theunitools.com/en/recipes/colombia/ajiaco-bogotano
-quiche-lorraine,FR,Quiche lorraine,Киш лорен,Quiche lorraine,main,,medium,6,40,60,580,20,44,28,10,6,https://theunitools.com/recipes/quiche-lorraine.jpg,https://theunitools.com/en/recipes/france/quiche-lorraine
-croissant,FR,Croissant,Круассан,Croissant,bread,vegetarian,hard,8,180,20,420,8,26,40,8,7,https://theunitools.com/recipes/croissant.jpg,https://theunitools.com/en/recipes/france/croissant
-tempura,JP,Tempura,Темпура,天ぷら,main,pescatarian,medium,4,25,20,520,24,26,48,11,6,https://theunitools.com/recipes/tempura.jpg,https://theunitools.com/en/recipes/japan/tempura
-okonomiyaki,JP,Okonomiyaki,Окономияки,お好み焼き,main,,easy,4,25,25,560,24,32,44,12,6,https://theunitools.com/recipes/okonomiyaki.jpg,https://theunitools.com/en/recipes/japan/okonomiyaki
-lahmacun,TR,Lahmacun,Лахмаджун,Lahmacun,main,,medium,6,60,20,420,22,16,48,12,6,https://theunitools.com/recipes/lahmacun.jpg,https://theunitools.com/en/recipes/turkey/lahmacun
-baklava,TR,Baklava,Пахлава,Baklava,dessert,vegetarian,hard,12,60,60,490,8,28,54,6,7,https://theunitools.com/recipes/baklava.jpg,https://theunitools.com/en/recipes/turkey/baklava
-spanakopita,GR,Spanakopita,Спанакопита,Σπανακόπιτα,main,vegetarian,medium,8,40,50,480,16,32,34,9,6,https://theunitools.com/recipes/spanakopita.jpg,https://theunitools.com/en/recipes/greece/spanakopita
-patatas-bravas,ES,Patatas bravas,Пататас бравас,Patatas bravas,snack,vegetarian,easy,4,20,30,420,6,22,48,10,6,https://theunitools.com/recipes/patatas-bravas.jpg,https://theunitools.com/en/recipes/spain/patatas-bravas
-momo,NP,Momo,Момо,मम:,main,,medium,4,60,20,560,30,20,62,13,5,https://theunitools.com/recipes/momo.jpg,https://theunitools.com/en/recipes/nepal/momo
-dal-bhat,NP,Dal bhat,Дал бхат,दाल भात,main,vegetarian|gluten-free,easy,4,20,45,620,22,16,98,12,6,https://theunitools.com/recipes/dal-bhat.jpg,https://theunitools.com/en/recipes/nepal/dal-bhat
-kottu-roti,LK,Kottu roti,Котту роти,කොත්තු රොටි,main,,easy,4,20,15,640,32,28,66,12,5,https://theunitools.com/recipes/kottu-roti.jpg,https://theunitools.com/en/recipes/sri-lanka/kottu-roti
-pol-sambol,LK,Pol sambol,Пол самбол,පොල් සම්බෝල,sauce,gluten-free,easy,6,15,0,240,5,21,9,6,4,https://theunitools.com/recipes/pol-sambol.jpg,https://theunitools.com/en/recipes/sri-lanka/pol-sambol
-cevapi,RS,Ćevapi,Чевапи,Ћевапи,main,,medium,4,30,15,680,44,42,30,11,6,https://theunitools.com/recipes/cevapi.jpg,https://theunitools.com/en/recipes/serbia/cevapi
-ajvar,RS,Ajvar,Айвар,Ајвар,sauce,vegetarian|vegan|gluten-free,medium,10,60,90,180,2,15,11,6,6,https://theunitools.com/recipes/ajvar.jpg,https://theunitools.com/en/recipes/serbia/ajvar
-frikadeller,DK,Frikadeller,Фрикаделлер,Frikadeller,main,,easy,4,20,25,620,36,34,42,11,6,https://theunitools.com/recipes/frikadeller.jpg,https://theunitools.com/en/recipes/denmark/frikadeller
-smorrebrod,DK,Smørrebrød,Смёрребрёд,Smørrebrød,snack,pescatarian,easy,4,25,0,480,26,28,32,10,5,https://theunitools.com/recipes/smorrebrod.jpg,https://theunitools.com/en/recipes/denmark/smorrebrod
-sarmale,RO,Sarmale,Сармале,Sarmale,main,,medium,8,60,180,520,30,30,32,11,6,https://theunitools.com/recipes/sarmale.jpg,https://theunitools.com/en/recipes/romania/sarmale
-mamaliga,RO,Mămăligă,Мамалыга,Mămăligă,side,vegetarian|gluten-free,easy,6,5,40,380,12,16,48,6,5,https://theunitools.com/recipes/mamaliga.jpg,https://theunitools.com/en/recipes/romania/mamaliga
-shopska-salata,BG,Shopska salad,Шопский салат,Шопска салата,salad,vegetarian|gluten-free,easy,4,20,10,290,12,22,12,10,4,https://theunitools.com/recipes/shopska-salata.jpg,https://theunitools.com/en/recipes/bulgaria/shopska-salata
-banitsa,BG,Banitsa,Баница,Баница,breakfast,vegetarian,medium,8,30,45,520,20,32,38,7,6,https://theunitools.com/recipes/banitsa.jpg,https://theunitools.com/en/recipes/bulgaria/banitsa
-lohikeitto,FI,Lohikeitto,Лохикейтто,Lohikeitto,soup,pescatarian|gluten-free,easy,4,20,40,520,32,32,26,11,6,https://theunitools.com/recipes/lohikeitto.jpg,https://theunitools.com/en/recipes/finland/lohikeitto
-karjalanpiirakka,FI,Karelian pies,Карельские пирожки,Karjalanpiirakka,bread,vegetarian,hard,8,60,25,240,6,10,32,7,7,https://theunitools.com/recipes/karjalanpiirakka.jpg,https://theunitools.com/en/recipes/finland/karjalanpiirakka
-irish-stew,IE,Irish stew,Ирландское рагу,Irish stew,main,gluten-free,easy,6,20,150,620,42,28,48,8,5,https://theunitools.com/recipes/irish-stew.jpg,https://theunitools.com/en/recipes/ireland/irish-stew
-soda-bread,IE,Soda bread,Содовый хлеб,Soda bread,bread,vegetarian,easy,8,10,45,260,9,2,52,6,6,https://theunitools.com/recipes/soda-bread.jpg,https://theunitools.com/en/recipes/ireland/soda-bread
-crni-rizot,HR,Black risotto,Чёрный ризотто,Crni rižot,main,pescatarian,medium,4,25,50,540,34,18,62,11,6,https://theunitools.com/recipes/crni-rizot.jpg,https://theunitools.com/en/recipes/croatia/crni-rizot
-zagorski-strukli,HR,Zagorje štrukli,Загорски штрукли,Zagorski štrukli,main,vegetarian,hard,6,60,45,620,28,36,44,10,6,https://theunitools.com/recipes/zagorski-strukli.jpg,https://theunitools.com/en/recipes/croatia/zagorski-strukli
-gravlaks,NO,Gravlaks,Гравлакс,Gravlaks,snack,pescatarian|gluten-free,easy,8,20,0,280,26,18,4,9,6,,https://theunitools.com/en/recipes/norway/gravlaks
-farikal,NO,Fårikål,Форикол,Fårikål,main,,easy,6,20,130,640,46,34,34,7,5,https://theunitools.com/recipes/farikal.jpg,https://theunitools.com/en/recipes/norway/farikal
-moules-marinieres,BE,Moules marinières,Мидии по-мариньерски,Moules marinières,main,pescatarian,easy,4,25,15,620,38,26,52,10,5,https://theunitools.com/recipes/moules-marinieres.jpg,https://theunitools.com/en/recipes/belgium/moules-marinieres
-carbonade-flamande,BE,Carbonade flamande,Фламандская карбонада,Carbonade flamande,main,,easy,6,25,180,640,48,30,32,10,6,https://theunitools.com/recipes/carbonade-flamande.jpg,https://theunitools.com/en/recipes/belgium/carbonade-flamande
-fondue-moitie-moitie,CH,Cheese fondue,Сырное фондю,Fondue moitié-moitié,main,vegetarian,medium,4,15,20,880,48,52,48,9,6,https://theunitools.com/recipes/fondue-moitie-moitie.jpg,https://theunitools.com/en/recipes/switzerland/fondue-moitie-moitie
-roesti,CH,Rösti,Рёшти,Rösti,side,vegetarian|gluten-free,easy,4,15,30,420,8,22,48,6,6,https://theunitools.com/recipes/roesti.jpg,https://theunitools.com/en/recipes/switzerland/roesti
-ghapama,AM,Ghapama,Гапама,Ղափամա,main,vegetarian|gluten-free,medium,6,30,90,470,9,18,71,11,7,https://theunitools.com/recipes/ghapama.jpg,https://theunitools.com/en/recipes/armenia/ghapama
-spas,AM,Spas,Спас,Սպաս,soup,vegetarian,medium,4,10,40,280,14,12,30,9,6,https://theunitools.com/recipes/spas.jpg,https://theunitools.com/en/recipes/armenia/spas
-shah-plov,AZ,Shah plov,Шах-плов,Şah plov,main,,hard,6,45,70,720,30,34,75,11,7,https://theunitools.com/recipes/shah-plov.jpg,https://theunitools.com/en/recipes/azerbaijan/shah-plov
-kufta-bozbash,AZ,Kufta bozbash,Кюфта-бозбаш,Küftə bozbaş,soup,,medium,4,30,80,560,34,26,46,11,6,https://theunitools.com/recipes/kufta-bozbash.jpg,https://theunitools.com/en/recipes/azerbaijan/kufta-bozbash
-beshbarmak,KZ,Beshbarmak,Бешбармак,Бесбармақ,main,,medium,6,40,180,690,45,28,63,10,7,https://theunitools.com/recipes/beshbarmak.jpg,https://theunitools.com/en/recipes/kazakhstan/beshbarmak
-baursaki,KZ,Baursak,Баурсаки,Бауырсақ,bread,vegetarian,easy,8,30,25,330,8,14,44,8,7,https://theunitools.com/recipes/baursaki.jpg,https://theunitools.com/en/recipes/kazakhstan/baursaki
-bryndzove-halusky,SK,Bryndzové halušky,Брынзове галушки,Bryndzové halušky,main,,easy,4,25,20,640,24,34,58,6,6,https://theunitools.com/recipes/bryndzove-halusky.jpg,https://theunitools.com/en/recipes/slovakia/bryndzove-halusky
-kapustnica,SK,Kapustnica,Капустница,Kapustnica,soup,,easy,6,20,90,480,26,30,26,11,6,https://theunitools.com/recipes/kapustnica.jpg,https://theunitools.com/en/recipes/slovakia/kapustnica
-pastel-de-choclo,CL,Pastel de choclo,Пастель-де-чокло,Pastel de choclo,main,,medium,6,40,60,620,34,27,62,13,6,https://theunitools.com/recipes/pastel-de-choclo.jpg,https://theunitools.com/en/recipes/chile/pastel-de-choclo
-empanadas-de-pino,CL,Empanadas de pino,Эмпанадас-де-пино,Empanadas de pino,snack,,medium,6,60,30,590,26,29,55,11,7,https://theunitools.com/recipes/empanadas-de-pino.jpg,https://theunitools.com/en/recipes/chile/empanadas-de-pino
-pabellon-criollo,VE,Pabellón criollo,Пабельон-криольо,Pabellón criollo,main,,medium,4,30,150,780,45,24,96,11,7,https://theunitools.com/recipes/pabellon-criollo.jpg,https://theunitools.com/en/recipes/venezuela/pabellon-criollo
-cachapas,VE,Cachapas,Качапас,Cachapas,breakfast,vegetarian|gluten-free,easy,4,15,25,430,16,20,48,6,6,https://theunitools.com/recipes/cachapas.jpg,https://theunitools.com/en/recipes/venezuela/cachapas
-saltenas,BO,Salteñas,Сальтеньяс,Salteñas,snack,,hard,6,90,30,560,24,26,58,15,7,https://theunitools.com/recipes/saltenas.jpg,https://theunitools.com/en/recipes/bolivia/saltenas
-silpancho,BO,Silpancho,Сильпанчо,Silpancho,main,,easy,4,30,30,810,42,36,82,11,7,https://theunitools.com/recipes/silpancho.jpg,https://theunitools.com/en/recipes/bolivia/silpancho
-encebollado,EC,Encebollado,Энсебольядо,Encebollado,soup,pescatarian|gluten-free,easy,4,20,40,420,40,11,42,10,6,https://theunitools.com/recipes/encebollado.jpg,https://theunitools.com/en/recipes/ecuador/encebollado
-llapingachos,EC,Llapingachos,Льяпингачос,Llapingachos,side,vegetarian|gluten-free,easy,4,30,30,520,20,27,50,9,7,https://theunitools.com/recipes/llapingachos.jpg,https://theunitools.com/en/recipes/ecuador/llapingachos
-masgouf,IQ,Masgouf,Масгуф,مسكوف,main,pescatarian|gluten-free,medium,4,30,75,480,52,27,8,9,7,https://theunitools.com/recipes/masgouf.jpg,https://theunitools.com/en/recipes/iraq/masgouf
-dolma-iraqi,IQ,Iraqi dolma,Иракская долма,دولمة,main,,hard,6,75,75,520,20,22,62,14,7,https://theunitools.com/recipes/dolma-iraqi.jpg,https://theunitools.com/en/recipes/iraq/dolma-iraqi
-mansaf,JO,Mansaf,Мансаф,منسف,main,,medium,8,40,150,820,48,38,74,11,7,https://theunitools.com/recipes/mansaf.jpg,https://theunitools.com/en/recipes/jordan/mansaf
-maqluba,JO,Maqluba,Маклюба,مقلوبة,main,,medium,6,45,90,690,34,30,72,12,7,https://theunitools.com/recipes/maqluba.jpg,https://theunitools.com/en/recipes/jordan/maqluba
-brik,TN,Brik,Брик,بريك,snack,,medium,4,20,10,390,20,24,24,11,6,https://theunitools.com/recipes/brik.jpg,https://theunitools.com/en/recipes/tunisia/brik
-shakshuka-tunisienne,TN,Tunisian lablabi,Тунисский лаблаби,لبلابي,soup,vegetarian,easy,4,15,90,520,22,22,60,12,6,https://theunitools.com/recipes/shakshuka-tunisienne.jpg,https://theunitools.com/en/recipes/tunisia/shakshuka-tunisienne
-couscous-algerien,DZ,Algerian couscous,Алжирский кускус,كسكس,main,,hard,6,40,120,760,40,30,88,14,7,https://theunitools.com/recipes/couscous-algerien.jpg,https://theunitools.com/en/recipes/algeria/couscous-algerien
-chorba-frik,DZ,Chorba frik,Чорба-фрик,شوربة فريك,soup,,easy,6,20,70,420,28,18,38,13,6,https://theunitools.com/recipes/chorba-frik.jpg,https://theunitools.com/en/recipes/algeria/chorba-frik
-cepelinai,LT,Cepelinai,Цеппелинай,Cepelinai,main,,hard,4,60,40,720,28,38,68,9,7,https://theunitools.com/recipes/cepelinai.jpg,https://theunitools.com/en/recipes/lithuania/cepelinai
-saltibarsciai,LT,Šaltibarščiai,Шалтибарщяй,Šaltibarščiai,soup,vegetarian,easy,4,20,40,320,14,12,40,9,6,https://theunitools.com/recipes/saltibarsciai.jpg,https://theunitools.com/en/recipes/lithuania/saltibarsciai
-pelekie-zirni-ar-speki,LV,Grey peas with speck,Серый горох со шпеком,Pelēkie zirņi ar speķi,main,,easy,4,15,90,610,28,30,54,6,6,,https://theunitools.com/en/recipes/latvia/pelekie-zirni-ar-speki
-rupjmaizes-kartojums,LV,Rye bread layer dessert,Слоёный ржаной десерт,Rupjmaizes kārtojums,dessert,vegetarian,easy,6,25,15,470,6,26,54,7,6,,https://theunitools.com/en/recipes/latvia/rupjmaizes-kartojums
-mulgipuder,EE,Mulgipuder,Мульгипудер,Mulgipuder,main,,easy,4,15,80,560,18,26,64,7,6,https://theunitools.com/recipes/mulgipuder.jpg,https://theunitools.com/en/recipes/estonia/mulgipuder
-kama,EE,Kama,Кама,Kama,dessert,vegetarian,easy,4,10,0,310,12,6,52,7,5,https://theunitools.com/recipes/kama.jpg,https://theunitools.com/en/recipes/estonia/kama
-draniki,BY,Draniki,Драники,Дранікі,main,vegetarian|gluten-free,easy,4,20,25,390,8,22,42,6,6,https://theunitools.com/recipes/draniki.jpg,https://theunitools.com/en/recipes/belarus/draniki
-machanka,BY,Machanka,Мачанка,Мачанка,main,,easy,4,25,50,780,34,46,54,11,7,,https://theunitools.com/en/recipes/belarus/machanka
-mohinga,MM,Mohinga,Мохинга,မုန့်ဟင်းခါး,soup,pescatarian,medium,6,40,80,560,32,18,68,17,7,https://theunitools.com/recipes/mohinga.jpg,https://theunitools.com/en/recipes/myanmar/mohinga
-lahpet-thoke,MM,Lahpet thoke,Лапет-тхоке,လက်ဖက်သုပ်,salad,vegetarian,easy,4,20,15,340,14,24,20,12,6,https://theunitools.com/recipes/lahpet-thoke.jpg,https://theunitools.com/en/recipes/myanmar/lahpet-thoke
-fish-amok,KH,Fish amok,Фиш-амок,អាម៉ុកត្រី,main,pescatarian|gluten-free,medium,4,35,25,480,32,32,14,15,7,https://theunitools.com/recipes/fish-amok.jpg,https://theunitools.com/en/recipes/cambodia/fish-amok
-lok-lak,KH,Lok lak,Лок-лак,ឡុកឡាក់,main,,easy,4,25,15,520,42,30,18,14,6,https://theunitools.com/recipes/lok-lak.jpg,https://theunitools.com/en/recipes/cambodia/lok-lak
-hainanese-chicken-rice,SG,Hainanese chicken rice,Хайнаньский рис с курицей,海南鸡饭,main,,medium,4,30,60,690,46,26,68,12,7,https://theunitools.com/recipes/hainanese-chicken-rice.jpg,https://theunitools.com/en/recipes/singapore/hainanese-chicken-rice
-chilli-crab,SG,Chilli crab,Краб в соусе чили,辣椒螃蟹,main,pescatarian,medium,4,30,25,620,40,28,48,15,7,https://theunitools.com/recipes/chilli-crab.jpg,https://theunitools.com/en/recipes/singapore/chilli-crab
-lu-rou-fan,TW,Lu rou fan,Лу-жоу-фань,滷肉飯,main,,easy,4,25,100,780,32,44,62,14,7,https://theunitools.com/recipes/lu-rou-fan.jpg,https://theunitools.com/en/recipes/taiwan/lu-rou-fan
-beef-noodle-soup-taiwan,TW,Taiwanese beef noodle soup,Тайваньский суп с говядиной,牛肉麵,soup,,medium,4,25,150,680,48,24,68,16,7,https://theunitools.com/recipes/beef-noodle-soup-taiwan.jpg,https://theunitools.com/en/recipes/taiwan/beef-noodle-soup-taiwan
-nyama-choma,KE,Nyama choma,Ньяма-чома,Nyama choma,main,gluten-free,easy,6,25,90,620,52,28,42,10,6,https://theunitools.com/recipes/nyama-choma.jpg,https://theunitools.com/en/recipes/kenya/nyama-choma
-sukuma-wiki,KE,Sukuma wiki,Сукума-вики,Sukuma wiki,side,vegetarian|vegan|gluten-free,easy,4,15,20,180,6,12,14,8,6,https://theunitools.com/recipes/sukuma-wiki.jpg,https://theunitools.com/en/recipes/kenya/sukuma-wiki
-waakye,GH,Waakye,Ваакье,Waakye,main,vegetarian|vegan,easy,6,20,80,560,18,12,96,10,7,https://theunitools.com/recipes/waakye.jpg,https://theunitools.com/en/recipes/ghana/waakye
-banku-with-tilapia,GH,Banku with tilapia,Банку с тиляпией,Banku,main,pescatarian,medium,4,30,45,640,38,20,78,10,7,https://theunitools.com/recipes/banku-with-tilapia.jpg,https://theunitools.com/en/recipes/ghana/banku-with-tilapia
-thieboudienne,SN,Thieboudienne,Тьебуджен,Ceebu jën,main,pescatarian,hard,6,50,90,720,42,22,92,15,7,https://theunitools.com/recipes/thieboudienne.jpg,https://theunitools.com/en/recipes/senegal/thieboudienne
-yassa-poulet,SN,Chicken yassa,Ясса с курицей,Yassa ginaar,main,gluten-free,easy,4,25,75,640,42,24,62,11,7,https://theunitools.com/recipes/yassa-poulet.jpg,https://theunitools.com/en/recipes/senegal/yassa-poulet
-bobotie,ZA,Bobotie,Бобóти,Bobotie,main,,easy,6,30,60,590,34,32,40,15,7,https://theunitools.com/recipes/bobotie.jpg,https://theunitools.com/en/recipes/south-africa/bobotie
-chakalaka,ZA,Chakalaka,Чакалака,Chakalaka,side,vegetarian|vegan|gluten-free,easy,6,20,20,220,8,10,26,12,6,https://theunitools.com/recipes/chakalaka.jpg,https://theunitools.com/en/recipes/south-africa/chakalaka
-plokkfiskur,IS,Plokkfiskur,Плоккфискюр,Plokkfiskur,main,pescatarian,easy,4,20,35,480,38,18,42,10,6,,https://theunitools.com/en/recipes/iceland/plokkfiskur
-kjotsupa,IS,Kjötsúpa,Кьётсупа,Kjötsúpa,soup,,easy,6,20,150,520,36,22,42,9,6,https://theunitools.com/recipes/kjotsupa.jpg,https://theunitools.com/en/recipes/iceland/kjotsupa
-potica,SI,Potica,Потица,Potica,dessert,vegetarian,hard,12,90,60,560,12,32,58,13,7,https://theunitools.com/recipes/potica.jpg,https://theunitools.com/en/recipes/slovenia/potica
-jota,SI,Jota,Йота,Jota,soup,,easy,6,20,90,490,26,22,46,10,7,https://theunitools.com/recipes/jota.jpg,https://theunitools.com/en/recipes/slovenia/jota
-bosanski-lonac,BA,Bosanski lonac,Босански лонац,Bosanski lonac,main,,easy,6,40,240,660,44,32,42,14,6,https://theunitools.com/recipes/bosanski-lonac.jpg,https://theunitools.com/en/recipes/bosnia/bosanski-lonac
-burek-bosanski,BA,Bosnian burek,Боснийский бурек,Burek,main,,hard,6,75,45,690,30,38,58,8,7,https://theunitools.com/recipes/burek-bosanski.jpg,https://theunitools.com/en/recipes/bosnia/burek-bosanski
-tavce-gravce,MK,Tavče gravče,Тавче-гравче,Тавче гравче,main,vegetarian|vegan,easy,6,20,120,420,20,16,52,9,7,https://theunitools.com/recipes/tavce-gravce.jpg,https://theunitools.com/en/recipes/north-macedonia/tavce-gravce
-selsko-meso,MK,Selsko meso,Селско месо,Селско месо,main,,easy,4,25,70,640,44,40,16,12,7,https://theunitools.com/recipes/selsko-meso.jpg,https://theunitools.com/en/recipes/north-macedonia/selsko-meso
-lamingtons,AU,Lamingtons,Ламингтоны,Lamingtons,dessert,vegetarian,medium,12,45,30,420,5,20,56,12,7,https://theunitools.com/recipes/lamingtons.jpg,https://theunitools.com/en/recipes/australia/lamingtons
-meat-pie-australian,AU,Australian meat pie,Австралийский мясной пирог,Meat pie,main,,medium,6,60,90,720,32,42,54,12,7,https://theunitools.com/recipes/meat-pie-australian.jpg,https://theunitools.com/en/recipes/australia/meat-pie-australian
-pavlova,NZ,Pavlova,Павлова,Pavlova,dessert,vegetarian|gluten-free,medium,8,25,90,380,4,18,52,9,7,https://theunitools.com/recipes/pavlova.jpg,https://theunitools.com/en/recipes/new-zealand/pavlova
-hangi-style-chicken,NZ,Hāngī-style chicken,Курица в стиле ханги,Hāngī,main,gluten-free,easy,6,30,150,620,44,24,58,10,7,https://theunitools.com/recipes/hangi-style-chicken.jpg,https://theunitools.com/en/recipes/new-zealand/hangi-style-chicken
-poutine,CA,Poutine,Путин,Poutine,snack,,medium,4,30,40,780,26,42,74,10,7,https://theunitools.com/recipes/poutine.jpg,https://theunitools.com/en/recipes/canada/poutine
-tourtiere,CA,Tourtière,Туртьер,Tourtière,main,,medium,8,45,70,700,30,42,50,13,7,https://theunitools.com/recipes/tourtiere.jpg,https://theunitools.com/en/recipes/canada/tourtiere
-gallo-pinto,CR,Gallo pinto,Гальо-пинто,Gallo pinto,breakfast,vegetarian|vegan|gluten-free,easy,4,15,20,480,18,12,76,11,6,https://theunitools.com/recipes/gallo-pinto.jpg,https://theunitools.com/en/recipes/costa-rica/gallo-pinto
-casado,CR,Casado,Касадо,Casado,main,,easy,4,35,40,740,48,20,92,14,7,https://theunitools.com/recipes/casado.jpg,https://theunitools.com/en/recipes/costa-rica/casado
-buuz,MN,Buuz,Буузы,Бууз,main,,medium,6,70,25,620,30,34,48,7,7,https://theunitools.com/recipes/buuz.jpg,https://theunitools.com/en/recipes/mongolia/buuz
-tsuivan,MN,Tsuivan,Цуйван,Цуйван,main,,medium,4,50,45,660,32,28,72,10,7,https://theunitools.com/recipes/tsuivan.jpg,https://theunitools.com/en/recipes/mongolia/tsuivan
-beshbarmak-kyrgyz,KG,Kyrgyz beshbarmak,Кыргызский бешбармак,Бешбармак,main,,medium,6,45,165,700,44,32,58,10,7,https://theunitools.com/recipes/beshbarmak-kyrgyz.jpg,https://theunitools.com/en/recipes/kyrgyzstan/beshbarmak-kyrgyz
-lagman,KG,Lagman,Лагман,Лагман,main,,hard,4,90,40,720,34,32,78,15,7,https://theunitools.com/recipes/lagman.jpg,https://theunitools.com/en/recipes/kyrgyzstan/lagman
-kurutob,TJ,Qurutob,Курутоб,Қурутоб,main,vegetarian,easy,4,25,20,520,18,28,50,9,6,https://theunitools.com/recipes/kurutob.jpg,https://theunitools.com/en/recipes/tajikistan/kurutob
-oshi-plov-tajik,TJ,Tajik oshi palav,Таджикский оши палав,Оши палав,main,,medium,6,40,90,780,34,38,76,10,7,https://theunitools.com/recipes/oshi-plov-tajik.jpg,https://theunitools.com/en/recipes/tajikistan/oshi-plov-tajik
-kabuli-pulao,AF,Kabuli pulao,Кабули палав,قابلی پلو,main,,hard,6,45,110,820,38,34,96,13,7,https://theunitools.com/recipes/kabuli-pulao.jpg,https://theunitools.com/en/recipes/afghanistan/kabuli-pulao
-mantu-afghan,AF,Afghan mantu,Афганское манту,منتو,main,,medium,5,75,45,640,30,26,70,12,7,https://theunitools.com/recipes/mantu-afghan.jpg,https://theunitools.com/en/recipes/afghanistan/mantu-afghan
-fattoush,SY,Fattoush,Фаттуш,فتوش,salad,vegetarian|vegan,easy,4,20,10,280,6,18,26,14,6,https://theunitools.com/recipes/fattoush.jpg,https://theunitools.com/en/recipes/syria/fattoush
-kibbeh-bil-sanieh,SY,Kibbeh bil sanieh,Киббе в противне,كبة بالصينية,main,,medium,8,50,45,560,34,28,42,9,7,https://theunitools.com/recipes/kibbeh-bil-sanieh.jpg,https://theunitools.com/en/recipes/syria/kibbeh-bil-sanieh
-shuwa,OM,Shuwa,Шува,شواء,main,gluten-free,medium,8,40,480,780,52,36,62,12,7,,https://theunitools.com/en/recipes/oman/shuwa
-omani-mishkak,OM,Mishkak,Мишкак,مشكاك,main,,easy,4,25,15,540,46,26,28,12,7,,https://theunitools.com/en/recipes/oman/omani-mishkak
-ful-sudani,SD,Sudanese ful,Суданский фул,فول سوداني,breakfast,vegetarian,easy,4,15,90,480,24,24,44,12,6,,https://theunitools.com/en/recipes/sudan/ful-sudani
-asida-sudanese,SD,Asida with mulah,Асида с мулах,عصيدة,main,,medium,5,20,70,640,32,26,72,10,7,,https://theunitools.com/en/recipes/sudan/asida-sudanese
-zanzibar-pilau,TZ,Zanzibar pilau,Занзибарский пилау,Pilau,main,,medium,6,25,75,700,38,26,82,13,7,https://theunitools.com/recipes/zanzibar-pilau.jpg,https://theunitools.com/en/recipes/tanzania/zanzibar-pilau
-ndizi-nyama,TZ,Ndizi na nyama,Ндизи ня ньяма,Ndizi na nyama,main,gluten-free,easy,4,25,60,620,34,30,56,11,6,,https://theunitools.com/en/recipes/tanzania/ndizi-nyama
-shorshe-ilish,BD,Shorshe ilish,Шорше илиш,সরষে ইলিশ,main,pescatarian|gluten-free,medium,4,25,25,560,38,30,34,8,7,https://theunitools.com/recipes/shorshe-ilish.jpg,https://theunitools.com/en/recipes/bangladesh/shorshe-ilish
-bhuna-khichuri,BD,Bhuna khichuri,Бхуна кхичури,ভুনা খিচুড়ি,main,vegetarian,easy,5,20,45,540,18,18,78,13,7,https://theunitools.com/recipes/bhuna-khichuri.jpg,https://theunitools.com/en/recipes/bangladesh/bhuna-khichuri
-larb-lao,LA,Larb,Лаап,ລາບ,salad,,easy,4,25,20,420,34,22,20,11,7,https://theunitools.com/recipes/larb-lao.jpg,https://theunitools.com/en/recipes/laos/larb-lao
-tam-mak-hoong,LA,Tam mak hoong,Там мак хунг,ຕຳໝາກຫຸ່ງ,salad,,easy,4,25,0,160,5,2,32,10,7,https://theunitools.com/recipes/tam-mak-hoong.jpg,https://theunitools.com/en/recipes/laos/tam-mak-hoong
-souvla,CY,Souvla,Сувла,Σούβλα,main,,easy,6,20,130,720,52,42,28,8,7,https://theunitools.com/recipes/souvla.jpg,https://theunitools.com/en/recipes/cyprus/souvla
-halloumi-grilled,CY,Grilled halloumi with watermelon,Жареный халуми с арбузом,Χαλλούμι,salad,vegetarian|gluten-free,easy,4,20,10,380,22,26,16,8,6,,https://theunitools.com/en/recipes/cyprus/halloumi-grilled
-maltese-rabbit-stew,MT,Maltese rabbit stew,Кролик по-мальтийски,Stuffat tal-fenek,main,gluten-free,easy,4,30,105,620,48,24,44,11,7,https://theunitools.com/recipes/maltese-rabbit-stew.jpg,https://theunitools.com/en/recipes/malta/maltese-rabbit-stew
-pastizzi,MT,Pastizzi,Пастицци,Pastizzi,snack,vegetarian,hard,8,90,35,480,14,30,40,10,7,https://theunitools.com/recipes/pastizzi.jpg,https://theunitools.com/en/recipes/malta/pastizzi
-chivito,UY,Chivito,Чивито,Chivito,main,,easy,4,25,20,890,52,54,46,12,7,https://theunitools.com/recipes/chivito.jpg,https://theunitools.com/en/recipes/uruguay/chivito
-milanesa-a-la-napolitana,UY,Milanesa a la napolitana,Миланеса а-ля наполитана,Milanesa a la napolitana,main,,easy,4,25,30,820,54,46,48,11,7,,https://theunitools.com/en/recipes/uruguay/milanesa-a-la-napolitana
-pepian,GT,Pepián,Пепиан,Pepián,main,gluten-free,medium,6,40,70,640,44,28,52,15,7,https://theunitools.com/recipes/pepian.jpg,https://theunitools.com/en/recipes/guatemala/pepian
-tamales-guatemaltecos,GT,Guatemalan tamales,Гватемальские тамалес,Tamales,main,,hard,8,90,90,620,26,34,54,13,7,https://theunitools.com/recipes/tamales-guatemaltecos.jpg,https://theunitools.com/en/recipes/guatemala/tamales-guatemaltecos
-sancocho-dominicano,DO,Dominican sancocho,Доминиканский санкочо,Sancocho,soup,gluten-free,medium,8,45,120,680,46,26,68,16,7,https://theunitools.com/recipes/sancocho-dominicano.jpg,https://theunitools.com/en/recipes/dominican-republic/sancocho-dominicano
-mangu,DO,Mangú,Мангу,Mangú,breakfast,,easy,4,20,30,720,30,42,58,9,6,https://theunitools.com/recipes/mangu.jpg,https://theunitools.com/en/recipes/dominican-republic/mangu
-doubles,TT,Doubles,Даблс,Doubles,breakfast,vegetarian|vegan,medium,6,100,60,520,18,20,68,14,7,,https://theunitools.com/en/recipes/trinidad-and-tobago/doubles
-callaloo,TT,Callaloo,Каллалу,Callaloo,soup,vegetarian|vegan|gluten-free,easy,6,25,55,260,7,18,20,10,6,https://theunitools.com/recipes/callaloo.jpg,https://theunitools.com/en/recipes/trinidad-and-tobago/callaloo
-tave-kosi,AL,Tavë kosi,Таве коси,Tavë kosi,main,,medium,6,30,90,620,42,38,24,9,7,https://theunitools.com/recipes/tave-kosi.jpg,https://theunitools.com/en/recipes/albania/tave-kosi
-byrek-me-spinaq,AL,Byrek me spinaq,Бюрек со шпинатом,Byrek me spinaq,main,vegetarian,easy,8,35,45,480,16,30,38,7,7,https://theunitools.com/recipes/byrek-me-spinaq.jpg,https://theunitools.com/en/recipes/albania/byrek-me-spinaq
-placinta,MD,Plăcintă,Плацинда,Plăcintă,snack,vegetarian,medium,6,60,30,440,14,22,46,9,7,https://theunitools.com/recipes/placinta.jpg,https://theunitools.com/en/recipes/moldova/placinta
-zeama,MD,Zeamă,Зама,Zeamă,soup,,easy,6,35,70,380,30,12,40,11,7,,https://theunitools.com/en/recipes/moldova/zeama
-judd-mat-gaardebounen,LU,Judd mat Gaardebounen,Копчёная шейка с бобами,Judd mat Gaardebounen,main,,easy,4,40,100,740,48,40,46,10,7,https://theunitools.com/recipes/judd-mat-gaardebounen.jpg,https://theunitools.com/en/recipes/luxembourg/judd-mat-gaardebounen
-gromperekichelcher,LU,Gromperekichelcher,Громперекихельхер,Gromperekichelcher,snack,vegetarian,easy,5,25,25,420,8,24,44,9,6,,https://theunitools.com/en/recipes/luxembourg/gromperekichelcher
-dograma,TM,Dograma,Дограма,Dogroma,soup,,easy,6,30,120,620,42,26,52,7,7,,https://theunitools.com/en/recipes/turkmenistan/dograma
-ichlekli,TM,Ichlekli,Ишлекли,Içlekli,main,,medium,8,50,70,660,32,34,56,9,7,,https://theunitools.com/en/recipes/turkmenistan/ichlekli
-kabsa,SA,Kabsa,Кабса,كبسة,main,,medium,6,30,75,720,44,28,78,15,7,https://theunitools.com/recipes/kabsa.jpg,https://theunitools.com/en/recipes/saudi-arabia/kabsa
-jareesh,SA,Jareesh,Джариш,جريش,main,,easy,6,20,150,580,34,26,54,9,6,,https://theunitools.com/en/recipes/saudi-arabia/jareesh
-saltah,YE,Saltah,Сальта,سلتة,main,,hard,4,40,90,620,38,32,44,12,7,https://theunitools.com/recipes/saltah.jpg,https://theunitools.com/en/recipes/yemen/saltah
-bint-al-sahn,YE,Bint al-sahn,Бинт ас-сахн,بنت الصحن,dessert,vegetarian,hard,8,80,35,620,9,34,70,9,7,https://theunitools.com/recipes/bint-al-sahn.jpg,https://theunitools.com/en/recipes/yemen/bint-al-sahn
-machboos,AE,Machboos,Мачбус,مجبوس,main,pescatarian,medium,5,30,45,640,42,20,78,13,7,,https://theunitools.com/en/recipes/united-arab-emirates/machboos
-luqaimat,AE,Luqaimat,Лукаймат,لقيمات,dessert,vegetarian,medium,6,70,25,420,6,16,64,12,7,,https://theunitools.com/en/recipes/united-arab-emirates/luqaimat
-murabyan,KW,Murabyan,Мурабьян,مربيان,main,pescatarian,medium,5,35,50,660,46,20,80,12,7,,https://theunitools.com/en/recipes/kuwait/murabyan
-harees,KW,Harees,Харис,هريس,main,,easy,6,20,210,600,38,28,52,7,6,,https://theunitools.com/en/recipes/kuwait/harees
-ndole,CM,Ndolé,Ндоле,Ndolé,main,,medium,6,45,75,680,42,42,34,12,7,https://theunitools.com/recipes/ndole.jpg,https://theunitools.com/en/recipes/cameroon/ndole
-poulet-dg,CM,Poulet DG,Пуле DG,Poulet DG,main,gluten-free,easy,5,30,45,720,42,34,62,13,6,https://theunitools.com/recipes/poulet-dg.jpg,https://theunitools.com/en/recipes/cameroon/poulet-dg
-attieke-poisson,CI,Attiéké with fish,Атьеке с рыбой,Attiéké,main,pescatarian|gluten-free,easy,4,25,30,560,40,20,58,11,7,https://theunitools.com/recipes/attieke-poisson.jpg,https://theunitools.com/en/recipes/ivory-coast/attieke-poisson
-kedjenou,CI,Kedjenou,Кеджену,Kedjenou,main,gluten-free,easy,4,20,80,520,44,20,42,12,7,https://theunitools.com/recipes/kedjenou.jpg,https://theunitools.com/en/recipes/ivory-coast/kedjenou
-matapa,MZ,Matapa,Матапа,Matapa,main,pescatarian|gluten-free,medium,5,35,80,580,32,34,40,11,7,,https://theunitools.com/en/recipes/mozambique/matapa
-frango-piri-piri,MZ,Piri-piri chicken,Курица пири-пири,Frango à cafreal,main,gluten-free,easy,4,25,45,620,52,42,8,10,7,https://theunitools.com/recipes/frango-piri-piri.jpg,https://theunitools.com/en/recipes/mozambique/frango-piri-piri
-romazava,MG,Romazava,Ромазава,Romazava,soup,gluten-free,easy,5,25,75,520,42,16,52,12,7,https://theunitools.com/recipes/romazava.jpg,https://theunitools.com/en/recipes/madagascar/romazava
-ravitoto,MG,Ravitoto,Равитуту,Ravitoto sy henakisoa,main,gluten-free,easy,5,30,85,700,32,48,38,9,6,https://theunitools.com/recipes/ravitoto.jpg,https://theunitools.com/en/recipes/madagascar/ravitoto
-baleadas,HN,Baleadas,Балеадас,Baleadas,breakfast,vegetarian,easy,4,30,30,520,18,24,58,11,7,https://theunitools.com/recipes/baleadas.jpg,https://theunitools.com/en/recipes/honduras/baleadas
-sopa-de-caracol,HN,Conch soup,Суп из ракушек,Sopa de caracol,soup,pescatarian|gluten-free,medium,5,35,60,560,34,28,46,13,7,https://theunitools.com/recipes/sopa-de-caracol.jpg,https://theunitools.com/en/recipes/honduras/sopa-de-caracol
-gallo-pinto-nicaraguense,NI,Nicaraguan gallo pinto,Никарагуанский гальо-пинто,Gallo pinto,breakfast,vegetarian|vegan|gluten-free,easy,4,15,20,480,18,14,72,10,6,https://theunitools.com/recipes/gallo-pinto-nicaraguense.jpg,https://theunitools.com/en/recipes/nicaragua/gallo-pinto-nicaraguense
-nacatamal,NI,Nacatamal,Накатамаль,Nacatamal,breakfast,,hard,8,90,180,720,30,40,64,14,7,https://theunitools.com/recipes/nacatamal.jpg,https://theunitools.com/en/recipes/nicaragua/nacatamal
-sancocho-panameno,PA,Panamanian sancocho,Панамский санкочо,Sancocho de gallina,soup,gluten-free,easy,6,25,90,520,40,14,62,10,7,https://theunitools.com/recipes/sancocho-panameno.jpg,https://theunitools.com/en/recipes/panama/sancocho-panameno
-ropa-vieja-panamena,PA,Panamanian ropa vieja,Панамская ропа вьеха,Ropa vieja,main,gluten-free,easy,5,25,120,580,46,24,46,14,7,https://theunitools.com/recipes/ropa-vieja-panamena.jpg,https://theunitools.com/en/recipes/panama/ropa-vieja-panamena
-sopa-paraguaya,PY,Sopa paraguaya,Парагвайский суп,Sopa paraguaya,side,vegetarian|gluten-free,easy,8,30,50,540,22,32,42,8,7,https://theunitools.com/recipes/sopa-paraguaya.jpg,https://theunitools.com/en/recipes/paraguay/sopa-paraguaya
-chipa,PY,Chipa,Чипа,Chipá,bread,vegetarian|gluten-free,easy,8,25,25,420,14,22,44,7,6,https://theunitools.com/recipes/chipa.jpg,https://theunitools.com/en/recipes/paraguay/chipa
-flia,XK,Flia,Флия,Flia,main,vegetarian,hard,8,30,90,480,10,26,52,7,7,https://theunitools.com/recipes/flia.jpg,https://theunitools.com/en/recipes/kosovo/flia
-tave-elbasani,XK,Tavë Elbasani,Таве Эльбасани,Tavë Elbasani,main,,medium,6,30,95,680,44,38,40,9,7,https://theunitools.com/recipes/tave-elbasani.jpg,https://theunitools.com/en/recipes/kosovo/tave-elbasani
-njeguski-steak,ME,Njeguški steak,Негушский стейк,Njeguški stek,main,,medium,4,30,25,820,54,48,44,10,7,,https://theunitools.com/en/recipes/montenegro/njeguski-steak
-kacamak,ME,Kačamak,Качамак,Kačamak,main,vegetarian|gluten-free,medium,4,15,45,720,24,44,58,7,6,https://theunitools.com/recipes/kacamak.jpg,https://theunitools.com/en/recipes/montenegro/kacamak
-ema-datshi,BT,Ema datshi,Эма датши,ཨེ་མ་དར་ཚིལ།,main,vegetarian|gluten-free,easy,4,15,20,380,16,24,26,8,6,https://theunitools.com/recipes/ema-datshi.jpg,https://theunitools.com/en/recipes/bhutan/ema-datshi
-jasha-maroo,BT,Jasha maroo,Джаша мару,ཇ་ཤ་མ་རུ།,main,gluten-free,easy,4,20,35,520,42,22,40,10,7,,https://theunitools.com/en/recipes/bhutan/jasha-maroo
-mas-huni,MV,Mas huni,Мас хуни,މަސް ހުނި,breakfast,pescatarian,easy,4,20,15,520,34,20,52,10,7,https://theunitools.com/recipes/mas-huni.jpg,https://theunitools.com/en/recipes/maldives/mas-huni
-garudhiya,MV,Garudhiya,Гарудия,ގަރުދިޔަ,soup,pescatarian|gluten-free,easy,4,15,30,420,44,6,46,8,6,,https://theunitools.com/en/recipes/maldives/garudhiya
-matoke,UG,Matoke,Матоке,Matoke,side,vegetarian|vegan|gluten-free,medium,5,30,80,340,6,10,62,7,7,,https://theunitools.com/en/recipes/uganda/matoke
-rolex-uganda,UG,Rolex,Ролекс,Rolex,breakfast,vegetarian,easy,4,35,30,560,20,30,52,10,7,https://theunitools.com/recipes/rolex-uganda.jpg,https://theunitools.com/en/recipes/uganda/rolex-uganda
-sadza-ne-nyama,ZW,Sadza ne nyama,Садза с мясом,Sadza ne nyama,main,,medium,5,20,105,640,42,24,66,9,7,,https://theunitools.com/en/recipes/zimbabwe/sadza-ne-nyama
-muriwo-unedovi,ZW,Muriwo unedovi,Зелень в арахисовом соусе,Muriwo unedovi,side,vegetarian|vegan|gluten-free,easy,4,15,25,320,12,24,18,7,6,,https://theunitools.com/en/recipes/zimbabwe/muriwo-unedovi
-poulet-moambe,CD,Poulet moambé,Курица моамбе,Poulet moambé,main,gluten-free,easy,5,25,70,720,44,42,44,12,7,https://theunitools.com/recipes/poulet-moambe.jpg,https://theunitools.com/en/recipes/dr-congo/poulet-moambe
-liboke-de-poisson,CD,Liboke de poisson,Либоке с рыбой,Liboke,main,pescatarian|gluten-free,easy,4,30,35,480,44,12,46,11,7,https://theunitools.com/recipes/liboke-de-poisson.jpg,https://theunitools.com/en/recipes/dr-congo/liboke-de-poisson
-tigadegena,ML,Tigadegena,Тигадегена,Tigadèguèna,main,gluten-free,easy,6,25,90,780,44,44,54,12,7,https://theunitools.com/recipes/tigadegena.jpg,https://theunitools.com/en/recipes/mali/tigadegena
-capitaine-braise,ML,Grilled capitaine,Капитан на углях,Capitaine braisé,main,pescatarian|gluten-free,medium,4,30,75,620,56,26,42,11,7,,https://theunitools.com/en/recipes/mali/capitaine-braise
-osso-buco-alla-milanese,IT,Osso buco alla milanese,Оссобуко по-милански,Ossobuco alla milanese,main,,medium,4,30,130,620,48,32,18,12,7,https://theunitools.com/recipes/osso-buco-alla-milanese.jpg,https://theunitools.com/en/recipes/italy/osso-buco-alla-milanese
-melanzane-alla-parmigiana,IT,Melanzane alla parmigiana,Пармиджана из баклажанов,Melanzane alla parmigiana,main,vegetarian,medium,6,50,60,520,24,36,24,8,7,,https://theunitools.com/en/recipes/italy/melanzane-alla-parmigiana
-hong-shao-rou,CN,Hong shao rou,Хун шао жоу,红烧肉,main,,medium,4,20,90,780,32,56,32,11,7,,https://theunitools.com/en/recipes/china/hong-shao-rou
-qingzheng-yu,CN,Cantonese steamed fish,Рыба на пару по-кантонски,清蒸鱼,main,pescatarian,medium,4,20,15,340,40,18,4,9,7,,https://theunitools.com/en/recipes/china/qingzheng-yu
-rogan-josh,IN,Rogan josh,Роган джош,रोगन जोश,main,gluten-free,medium,5,25,100,720,46,40,44,12,7,https://theunitools.com/recipes/rogan-josh.jpg,https://theunitools.com/en/recipes/india/rogan-josh
-masala-dosa,IN,Masala dosa,Масала доса,मसाला डोसा,breakfast,vegetarian|vegan|gluten-free,hard,6,60,45,520,14,18,76,13,7,https://theunitools.com/recipes/masala-dosa.jpg,https://theunitools.com/en/recipes/india/masala-dosa
-bouillabaisse,FR,Bouillabaisse,Буйабес,Bouillabaisse,soup,pescatarian,hard,6,50,70,620,52,28,38,14,7,https://theunitools.com/recipes/bouillabaisse.jpg,https://theunitools.com/en/recipes/france/bouillabaisse
-tarte-tatin,FR,Tarte Tatin,Тарт татен,Tarte Tatin,dessert,vegetarian,medium,8,30,60,480,4,24,64,8,7,,https://theunitools.com/en/recipes/france/tarte-tatin
-nikujaga,JP,Nikujaga,Никудзяга,肉じゃが,main,,easy,4,20,35,480,24,16,56,12,7,https://theunitools.com/recipes/nikujaga.jpg,https://theunitools.com/en/recipes/japan/nikujaga
-chawanmushi,JP,Chawanmushi,Тяванмуси,茶碗蒸し,snack,pescatarian,medium,4,20,20,180,18,8,5,10,7,,https://theunitools.com/en/recipes/japan/chawanmushi
-mole-poblano,MX,Mole poblano,Моле поблано,Mole poblano,main,,hard,8,75,120,780,48,46,40,18,7,https://theunitools.com/recipes/mole-poblano.jpg,https://theunitools.com/en/recipes/mexico/mole-poblano
-cochinita-pibil,MX,Cochinita pibil,Кочинита пибиль,Cochinita pibil,main,gluten-free,medium,8,35,240,680,46,38,36,13,7,,https://theunitools.com/en/recipes/mexico/cochinita-pibil
-iskender-kebab,TR,İskender kebab,Искендер-кебаб,İskender kebap,main,,medium,4,30,30,820,46,48,52,12,7,https://theunitools.com/recipes/iskender-kebab.jpg,https://theunitools.com/en/recipes/turkey/iskender-kebab
-manti-turkish,TR,Turkish mantı,Турецкие манты,Mantı,main,,hard,5,100,25,640,28,30,62,12,7,https://theunitools.com/recipes/manti-turkish.jpg,https://theunitools.com/en/recipes/turkey/manti-turkish
-fabada-asturiana,ES,Fabada asturiana,Фабада астурийская,Fabada asturiana,main,gluten-free,easy,6,20,180,780,38,44,56,11,7,https://theunitools.com/recipes/fabada-asturiana.jpg,https://theunitools.com/en/recipes/spain/fabada-asturiana
-pulpo-a-feira,ES,Pulpo a feira,Осьминог по-галисийски,Pulpo á feira,snack,pescatarian|gluten-free,medium,4,15,60,420,42,18,26,8,7,https://theunitools.com/recipes/pulpo-a-feira.jpg,https://theunitools.com/en/recipes/spain/pulpo-a-feira
-khao-soi,TH,Khao soi,Кхао сой,ข้าวซอย,soup,,medium,4,25,45,820,42,46,62,13,7,https://theunitools.com/recipes/khao-soi.jpg,https://theunitools.com/en/recipes/thailand/khao-soi
-massaman-curry,TH,Massaman curry,Массаман карри,แกงมัสมั่น,main,gluten-free,medium,5,25,90,780,44,44,56,13,7,https://theunitools.com/recipes/massaman-curry.jpg,https://theunitools.com/en/recipes/thailand/massaman-curry
-gemista,GR,Gemista,Гемиста,Γεμιστά,main,vegetarian|vegan,easy,6,45,80,480,8,24,60,11,7,https://theunitools.com/recipes/gemista.jpg,https://theunitools.com/en/recipes/greece/gemista
-avgolemono,GR,Avgolemono,Авголемоно,Αυγολέμονο,soup,gluten-free,medium,5,15,65,420,38,16,28,10,7,https://theunitools.com/recipes/avgolemono.jpg,https://theunitools.com/en/recipes/greece/avgolemono
-pelmeni,RU,Pelmeni,Пельмени,Пельмени,main,,medium,6,90,15,680,34,32,62,12,7,https://theunitools.com/recipes/pelmeni.jpg,https://theunitools.com/en/recipes/russia/pelmeni
-beef-stroganoff,RU,Beef Stroganoff,Бефстроганов,Бефстроганов,main,,easy,4,20,25,620,44,42,14,11,7,https://theunitools.com/recipes/beef-stroganoff.jpg,https://theunitools.com/en/recipes/russia/beef-stroganoff
-schweinshaxe,DE,Schweinshaxe,Швайнсхаксе,Schweinshaxe,main,,medium,4,25,180,880,58,56,34,11,7,https://theunitools.com/recipes/schweinshaxe.jpg,https://theunitools.com/en/recipes/germany/schweinshaxe
-schwarzwaelder-kirschtorte,DE,Black Forest gateau,Шварцвальдский торт,Schwarzwälder Kirschtorte,dessert,vegetarian,hard,12,75,35,520,7,34,46,12,7,https://theunitools.com/recipes/schwarzwaelder-kirschtorte.jpg,https://theunitools.com/en/recipes/germany/schwarzwaelder-kirschtorte
-pulled-pork,US,Pulled pork,Раздёрганная свинина,Pulled pork,main,,medium,10,30,600,620,48,38,22,12,7,https://theunitools.com/recipes/pulled-pork.jpg,https://theunitools.com/en/recipes/united-states/pulled-pork
-key-lime-pie,US,Key lime pie,Пирог с лаймом,Key lime pie,dessert,vegetarian,easy,8,30,20,520,8,30,56,9,7,https://theunitools.com/recipes/key-lime-pie.jpg,https://theunitools.com/en/recipes/united-states/key-lime-pie
-bun-cha,VN,Bún chả,Бун ча,Bún chả,main,,medium,4,40,30,720,42,32,66,14,7,https://theunitools.com/recipes/bun-cha.jpg,https://theunitools.com/en/recipes/vietnam/bun-cha
-goi-cuon,VN,Gỏi cuốn,Гой куон,Gỏi cuốn,snack,,medium,4,45,20,420,28,16,44,12,7,https://theunitools.com/recipes/goi-cuon.jpg,https://theunitools.com/en/recipes/vietnam/goi-cuon
-galbijjim,KR,Galbijjim,Кальбиччим,갈비찜,main,,medium,5,45,120,780,48,46,40,15,7,https://theunitools.com/recipes/galbijjim.jpg,https://theunitools.com/en/recipes/korea/galbijjim
-samgyetang,KR,Samgyetang,Самгетан,삼계탕,soup,gluten-free,easy,4,30,75,620,52,24,46,8,7,https://theunitools.com/recipes/samgyetang.jpg,https://theunitools.com/en/recipes/korea/samgyetang
-roast-beef-yorkshire,GB,Roast beef with Yorkshire pudding,Ростбиф с йоркширским пудингом,Roast beef and Yorkshire pudding,main,,medium,6,30,90,780,56,42,46,12,7,https://theunitools.com/recipes/roast-beef-yorkshire.jpg,https://theunitools.com/en/recipes/united-kingdom/roast-beef-yorkshire
-sticky-toffee-pudding,GB,Sticky toffee pudding,Финиковый пудинг с ирисочным соусом,Sticky toffee pudding,dessert,vegetarian,easy,8,25,40,640,6,34,80,10,7,https://theunitools.com/recipes/sticky-toffee-pudding.jpg,https://theunitools.com/en/recipes/united-kingdom/sticky-toffee-pudding
-bigos,PL,Bigos,Бигос,Bigos,main,,easy,10,40,240,620,38,40,24,16,7,https://theunitools.com/recipes/bigos.jpg,https://theunitools.com/en/recipes/poland/bigos
-sernik,PL,Sernik,Сырник польский,Sernik,dessert,vegetarian,medium,12,45,70,480,18,26,44,12,7,https://theunitools.com/recipes/sernik.jpg,https://theunitools.com/en/recipes/poland/sernik
-moqueca-baiana,BR,Moqueca baiana,Мокека баиана,Moqueca baiana,main,pescatarian|gluten-free,easy,5,30,35,620,48,32,34,13,7,https://theunitools.com/recipes/moqueca-baiana.jpg,https://theunitools.com/en/recipes/brazil/moqueca-baiana
-coxinha,BR,Coxinha,Кошинья,Coxinha,snack,,hard,8,75,40,520,24,26,48,13,7,https://theunitools.com/recipes/coxinha.jpg,https://theunitools.com/en/recipes/brazil/coxinha
-aji-de-gallina,PE,Ají de gallina,Ахи де гальина,Ají de gallina,main,,easy,5,30,50,680,48,30,56,15,7,https://theunitools.com/recipes/aji-de-gallina.jpg,https://theunitools.com/en/recipes/peru/aji-de-gallina
-causa-limena,PE,Causa limeña,Кауса лименья,Causa limeña,salad,pescatarian|gluten-free,easy,6,45,30,480,22,28,38,12,7,https://theunitools.com/recipes/causa-limena.jpg,https://theunitools.com/en/recipes/peru/causa-limena
-fesenjan,IR,Fesenjan,Фесенджан,خورش فسنجان,main,gluten-free,medium,6,30,150,880,44,58,52,12,7,https://theunitools.com/recipes/fesenjan.jpg,https://theunitools.com/en/recipes/iran/fesenjan
-joojeh-kabab,IR,Joojeh kabab,Джудже-кебаб,جوجه کباب,main,gluten-free,easy,5,30,25,680,48,30,52,11,7,,https://theunitools.com/en/recipes/iran/joojeh-kabab
-caldo-verde,PT,Caldo verde,Калду верде,Caldo verde,soup,,easy,5,20,35,420,12,24,42,8,7,https://theunitools.com/recipes/caldo-verde.jpg,https://theunitools.com/en/recipes/portugal/caldo-verde
-sardinhas-assadas,PT,Sardinhas assadas,Сардины на углях,Sardinhas assadas,main,pescatarian,easy,4,40,15,620,48,34,34,9,7,https://theunitools.com/recipes/sardinhas-assadas.jpg,https://theunitools.com/en/recipes/portugal/sardinhas-assadas
-sate-ayam,ID,Sate ayam,Сатэ аям,Sate ayam,main,,easy,5,40,25,780,52,40,50,14,7,https://theunitools.com/recipes/sate-ayam.jpg,https://theunitools.com/en/recipes/indonesia/sate-ayam
-soto-ayam,ID,Soto ayam,Сото аям,Soto ayam,soup,,medium,5,35,60,560,44,24,42,15,7,,https://theunitools.com/en/recipes/indonesia/soto-ayam
-salo-po-ukrainski,UA,Home-cured salo,Сало по-домашнему,Сало,snack,,easy,10,30,0,780,6,82,12,8,7,,https://theunitools.com/en/recipes/ukraine/salo-po-ukrainski
-kyivskyi-tort,UA,Kyiv cake,Киевский торт,Київський торт,dessert,vegetarian,hard,12,90,150,620,8,38,62,10,7,,https://theunitools.com/en/recipes/ukraine/kyivskyi-tort
-chakhokhbili,GE,Chakhokhbili,Чахохбили,ჩახოხბილი,main,gluten-free,easy,5,25,50,560,46,32,20,12,7,https://theunitools.com/recipes/chakhokhbili.jpg,https://theunitools.com/en/recipes/georgia/chakhokhbili
-satsivi,GE,Satsivi,Сациви,საცივი,main,gluten-free,medium,8,45,90,780,46,58,16,12,7,https://theunitools.com/recipes/satsivi.jpg,https://theunitools.com/en/recipes/georgia/satsivi
-sabich,IL,Sabich,Сабих,סביח,main,vegetarian,easy,4,30,75,620,20,36,52,12,7,,https://theunitools.com/en/recipes/israel/sabich
-malabi,IL,Malabi,Малаби,מלבי,dessert,vegetarian|gluten-free,easy,6,15,15,380,8,18,48,9,7,,https://theunitools.com/en/recipes/israel/malabi
-fattet-hummus,LB,Fattet hummus,Фатте с нутом,فتة حمص,main,vegetarian,easy,5,20,90,620,26,34,54,12,7,https://theunitools.com/recipes/fattet-hummus.jpg,https://theunitools.com/en/recipes/lebanon/fattet-hummus
-sfiha,LB,Sfiha,Сфиха,صفيحة,snack,,medium,6,75,25,560,28,28,50,13,7,https://theunitools.com/recipes/sfiha.jpg,https://theunitools.com/en/recipes/lebanon/sfiha
-pastilla,MA,Pastilla,Пастилья,البسطيلة,main,,hard,8,60,90,720,38,44,46,13,7,https://theunitools.com/recipes/pastilla.jpg,https://theunitools.com/en/recipes/morocco/pastilla
-chebakia,MA,Chebakia,Марокканский чебакия,الشباكية,dessert,vegetarian,hard,10,90,60,480,8,22,66,13,7,https://theunitools.com/recipes/chebakia.jpg,https://theunitools.com/en/recipes/morocco/chebakia
-molokhia,EG,Molokhia,Молохия,ملوخية,soup,gluten-free,easy,5,20,70,520,40,22,42,11,7,https://theunitools.com/recipes/molokhia.jpg,https://theunitools.com/en/recipes/egypt/molokhia
-kunafa,EG,Kunafa,Кунафа,كنافة,dessert,vegetarian,medium,10,35,45,680,20,38,68,10,7,,https://theunitools.com/en/recipes/egypt/kunafa
-asado-argentino,AR,Asado,Асадо,Asado,main,,medium,8,45,210,880,62,62,18,12,7,https://theunitools.com/recipes/asado-argentino.jpg,https://theunitools.com/en/recipes/argentina/asado-argentino
-alfajores,AR,Alfajores,Альфахорес,Alfajores,dessert,vegetarian,medium,10,60,15,420,5,20,56,12,7,https://theunitools.com/recipes/alfajores.jpg,https://theunitools.com/en/recipes/argentina/alfajores
-tafelspitz,AT,Tafelspitz,Тафельшпиц,Tafelspitz,main,gluten-free,medium,6,30,180,680,58,32,38,14,7,https://theunitools.com/recipes/tafelspitz.jpg,https://theunitools.com/en/recipes/austria/tafelspitz
-sachertorte,AT,Sachertorte,Захер,Sachertorte,dessert,vegetarian,hard,12,60,60,520,7,28,62,12,7,,https://theunitools.com/en/recipes/austria/sachertorte
-halaszle,HU,Halászlé,Халасле,Halászlé,soup,pescatarian,medium,6,35,75,480,46,14,38,11,7,https://theunitools.com/recipes/halaszle.jpg,https://theunitools.com/en/recipes/hungary/halaszle
-dobos-torta,HU,Dobos torte,Торт Добош,Dobos torta,dessert,vegetarian,hard,12,90,45,560,8,34,58,12,7,https://theunitools.com/recipes/dobos-torta.jpg,https://theunitools.com/en/recipes/hungary/dobos-torta
-vepro-knedlo-zelo,CZ,Pork with dumplings and cabbage,Вепрево колено с кнедликами,Vepřo knedlo zelo,main,,medium,6,60,120,820,48,40,68,13,7,https://theunitools.com/recipes/vepro-knedlo-zelo.jpg,https://theunitools.com/en/recipes/czechia/vepro-knedlo-zelo
-kulajda,CZ,Kulajda,Кулайда,Kulajda,soup,vegetarian,easy,5,20,35,420,14,26,34,12,7,https://theunitools.com/recipes/kulajda.jpg,https://theunitools.com/en/recipes/czechia/kulajda
-toast-skagen,SE,Toast Skagen,Тост Скаген,Toast Skagen,snack,pescatarian,easy,4,20,10,480,28,32,20,11,6,,https://theunitools.com/en/recipes/sweden/toast-skagen
-appelkaka,SE,Swedish apple cake,Шведский яблочный пирог,Äppelkaka,dessert,vegetarian,easy,8,30,45,520,7,28,62,12,7,https://theunitools.com/recipes/appelkaka.jpg,https://theunitools.com/en/recipes/sweden/appelkaka
-stegt-flaesk,DK,Stegt flæsk,Стегт флеск,Stegt flæsk med persillesovs,main,,easy,4,15,45,880,36,62,44,9,7,https://theunitools.com/recipes/stegt-flaesk.jpg,https://theunitools.com/en/recipes/denmark/stegt-flaesk
-risalamande,DK,Risalamande,Рисаламанде,Risalamande,dessert,vegetarian|gluten-free,easy,8,25,60,560,11,34,54,11,7,https://theunitools.com/recipes/risalamande.jpg,https://theunitools.com/en/recipes/denmark/risalamande
-erwtensoep,NL,Erwtensoep,Эртенсуп,Erwtensoep,soup,,easy,6,25,150,680,40,32,58,12,7,https://theunitools.com/recipes/erwtensoep.jpg,https://theunitools.com/en/recipes/netherlands/erwtensoep
-bitterballen,NL,Bitterballen,Биттербаллен,Bitterballen,snack,,hard,8,60,40,520,24,30,38,12,7,https://theunitools.com/recipes/bitterballen.jpg,https://theunitools.com/en/recipes/netherlands/bitterballen
-colcannon,IE,Colcannon,Колканнон,Colcannon,side,vegetarian|gluten-free,easy,6,20,35,420,8,26,42,7,7,https://theunitools.com/recipes/colcannon.jpg,https://theunitools.com/en/recipes/ireland/colcannon
-guinness-beef-stew,IE,Beef and stout stew,Говядина в тёмном пиве,Beef and Guinness stew,main,,easy,6,30,180,720,52,30,52,14,7,,https://theunitools.com/en/recipes/ireland/guinness-beef-stew
-shurpa,UZ,Shurpa,Шурпа,Shorva,soup,gluten-free,easy,6,25,120,520,38,24,38,13,7,,https://theunitools.com/en/recipes/uzbekistan/shurpa
-chuchvara,UZ,Chuchvara,Чучвара,Chuchvara,soup,,hard,5,100,30,560,28,22,62,12,7,,https://theunitools.com/en/recipes/uzbekistan/chuchvara
-armenian-tolma,AM,Pasuts tolma,Пасуц толма,Պասուց տոլմա,main,vegetarian|vegan,medium,8,60,90,420,16,14,58,12,7,,https://theunitools.com/en/recipes/armenia/armenian-tolma
-gata,AM,Gata,Гата,Գաթա,dessert,vegetarian,medium,10,75,40,520,7,28,62,10,7,https://theunitools.com/recipes/gata.jpg,https://theunitools.com/en/recipes/armenia/gata
-nasi-lemak,MY,Nasi lemak,Наси лемак,Nasi lemak,breakfast,,medium,5,35,50,720,26,34,82,16,7,https://theunitools.com/recipes/nasi-lemak.jpg,https://theunitools.com/en/recipes/malaysia/nasi-lemak
-char-kway-teow,MY,Char kway teow,Чар квай теу,Char kway teow,main,,hard,2,25,10,780,36,34,84,13,7,https://theunitools.com/recipes/char-kway-teow.jpg,https://theunitools.com/en/recipes/malaysia/char-kway-teow
-kare-kare,PH,Kare-kare,Каре-каре,Kare-kare,main,gluten-free,medium,6,30,210,820,44,50,48,13,7,https://theunitools.com/recipes/kare-kare.jpg,https://theunitools.com/en/recipes/philippines/kare-kare
-leche-flan,PH,Leche flan,Лече флан,Leche flan,dessert,vegetarian|gluten-free,medium,8,25,45,420,11,16,58,7,7,https://theunitools.com/recipes/leche-flan.jpg,https://theunitools.com/en/recipes/philippines/leche-flan
-injera,ET,Injera,Ынджера,እንጀራ,bread,vegetarian|vegan|gluten-free,hard,8,30,40,280,9,3,56,5,7,https://theunitools.com/recipes/injera.jpg,https://theunitools.com/en/recipes/ethiopia/injera
-kitfo,ET,Kitfo,Кытфо,ክትፎ,main,gluten-free,medium,4,40,30,720,46,54,12,12,7,https://theunitools.com/recipes/kitfo.jpg,https://theunitools.com/en/recipes/ethiopia/kitfo
-egusi-soup,NG,Egusi soup,Суп эгуси,Egusi soup,soup,,medium,6,30,80,780,48,54,22,12,7,,https://theunitools.com/en/recipes/nigeria/egusi-soup
-puff-puff,NG,Puff puff,Паф-паф,Puff puff,snack,vegetarian,easy,8,20,30,320,6,12,48,8,7,https://theunitools.com/recipes/puff-puff.jpg,https://theunitools.com/en/recipes/nigeria/puff-puff
-arroz-con-pollo-cubano,CU,Arroz con pollo,Аррос кон польо,Arroz con pollo a la cubana,main,,easy,6,30,60,720,44,26,78,16,7,https://theunitools.com/recipes/arroz-con-pollo-cubano.jpg,https://theunitools.com/en/recipes/cuba/arroz-con-pollo-cubano
-tostones,CU,Tostones,Тостонес,Tostones,snack,vegetarian|vegan|gluten-free,easy,4,15,25,380,3,18,54,8,7,https://theunitools.com/recipes/tostones.jpg,https://theunitools.com/en/recipes/cuba/tostones
-jamaican-patty,JM,Jamaican patties,Ямайские патти,Jamaican beef patty,snack,,medium,8,60,60,580,24,36,42,14,7,,https://theunitools.com/en/recipes/jamaica/jamaican-patty
-rice-and-peas,JM,Rice and peas,Райс энд пис,Rice and peas,side,vegetarian|vegan|gluten-free,easy,6,15,95,480,13,14,76,9,7,https://theunitools.com/recipes/rice-and-peas.jpg,https://theunitools.com/en/recipes/jamaica/rice-and-peas
-ruisleipa,FI,Ruisleipä,Руислейпя,Ruisleipä,bread,vegetarian|vegan,hard,12,40,60,240,7,2,48,6,7,,https://theunitools.com/en/recipes/finland/ruisleipa
-poronkaristys,FI,Poronkäristys,Поронкяристюс,Poronkäristys,main,,easy,4,20,45,620,46,28,42,10,7,https://theunitools.com/recipes/poronkaristys.jpg,https://theunitools.com/en/recipes/finland/poronkaristys
-kjottkaker,NO,Kjøttkaker,Чёттакакер,Kjøttkaker,main,,easy,5,30,45,680,44,34,48,13,7,https://theunitools.com/recipes/kjottkaker.jpg,https://theunitools.com/en/recipes/norway/kjottkaker
-skolebrod,NO,Skolebrød,Школьная булочка,Skolebrød,dessert,vegetarian,medium,12,60,20,420,8,16,60,14,7,https://theunitools.com/recipes/skolebrod.jpg,https://theunitools.com/en/recipes/norway/skolebrod
-waterzooi,BE,Waterzooi,Ватерзой,Gentse waterzooi,soup,,medium,5,35,60,620,42,34,34,14,7,https://theunitools.com/recipes/waterzooi.jpg,https://theunitools.com/en/recipes/belgium/waterzooi
-belgian-waffles,BE,Liège waffles,Льежские вафли,Gaufre de Liège,dessert,vegetarian,medium,10,100,25,480,7,24,60,10,7,https://theunitools.com/recipes/belgian-waffles.jpg,https://theunitools.com/en/recipes/belgium/belgian-waffles
-zuercher-geschnetzeltes,CH,Zürcher Geschnetzeltes,Цюрихское жаркое,Zürcher Geschnetzeltes,main,,medium,4,25,25,720,46,42,38,12,7,,https://theunitools.com/en/recipes/switzerland/zuercher-geschnetzeltes
-birchermuesli,CH,Bircher muesli,Бирхермюсли,Birchermüesli,breakfast,vegetarian,easy,4,20,0,480,14,22,58,10,6,,https://theunitools.com/en/recipes/switzerland/birchermuesli
-peka,HR,Peka,Пека,Ispod peke,main,gluten-free,medium,6,30,180,820,54,44,48,11,7,,https://theunitools.com/en/recipes/croatia/peka
-fritule,HR,Fritule,Фритуле,Fritule,dessert,vegetarian,easy,8,30,25,380,6,16,54,13,7,https://theunitools.com/recipes/fritule.jpg,https://theunitools.com/en/recipes/croatia/fritule
-sarma-serbian,RS,Sarma,Сарма,Sarma,main,,medium,8,60,150,620,36,38,32,13,7,https://theunitools.com/recipes/sarma-serbian.jpg,https://theunitools.com/en/recipes/serbia/sarma-serbian
-gibanica,RS,Gibanica,Гибаница,Gibanica,main,vegetarian,easy,10,30,50,520,22,34,32,9,7,,https://theunitools.com/en/recipes/serbia/gibanica
-ciorba-de-burta,RO,Ciorbă de burtă,Чорба де бурта,Ciorbă de burtă,soup,gluten-free,medium,6,30,240,480,38,30,12,12,7,https://theunitools.com/recipes/ciorba-de-burta.jpg,https://theunitools.com/en/recipes/romania/ciorba-de-burta
-papanasi,RO,Papanași,Папанаши,Papanași,dessert,vegetarian,medium,6,35,25,620,22,32,62,12,7,https://theunitools.com/recipes/papanasi.jpg,https://theunitools.com/en/recipes/romania/papanasi
-tarator,BG,Tarator,Таратор,Таратор,soup,vegetarian|gluten-free,easy,4,20,0,260,12,18,14,8,7,https://theunitools.com/recipes/tarator.jpg,https://theunitools.com/en/recipes/bulgaria/tarator
-kavarma,BG,Kavarma,Каварма,Каварма,main,gluten-free,easy,4,25,70,620,46,40,16,13,7,,https://theunitools.com/en/recipes/bulgaria/kavarma
-hoppers,LK,Hoppers,Хопперы,Appa,breakfast,vegetarian|gluten-free,hard,6,40,40,380,10,16,50,12,7,https://theunitools.com/recipes/hoppers.jpg,https://theunitools.com/en/recipes/sri-lanka/hoppers
-sri-lankan-fish-curry,LK,Sri Lankan fish curry,Шри-ланкийское рыбное карри,Malu kariya,main,pescatarian|gluten-free,medium,5,30,35,620,48,26,48,15,7,,https://theunitools.com/en/recipes/sri-lanka/sri-lankan-fish-curry
-sel-roti,NP,Sel roti,Сель роти,सेल रोटी,bread,vegetarian|gluten-free,hard,8,60,40,380,5,14,60,9,7,https://theunitools.com/recipes/sel-roti.jpg,https://theunitools.com/en/recipes/nepal/sel-roti
-gundruk-soup,NP,Gundruk soup,Суп из гундрука,Gundruk ko jhol,soup,vegetarian|vegan|gluten-free,easy,4,20,35,320,14,14,36,13,7,,https://theunitools.com/en/recipes/nepal/gundruk-soup
-haleem,PK,Haleem,Халим,حلیم,main,,hard,10,40,360,680,42,32,58,16,7,https://theunitools.com/recipes/haleem.jpg,https://theunitools.com/en/recipes/pakistan/haleem
-seekh-kebab,PK,Seekh kebab,Сикх-кебаб,سیخ کباب,main,,medium,5,45,20,680,46,40,32,13,7,https://theunitools.com/recipes/seekh-kebab.jpg,https://theunitools.com/en/recipes/pakistan/seekh-kebab
-chapati-kenyan,KE,Kenyan chapati,Кенийская чапати,Chapati,bread,vegetarian|vegan,medium,8,75,30,340,7,16,44,5,7,https://theunitools.com/recipes/chapati-kenyan.jpg,https://theunitools.com/en/recipes/kenya/chapati-kenyan
-mandazi,KE,Mandazi,Мандази,Mandazi,snack,vegetarian,easy,8,75,25,340,6,14,48,9,7,https://theunitools.com/recipes/mandazi.jpg,https://theunitools.com/en/recipes/kenya/mandazi
-bunny-chow,ZA,Bunny chow,Банни чау,Bunny chow,main,,medium,4,30,90,880,48,40,82,13,7,https://theunitools.com/recipes/bunny-chow.jpg,https://theunitools.com/en/recipes/south-africa/bunny-chow
-melktert,ZA,Melktert,Мелктерт,Melktert,dessert,vegetarian,easy,10,40,40,380,9,16,52,11,7,https://theunitools.com/recipes/melktert.jpg,https://theunitools.com/en/recipes/south-africa/melktert
-bandeja-paisa,CO,Bandeja paisa,Бандеха пайса,Bandeja paisa,main,,hard,4,60,150,1480,78,82,108,15,7,https://theunitools.com/recipes/bandeja-paisa.jpg,https://theunitools.com/en/recipes/colombia/bandeja-paisa
-sancocho-colombiano,CO,Colombian sancocho,Колумбийский санкочо,Sancocho de gallina,soup,gluten-free,easy,8,30,110,620,44,20,68,16,7,https://theunitools.com/recipes/sancocho-colombiano.jpg,https://theunitools.com/en/recipes/colombia/sancocho-colombiano
-curanto-en-olla,CL,Curanto en olla,Куранто в кастрюле,Pulmay,main,,medium,6,40,60,880,68,42,58,13,7,https://theunitools.com/recipes/curanto-en-olla.jpg,https://theunitools.com/en/recipes/chile/curanto-en-olla
-completo-italiano,CL,Completo,Комплето,Completo italiano,snack,,easy,4,20,10,720,18,52,46,9,7,https://theunitools.com/recipes/completo-italiano.jpg,https://theunitools.com/en/recipes/chile/completo-italiano
-kuyrdak,KZ,Kuyrdak,Куырдак,Қуырдақ,main,gluten-free,medium,5,30,45,720,48,44,32,11,7,,https://theunitools.com/en/recipes/kazakhstan/kuyrdak
-shelpek,KZ,Shelpek,Шелпек,Шелпек,bread,vegetarian,easy,7,40,20,380,8,18,48,8,7,,https://theunitools.com/en/recipes/kazakhstan/shelpek
-dolma-azerbaijani,AZ,Azerbaijani dolma,Азербайджанская долма,Yarpaq dolması,main,,hard,6,70,60,520,26,28,40,12,7,https://theunitools.com/recipes/dolma-azerbaijani.jpg,https://theunitools.com/en/recipes/azerbaijan/dolma-azerbaijani
-pakhlava-baku,AZ,Baku pakhlava,Бакинская пахлава,Bakı paxlavası,dessert,vegetarian,hard,16,100,45,520,9,32,52,12,7,https://theunitools.com/recipes/pakhlava-baku.jpg,https://theunitools.com/en/recipes/azerbaijan/pakhlava-baku
-iraqi-biryani,IQ,Iraqi biryani,Иракский бирьяни,برياني عراقي,main,,medium,6,45,75,780,42,32,86,14,7,https://theunitools.com/recipes/iraqi-biryani.jpg,https://theunitools.com/en/recipes/iraq/iraqi-biryani
-kleicha,IQ,Kleicha,Клейча,كليجة,dessert,vegetarian,medium,12,60,25,420,6,20,56,12,7,,https://theunitools.com/en/recipes/iraq/kleicha
-shakshuka-tunisian,TN,Tunisian chakchouka,Тунисская чакчука,Chakchouka,breakfast,vegetarian,easy,4,25,40,380,16,24,26,13,7,,https://theunitools.com/en/recipes/tunisia/shakshuka-tunisian
-ojja-merguez,TN,Ojja with merguez,Оджа с мергезом,Ojja bel merguez,main,,easy,4,15,30,620,34,44,22,12,7,,https://theunitools.com/en/recipes/tunisia/ojja-merguez
-muhammara,SY,Muhammara,Мухаммара,محمرة,snack,vegetarian|vegan,easy,6,30,25,380,8,30,22,11,7,https://theunitools.com/recipes/muhammara.jpg,https://theunitools.com/en/recipes/syria/muhammara
-shish-barak,SY,Shish barak,Шиш барак,شيش برك,main,,hard,5,90,45,680,38,30,64,14,7,https://theunitools.com/recipes/shish-barak.jpg,https://theunitools.com/en/recipes/syria/shish-barak
-anzac-biscuits,AU,Anzac biscuits,Печенье АНЗАК,Anzac biscuits,dessert,vegetarian,easy,20,20,18,180,2,9,23,9,7,https://theunitools.com/recipes/anzac-biscuits.jpg,https://theunitools.com/en/recipes/australia/anzac-biscuits
-barramundi-on-the-barbie,AU,Grilled barramundi,Барамунди на гриле,Barramundi on the barbie,main,pescatarian|gluten-free,easy,4,25,30,520,48,24,28,10,7,,https://theunitools.com/en/recipes/australia/barramundi-on-the-barbie
-afghan-biscuits,NZ,Afghan biscuits,Афганское печенье,Afghan biscuits,dessert,vegetarian,easy,16,25,20,240,3,13,29,10,7,,https://theunitools.com/en/recipes/new-zealand/afghan-biscuits
-whitebait-fritters,NZ,Whitebait fritters,Оладьи из вайтбейта,Whitebait fritters,snack,pescatarian,easy,4,15,15,380,32,24,12,7,7,,https://theunitools.com/en/recipes/new-zealand/whitebait-fritters
-butter-tarts,CA,Butter tarts,Масляные тарталетки,Butter tarts,dessert,vegetarian,medium,12,45,22,420,4,24,48,11,7,https://theunitools.com/recipes/butter-tarts.jpg,https://theunitools.com/en/recipes/canada/butter-tarts
-montreal-bagels,CA,Montreal bagels,Монреальские бейглы,Montreal bagels,bread,vegetarian,hard,12,120,25,340,10,9,56,10,7,,https://theunitools.com/en/recipes/canada/montreal-bagels
-skyr-with-berries,IS,Skyr with berries,Скир с ягодами,Skyr,breakfast,vegetarian|gluten-free,medium,6,30,20,220,20,6,22,7,7,https://theunitools.com/recipes/skyr-with-berries.jpg,https://theunitools.com/en/recipes/iceland/skyr-with-berries
-rugbraud,IS,Icelandic rye bread,Исландский чёрный хлеб,Rúgbrauð,bread,vegetarian,easy,12,20,720,320,7,4,66,9,7,https://theunitools.com/recipes/rugbraud.jpg,https://theunitools.com/en/recipes/iceland/rugbraud
-laksa-singapore,SG,Katong laksa,Катонг лакса,Katong laksa,soup,pescatarian,hard,4,45,60,780,38,44,62,17,7,https://theunitools.com/recipes/laksa-singapore.jpg,https://theunitools.com/en/recipes/singapore/laksa-singapore
-kaya-toast,SG,Kaya toast,Тост с кайей,Kaya toast,breakfast,vegetarian,medium,4,20,50,520,18,32,42,9,7,https://theunitools.com/recipes/kaya-toast.jpg,https://theunitools.com/en/recipes/singapore/kaya-toast
-gua-bao,TW,Gua bao,Гуа бао,刈包,snack,,hard,8,120,100,620,26,34,52,14,7,https://theunitools.com/recipes/gua-bao.jpg,https://theunitools.com/en/recipes/taiwan/gua-bao
-pineapple-cake,TW,Pineapple cake,Тайваньское ананасовое печенье,鳳梨酥,dessert,vegetarian,hard,16,90,90,320,4,14,46,12,7,https://theunitools.com/recipes/pineapple-cake.jpg,https://theunitools.com/en/recipes/taiwan/pineapple-cake
-shan-noodles,MM,Shan noodles,Шанская лапша,ရှမ်းခေါက်ဆွဲ,main,,easy,4,25,45,620,36,24,68,15,7,https://theunitools.com/recipes/shan-noodles.jpg,https://theunitools.com/en/recipes/myanmar/shan-noodles
-ohn-no-khao-swe,MM,Ohn no khao swe,Он но кхао свэ,အုန်းနို့ခေါက်ဆွဲ,soup,,medium,5,30,50,720,42,34,66,15,7,https://theunitools.com/recipes/ohn-no-khao-swe.jpg,https://theunitools.com/en/recipes/myanmar/ohn-no-khao-swe
-num-banh-chok,KH,Num banh chok,Ном банчок,នំបញ្ចុក,main,pescatarian,medium,5,45,40,580,38,24,58,15,7,https://theunitools.com/recipes/num-banh-chok.jpg,https://theunitools.com/en/recipes/cambodia/num-banh-chok
-samlor-korko,KH,Samlor korko,Самло корко,សម្លកកូរ,soup,,medium,6,40,50,480,28,22,42,16,7,https://theunitools.com/recipes/samlor-korko.jpg,https://theunitools.com/en/recipes/cambodia/samlor-korko
-torta-frita,UY,Torta frita,Торта фрита,Torta frita,snack,vegetarian,easy,8,40,25,380,6,18,48,8,7,https://theunitools.com/recipes/torta-frita.jpg,https://theunitools.com/en/recipes/uruguay/torta-frita
-buseca,UY,Buseca,Бусека,Buseca,soup,gluten-free,medium,6,30,210,620,44,30,42,14,7,https://theunitools.com/recipes/buseca.jpg,https://theunitools.com/en/recipes/uruguay/buseca
-kak-ik,GT,Kak'ik,Как-ик,Kak'ik,soup,gluten-free,medium,6,40,120,520,52,18,32,14,7,https://theunitools.com/recipes/kak-ik.jpg,https://theunitools.com/en/recipes/guatemala/kak-ik
-rellenitos,GT,Rellenitos,Рельенитос,Rellenitos de plátano,dessert,vegetarian,medium,6,45,45,480,8,16,78,11,7,https://theunitools.com/recipes/rellenitos.jpg,https://theunitools.com/en/recipes/guatemala/rellenitos
-pollo-guisado-dominicano,DO,Pollo guisado,Польо гисадо,Pollo guisado dominicano,main,gluten-free,easy,5,25,55,680,46,26,62,14,7,,https://theunitools.com/en/recipes/dominican-republic/pollo-guisado-dominicano
-habichuelas-con-dulce,DO,Sweet cream of beans,Сладкая фасоль,Habichuelas con dulce,dessert,vegetarian|gluten-free,easy,8,25,90,480,12,18,68,12,7,https://theunitools.com/recipes/habichuelas-con-dulce.jpg,https://theunitools.com/en/recipes/dominican-republic/habichuelas-con-dulce
-trinidad-roti,TT,Trinidad roti,Тринидадская роти,Buss up shut,bread,vegetarian|vegan,hard,6,90,40,720,38,30,76,12,7,https://theunitools.com/recipes/trinidad-roti.jpg,https://theunitools.com/en/recipes/trinidad-and-tobago/trinidad-roti
-pelau,TT,Pelau,Пелау,Pelau,main,gluten-free,medium,6,30,60,720,42,26,82,14,7,https://theunitools.com/recipes/pelau.jpg,https://theunitools.com/en/recipes/trinidad-and-tobago/pelau
-hallaca,VE,Hallaca,Айяка,Hallaca,main,,hard,10,150,90,720,36,38,62,15,7,https://theunitools.com/recipes/hallaca.jpg,https://theunitools.com/en/recipes/venezuela/hallaca
-asado-negro,VE,Asado negro,Асадо негро,Asado negro,main,gluten-free,medium,8,30,260,720,54,30,52,14,7,https://theunitools.com/recipes/asado-negro.jpg,https://theunitools.com/en/recipes/venezuela/asado-negro
-pique-macho,BO,Pique macho,Пике мачо,Pique macho,main,,easy,4,30,40,980,48,58,68,13,7,https://theunitools.com/recipes/pique-macho.jpg,https://theunitools.com/en/recipes/bolivia/pique-macho
-api-morado,BO,Api morado,Апи морадо,Api morado,drink,vegetarian|vegan|gluten-free,easy,6,20,45,280,4,2,64,8,7,,https://theunitools.com/en/recipes/bolivia/api-morado
-ceviche-ecuatoriano,EC,Ecuadorian ceviche,Эквадорский севиче,Ceviche de camarón,salad,pescatarian|gluten-free,easy,5,30,20,420,40,12,38,13,7,https://theunitools.com/recipes/ceviche-ecuatoriano.jpg,https://theunitools.com/en/recipes/ecuador/ceviche-ecuatoriano
-fanesca,EC,Fanesca,Фанеска,Fanesca,soup,pescatarian,hard,10,90,120,680,42,28,68,18,7,,https://theunitools.com/en/recipes/ecuador/fanesca
-carimanola,PA,Carimañola,Кариманьола,Carimañola,snack,,medium,6,50,45,480,20,22,52,11,7,https://theunitools.com/recipes/carimanola.jpg,https://theunitools.com/en/recipes/panama/carimanola
-arroz-con-coco,PA,Coconut rice,Рис с кокосом,Arroz con coco,side,vegetarian|vegan|gluten-free,medium,6,15,45,520,8,24,68,6,7,https://theunitools.com/recipes/arroz-con-coco.jpg,https://theunitools.com/en/recipes/panama/arroz-con-coco
-kugelis,LT,Kugelis,Кугелис,Kugelis,main,,medium,8,35,95,480,14,26,48,8,7,https://theunitools.com/recipes/kugelis.jpg,https://theunitools.com/en/recipes/lithuania/kugelis
-sakotis,LT,Šakotis,Шакотис,Šakotis,dessert,vegetarian,hard,16,45,90,420,8,26,40,9,7,https://theunitools.com/recipes/sakotis.jpg,https://theunitools.com/en/recipes/lithuania/sakotis
-sklandrausis,LV,Sklandrausis,Складраусис,Sklandrausis,dessert,vegetarian,medium,10,60,30,320,7,12,46,11,7,https://theunitools.com/recipes/sklandrausis.jpg,https://theunitools.com/en/recipes/latvia/sklandrausis
-skabu-putra,LV,Skābputra,Скабу путра,Skābputra,soup,vegetarian,easy,5,15,70,340,14,8,54,8,7,,https://theunitools.com/en/recipes/latvia/skabu-putra
-verivorst,EE,Verivorst,Веривёрст,Verivorst,main,,hard,8,60,60,620,26,38,42,10,7,https://theunitools.com/recipes/verivorst.jpg,https://theunitools.com/en/recipes/estonia/verivorst
-kohuke,EE,Kohuke,Кохуке,Kohuke,dessert,vegetarian|gluten-free,medium,12,40,10,320,12,20,24,9,7,https://theunitools.com/recipes/kohuke.jpg,https://theunitools.com/en/recipes/estonia/kohuke
-kolduny,BY,Kalduny,Колдуны,Калдуны,main,,medium,5,40,40,620,26,38,44,10,7,,https://theunitools.com/en/recipes/belarus/kolduny
-kholodnik,BY,Kholodnik,Халаднік,Халаднік,soup,vegetarian,easy,5,25,45,320,15,12,38,11,7,,https://theunitools.com/en/recipes/belarus/kholodnik
-zemiakove-placky,SK,Zemiakové placky,Земьякове плацки,Zemiakové placky,snack,vegetarian,easy,4,20,30,380,8,22,40,8,6,,https://theunitools.com/en/recipes/slovakia/zemiakove-placky
-sladke-buchty,SK,Buchty,Бухты,Buchty,dessert,vegetarian,medium,12,100,35,380,9,14,56,11,7,https://theunitools.com/recipes/sladke-buchty.jpg,https://theunitools.com/en/recipes/slovakia/sladke-buchty
-struklji,SI,Štruklji,Штрукли,Štruklji,dessert,vegetarian,hard,8,70,45,480,20,22,50,12,7,https://theunitools.com/recipes/struklji.jpg,https://theunitools.com/en/recipes/slovenia/struklji
-kranjska-klobasa,SI,Carniolan sausage,Краньская колбаса,Kranjska klobasa,main,,medium,6,60,30,620,32,48,22,10,7,https://theunitools.com/recipes/kranjska-klobasa.jpg,https://theunitools.com/en/recipes/slovenia/kranjska-klobasa
-begova-corba,BA,Begova čorba,Бегова чорба,Begova čorba,soup,,medium,6,30,75,520,44,30,16,13,7,https://theunitools.com/recipes/begova-corba.jpg,https://theunitools.com/en/recipes/bosnia/begova-corba
-tufahije,BA,Tufahije,Туфахие,Tufahije,dessert,vegetarian|gluten-free,easy,6,30,30,520,8,32,54,9,7,,https://theunitools.com/en/recipes/bosnia/tufahije
-ohridska-pastrmka,MK,Ohrid trout,Охридская форель,Ohridska pastrmka,main,pescatarian|gluten-free,easy,4,20,30,520,46,24,32,10,7,https://theunitools.com/recipes/ohridska-pastrmka.jpg,https://theunitools.com/en/recipes/north-macedonia/ohridska-pastrmka
-pastrmajlija,MK,Pastrmajlija,Пастрмалия,Пастрмалија,main,,medium,4,90,25,720,38,38,58,9,7,https://theunitools.com/recipes/pastrmajlija.jpg,https://theunitools.com/en/recipes/north-macedonia/pastrmajlija
-olla-de-carne,CR,Olla de carne,Олья де карне,Olla de carne,soup,gluten-free,easy,6,35,180,620,42,20,68,13,7,https://theunitools.com/recipes/olla-de-carne.jpg,https://theunitools.com/en/recipes/costa-rica/olla-de-carne
-chorreadas,CR,Chorreadas,Чорреадас,Chorreadas,breakfast,vegetarian|gluten-free,easy,4,20,20,380,12,18,44,8,7,https://theunitools.com/recipes/chorreadas.jpg,https://theunitools.com/en/recipes/costa-rica/chorreadas
-montucas,HN,Montucas,Монтукас,Montucas,main,gluten-free,hard,8,70,75,540,28,28,46,11,7,,https://theunitools.com/en/recipes/honduras/montucas
-pastelitos-hondurenos,HN,Pastelitos,Пастелитос,Pastelitos de perro,snack,gluten-free,medium,6,55,30,520,20,26,52,11,7,,https://theunitools.com/en/recipes/honduras/pastelitos-hondurenos
-vigoron,NI,Vigorón,Вигорон,Vigorón,main,gluten-free,medium,5,40,90,680,24,38,62,10,7,https://theunitools.com/recipes/vigoron.jpg,https://theunitools.com/en/recipes/nicaragua/vigoron
-indio-viejo,NI,Indio viejo,Индио вьехо,Indio viejo,main,gluten-free,medium,5,30,120,560,42,24,44,11,7,https://theunitools.com/recipes/indio-viejo.jpg,https://theunitools.com/en/recipes/nicaragua/indio-viejo
-vori-vori,PY,Vori vori,Вори вори,Vori vori,soup,gluten-free,medium,6,35,70,560,38,24,46,13,7,https://theunitools.com/recipes/vori-vori.jpg,https://theunitools.com/en/recipes/paraguay/vori-vori
-mbeju,PY,Mbejú,Мбеху,Mbejú,bread,vegetarian|gluten-free,medium,6,20,25,460,14,24,48,6,7,https://theunitools.com/recipes/mbeju.jpg,https://theunitools.com/en/recipes/paraguay/mbeju
-musakhan,JO,Musakhan,Мусахан,مسخن,main,,medium,6,35,90,780,44,46,48,11,7,https://theunitools.com/recipes/musakhan.jpg,https://theunitools.com/en/recipes/jordan/musakhan
-galayet-bandora,JO,Galayet bandora,Галает бандора,قلاية بندورة,main,vegetarian|vegan,easy,4,15,35,380,8,26,32,8,7,,https://theunitools.com/en/recipes/jordan/galayet-bandora
-omani-halwa,OM,Omani halwa,Оманская халва,حلوى عمانية,dessert,vegetarian|gluten-free,hard,16,25,130,420,3,22,56,9,7,https://theunitools.com/recipes/omani-halwa.jpg,https://theunitools.com/en/recipes/oman/omani-halwa
-maqdeed,OM,Maqdeed,Макдид,مقديد,main,gluten-free,hard,6,45,60,620,52,32,34,9,7,,https://theunitools.com/en/recipes/oman/maqdeed
-zurbian,YE,Zurbian,Зурбиан,زربيان,main,gluten-free,medium,6,40,110,780,44,34,78,12,7,https://theunitools.com/recipes/zurbian.jpg,https://theunitools.com/en/recipes/yemen/zurbian
-fahsa,YE,Fahsa,Фахса,فحسة,main,,hard,5,40,120,620,48,34,30,11,7,https://theunitools.com/recipes/fahsa.jpg,https://theunitools.com/en/recipes/yemen/fahsa
-kuwaiti-jireesh,KW,Kuwaiti gereesh,Кувейтский гриш,قريش,main,,easy,6,25,130,680,42,26,72,10,7,,https://theunitools.com/en/recipes/kuwait/kuwaiti-jireesh
-kuwaiti-darabeel,KW,Darabeel,Дарабиль,درابيل,dessert,vegetarian,medium,12,95,25,380,7,12,62,11,7,,https://theunitools.com/en/recipes/kuwait/kuwaiti-darabeel
-rechta,DZ,Rechta,Решта,رشتة,main,,hard,6,90,80,720,42,26,82,11,7,https://theunitools.com/recipes/rechta.jpg,https://theunitools.com/en/recipes/algeria/rechta
-makroud,DZ,Makroud,Макруд,مقروض,dessert,vegetarian|vegan,medium,14,70,35,420,5,16,66,10,7,https://theunitools.com/recipes/makroud.jpg,https://theunitools.com/en/recipes/algeria/makroud
-gurasa,SD,Gurasa,Гураса,قراصة,bread,vegetarian|vegan,easy,6,80,30,320,9,7,56,6,7,https://theunitools.com/recipes/gurasa.jpg,https://theunitools.com/en/recipes/sudan/gurasa
-salata-aswad,SD,Salata aswad,Салата асвад,سلطة أسود,salad,vegetarian|vegan|gluten-free,easy,5,25,25,380,10,30,18,9,7,,https://theunitools.com/en/recipes/sudan/salata-aswad
-mchuzi-wa-samaki,TZ,Mchuzi wa samaki,Мчузи ва самаки,Mchuzi wa samaki,main,pescatarian|gluten-free,easy,5,25,35,520,44,30,18,12,7,,https://theunitools.com/en/recipes/tanzania/mchuzi-wa-samaki
-vitumbua,TZ,Vitumbua,Витумбуа,Vitumbua,breakfast,vegetarian|vegan|gluten-free,medium,8,40,30,320,5,12,48,8,7,https://theunitools.com/recipes/vitumbua.jpg,https://theunitools.com/en/recipes/tanzania/vitumbua
-eru,CM,Eru,Эру,Eru,main,gluten-free,medium,6,50,70,620,42,42,14,11,7,https://theunitools.com/recipes/eru.jpg,https://theunitools.com/en/recipes/cameroon/eru
-koki-corn,CM,Koki,Коки,Koki,main,vegetarian|vegan|gluten-free,hard,6,100,90,520,20,32,42,9,7,,https://theunitools.com/en/recipes/cameroon/koki-corn
-kleftiko,CY,Kleftiko,Клефтико,Κλέφτικο,main,gluten-free,easy,6,30,300,780,52,48,34,10,7,https://theunitools.com/recipes/kleftiko.jpg,https://theunitools.com/en/recipes/cyprus/kleftiko
-koupepia,CY,Koupepia,Купепья,Κουπέπια,main,,medium,6,70,60,520,28,28,40,12,7,,https://theunitools.com/en/recipes/cyprus/koupepia
-lampuki-pie,MT,Lampuki pie,Пирог с лампукой,Torta tal-lampuki,main,pescatarian,hard,8,70,60,680,36,38,48,13,7,,https://theunitools.com/en/recipes/malta/lampuki-pie
-imqaret,MT,Imqaret,Имарет,Imqaret,dessert,vegetarian|vegan,medium,12,70,40,420,5,18,62,10,7,https://theunitools.com/recipes/imqaret.jpg,https://theunitools.com/en/recipes/malta/imqaret
-fergese,AL,Fërgesë,Фергесе,Fërgesë,main,vegetarian,easy,4,30,35,420,22,28,18,10,7,https://theunitools.com/recipes/fergese.jpg,https://theunitools.com/en/recipes/albania/fergese
-ballokume,AL,Ballokume,Баллокуме,Ballokume,dessert,vegetarian|gluten-free,medium,14,50,25,380,4,18,52,7,7,https://theunitools.com/recipes/ballokume.jpg,https://theunitools.com/en/recipes/albania/ballokume
-sarmale-moldovenesti,MD,Moldovan sarmale,Молдавские сармале,Sarmale,main,,medium,8,90,180,520,28,30,32,11,7,,https://theunitools.com/en/recipes/moldova/sarmale-moldovenesti
-mucenici,MD,Mucenici,Мученичи,Mucenici,dessert,vegetarian,medium,12,100,25,420,9,16,60,11,7,https://theunitools.com/recipes/mucenici.jpg,https://theunitools.com/en/recipes/moldova/mucenici
-kuurdak,KG,Kuurdak,Куурдак,Куурдак,main,,easy,5,25,55,780,44,54,28,9,7,https://theunitools.com/recipes/kuurdak.jpg,https://theunitools.com/en/recipes/kyrgyzstan/kuurdak
-boorsok,KG,Boorsok,Боорсок,Боорсок,bread,vegetarian,easy,10,90,30,320,7,14,42,8,7,,https://theunitools.com/en/recipes/kyrgyzstan/boorsok
-tushbera,TJ,Tushbera,Тушбера,Тушбера,soup,,hard,5,90,50,620,32,30,54,11,7,,https://theunitools.com/en/recipes/tajikistan/tushbera
-chakka,TJ,Chakka,Чакка,Чакка,snack,vegetarian,easy,6,25,0,220,12,14,10,9,7,https://theunitools.com/recipes/chakka.jpg,https://theunitools.com/en/recipes/tajikistan/chakka
-khuushuur,MN,Khuushuur,Хуушуур,Хуушуур,snack,,medium,6,70,35,620,28,34,52,9,7,https://theunitools.com/recipes/khuushuur.jpg,https://theunitools.com/en/recipes/mongolia/khuushuur
-suutei-tsai,MN,Suutei tsai,Сутэй цай,Сүүтэй цай,drink,vegetarian,easy,6,5,25,140,5,9,8,6,7,https://theunitools.com/recipes/suutei-tsai.jpg,https://theunitools.com/en/recipes/mongolia/suutei-tsai
-ashak,AF,Ashak,Ашак,آشک,main,,hard,5,80,50,620,32,28,58,12,7,,https://theunitools.com/en/recipes/afghanistan/ashak
-bolani,AF,Bolani,Болани,بولانی,snack,vegetarian|vegan,easy,6,50,30,420,10,12,68,9,7,https://theunitools.com/recipes/bolani.jpg,https://theunitools.com/en/recipes/afghanistan/bolani
+slug,country,name_en,name_ru,native_name,category,diets,difficulty,servings,prep_minutes,cook_minutes,kcal,protein_g,fat_g,carbs_g,ingredients_count,steps_count,photo_url
+spaghetti-carbonara,IT,Spaghetti carbonara,Спагетти карбонара,Spaghetti alla carbonara,main,,medium,2,10,15,690,32,34,62,7,6,https://theunitools.com/recipes/spaghetti-carbonara.jpg
+risotto-alla-milanese,IT,Risotto alla milanese,Ризотто по-милански,Risotto alla milanese,main,vegetarian,medium,4,10,25,560,15,22,71,8,6,https://theunitools.com/recipes/risotto-alla-milanese.jpg
+ratatouille,FR,Ratatouille,Рататуй,Ratatouille niçoise,main,vegetarian|vegan|gluten-free,easy,4,20,45,240,5,16,20,10,6,https://theunitools.com/recipes/ratatouille.jpg
+french-onion-soup,FR,French onion soup,Луковый суп,Soupe à l'oignon gratinée,soup,,easy,4,15,60,430,17,21,40,9,6,https://theunitools.com/recipes/french-onion-soup.jpg
+borscht,RU,Borscht,Борщ,,soup,,medium,6,30,120,320,18,14,30,12,6,https://theunitools.com/recipes/borscht.jpg
+khachapuri-imeruli,GE,Imeretian khachapuri,Хачапури имеретинский,იმერული ხაჭაპური,bread,vegetarian,medium,4,90,20,620,28,30,58,9,6,https://theunitools.com/recipes/khachapuri-imeruli.jpg
+miso-soup,JP,Miso soup,Мисо-суп,味噌汁,soup,pescatarian,easy,4,5,15,110,9,4,8,7,6,https://theunitools.com/recipes/miso-soup.jpg
+guacamole,MX,Guacamole,Гуакамоле,,snack,vegetarian|vegan|gluten-free,easy,4,15,0,230,3,20,12,7,5,https://theunitools.com/recipes/guacamole.jpg
+tom-yum-goong,TH,Tom yum goong,Том ям с креветками,ต้มยำกุ้ง,soup,pescatarian,medium,4,15,20,190,24,4,12,11,6,
+dal-tadka,IN,Dal tadka,Дал тадка,दाल तड़का,main,vegetarian|gluten-free,easy,4,10,35,340,16,12,42,11,6,https://theunitools.com/recipes/dal-tadka.jpg
+paella-valenciana,ES,Paella valenciana,Паэлья валенсиана,Paella valenciana,main,,medium,4,25,45,620,38,24,62,12,6,https://theunitools.com/recipes/paella-valenciana.jpg
+tortilla-espanola,ES,Spanish tortilla,Испанская тортилья,Tortilla española,main,vegetarian|gluten-free,medium,4,15,35,430,15,28,30,5,5,https://theunitools.com/recipes/tortilla-espanola.jpg
+moussaka,GR,Moussaka,Мусака,Μουσακάς,main,,hard,6,40,75,580,28,36,34,15,6,https://theunitools.com/recipes/moussaka.jpg
+horiatiki-salata,GR,Horiatiki salad,Хориатики,Χωριάτικη σαλάτα,salad,vegetarian|gluten-free,easy,4,15,0,320,10,27,11,9,3,https://theunitools.com/recipes/horiatiki-salata.jpg
+pho-bo,VN,Phở bò,Фо бо,Phở bò,soup,,hard,4,30,240,520,34,14,62,14,6,https://theunitools.com/recipes/pho-bo.jpg
+banh-mi,VN,Bánh mì,Бань ми,Bánh mì,snack,,easy,4,25,15,560,28,24,58,12,4,https://theunitools.com/recipes/banh-mi.jpg
+pesto-alla-genovese,IT,Pesto alla genovese,Песто алла дженовезе,Pesto alla genovese,sauce,vegetarian|gluten-free,easy,4,20,0,340,8,34,3,7,4,https://theunitools.com/recipes/pesto-alla-genovese.jpg
+tacos-al-pastor,MX,Tacos al pastor,Такос аль пастор,Tacos al pastor,main,,medium,4,30,20,610,36,26,55,12,5,https://theunitools.com/recipes/tacos-al-pastor.jpg
+menemen,TR,Menemen,Менемен,Menemen,breakfast,vegetarian|gluten-free,easy,2,10,20,310,16,22,12,9,4,https://theunitools.com/recipes/menemen.jpg
+mercimek-corbasi,TR,Mercimek çorbası,Мерджимек чорбасы,Mercimek çorbası,soup,vegetarian,easy,4,10,35,330,16,10,45,11,4,https://theunitools.com/recipes/mercimek-corbasi.jpg
+khinkali,GE,Khinkali,Хинкали,ხინკალი,main,,hard,4,60,15,480,26,18,52,10,5,https://theunitools.com/recipes/khinkali.jpg
+murgh-makhani,IN,Butter chicken,Курица масала в сливочном соусе,मुर्ग़ मक्खनी,main,gluten-free,medium,4,30,40,640,42,42,18,14,5,https://theunitools.com/recipes/murgh-makhani.jpg
+katsudon,JP,Katsudon,Кацудон,カツ丼,main,,medium,2,20,20,780,42,32,78,12,6,https://theunitools.com/recipes/katsudon.jpg
+syrniki,RU,Syrniki,Сырники,Сырники,breakfast,vegetarian,easy,4,15,15,340,22,16,26,8,4,https://theunitools.com/recipes/syrniki.jpg
+pad-thai,TH,Pad thai,Пад тай,ผัดไทย,main,,medium,2,30,10,690,34,24,82,14,5,https://theunitools.com/recipes/pad-thai.jpg
+tiramisu,IT,Tiramisu,Тирамису,Tiramisù,dessert,vegetarian,medium,6,30,0,520,10,34,42,8,6,https://theunitools.com/recipes/tiramisu.jpg
+gazpacho,ES,Gazpacho,Гаспачо,Gazpacho andaluz,soup,vegetarian|vegan,easy,4,20,0,220,4,16,17,8,4,https://theunitools.com/recipes/gazpacho.jpg
+croquetas-de-jamon,ES,Ham croquetas,Крокеты с хамоном,Croquetas de jamón,snack,,medium,4,30,25,480,18,30,34,11,6,https://theunitools.com/recipes/croquetas-de-jamon.jpg
+ceviche,PE,Ceviche,Севиче,Cebiche,main,pescatarian|gluten-free,easy,4,20,0,290,34,3,30,8,4,https://theunitools.com/recipes/ceviche.jpg
+lomo-saltado,PE,Lomo saltado,Ломо сальтадо,Lomo saltado,main,,medium,4,20,20,720,42,26,76,11,5,https://theunitools.com/recipes/lomo-saltado.jpg
+mapo-tofu,CN,Mapo tofu,Мапо тофу,麻婆豆腐,main,,medium,4,15,15,380,24,26,12,11,5,https://theunitools.com/recipes/mapo-tofu.jpg
+gong-bao-chicken,CN,Gong bao chicken,Курица гунбао,宫保鸡丁,main,,medium,4,25,10,470,38,24,22,13,5,https://theunitools.com/recipes/gong-bao-chicken.jpg
+coq-au-vin,FR,Coq au vin,Кок-о-вен,Coq au vin,main,,medium,4,30,90,680,48,38,16,12,6,https://theunitools.com/recipes/coq-au-vin.jpg
+creme-brulee,FR,Crème brûlée,Крем-брюле,Crème brûlée,dessert,vegetarian|gluten-free,medium,4,20,45,490,6,42,24,5,5,https://theunitools.com/recipes/creme-brulee.jpg
+kaesespaetzle,DE,Käsespätzle,Кезешпецле,Käsespätzle,main,vegetarian,medium,4,25,30,720,30,32,78,8,5,https://theunitools.com/recipes/kaesespaetzle.jpg
+rinderrouladen,DE,Rinderrouladen,Руладен,Rinderrouladen,main,,medium,4,30,100,640,52,34,14,12,5,
+bibimbap,KR,Bibimbap,Пибимпап,비빔밥,main,,medium,4,40,20,640,34,22,76,12,5,https://theunitools.com/recipes/bibimbap.jpg
+kimchi-jjigae,KR,Kimchi jjigae,Кимчхи чиге,김치찌개,soup,,easy,4,10,30,470,28,32,16,10,5,https://theunitools.com/recipes/kimchi-jjigae.jpg
+souvlaki,GR,Souvlaki,Сувлаки,Σουβλάκι,main,,easy,4,20,15,660,46,38,32,9,5,https://theunitools.com/recipes/souvlaki.jpg
+chicken-biryani,IN,Chicken biryani,Бирьяни с курицей,बिरयानी,main,,hard,6,45,60,720,42,26,82,15,6,https://theunitools.com/recipes/chicken-biryani.jpg
+shoyu-ramen,JP,Shoyu ramen,Сёю рамен,醤油ラーメン,soup,,hard,4,30,180,780,44,30,82,13,6,https://theunitools.com/recipes/shoyu-ramen.jpg
+pierogi-ruskie,PL,Pierogi ruskie,Пероги руске,Pierogi ruskie,main,vegetarian,medium,4,50,20,590,20,20,82,9,6,https://theunitools.com/recipes/pierogi-ruskie.jpg
+zurek,PL,Żurek,Журек,Żurek,soup,,medium,4,20,50,540,26,38,22,11,5,https://theunitools.com/recipes/zurek.jpg
+sauerbraten,DE,Sauerbraten,Заурбратен,Rheinischer Sauerbraten,main,,medium,6,30,150,610,54,26,26,12,6,https://theunitools.com/recipes/sauerbraten.jpg
+schwaebischer-kartoffelsalat,DE,Swabian potato salad,Швабский картофельный салат,Schwäbischer Kartoffelsalat,salad,vegetarian,easy,4,15,25,290,5,14,36,8,5,https://theunitools.com/recipes/schwaebischer-kartoffelsalat.jpg
+bucatini-all-amatriciana,IT,Bucatini all'amatriciana,Аматричана,Bucatini all'amatriciana,main,,easy,4,10,20,610,24,24,74,7,5,https://theunitools.com/recipes/bucatini-all-amatriciana.jpg
+shakshuka,IL,Shakshuka,Шакшука,שקשוקה,breakfast,vegetarian|gluten-free,easy,4,10,30,340,18,22,18,11,5,https://theunitools.com/recipes/shakshuka.jpg
+hummus,IL,Hummus,Хумус,חומוס,snack,vegetarian|vegan|gluten-free,easy,6,20,90,320,12,20,26,9,5,https://theunitools.com/recipes/hummus.jpg
+feijoada,BR,Feijoada,Фейжоада,Feijoada,main,,hard,8,40,180,780,46,38,62,12,6,https://theunitools.com/recipes/feijoada.jpg
+pao-de-queijo,BR,Pão de queijo,Пан-ди-кейжу,Pão de queijo,bread,vegetarian|gluten-free,medium,6,25,25,380,12,20,40,8,5,https://theunitools.com/recipes/pao-de-queijo.jpg
+pad-krapow-moo,TH,Pad krapow,Пад кра пао,ผัดกะเพรา,main,,easy,2,10,8,680,36,34,56,11,5,https://theunitools.com/recipes/pad-krapow-moo.jpg
+gyudon,JP,Gyudon,Гюдон,牛丼,main,,easy,2,10,15,640,34,18,82,10,5,https://theunitools.com/recipes/gyudon.jpg
+solyanka,RU,Meat solyanka,Солянка мясная сборная,Солянка,soup,,medium,6,25,120,420,32,26,12,12,6,https://theunitools.com/recipes/solyanka.jpg
+tagine-de-poulet,MA,Chicken tagine with preserved lemon,Тажин с курицей и лимоном,طاجين الدجاج,main,gluten-free,medium,4,25,70,560,44,36,12,12,5,https://theunitools.com/recipes/tagine-de-poulet.jpg
+harira,MA,Harira,Харира,حريرة,soup,,medium,6,25,90,380,22,12,46,13,5,https://theunitools.com/recipes/harira.jpg
+goulash,HU,Goulash,Гуляш,Gulyás,soup,gluten-free,easy,6,20,150,520,42,24,32,10,5,https://theunitools.com/recipes/goulash.jpg
+langos,HU,Lángos,Лангош,Lángos,snack,vegetarian,medium,4,90,20,640,18,32,68,10,6,https://theunitools.com/recipes/langos.jpg
+fish-and-chips,GB,Fish and chips,Фиш-энд-чипс,Fish and chips,main,pescatarian,medium,4,25,35,890,46,40,88,9,5,https://theunitools.com/recipes/fish-and-chips.jpg
+shepherds-pie,GB,Shepherd's pie,Пастуший пирог,Shepherd's pie,main,,easy,6,30,60,620,34,32,48,13,6,https://theunitools.com/recipes/shepherds-pie.jpg
+wiener-schnitzel,AT,Wiener Schnitzel,Венский шницель,Wiener Schnitzel,main,,medium,4,20,15,680,44,38,38,7,5,https://theunitools.com/recipes/wiener-schnitzel.jpg
+apfelstrudel,AT,Apfelstrudel,Яблочный штрудель,Apfelstrudel,dessert,vegetarian,hard,8,60,45,420,5,16,66,10,6,https://theunitools.com/recipes/apfelstrudel.jpg
+bacalhau-a-bras,PT,Bacalhau à brás,Бакаляу а браш,Bacalhau à Brás,main,pescatarian,medium,4,30,25,610,42,34,34,10,5,https://theunitools.com/recipes/bacalhau-a-bras.jpg
+pastel-de-nata,PT,Pastel de nata,Паштел де ната,Pastel de nata,dessert,vegetarian,hard,12,40,15,290,4,16,33,9,5,https://theunitools.com/recipes/pastel-de-nata.jpg
+empanadas-argentinas,AR,Argentinian empanadas,Аргентинские эмпанадас,Empanadas argentinas,snack,,medium,6,50,25,520,26,28,42,11,6,https://theunitools.com/recipes/empanadas-argentinas.jpg
+chimichurri,AR,Chimichurri,Чимичурри,Chimichurri,sauce,vegetarian|vegan|gluten-free,easy,8,15,0,190,1,20,2,8,4,https://theunitools.com/recipes/chimichurri.jpg
+nasi-goreng,ID,Nasi goreng,Наси горенг,Nasi goreng,main,,easy,4,20,15,620,34,22,70,12,5,https://theunitools.com/recipes/nasi-goreng.jpg
+rendang,ID,Rendang,Ренданг,Rendang,main,gluten-free,hard,6,30,240,720,46,52,14,12,6,https://theunitools.com/recipes/rendang.jpg
+adobo,PH,Chicken adobo,Адобо,Adobo,main,,easy,4,15,45,580,44,26,42,10,5,https://theunitools.com/recipes/adobo.jpg
+sinigang,PH,Sinigang,Синиганг,Sinigang,soup,,easy,6,20,75,460,34,26,24,12,5,https://theunitools.com/recipes/sinigang.jpg
+borshch-ukrainskyi,UA,Ukrainian borscht with pampushky,Украинский борщ с пампушками,Український борщ,soup,,medium,6,40,120,480,26,28,32,14,5,https://theunitools.com/recipes/borshch-ukrainskyi.jpg
+varenyky-z-vyshnyamy,UA,Cherry varenyky,Вареники с вишней,Вареники з вишнями,dessert,vegetarian,medium,4,50,15,520,12,12,92,10,5,https://theunitools.com/recipes/varenyky-z-vyshnyamy.jpg
+svickova,CZ,Svíčková na smetaně,Свичкова,Svíčková na smetaně,main,,hard,6,40,150,680,48,42,24,13,6,https://theunitools.com/recipes/svickova.jpg
+trdelnik,CZ,Trdelník,Трдельник,Trdelník,dessert,vegetarian,medium,6,90,20,470,9,18,68,10,6,https://theunitools.com/recipes/trdelnik.jpg
+koettbullar,SE,Köttbullar,Шведские фрикадельки,Köttbullar,main,,easy,4,30,30,690,38,48,24,13,6,https://theunitools.com/recipes/koettbullar.jpg
+kanelbullar,SE,Kanelbullar,Кулебяка с корицей,Kanelbullar,dessert,vegetarian,medium,12,120,15,380,6,16,54,12,6,https://theunitools.com/recipes/kanelbullar.jpg
+koshari,EG,Koshari,Кушари,كشري,main,vegetarian|vegan,medium,6,30,60,640,22,18,100,12,6,https://theunitools.com/recipes/koshari.jpg
+ful-medames,EG,Ful medames,Фуль медамес,فول مدمس,breakfast,vegetarian|vegan|gluten-free,easy,4,15,240,420,22,18,46,9,5,https://theunitools.com/recipes/ful-medames.jpg
+tabbouleh,LB,Tabbouleh,Табуле,تبولة,salad,vegetarian|vegan,easy,4,25,0,210,5,14,19,9,4,https://theunitools.com/recipes/tabbouleh.jpg
+kibbeh-nayyeh,LB,Kibbeh nayyeh,Киббе нейе,كبة نية,main,,medium,4,40,0,380,30,22,16,9,5,https://theunitools.com/recipes/kibbeh-nayyeh.jpg
+ghormeh-sabzi,IR,Ghormeh sabzi,Гормэ сабзи,قورمه‌سبزی,main,gluten-free,medium,6,40,150,640,42,32,46,12,5,https://theunitools.com/recipes/ghormeh-sabzi.jpg
+tahdig,IR,Tahdig,Тахдиг,ته‌دیگ,side,vegetarian|gluten-free,medium,6,90,60,420,8,14,66,7,7,https://theunitools.com/recipes/tahdig.jpg
+plov-uzbekskiy,UZ,Uzbek plov,Узбекский плов,Palov,main,gluten-free,medium,6,30,100,780,38,34,82,11,6,https://theunitools.com/recipes/plov-uzbekskiy.jpg
+samsa,UZ,Samsa,Самса,Somsa,snack,,hard,6,90,35,580,24,34,46,9,6,https://theunitools.com/recipes/samsa.jpg
+clam-chowder,US,New England clam chowder,Новоанглийский клэм-чаудер,New England clam chowder,soup,pescatarian,easy,4,20,35,520,28,30,34,12,6,https://theunitools.com/recipes/clam-chowder.jpg
+buffalo-wings,US,Buffalo wings,Куриные крылья баффало,Buffalo wings,snack,gluten-free,easy,4,15,50,620,42,48,3,9,6,https://theunitools.com/recipes/buffalo-wings.jpg
+pizza-margherita,IT,Pizza margherita,Пицца маргарита,Pizza margherita,main,vegetarian,medium,4,60,10,720,30,26,92,8,6,https://theunitools.com/recipes/pizza-margherita.jpg
+lasagne-alla-bolognese,IT,Lasagne alla bolognese,Лазанья болоньезе,Lasagne alla bolognese,main,,hard,8,40,220,780,42,42,58,14,7,
+palak-paneer,IN,Palak paneer,Палак панир,पालक पनीर,main,vegetarian|gluten-free,easy,4,20,25,420,22,30,16,12,5,https://theunitools.com/recipes/palak-paneer.jpg
+samosa,IN,Samosa,Самоса,समोसा,snack,vegetarian|vegan,medium,6,60,30,380,8,20,44,13,6,https://theunitools.com/recipes/samosa.jpg
+jiaozi,CN,Jiaozi dumplings,Цзяоцзы,饺子,main,,medium,4,60,15,580,26,24,62,12,6,https://theunitools.com/recipes/jiaozi.jpg
+yangzhou-fried-rice,CN,Yangzhou fried rice,Янчжоуский жареный рис,扬州炒饭,main,,easy,4,15,10,540,26,18,68,11,5,https://theunitools.com/recipes/yangzhou-fried-rice.jpg
+chiles-en-nogada,MX,Chiles rellenos,Чиле рельено,Chiles rellenos,main,vegetarian,hard,4,40,30,520,24,36,24,10,6,https://theunitools.com/recipes/chiles-en-nogada.jpg
+pozole-rojo,MX,Pozole rojo,Посоле рохо,Pozole rojo,soup,gluten-free,medium,8,30,180,560,38,26,44,11,6,https://theunitools.com/recipes/pozole-rojo.jpg
+nihari,PK,Nihari,Нихари,نہاری,main,,hard,6,30,300,720,52,46,20,12,5,https://theunitools.com/recipes/nihari.jpg
+chapli-kebab,PK,Chapli kebab,Чапли кебаб,چپلی کباب,main,,easy,4,25,20,560,34,40,16,11,5,https://theunitools.com/recipes/chapli-kebab.jpg
+laksa-lemak,MY,Laksa lemak,Лакса лемак,Laksa lemak,soup,,medium,4,30,30,720,32,40,62,13,5,https://theunitools.com/recipes/laksa-lemak.jpg
+roti-canai,MY,Roti canai,Роти чанай,Roti canai,bread,vegetarian,hard,6,30,20,420,8,20,52,7,6,https://theunitools.com/recipes/roti-canai.jpg
+stamppot,NL,Stamppot,Стамппот,Stamppot boerenkool,main,,easy,4,20,35,780,30,46,62,9,5,https://theunitools.com/recipes/stamppot.jpg
+poffertjes,NL,Poffertjes,Поффертьес,Poffertjes,dessert,vegetarian,easy,4,70,20,420,11,18,54,9,6,https://theunitools.com/recipes/poffertjes.jpg
+doro-wat,ET,Doro wat,Доро уот,ዶሮ ወጥ,main,gluten-free,medium,6,25,120,620,46,40,18,10,6,https://theunitools.com/recipes/doro-wat.jpg
+misir-wat,ET,Misir wat,Мисир уот,ምስር ወጥ,main,vegetarian|vegan|gluten-free,easy,4,15,70,420,20,18,48,9,5,
+ropa-vieja,CU,Ropa vieja,Ропа вьеха,Ropa vieja,main,gluten-free,easy,6,25,150,620,46,26,48,12,5,https://theunitools.com/recipes/ropa-vieja.jpg
+moros-y-cristianos,CU,Moros y cristianos,Морос и кристианос,Moros y cristianos,side,vegetarian|vegan|gluten-free,easy,6,20,90,460,15,11,76,11,5,https://theunitools.com/recipes/moros-y-cristianos.jpg
+jerk-chicken,JM,Jerk chicken,Курица джерк,Jerk chicken,main,,medium,6,30,120,560,48,36,10,12,6,https://theunitools.com/recipes/jerk-chicken.jpg
+ackee-and-saltfish,JM,Ackee and saltfish,Аки с солёной рыбой,Ackee and saltfish,breakfast,pescatarian|gluten-free,easy,4,20,25,380,28,24,14,10,5,https://theunitools.com/recipes/ackee-and-saltfish.jpg
+jollof-rice,NG,Jollof rice,Джоллоф рис,Jollof rice,main,vegetarian|vegan|gluten-free,medium,6,20,60,520,10,18,80,12,6,https://theunitools.com/recipes/jollof-rice.jpg
+suya,NG,Suya,Суйя,Suya,snack,gluten-free,easy,4,40,15,520,42,34,12,10,5,https://theunitools.com/recipes/suya.jpg
+arepas,CO,Arepas,Арепас,Arepas,bread,vegetarian|gluten-free,easy,4,15,25,380,12,14,52,6,6,https://theunitools.com/recipes/arepas.jpg
+ajiaco-bogotano,CO,Ajiaco bogotano,Ахиако,Ajiaco bogotano,soup,gluten-free,easy,6,25,75,520,38,20,48,12,5,https://theunitools.com/recipes/ajiaco-bogotano.jpg
+quiche-lorraine,FR,Quiche lorraine,Киш лорен,Quiche lorraine,main,,medium,6,40,60,580,20,44,28,10,6,https://theunitools.com/recipes/quiche-lorraine.jpg
+croissant,FR,Croissant,Круассан,Croissant,bread,vegetarian,hard,8,180,20,420,8,26,40,8,7,https://theunitools.com/recipes/croissant.jpg
+tempura,JP,Tempura,Темпура,天ぷら,main,pescatarian,medium,4,25,20,520,24,26,48,11,6,https://theunitools.com/recipes/tempura.jpg
+okonomiyaki,JP,Okonomiyaki,Окономияки,お好み焼き,main,,easy,4,25,25,560,24,32,44,12,6,https://theunitools.com/recipes/okonomiyaki.jpg
+lahmacun,TR,Lahmacun,Лахмаджун,Lahmacun,main,,medium,6,60,20,420,22,16,48,12,6,https://theunitools.com/recipes/lahmacun.jpg
+baklava,TR,Baklava,Пахлава,Baklava,dessert,vegetarian,hard,12,60,60,490,8,28,54,6,7,https://theunitools.com/recipes/baklava.jpg
+spanakopita,GR,Spanakopita,Спанакопита,Σπανακόπιτα,main,vegetarian,medium,8,40,50,480,16,32,34,9,6,https://theunitools.com/recipes/spanakopita.jpg
+patatas-bravas,ES,Patatas bravas,Пататас бравас,Patatas bravas,snack,vegetarian,easy,4,20,30,420,6,22,48,10,6,https://theunitools.com/recipes/patatas-bravas.jpg
+momo,NP,Momo,Момо,मम:,main,,medium,4,60,20,560,30,20,62,13,5,https://theunitools.com/recipes/momo.jpg
+dal-bhat,NP,Dal bhat,Дал бхат,दाल भात,main,vegetarian|gluten-free,easy,4,20,45,620,22,16,98,12,6,https://theunitools.com/recipes/dal-bhat.jpg
+kottu-roti,LK,Kottu roti,Котту роти,කොත්තු රොටි,main,,easy,4,20,15,640,32,28,66,12,5,https://theunitools.com/recipes/kottu-roti.jpg
+pol-sambol,LK,Pol sambol,Пол самбол,පොල් සම්බෝල,sauce,gluten-free,easy,6,15,0,240,5,21,9,6,4,https://theunitools.com/recipes/pol-sambol.jpg
+cevapi,RS,Ćevapi,Чевапи,Ћевапи,main,,medium,4,30,15,680,44,42,30,11,6,https://theunitools.com/recipes/cevapi.jpg
+ajvar,RS,Ajvar,Айвар,Ајвар,sauce,vegetarian|vegan|gluten-free,medium,10,60,90,180,2,15,11,6,6,https://theunitools.com/recipes/ajvar.jpg
+frikadeller,DK,Frikadeller,Фрикаделлер,Frikadeller,main,,easy,4,20,25,620,36,34,42,11,6,https://theunitools.com/recipes/frikadeller.jpg
+smorrebrod,DK,Smørrebrød,Смёрребрёд,Smørrebrød,snack,pescatarian,easy,4,25,0,480,26,28,32,10,5,https://theunitools.com/recipes/smorrebrod.jpg
+sarmale,RO,Sarmale,Сармале,Sarmale,main,,medium,8,60,180,520,30,30,32,11,6,https://theunitools.com/recipes/sarmale.jpg
+mamaliga,RO,Mămăligă,Мамалыга,Mămăligă,side,vegetarian|gluten-free,easy,6,5,40,380,12,16,48,6,5,https://theunitools.com/recipes/mamaliga.jpg
+shopska-salata,BG,Shopska salad,Шопский салат,Шопска салата,salad,vegetarian|gluten-free,easy,4,20,10,290,12,22,12,10,4,https://theunitools.com/recipes/shopska-salata.jpg
+banitsa,BG,Banitsa,Баница,Баница,breakfast,vegetarian,medium,8,30,45,520,20,32,38,7,6,https://theunitools.com/recipes/banitsa.jpg
+lohikeitto,FI,Lohikeitto,Лохикейтто,Lohikeitto,soup,pescatarian|gluten-free,easy,4,20,40,520,32,32,26,11,6,https://theunitools.com/recipes/lohikeitto.jpg
+karjalanpiirakka,FI,Karelian pies,Карельские пирожки,Karjalanpiirakka,bread,vegetarian,hard,8,60,25,240,6,10,32,7,7,https://theunitools.com/recipes/karjalanpiirakka.jpg
+irish-stew,IE,Irish stew,Ирландское рагу,Irish stew,main,gluten-free,easy,6,20,150,620,42,28,48,8,5,https://theunitools.com/recipes/irish-stew.jpg
+soda-bread,IE,Soda bread,Содовый хлеб,Soda bread,bread,vegetarian,easy,8,10,45,260,9,2,52,6,6,https://theunitools.com/recipes/soda-bread.jpg
+crni-rizot,HR,Black risotto,Чёрный ризотто,Crni rižot,main,pescatarian,medium,4,25,50,540,34,18,62,11,6,https://theunitools.com/recipes/crni-rizot.jpg
+zagorski-strukli,HR,Zagorje štrukli,Загорски штрукли,Zagorski štrukli,main,vegetarian,hard,6,60,45,620,28,36,44,10,6,https://theunitools.com/recipes/zagorski-strukli.jpg
+gravlaks,NO,Gravlaks,Гравлакс,Gravlaks,snack,pescatarian|gluten-free,easy,8,20,0,280,26,18,4,9,6,
+farikal,NO,Fårikål,Форикол,Fårikål,main,,easy,6,20,130,640,46,34,34,7,5,https://theunitools.com/recipes/farikal.jpg
+moules-marinieres,BE,Moules marinières,Мидии по-мариньерски,Moules marinières,main,pescatarian,easy,4,25,15,620,38,26,52,10,5,https://theunitools.com/recipes/moules-marinieres.jpg
+carbonade-flamande,BE,Carbonade flamande,Фламандская карбонада,Carbonade flamande,main,,easy,6,25,180,640,48,30,32,10,6,https://theunitools.com/recipes/carbonade-flamande.jpg
+fondue-moitie-moitie,CH,Cheese fondue,Сырное фондю,Fondue moitié-moitié,main,vegetarian,medium,4,15,20,880,48,52,48,9,6,https://theunitools.com/recipes/fondue-moitie-moitie.jpg
+roesti,CH,Rösti,Рёшти,Rösti,side,vegetarian|gluten-free,easy,4,15,30,420,8,22,48,6,6,https://theunitools.com/recipes/roesti.jpg
+ghapama,AM,Ghapama,Гапама,Ղափամա,main,vegetarian|gluten-free,medium,6,30,90,470,9,18,71,11,7,https://theunitools.com/recipes/ghapama.jpg
+spas,AM,Spas,Спас,Սպաս,soup,vegetarian,medium,4,10,40,280,14,12,30,9,6,https://theunitools.com/recipes/spas.jpg
+shah-plov,AZ,Shah plov,Шах-плов,Şah plov,main,,hard,6,45,70,720,30,34,75,11,7,https://theunitools.com/recipes/shah-plov.jpg
+kufta-bozbash,AZ,Kufta bozbash,Кюфта-бозбаш,Küftə bozbaş,soup,,medium,4,30,80,560,34,26,46,11,6,https://theunitools.com/recipes/kufta-bozbash.jpg
+beshbarmak,KZ,Beshbarmak,Бешбармак,Бесбармақ,main,,medium,6,40,180,690,45,28,63,10,7,https://theunitools.com/recipes/beshbarmak.jpg
+baursaki,KZ,Baursak,Баурсаки,Бауырсақ,bread,vegetarian,easy,8,30,25,330,8,14,44,8,7,https://theunitools.com/recipes/baursaki.jpg
+bryndzove-halusky,SK,Bryndzové halušky,Брынзове галушки,Bryndzové halušky,main,,easy,4,25,20,640,24,34,58,6,6,https://theunitools.com/recipes/bryndzove-halusky.jpg
+kapustnica,SK,Kapustnica,Капустница,Kapustnica,soup,,easy,6,20,90,480,26,30,26,11,6,https://theunitools.com/recipes/kapustnica.jpg
+pastel-de-choclo,CL,Pastel de choclo,Пастель-де-чокло,Pastel de choclo,main,,medium,6,40,60,620,34,27,62,13,6,https://theunitools.com/recipes/pastel-de-choclo.jpg
+empanadas-de-pino,CL,Empanadas de pino,Эмпанадас-де-пино,Empanadas de pino,snack,,medium,6,60,30,590,26,29,55,11,7,https://theunitools.com/recipes/empanadas-de-pino.jpg
+pabellon-criollo,VE,Pabellón criollo,Пабельон-криольо,Pabellón criollo,main,,medium,4,30,150,780,45,24,96,11,7,https://theunitools.com/recipes/pabellon-criollo.jpg
+cachapas,VE,Cachapas,Качапас,Cachapas,breakfast,vegetarian|gluten-free,easy,4,15,25,430,16,20,48,6,6,https://theunitools.com/recipes/cachapas.jpg
+saltenas,BO,Salteñas,Сальтеньяс,Salteñas,snack,,hard,6,90,30,560,24,26,58,15,7,https://theunitools.com/recipes/saltenas.jpg
+silpancho,BO,Silpancho,Сильпанчо,Silpancho,main,,easy,4,30,30,810,42,36,82,11,7,https://theunitools.com/recipes/silpancho.jpg
+encebollado,EC,Encebollado,Энсебольядо,Encebollado,soup,pescatarian|gluten-free,easy,4,20,40,420,40,11,42,10,6,https://theunitools.com/recipes/encebollado.jpg
+llapingachos,EC,Llapingachos,Льяпингачос,Llapingachos,side,vegetarian|gluten-free,easy,4,30,30,520,20,27,50,9,7,https://theunitools.com/recipes/llapingachos.jpg
+masgouf,IQ,Masgouf,Масгуф,مسكوف,main,pescatarian|gluten-free,medium,4,30,75,480,52,27,8,9,7,https://theunitools.com/recipes/masgouf.jpg
+dolma-iraqi,IQ,Iraqi dolma,Иракская долма,دولمة,main,,hard,6,75,75,520,20,22,62,14,7,https://theunitools.com/recipes/dolma-iraqi.jpg
+mansaf,JO,Mansaf,Мансаф,منسف,main,,medium,8,40,150,820,48,38,74,11,7,https://theunitools.com/recipes/mansaf.jpg
+maqluba,JO,Maqluba,Маклюба,مقلوبة,main,,medium,6,45,90,690,34,30,72,12,7,https://theunitools.com/recipes/maqluba.jpg
+brik,TN,Brik,Брик,بريك,snack,,medium,4,20,10,390,20,24,24,11,6,https://theunitools.com/recipes/brik.jpg
+shakshuka-tunisienne,TN,Tunisian lablabi,Тунисский лаблаби,لبلابي,soup,vegetarian,easy,4,15,90,520,22,22,60,12,6,https://theunitools.com/recipes/shakshuka-tunisienne.jpg
+couscous-algerien,DZ,Algerian couscous,Алжирский кускус,كسكس,main,,hard,6,40,120,760,40,30,88,14,7,https://theunitools.com/recipes/couscous-algerien.jpg
+chorba-frik,DZ,Chorba frik,Чорба-фрик,شوربة فريك,soup,,easy,6,20,70,420,28,18,38,13,6,https://theunitools.com/recipes/chorba-frik.jpg
+cepelinai,LT,Cepelinai,Цеппелинай,Cepelinai,main,,hard,4,60,40,720,28,38,68,9,7,https://theunitools.com/recipes/cepelinai.jpg
+saltibarsciai,LT,Šaltibarščiai,Шалтибарщяй,Šaltibarščiai,soup,vegetarian,easy,4,20,40,320,14,12,40,9,6,https://theunitools.com/recipes/saltibarsciai.jpg
+pelekie-zirni-ar-speki,LV,Grey peas with speck,Серый горох со шпеком,Pelēkie zirņi ar speķi,main,,easy,4,15,90,610,28,30,54,6,6,
+rupjmaizes-kartojums,LV,Rye bread layer dessert,Слоёный ржаной десерт,Rupjmaizes kārtojums,dessert,vegetarian,easy,6,25,15,470,6,26,54,7,6,
+mulgipuder,EE,Mulgipuder,Мульгипудер,Mulgipuder,main,,easy,4,15,80,560,18,26,64,7,6,https://theunitools.com/recipes/mulgipuder.jpg
+kama,EE,Kama,Кама,Kama,dessert,vegetarian,easy,4,10,0,310,12,6,52,7,5,https://theunitools.com/recipes/kama.jpg
+draniki,BY,Draniki,Драники,Дранікі,main,vegetarian|gluten-free,easy,4,20,25,390,8,22,42,6,6,https://theunitools.com/recipes/draniki.jpg
+machanka,BY,Machanka,Мачанка,Мачанка,main,,easy,4,25,50,780,34,46,54,11,7,
+mohinga,MM,Mohinga,Мохинга,မုန့်ဟင်းခါး,soup,pescatarian,medium,6,40,80,560,32,18,68,17,7,https://theunitools.com/recipes/mohinga.jpg
+lahpet-thoke,MM,Lahpet thoke,Лапет-тхоке,လက်ဖက်သုပ်,salad,vegetarian,easy,4,20,15,340,14,24,20,12,6,https://theunitools.com/recipes/lahpet-thoke.jpg
+fish-amok,KH,Fish amok,Фиш-амок,អាម៉ុកត្រី,main,pescatarian|gluten-free,medium,4,35,25,480,32,32,14,15,7,https://theunitools.com/recipes/fish-amok.jpg
+lok-lak,KH,Lok lak,Лок-лак,ឡុកឡាក់,main,,easy,4,25,15,520,42,30,18,14,6,https://theunitools.com/recipes/lok-lak.jpg
+hainanese-chicken-rice,SG,Hainanese chicken rice,Хайнаньский рис с курицей,海南鸡饭,main,,medium,4,30,60,690,46,26,68,12,7,https://theunitools.com/recipes/hainanese-chicken-rice.jpg
+chilli-crab,SG,Chilli crab,Краб в соусе чили,辣椒螃蟹,main,pescatarian,medium,4,30,25,620,40,28,48,15,7,https://theunitools.com/recipes/chilli-crab.jpg
+lu-rou-fan,TW,Lu rou fan,Лу-жоу-фань,滷肉飯,main,,easy,4,25,100,780,32,44,62,14,7,https://theunitools.com/recipes/lu-rou-fan.jpg
+beef-noodle-soup-taiwan,TW,Taiwanese beef noodle soup,Тайваньский суп с говядиной,牛肉麵,soup,,medium,4,25,150,680,48,24,68,16,7,https://theunitools.com/recipes/beef-noodle-soup-taiwan.jpg
+nyama-choma,KE,Nyama choma,Ньяма-чома,Nyama choma,main,gluten-free,easy,6,25,90,620,52,28,42,10,6,https://theunitools.com/recipes/nyama-choma.jpg
+sukuma-wiki,KE,Sukuma wiki,Сукума-вики,Sukuma wiki,side,vegetarian|vegan|gluten-free,easy,4,15,20,180,6,12,14,8,6,https://theunitools.com/recipes/sukuma-wiki.jpg
+waakye,GH,Waakye,Ваакье,Waakye,main,vegetarian|vegan,easy,6,20,80,560,18,12,96,10,7,https://theunitools.com/recipes/waakye.jpg
+banku-with-tilapia,GH,Banku with tilapia,Банку с тиляпией,Banku,main,pescatarian,medium,4,30,45,640,38,20,78,10,7,https://theunitools.com/recipes/banku-with-tilapia.jpg
+thieboudienne,SN,Thieboudienne,Тьебуджен,Ceebu jën,main,pescatarian,hard,6,50,90,720,42,22,92,15,7,https://theunitools.com/recipes/thieboudienne.jpg
+yassa-poulet,SN,Chicken yassa,Ясса с курицей,Yassa ginaar,main,gluten-free,easy,4,25,75,640,42,24,62,11,7,https://theunitools.com/recipes/yassa-poulet.jpg
+bobotie,ZA,Bobotie,Бобóти,Bobotie,main,,easy,6,30,60,590,34,32,40,15,7,https://theunitools.com/recipes/bobotie.jpg
+chakalaka,ZA,Chakalaka,Чакалака,Chakalaka,side,vegetarian|vegan|gluten-free,easy,6,20,20,220,8,10,26,12,6,https://theunitools.com/recipes/chakalaka.jpg
+plokkfiskur,IS,Plokkfiskur,Плоккфискюр,Plokkfiskur,main,pescatarian,easy,4,20,35,480,38,18,42,10,6,
+kjotsupa,IS,Kjötsúpa,Кьётсупа,Kjötsúpa,soup,,easy,6,20,150,520,36,22,42,9,6,https://theunitools.com/recipes/kjotsupa.jpg
+potica,SI,Potica,Потица,Potica,dessert,vegetarian,hard,12,90,60,560,12,32,58,13,7,https://theunitools.com/recipes/potica.jpg
+jota,SI,Jota,Йота,Jota,soup,,easy,6,20,90,490,26,22,46,10,7,https://theunitools.com/recipes/jota.jpg
+bosanski-lonac,BA,Bosanski lonac,Босански лонац,Bosanski lonac,main,,easy,6,40,240,660,44,32,42,14,6,https://theunitools.com/recipes/bosanski-lonac.jpg
+burek-bosanski,BA,Bosnian burek,Боснийский бурек,Burek,main,,hard,6,75,45,690,30,38,58,8,7,https://theunitools.com/recipes/burek-bosanski.jpg
+tavce-gravce,MK,Tavče gravče,Тавче-гравче,Тавче гравче,main,vegetarian|vegan,easy,6,20,120,420,20,16,52,9,7,https://theunitools.com/recipes/tavce-gravce.jpg
+selsko-meso,MK,Selsko meso,Селско месо,Селско месо,main,,easy,4,25,70,640,44,40,16,12,7,https://theunitools.com/recipes/selsko-meso.jpg
+lamingtons,AU,Lamingtons,Ламингтоны,Lamingtons,dessert,vegetarian,medium,12,45,30,420,5,20,56,12,7,https://theunitools.com/recipes/lamingtons.jpg
+meat-pie-australian,AU,Australian meat pie,Австралийский мясной пирог,Meat pie,main,,medium,6,60,90,720,32,42,54,12,7,https://theunitools.com/recipes/meat-pie-australian.jpg
+pavlova,NZ,Pavlova,Павлова,Pavlova,dessert,vegetarian|gluten-free,medium,8,25,90,380,4,18,52,9,7,https://theunitools.com/recipes/pavlova.jpg
+hangi-style-chicken,NZ,Hāngī-style chicken,Курица в стиле ханги,Hāngī,main,gluten-free,easy,6,30,150,620,44,24,58,10,7,https://theunitools.com/recipes/hangi-style-chicken.jpg
+poutine,CA,Poutine,Путин,Poutine,snack,,medium,4,30,40,780,26,42,74,10,7,https://theunitools.com/recipes/poutine.jpg
+tourtiere,CA,Tourtière,Туртьер,Tourtière,main,,medium,8,45,70,700,30,42,50,13,7,https://theunitools.com/recipes/tourtiere.jpg
+gallo-pinto,CR,Gallo pinto,Гальо-пинто,Gallo pinto,breakfast,vegetarian|vegan|gluten-free,easy,4,15,20,480,18,12,76,11,6,https://theunitools.com/recipes/gallo-pinto.jpg
+casado,CR,Casado,Касадо,Casado,main,,easy,4,35,40,740,48,20,92,14,7,https://theunitools.com/recipes/casado.jpg
+buuz,MN,Buuz,Буузы,Бууз,main,,medium,6,70,25,620,30,34,48,7,7,https://theunitools.com/recipes/buuz.jpg
+tsuivan,MN,Tsuivan,Цуйван,Цуйван,main,,medium,4,50,45,660,32,28,72,10,7,https://theunitools.com/recipes/tsuivan.jpg
+beshbarmak-kyrgyz,KG,Kyrgyz beshbarmak,Кыргызский бешбармак,Бешбармак,main,,medium,6,45,165,700,44,32,58,10,7,https://theunitools.com/recipes/beshbarmak-kyrgyz.jpg
+lagman,KG,Lagman,Лагман,Лагман,main,,hard,4,90,40,720,34,32,78,15,7,https://theunitools.com/recipes/lagman.jpg
+kurutob,TJ,Qurutob,Курутоб,Қурутоб,main,vegetarian,easy,4,25,20,520,18,28,50,9,6,https://theunitools.com/recipes/kurutob.jpg
+oshi-plov-tajik,TJ,Tajik oshi palav,Таджикский оши палав,Оши палав,main,,medium,6,40,90,780,34,38,76,10,7,https://theunitools.com/recipes/oshi-plov-tajik.jpg
+kabuli-pulao,AF,Kabuli pulao,Кабули палав,قابلی پلو,main,,hard,6,45,110,820,38,34,96,13,7,https://theunitools.com/recipes/kabuli-pulao.jpg
+mantu-afghan,AF,Afghan mantu,Афганское манту,منتو,main,,medium,5,75,45,640,30,26,70,12,7,https://theunitools.com/recipes/mantu-afghan.jpg
+fattoush,SY,Fattoush,Фаттуш,فتوش,salad,vegetarian|vegan,easy,4,20,10,280,6,18,26,14,6,https://theunitools.com/recipes/fattoush.jpg
+kibbeh-bil-sanieh,SY,Kibbeh bil sanieh,Киббе в противне,كبة بالصينية,main,,medium,8,50,45,560,34,28,42,9,7,https://theunitools.com/recipes/kibbeh-bil-sanieh.jpg
+shuwa,OM,Shuwa,Шува,شواء,main,gluten-free,medium,8,40,480,780,52,36,62,12,7,
+omani-mishkak,OM,Mishkak,Мишкак,مشكاك,main,,easy,4,25,15,540,46,26,28,12,7,
+ful-sudani,SD,Sudanese ful,Суданский фул,فول سوداني,breakfast,vegetarian,easy,4,15,90,480,24,24,44,12,6,
+asida-sudanese,SD,Asida with mulah,Асида с мулах,عصيدة,main,,medium,5,20,70,640,32,26,72,10,7,
+zanzibar-pilau,TZ,Zanzibar pilau,Занзибарский пилау,Pilau,main,,medium,6,25,75,700,38,26,82,13,7,https://theunitools.com/recipes/zanzibar-pilau.jpg
+ndizi-nyama,TZ,Ndizi na nyama,Ндизи ня ньяма,Ndizi na nyama,main,gluten-free,easy,4,25,60,620,34,30,56,11,6,
+shorshe-ilish,BD,Shorshe ilish,Шорше илиш,সরষে ইলিশ,main,pescatarian|gluten-free,medium,4,25,25,560,38,30,34,8,7,https://theunitools.com/recipes/shorshe-ilish.jpg
+bhuna-khichuri,BD,Bhuna khichuri,Бхуна кхичури,ভুনা খিচুড়ি,main,vegetarian,easy,5,20,45,540,18,18,78,13,7,https://theunitools.com/recipes/bhuna-khichuri.jpg
+larb-lao,LA,Larb,Лаап,ລາບ,salad,,easy,4,25,20,420,34,22,20,11,7,https://theunitools.com/recipes/larb-lao.jpg
+tam-mak-hoong,LA,Tam mak hoong,Там мак хунг,ຕຳໝາກຫຸ່ງ,salad,,easy,4,25,0,160,5,2,32,10,7,https://theunitools.com/recipes/tam-mak-hoong.jpg
+souvla,CY,Souvla,Сувла,Σούβλα,main,,easy,6,20,130,720,52,42,28,8,7,https://theunitools.com/recipes/souvla.jpg
+halloumi-grilled,CY,Grilled halloumi with watermelon,Жареный халуми с арбузом,Χαλλούμι,salad,vegetarian|gluten-free,easy,4,20,10,380,22,26,16,8,6,
+maltese-rabbit-stew,MT,Maltese rabbit stew,Кролик по-мальтийски,Stuffat tal-fenek,main,gluten-free,easy,4,30,105,620,48,24,44,11,7,https://theunitools.com/recipes/maltese-rabbit-stew.jpg
+pastizzi,MT,Pastizzi,Пастицци,Pastizzi,snack,vegetarian,hard,8,90,35,480,14,30,40,10,7,https://theunitools.com/recipes/pastizzi.jpg
+chivito,UY,Chivito,Чивито,Chivito,main,,easy,4,25,20,890,52,54,46,12,7,https://theunitools.com/recipes/chivito.jpg
+milanesa-a-la-napolitana,UY,Milanesa a la napolitana,Миланеса а-ля наполитана,Milanesa a la napolitana,main,,easy,4,25,30,820,54,46,48,11,7,
+pepian,GT,Pepián,Пепиан,Pepián,main,gluten-free,medium,6,40,70,640,44,28,52,15,7,https://theunitools.com/recipes/pepian.jpg
+tamales-guatemaltecos,GT,Guatemalan tamales,Гватемальские тамалес,Tamales,main,,hard,8,90,90,620,26,34,54,13,7,https://theunitools.com/recipes/tamales-guatemaltecos.jpg
+sancocho-dominicano,DO,Dominican sancocho,Доминиканский санкочо,Sancocho,soup,gluten-free,medium,8,45,120,680,46,26,68,16,7,https://theunitools.com/recipes/sancocho-dominicano.jpg
+mangu,DO,Mangú,Мангу,Mangú,breakfast,,easy,4,20,30,720,30,42,58,9,6,https://theunitools.com/recipes/mangu.jpg
+doubles,TT,Doubles,Даблс,Doubles,breakfast,vegetarian|vegan,medium,6,100,60,520,18,20,68,14,7,
+callaloo,TT,Callaloo,Каллалу,Callaloo,soup,vegetarian|vegan|gluten-free,easy,6,25,55,260,7,18,20,10,6,https://theunitools.com/recipes/callaloo.jpg
+tave-kosi,AL,Tavë kosi,Таве коси,Tavë kosi,main,,medium,6,30,90,620,42,38,24,9,7,https://theunitools.com/recipes/tave-kosi.jpg
+byrek-me-spinaq,AL,Byrek me spinaq,Бюрек со шпинатом,Byrek me spinaq,main,vegetarian,easy,8,35,45,480,16,30,38,7,7,https://theunitools.com/recipes/byrek-me-spinaq.jpg
+placinta,MD,Plăcintă,Плацинда,Plăcintă,snack,vegetarian,medium,6,60,30,440,14,22,46,9,7,https://theunitools.com/recipes/placinta.jpg
+zeama,MD,Zeamă,Зама,Zeamă,soup,,easy,6,35,70,380,30,12,40,11,7,
+judd-mat-gaardebounen,LU,Judd mat Gaardebounen,Копчёная шейка с бобами,Judd mat Gaardebounen,main,,easy,4,40,100,740,48,40,46,10,7,https://theunitools.com/recipes/judd-mat-gaardebounen.jpg
+gromperekichelcher,LU,Gromperekichelcher,Громперекихельхер,Gromperekichelcher,snack,vegetarian,easy,5,25,25,420,8,24,44,9,6,
+dograma,TM,Dograma,Дограма,Dogroma,soup,,easy,6,30,120,620,42,26,52,7,7,
+ichlekli,TM,Ichlekli,Ишлекли,Içlekli,main,,medium,8,50,70,660,32,34,56,9,7,
+kabsa,SA,Kabsa,Кабса,كبسة,main,,medium,6,30,75,720,44,28,78,15,7,https://theunitools.com/recipes/kabsa.jpg
+jareesh,SA,Jareesh,Джариш,جريش,main,,easy,6,20,150,580,34,26,54,9,6,
+saltah,YE,Saltah,Сальта,سلتة,main,,hard,4,40,90,620,38,32,44,12,7,https://theunitools.com/recipes/saltah.jpg
+bint-al-sahn,YE,Bint al-sahn,Бинт ас-сахн,بنت الصحن,dessert,vegetarian,hard,8,80,35,620,9,34,70,9,7,https://theunitools.com/recipes/bint-al-sahn.jpg
+machboos,AE,Machboos,Мачбус,مجبوس,main,pescatarian,medium,5,30,45,640,42,20,78,13,7,
+luqaimat,AE,Luqaimat,Лукаймат,لقيمات,dessert,vegetarian,medium,6,70,25,420,6,16,64,12,7,
+murabyan,KW,Murabyan,Мурабьян,مربيان,main,pescatarian,medium,5,35,50,660,46,20,80,12,7,
+harees,KW,Harees,Харис,هريس,main,,easy,6,20,210,600,38,28,52,7,6,
+ndole,CM,Ndolé,Ндоле,Ndolé,main,,medium,6,45,75,680,42,42,34,12,7,https://theunitools.com/recipes/ndole.jpg
+poulet-dg,CM,Poulet DG,Пуле DG,Poulet DG,main,gluten-free,easy,5,30,45,720,42,34,62,13,6,https://theunitools.com/recipes/poulet-dg.jpg
+attieke-poisson,CI,Attiéké with fish,Атьеке с рыбой,Attiéké,main,pescatarian|gluten-free,easy,4,25,30,560,40,20,58,11,7,https://theunitools.com/recipes/attieke-poisson.jpg
+kedjenou,CI,Kedjenou,Кеджену,Kedjenou,main,gluten-free,easy,4,20,80,520,44,20,42,12,7,https://theunitools.com/recipes/kedjenou.jpg
+matapa,MZ,Matapa,Матапа,Matapa,main,pescatarian|gluten-free,medium,5,35,80,580,32,34,40,11,7,
+frango-piri-piri,MZ,Piri-piri chicken,Курица пири-пири,Frango à cafreal,main,gluten-free,easy,4,25,45,620,52,42,8,10,7,https://theunitools.com/recipes/frango-piri-piri.jpg
+romazava,MG,Romazava,Ромазава,Romazava,soup,gluten-free,easy,5,25,75,520,42,16,52,12,7,https://theunitools.com/recipes/romazava.jpg
+ravitoto,MG,Ravitoto,Равитуту,Ravitoto sy henakisoa,main,gluten-free,easy,5,30,85,700,32,48,38,9,6,https://theunitools.com/recipes/ravitoto.jpg
+baleadas,HN,Baleadas,Балеадас,Baleadas,breakfast,vegetarian,easy,4,30,30,520,18,24,58,11,7,https://theunitools.com/recipes/baleadas.jpg
+sopa-de-caracol,HN,Conch soup,Суп из ракушек,Sopa de caracol,soup,pescatarian|gluten-free,medium,5,35,60,560,34,28,46,13,7,https://theunitools.com/recipes/sopa-de-caracol.jpg
+gallo-pinto-nicaraguense,NI,Nicaraguan gallo pinto,Никарагуанский гальо-пинто,Gallo pinto,breakfast,vegetarian|vegan|gluten-free,easy,4,15,20,480,18,14,72,10,6,https://theunitools.com/recipes/gallo-pinto-nicaraguense.jpg
+nacatamal,NI,Nacatamal,Накатамаль,Nacatamal,breakfast,,hard,8,90,180,720,30,40,64,14,7,https://theunitools.com/recipes/nacatamal.jpg
+sancocho-panameno,PA,Panamanian sancocho,Панамский санкочо,Sancocho de gallina,soup,gluten-free,easy,6,25,90,520,40,14,62,10,7,https://theunitools.com/recipes/sancocho-panameno.jpg
+ropa-vieja-panamena,PA,Panamanian ropa vieja,Панамская ропа вьеха,Ropa vieja,main,gluten-free,easy,5,25,120,580,46,24,46,14,7,https://theunitools.com/recipes/ropa-vieja-panamena.jpg
+sopa-paraguaya,PY,Sopa paraguaya,Парагвайский суп,Sopa paraguaya,side,vegetarian|gluten-free,easy,8,30,50,540,22,32,42,8,7,https://theunitools.com/recipes/sopa-paraguaya.jpg
+chipa,PY,Chipa,Чипа,Chipá,bread,vegetarian|gluten-free,easy,8,25,25,420,14,22,44,7,6,https://theunitools.com/recipes/chipa.jpg
+flia,XK,Flia,Флия,Flia,main,vegetarian,hard,8,30,90,480,10,26,52,7,7,https://theunitools.com/recipes/flia.jpg
+tave-elbasani,XK,Tavë Elbasani,Таве Эльбасани,Tavë Elbasani,main,,medium,6,30,95,680,44,38,40,9,7,https://theunitools.com/recipes/tave-elbasani.jpg
+njeguski-steak,ME,Njeguški steak,Негушский стейк,Njeguški stek,main,,medium,4,30,25,820,54,48,44,10,7,
+kacamak,ME,Kačamak,Качамак,Kačamak,main,vegetarian|gluten-free,medium,4,15,45,720,24,44,58,7,6,https://theunitools.com/recipes/kacamak.jpg
+ema-datshi,BT,Ema datshi,Эма датши,ཨེ་མ་དར་ཚིལ།,main,vegetarian|gluten-free,easy,4,15,20,380,16,24,26,8,6,https://theunitools.com/recipes/ema-datshi.jpg
+jasha-maroo,BT,Jasha maroo,Джаша мару,ཇ་ཤ་མ་རུ།,main,gluten-free,easy,4,20,35,520,42,22,40,10,7,
+mas-huni,MV,Mas huni,Мас хуни,މަސް ހުނި,breakfast,pescatarian,easy,4,20,15,520,34,20,52,10,7,https://theunitools.com/recipes/mas-huni.jpg
+garudhiya,MV,Garudhiya,Гарудия,ގަރުދިޔަ,soup,pescatarian|gluten-free,easy,4,15,30,420,44,6,46,8,6,
+matoke,UG,Matoke,Матоке,Matoke,side,vegetarian|vegan|gluten-free,medium,5,30,80,340,6,10,62,7,7,
+rolex-uganda,UG,Rolex,Ролекс,Rolex,breakfast,vegetarian,easy,4,35,30,560,20,30,52,10,7,https://theunitools.com/recipes/rolex-uganda.jpg
+sadza-ne-nyama,ZW,Sadza ne nyama,Садза с мясом,Sadza ne nyama,main,,medium,5,20,105,640,42,24,66,9,7,
+muriwo-unedovi,ZW,Muriwo unedovi,Зелень в арахисовом соусе,Muriwo unedovi,side,vegetarian|vegan|gluten-free,easy,4,15,25,320,12,24,18,7,6,
+poulet-moambe,CD,Poulet moambé,Курица моамбе,Poulet moambé,main,gluten-free,easy,5,25,70,720,44,42,44,12,7,https://theunitools.com/recipes/poulet-moambe.jpg
+liboke-de-poisson,CD,Liboke de poisson,Либоке с рыбой,Liboke,main,pescatarian|gluten-free,easy,4,30,35,480,44,12,46,11,7,https://theunitools.com/recipes/liboke-de-poisson.jpg
+tigadegena,ML,Tigadegena,Тигадегена,Tigadèguèna,main,gluten-free,easy,6,25,90,780,44,44,54,12,7,https://theunitools.com/recipes/tigadegena.jpg
+capitaine-braise,ML,Grilled capitaine,Капитан на углях,Capitaine braisé,main,pescatarian|gluten-free,medium,4,30,75,620,56,26,42,11,7,
+osso-buco-alla-milanese,IT,Osso buco alla milanese,Оссобуко по-милански,Ossobuco alla milanese,main,,medium,4,30,130,620,48,32,18,12,7,https://theunitools.com/recipes/osso-buco-alla-milanese.jpg
+melanzane-alla-parmigiana,IT,Melanzane alla parmigiana,Пармиджана из баклажанов,Melanzane alla parmigiana,main,vegetarian,medium,6,50,60,520,24,36,24,8,7,
+hong-shao-rou,CN,Hong shao rou,Хун шао жоу,红烧肉,main,,medium,4,20,90,780,32,56,32,11,7,
+qingzheng-yu,CN,Cantonese steamed fish,Рыба на пару по-кантонски,清蒸鱼,main,pescatarian,medium,4,20,15,340,40,18,4,9,7,
+rogan-josh,IN,Rogan josh,Роган джош,रोगन जोश,main,gluten-free,medium,5,25,100,720,46,40,44,12,7,https://theunitools.com/recipes/rogan-josh.jpg
+masala-dosa,IN,Masala dosa,Масала доса,मसाला डोसा,breakfast,vegetarian|vegan|gluten-free,hard,6,60,45,520,14,18,76,13,7,https://theunitools.com/recipes/masala-dosa.jpg
+bouillabaisse,FR,Bouillabaisse,Буйабес,Bouillabaisse,soup,pescatarian,hard,6,50,70,620,52,28,38,14,7,https://theunitools.com/recipes/bouillabaisse.jpg
+tarte-tatin,FR,Tarte Tatin,Тарт татен,Tarte Tatin,dessert,vegetarian,medium,8,30,60,480,4,24,64,8,7,
+nikujaga,JP,Nikujaga,Никудзяга,肉じゃが,main,,easy,4,20,35,480,24,16,56,12,7,https://theunitools.com/recipes/nikujaga.jpg
+chawanmushi,JP,Chawanmushi,Тяванмуси,茶碗蒸し,snack,pescatarian,medium,4,20,20,180,18,8,5,10,7,
+mole-poblano,MX,Mole poblano,Моле поблано,Mole poblano,main,,hard,8,75,120,780,48,46,40,18,7,https://theunitools.com/recipes/mole-poblano.jpg
+cochinita-pibil,MX,Cochinita pibil,Кочинита пибиль,Cochinita pibil,main,gluten-free,medium,8,35,240,680,46,38,36,13,7,
+iskender-kebab,TR,İskender kebab,Искендер-кебаб,İskender kebap,main,,medium,4,30,30,820,46,48,52,12,7,https://theunitools.com/recipes/iskender-kebab.jpg
+manti-turkish,TR,Turkish mantı,Турецкие манты,Mantı,main,,hard,5,100,25,640,28,30,62,12,7,https://theunitools.com/recipes/manti-turkish.jpg
+fabada-asturiana,ES,Fabada asturiana,Фабада астурийская,Fabada asturiana,main,gluten-free,easy,6,20,180,780,38,44,56,11,7,https://theunitools.com/recipes/fabada-asturiana.jpg
+pulpo-a-feira,ES,Pulpo a feira,Осьминог по-галисийски,Pulpo á feira,snack,pescatarian|gluten-free,medium,4,15,60,420,42,18,26,8,7,https://theunitools.com/recipes/pulpo-a-feira.jpg
+khao-soi,TH,Khao soi,Кхао сой,ข้าวซอย,soup,,medium,4,25,45,820,42,46,62,13,7,https://theunitools.com/recipes/khao-soi.jpg
+massaman-curry,TH,Massaman curry,Массаман карри,แกงมัสมั่น,main,gluten-free,medium,5,25,90,780,44,44,56,13,7,https://theunitools.com/recipes/massaman-curry.jpg
+gemista,GR,Gemista,Гемиста,Γεμιστά,main,vegetarian|vegan,easy,6,45,80,480,8,24,60,11,7,https://theunitools.com/recipes/gemista.jpg
+avgolemono,GR,Avgolemono,Авголемоно,Αυγολέμονο,soup,gluten-free,medium,5,15,65,420,38,16,28,10,7,https://theunitools.com/recipes/avgolemono.jpg
+pelmeni,RU,Pelmeni,Пельмени,Пельмени,main,,medium,6,90,15,680,34,32,62,12,7,https://theunitools.com/recipes/pelmeni.jpg
+beef-stroganoff,RU,Beef Stroganoff,Бефстроганов,Бефстроганов,main,,easy,4,20,25,620,44,42,14,11,7,https://theunitools.com/recipes/beef-stroganoff.jpg
+schweinshaxe,DE,Schweinshaxe,Швайнсхаксе,Schweinshaxe,main,,medium,4,25,180,880,58,56,34,11,7,https://theunitools.com/recipes/schweinshaxe.jpg
+schwarzwaelder-kirschtorte,DE,Black Forest gateau,Шварцвальдский торт,Schwarzwälder Kirschtorte,dessert,vegetarian,hard,12,75,35,520,7,34,46,12,7,https://theunitools.com/recipes/schwarzwaelder-kirschtorte.jpg
+pulled-pork,US,Pulled pork,Раздёрганная свинина,Pulled pork,main,,medium,10,30,600,620,48,38,22,12,7,https://theunitools.com/recipes/pulled-pork.jpg
+key-lime-pie,US,Key lime pie,Пирог с лаймом,Key lime pie,dessert,vegetarian,easy,8,30,20,520,8,30,56,9,7,https://theunitools.com/recipes/key-lime-pie.jpg
+bun-cha,VN,Bún chả,Бун ча,Bún chả,main,,medium,4,40,30,720,42,32,66,14,7,https://theunitools.com/recipes/bun-cha.jpg
+goi-cuon,VN,Gỏi cuốn,Гой куон,Gỏi cuốn,snack,,medium,4,45,20,420,28,16,44,12,7,https://theunitools.com/recipes/goi-cuon.jpg
+galbijjim,KR,Galbijjim,Кальбиччим,갈비찜,main,,medium,5,45,120,780,48,46,40,15,7,https://theunitools.com/recipes/galbijjim.jpg
+samgyetang,KR,Samgyetang,Самгетан,삼계탕,soup,gluten-free,easy,4,30,75,620,52,24,46,8,7,https://theunitools.com/recipes/samgyetang.jpg
+roast-beef-yorkshire,GB,Roast beef with Yorkshire pudding,Ростбиф с йоркширским пудингом,Roast beef and Yorkshire pudding,main,,medium,6,30,90,780,56,42,46,12,7,https://theunitools.com/recipes/roast-beef-yorkshire.jpg
+sticky-toffee-pudding,GB,Sticky toffee pudding,Финиковый пудинг с ирисочным соусом,Sticky toffee pudding,dessert,vegetarian,easy,8,25,40,640,6,34,80,10,7,https://theunitools.com/recipes/sticky-toffee-pudding.jpg
+bigos,PL,Bigos,Бигос,Bigos,main,,easy,10,40,240,620,38,40,24,16,7,https://theunitools.com/recipes/bigos.jpg
+sernik,PL,Sernik,Сырник польский,Sernik,dessert,vegetarian,medium,12,45,70,480,18,26,44,12,7,https://theunitools.com/recipes/sernik.jpg
+moqueca-baiana,BR,Moqueca baiana,Мокека баиана,Moqueca baiana,main,pescatarian|gluten-free,easy,5,30,35,620,48,32,34,13,7,https://theunitools.com/recipes/moqueca-baiana.jpg
+coxinha,BR,Coxinha,Кошинья,Coxinha,snack,,hard,8,75,40,520,24,26,48,13,7,https://theunitools.com/recipes/coxinha.jpg
+aji-de-gallina,PE,Ají de gallina,Ахи де гальина,Ají de gallina,main,,easy,5,30,50,680,48,30,56,15,7,https://theunitools.com/recipes/aji-de-gallina.jpg
+causa-limena,PE,Causa limeña,Кауса лименья,Causa limeña,salad,pescatarian|gluten-free,easy,6,45,30,480,22,28,38,12,7,https://theunitools.com/recipes/causa-limena.jpg
+fesenjan,IR,Fesenjan,Фесенджан,خورش فسنجان,main,gluten-free,medium,6,30,150,880,44,58,52,12,7,https://theunitools.com/recipes/fesenjan.jpg
+joojeh-kabab,IR,Joojeh kabab,Джудже-кебаб,جوجه کباب,main,gluten-free,easy,5,30,25,680,48,30,52,11,7,
+caldo-verde,PT,Caldo verde,Калду верде,Caldo verde,soup,,easy,5,20,35,420,12,24,42,8,7,https://theunitools.com/recipes/caldo-verde.jpg
+sardinhas-assadas,PT,Sardinhas assadas,Сардины на углях,Sardinhas assadas,main,pescatarian,easy,4,40,15,620,48,34,34,9,7,https://theunitools.com/recipes/sardinhas-assadas.jpg
+sate-ayam,ID,Sate ayam,Сатэ аям,Sate ayam,main,,easy,5,40,25,780,52,40,50,14,7,https://theunitools.com/recipes/sate-ayam.jpg
+soto-ayam,ID,Soto ayam,Сото аям,Soto ayam,soup,,medium,5,35,60,560,44,24,42,15,7,
+salo-po-ukrainski,UA,Home-cured salo,Сало по-домашнему,Сало,snack,,easy,10,30,0,780,6,82,12,8,7,
+kyivskyi-tort,UA,Kyiv cake,Киевский торт,Київський торт,dessert,vegetarian,hard,12,90,150,620,8,38,62,10,7,
+chakhokhbili,GE,Chakhokhbili,Чахохбили,ჩახოხბილი,main,gluten-free,easy,5,25,50,560,46,32,20,12,7,https://theunitools.com/recipes/chakhokhbili.jpg
+satsivi,GE,Satsivi,Сациви,საცივი,main,gluten-free,medium,8,45,90,780,46,58,16,12,7,https://theunitools.com/recipes/satsivi.jpg
+sabich,IL,Sabich,Сабих,סביח,main,vegetarian,easy,4,30,75,620,20,36,52,12,7,
+malabi,IL,Malabi,Малаби,מלבי,dessert,vegetarian|gluten-free,easy,6,15,15,380,8,18,48,9,7,
+fattet-hummus,LB,Fattet hummus,Фатте с нутом,فتة حمص,main,vegetarian,easy,5,20,90,620,26,34,54,12,7,https://theunitools.com/recipes/fattet-hummus.jpg
+sfiha,LB,Sfiha,Сфиха,صفيحة,snack,,medium,6,75,25,560,28,28,50,13,7,https://theunitools.com/recipes/sfiha.jpg
+pastilla,MA,Pastilla,Пастилья,البسطيلة,main,,hard,8,60,90,720,38,44,46,13,7,https://theunitools.com/recipes/pastilla.jpg
+chebakia,MA,Chebakia,Марокканский чебакия,الشباكية,dessert,vegetarian,hard,10,90,60,480,8,22,66,13,7,https://theunitools.com/recipes/chebakia.jpg
+molokhia,EG,Molokhia,Молохия,ملوخية,soup,gluten-free,easy,5,20,70,520,40,22,42,11,7,https://theunitools.com/recipes/molokhia.jpg
+kunafa,EG,Kunafa,Кунафа,كنافة,dessert,vegetarian,medium,10,35,45,680,20,38,68,10,7,
+asado-argentino,AR,Asado,Асадо,Asado,main,,medium,8,45,210,880,62,62,18,12,7,https://theunitools.com/recipes/asado-argentino.jpg
+alfajores,AR,Alfajores,Альфахорес,Alfajores,dessert,vegetarian,medium,10,60,15,420,5,20,56,12,7,https://theunitools.com/recipes/alfajores.jpg
+tafelspitz,AT,Tafelspitz,Тафельшпиц,Tafelspitz,main,gluten-free,medium,6,30,180,680,58,32,38,14,7,https://theunitools.com/recipes/tafelspitz.jpg
+sachertorte,AT,Sachertorte,Захер,Sachertorte,dessert,vegetarian,hard,12,60,60,520,7,28,62,12,7,
+halaszle,HU,Halászlé,Халасле,Halászlé,soup,pescatarian,medium,6,35,75,480,46,14,38,11,7,https://theunitools.com/recipes/halaszle.jpg
+dobos-torta,HU,Dobos torte,Торт Добош,Dobos torta,dessert,vegetarian,hard,12,90,45,560,8,34,58,12,7,https://theunitools.com/recipes/dobos-torta.jpg
+vepro-knedlo-zelo,CZ,Pork with dumplings and cabbage,Вепрево колено с кнедликами,Vepřo knedlo zelo,main,,medium,6,60,120,820,48,40,68,13,7,https://theunitools.com/recipes/vepro-knedlo-zelo.jpg
+kulajda,CZ,Kulajda,Кулайда,Kulajda,soup,vegetarian,easy,5,20,35,420,14,26,34,12,7,https://theunitools.com/recipes/kulajda.jpg
+toast-skagen,SE,Toast Skagen,Тост Скаген,Toast Skagen,snack,pescatarian,easy,4,20,10,480,28,32,20,11,6,
+appelkaka,SE,Swedish apple cake,Шведский яблочный пирог,Äppelkaka,dessert,vegetarian,easy,8,30,45,520,7,28,62,12,7,https://theunitools.com/recipes/appelkaka.jpg
+stegt-flaesk,DK,Stegt flæsk,Стегт флеск,Stegt flæsk med persillesovs,main,,easy,4,15,45,880,36,62,44,9,7,https://theunitools.com/recipes/stegt-flaesk.jpg
+risalamande,DK,Risalamande,Рисаламанде,Risalamande,dessert,vegetarian|gluten-free,easy,8,25,60,560,11,34,54,11,7,https://theunitools.com/recipes/risalamande.jpg
+erwtensoep,NL,Erwtensoep,Эртенсуп,Erwtensoep,soup,,easy,6,25,150,680,40,32,58,12,7,https://theunitools.com/recipes/erwtensoep.jpg
+bitterballen,NL,Bitterballen,Биттербаллен,Bitterballen,snack,,hard,8,60,40,520,24,30,38,12,7,https://theunitools.com/recipes/bitterballen.jpg
+colcannon,IE,Colcannon,Колканнон,Colcannon,side,vegetarian|gluten-free,easy,6,20,35,420,8,26,42,7,7,https://theunitools.com/recipes/colcannon.jpg
+guinness-beef-stew,IE,Beef and stout stew,Говядина в тёмном пиве,Beef and Guinness stew,main,,easy,6,30,180,720,52,30,52,14,7,
+shurpa,UZ,Shurpa,Шурпа,Shorva,soup,gluten-free,easy,6,25,120,520,38,24,38,13,7,
+chuchvara,UZ,Chuchvara,Чучвара,Chuchvara,soup,,hard,5,100,30,560,28,22,62,12,7,
+armenian-tolma,AM,Pasuts tolma,Пасуц толма,Պասուց տոլմա,main,vegetarian|vegan,medium,8,60,90,420,16,14,58,12,7,
+gata,AM,Gata,Гата,Գաթա,dessert,vegetarian,medium,10,75,40,520,7,28,62,10,7,https://theunitools.com/recipes/gata.jpg
+nasi-lemak,MY,Nasi lemak,Наси лемак,Nasi lemak,breakfast,,medium,5,35,50,720,26,34,82,16,7,https://theunitools.com/recipes/nasi-lemak.jpg
+char-kway-teow,MY,Char kway teow,Чар квай теу,Char kway teow,main,,hard,2,25,10,780,36,34,84,13,7,https://theunitools.com/recipes/char-kway-teow.jpg
+kare-kare,PH,Kare-kare,Каре-каре,Kare-kare,main,gluten-free,medium,6,30,210,820,44,50,48,13,7,https://theunitools.com/recipes/kare-kare.jpg
+leche-flan,PH,Leche flan,Лече флан,Leche flan,dessert,vegetarian|gluten-free,medium,8,25,45,420,11,16,58,7,7,https://theunitools.com/recipes/leche-flan.jpg
+injera,ET,Injera,Ынджера,እንጀራ,bread,vegetarian|vegan|gluten-free,hard,8,30,40,280,9,3,56,5,7,https://theunitools.com/recipes/injera.jpg
+kitfo,ET,Kitfo,Кытфо,ክትፎ,main,gluten-free,medium,4,40,30,720,46,54,12,12,7,https://theunitools.com/recipes/kitfo.jpg
+egusi-soup,NG,Egusi soup,Суп эгуси,Egusi soup,soup,,medium,6,30,80,780,48,54,22,12,7,
+puff-puff,NG,Puff puff,Паф-паф,Puff puff,snack,vegetarian,easy,8,20,30,320,6,12,48,8,7,https://theunitools.com/recipes/puff-puff.jpg
+arroz-con-pollo-cubano,CU,Arroz con pollo,Аррос кон польо,Arroz con pollo a la cubana,main,,easy,6,30,60,720,44,26,78,16,7,https://theunitools.com/recipes/arroz-con-pollo-cubano.jpg
+tostones,CU,Tostones,Тостонес,Tostones,snack,vegetarian|vegan|gluten-free,easy,4,15,25,380,3,18,54,8,7,https://theunitools.com/recipes/tostones.jpg
+jamaican-patty,JM,Jamaican patties,Ямайские патти,Jamaican beef patty,snack,,medium,8,60,60,580,24,36,42,14,7,
+rice-and-peas,JM,Rice and peas,Райс энд пис,Rice and peas,side,vegetarian|vegan|gluten-free,easy,6,15,95,480,13,14,76,9,7,https://theunitools.com/recipes/rice-and-peas.jpg
+ruisleipa,FI,Ruisleipä,Руислейпя,Ruisleipä,bread,vegetarian|vegan,hard,12,40,60,240,7,2,48,6,7,
+poronkaristys,FI,Poronkäristys,Поронкяристюс,Poronkäristys,main,,easy,4,20,45,620,46,28,42,10,7,https://theunitools.com/recipes/poronkaristys.jpg
+kjottkaker,NO,Kjøttkaker,Чёттакакер,Kjøttkaker,main,,easy,5,30,45,680,44,34,48,13,7,https://theunitools.com/recipes/kjottkaker.jpg
+skolebrod,NO,Skolebrød,Школьная булочка,Skolebrød,dessert,vegetarian,medium,12,60,20,420,8,16,60,14,7,https://theunitools.com/recipes/skolebrod.jpg
+waterzooi,BE,Waterzooi,Ватерзой,Gentse waterzooi,soup,,medium,5,35,60,620,42,34,34,14,7,https://theunitools.com/recipes/waterzooi.jpg
+belgian-waffles,BE,Liège waffles,Льежские вафли,Gaufre de Liège,dessert,vegetarian,medium,10,100,25,480,7,24,60,10,7,https://theunitools.com/recipes/belgian-waffles.jpg
+zuercher-geschnetzeltes,CH,Zürcher Geschnetzeltes,Цюрихское жаркое,Zürcher Geschnetzeltes,main,,medium,4,25,25,720,46,42,38,12,7,
+birchermuesli,CH,Bircher muesli,Бирхермюсли,Birchermüesli,breakfast,vegetarian,easy,4,20,0,480,14,22,58,10,6,
+peka,HR,Peka,Пека,Ispod peke,main,gluten-free,medium,6,30,180,820,54,44,48,11,7,
+fritule,HR,Fritule,Фритуле,Fritule,dessert,vegetarian,easy,8,30,25,380,6,16,54,13,7,https://theunitools.com/recipes/fritule.jpg
+sarma-serbian,RS,Sarma,Сарма,Sarma,main,,medium,8,60,150,620,36,38,32,13,7,https://theunitools.com/recipes/sarma-serbian.jpg
+gibanica,RS,Gibanica,Гибаница,Gibanica,main,vegetarian,easy,10,30,50,520,22,34,32,9,7,
+ciorba-de-burta,RO,Ciorbă de burtă,Чорба де бурта,Ciorbă de burtă,soup,gluten-free,medium,6,30,240,480,38,30,12,12,7,https://theunitools.com/recipes/ciorba-de-burta.jpg
+papanasi,RO,Papanași,Папанаши,Papanași,dessert,vegetarian,medium,6,35,25,620,22,32,62,12,7,https://theunitools.com/recipes/papanasi.jpg
+tarator,BG,Tarator,Таратор,Таратор,soup,vegetarian|gluten-free,easy,4,20,0,260,12,18,14,8,7,https://theunitools.com/recipes/tarator.jpg
+kavarma,BG,Kavarma,Каварма,Каварма,main,gluten-free,easy,4,25,70,620,46,40,16,13,7,
+hoppers,LK,Hoppers,Хопперы,Appa,breakfast,vegetarian|gluten-free,hard,6,40,40,380,10,16,50,12,7,https://theunitools.com/recipes/hoppers.jpg
+sri-lankan-fish-curry,LK,Sri Lankan fish curry,Шри-ланкийское рыбное карри,Malu kariya,main,pescatarian|gluten-free,medium,5,30,35,620,48,26,48,15,7,
+sel-roti,NP,Sel roti,Сель роти,सेल रोटी,bread,vegetarian|gluten-free,hard,8,60,40,380,5,14,60,9,7,https://theunitools.com/recipes/sel-roti.jpg
+gundruk-soup,NP,Gundruk soup,Суп из гундрука,Gundruk ko jhol,soup,vegetarian|vegan|gluten-free,easy,4,20,35,320,14,14,36,13,7,
+haleem,PK,Haleem,Халим,حلیم,main,,hard,10,40,360,680,42,32,58,16,7,https://theunitools.com/recipes/haleem.jpg
+seekh-kebab,PK,Seekh kebab,Сикх-кебаб,سیخ کباب,main,,medium,5,45,20,680,46,40,32,13,7,https://theunitools.com/recipes/seekh-kebab.jpg
+chapati-kenyan,KE,Kenyan chapati,Кенийская чапати,Chapati,bread,vegetarian|vegan,medium,8,75,30,340,7,16,44,5,7,https://theunitools.com/recipes/chapati-kenyan.jpg
+mandazi,KE,Mandazi,Мандази,Mandazi,snack,vegetarian,easy,8,75,25,340,6,14,48,9,7,https://theunitools.com/recipes/mandazi.jpg
+bunny-chow,ZA,Bunny chow,Банни чау,Bunny chow,main,,medium,4,30,90,880,48,40,82,13,7,https://theunitools.com/recipes/bunny-chow.jpg
+melktert,ZA,Melktert,Мелктерт,Melktert,dessert,vegetarian,easy,10,40,40,380,9,16,52,11,7,https://theunitools.com/recipes/melktert.jpg
+bandeja-paisa,CO,Bandeja paisa,Бандеха пайса,Bandeja paisa,main,,hard,4,60,150,1480,78,82,108,15,7,https://theunitools.com/recipes/bandeja-paisa.jpg
+sancocho-colombiano,CO,Colombian sancocho,Колумбийский санкочо,Sancocho de gallina,soup,gluten-free,easy,8,30,110,620,44,20,68,16,7,https://theunitools.com/recipes/sancocho-colombiano.jpg
+curanto-en-olla,CL,Curanto en olla,Куранто в кастрюле,Pulmay,main,,medium,6,40,60,880,68,42,58,13,7,https://theunitools.com/recipes/curanto-en-olla.jpg
+completo-italiano,CL,Completo,Комплето,Completo italiano,snack,,easy,4,20,10,720,18,52,46,9,7,https://theunitools.com/recipes/completo-italiano.jpg
+kuyrdak,KZ,Kuyrdak,Куырдак,Қуырдақ,main,gluten-free,medium,5,30,45,720,48,44,32,11,7,
+shelpek,KZ,Shelpek,Шелпек,Шелпек,bread,vegetarian,easy,7,40,20,380,8,18,48,8,7,
+dolma-azerbaijani,AZ,Azerbaijani dolma,Азербайджанская долма,Yarpaq dolması,main,,hard,6,70,60,520,26,28,40,12,7,https://theunitools.com/recipes/dolma-azerbaijani.jpg
+pakhlava-baku,AZ,Baku pakhlava,Бакинская пахлава,Bakı paxlavası,dessert,vegetarian,hard,16,100,45,520,9,32,52,12,7,https://theunitools.com/recipes/pakhlava-baku.jpg
+iraqi-biryani,IQ,Iraqi biryani,Иракский бирьяни,برياني عراقي,main,,medium,6,45,75,780,42,32,86,14,7,https://theunitools.com/recipes/iraqi-biryani.jpg
+kleicha,IQ,Kleicha,Клейча,كليجة,dessert,vegetarian,medium,12,60,25,420,6,20,56,12,7,
+shakshuka-tunisian,TN,Tunisian chakchouka,Тунисская чакчука,Chakchouka,breakfast,vegetarian,easy,4,25,40,380,16,24,26,13,7,
+ojja-merguez,TN,Ojja with merguez,Оджа с мергезом,Ojja bel merguez,main,,easy,4,15,30,620,34,44,22,12,7,
+muhammara,SY,Muhammara,Мухаммара,محمرة,snack,vegetarian|vegan,easy,6,30,25,380,8,30,22,11,7,https://theunitools.com/recipes/muhammara.jpg
+shish-barak,SY,Shish barak,Шиш барак,شيش برك,main,,hard,5,90,45,680,38,30,64,14,7,https://theunitools.com/recipes/shish-barak.jpg
+anzac-biscuits,AU,Anzac biscuits,Печенье АНЗАК,Anzac biscuits,dessert,vegetarian,easy,20,20,18,180,2,9,23,9,7,https://theunitools.com/recipes/anzac-biscuits.jpg
+barramundi-on-the-barbie,AU,Grilled barramundi,Барамунди на гриле,Barramundi on the barbie,main,pescatarian|gluten-free,easy,4,25,30,520,48,24,28,10,7,
+afghan-biscuits,NZ,Afghan biscuits,Афганское печенье,Afghan biscuits,dessert,vegetarian,easy,16,25,20,240,3,13,29,10,7,
+whitebait-fritters,NZ,Whitebait fritters,Оладьи из вайтбейта,Whitebait fritters,snack,pescatarian,easy,4,15,15,380,32,24,12,7,7,
+butter-tarts,CA,Butter tarts,Масляные тарталетки,Butter tarts,dessert,vegetarian,medium,12,45,22,420,4,24,48,11,7,https://theunitools.com/recipes/butter-tarts.jpg
+montreal-bagels,CA,Montreal bagels,Монреальские бейглы,Montreal bagels,bread,vegetarian,hard,12,120,25,340,10,9,56,10,7,
+skyr-with-berries,IS,Skyr with berries,Скир с ягодами,Skyr,breakfast,vegetarian|gluten-free,medium,6,30,20,220,20,6,22,7,7,https://theunitools.com/recipes/skyr-with-berries.jpg
+rugbraud,IS,Icelandic rye bread,Исландский чёрный хлеб,Rúgbrauð,bread,vegetarian,easy,12,20,720,320,7,4,66,9,7,https://theunitools.com/recipes/rugbraud.jpg
+laksa-singapore,SG,Katong laksa,Катонг лакса,Katong laksa,soup,pescatarian,hard,4,45,60,780,38,44,62,17,7,https://theunitools.com/recipes/laksa-singapore.jpg
+kaya-toast,SG,Kaya toast,Тост с кайей,Kaya toast,breakfast,vegetarian,medium,4,20,50,520,18,32,42,9,7,https://theunitools.com/recipes/kaya-toast.jpg
+gua-bao,TW,Gua bao,Гуа бао,刈包,snack,,hard,8,120,100,620,26,34,52,14,7,https://theunitools.com/recipes/gua-bao.jpg
+pineapple-cake,TW,Pineapple cake,Тайваньское ананасовое печенье,鳳梨酥,dessert,vegetarian,hard,16,90,90,320,4,14,46,12,7,https://theunitools.com/recipes/pineapple-cake.jpg
+shan-noodles,MM,Shan noodles,Шанская лапша,ရှမ်းခေါက်ဆွဲ,main,,easy,4,25,45,620,36,24,68,15,7,https://theunitools.com/recipes/shan-noodles.jpg
+ohn-no-khao-swe,MM,Ohn no khao swe,Он но кхао свэ,အုန်းနို့ခေါက်ဆွဲ,soup,,medium,5,30,50,720,42,34,66,15,7,https://theunitools.com/recipes/ohn-no-khao-swe.jpg
+num-banh-chok,KH,Num banh chok,Ном банчок,នំបញ្ចុក,main,pescatarian,medium,5,45,40,580,38,24,58,15,7,https://theunitools.com/recipes/num-banh-chok.jpg
+samlor-korko,KH,Samlor korko,Самло корко,សម្លកកូរ,soup,,medium,6,40,50,480,28,22,42,16,7,https://theunitools.com/recipes/samlor-korko.jpg
+torta-frita,UY,Torta frita,Торта фрита,Torta frita,snack,vegetarian,easy,8,40,25,380,6,18,48,8,7,https://theunitools.com/recipes/torta-frita.jpg
+buseca,UY,Buseca,Бусека,Buseca,soup,gluten-free,medium,6,30,210,620,44,30,42,14,7,https://theunitools.com/recipes/buseca.jpg
+kak-ik,GT,Kak'ik,Как-ик,Kak'ik,soup,gluten-free,medium,6,40,120,520,52,18,32,14,7,https://theunitools.com/recipes/kak-ik.jpg
+rellenitos,GT,Rellenitos,Рельенитос,Rellenitos de plátano,dessert,vegetarian,medium,6,45,45,480,8,16,78,11,7,https://theunitools.com/recipes/rellenitos.jpg
+pollo-guisado-dominicano,DO,Pollo guisado,Польо гисадо,Pollo guisado dominicano,main,gluten-free,easy,5,25,55,680,46,26,62,14,7,
+habichuelas-con-dulce,DO,Sweet cream of beans,Сладкая фасоль,Habichuelas con dulce,dessert,vegetarian|gluten-free,easy,8,25,90,480,12,18,68,12,7,https://theunitools.com/recipes/habichuelas-con-dulce.jpg
+trinidad-roti,TT,Trinidad roti,Тринидадская роти,Buss up shut,bread,vegetarian|vegan,hard,6,90,40,720,38,30,76,12,7,https://theunitools.com/recipes/trinidad-roti.jpg
+pelau,TT,Pelau,Пелау,Pelau,main,gluten-free,medium,6,30,60,720,42,26,82,14,7,https://theunitools.com/recipes/pelau.jpg
+hallaca,VE,Hallaca,Айяка,Hallaca,main,,hard,10,150,90,720,36,38,62,15,7,https://theunitools.com/recipes/hallaca.jpg
+asado-negro,VE,Asado negro,Асадо негро,Asado negro,main,gluten-free,medium,8,30,260,720,54,30,52,14,7,https://theunitools.com/recipes/asado-negro.jpg
+pique-macho,BO,Pique macho,Пике мачо,Pique macho,main,,easy,4,30,40,980,48,58,68,13,7,https://theunitools.com/recipes/pique-macho.jpg
+api-morado,BO,Api morado,Апи морадо,Api morado,drink,vegetarian|vegan|gluten-free,easy,6,20,45,280,4,2,64,8,7,
+ceviche-ecuatoriano,EC,Ecuadorian ceviche,Эквадорский севиче,Ceviche de camarón,salad,pescatarian|gluten-free,easy,5,30,20,420,40,12,38,13,7,https://theunitools.com/recipes/ceviche-ecuatoriano.jpg
+fanesca,EC,Fanesca,Фанеска,Fanesca,soup,pescatarian,hard,10,90,120,680,42,28,68,18,7,
+carimanola,PA,Carimañola,Кариманьола,Carimañola,snack,,medium,6,50,45,480,20,22,52,11,7,https://theunitools.com/recipes/carimanola.jpg
+arroz-con-coco,PA,Coconut rice,Рис с кокосом,Arroz con coco,side,vegetarian|vegan|gluten-free,medium,6,15,45,520,8,24,68,6,7,https://theunitools.com/recipes/arroz-con-coco.jpg
+kugelis,LT,Kugelis,Кугелис,Kugelis,main,,medium,8,35,95,480,14,26,48,8,7,https://theunitools.com/recipes/kugelis.jpg
+sakotis,LT,Šakotis,Шакотис,Šakotis,dessert,vegetarian,hard,16,45,90,420,8,26,40,9,7,https://theunitools.com/recipes/sakotis.jpg
+sklandrausis,LV,Sklandrausis,Складраусис,Sklandrausis,dessert,vegetarian,medium,10,60,30,320,7,12,46,11,7,https://theunitools.com/recipes/sklandrausis.jpg
+skabu-putra,LV,Skābputra,Скабу путра,Skābputra,soup,vegetarian,easy,5,15,70,340,14,8,54,8,7,
+verivorst,EE,Verivorst,Веривёрст,Verivorst,main,,hard,8,60,60,620,26,38,42,10,7,https://theunitools.com/recipes/verivorst.jpg
+kohuke,EE,Kohuke,Кохуке,Kohuke,dessert,vegetarian|gluten-free,medium,12,40,10,320,12,20,24,9,7,https://theunitools.com/recipes/kohuke.jpg
+kolduny,BY,Kalduny,Колдуны,Калдуны,main,,medium,5,40,40,620,26,38,44,10,7,
+kholodnik,BY,Kholodnik,Халаднік,Халаднік,soup,vegetarian,easy,5,25,45,320,15,12,38,11,7,
+zemiakove-placky,SK,Zemiakové placky,Земьякове плацки,Zemiakové placky,snack,vegetarian,easy,4,20,30,380,8,22,40,8,6,
+sladke-buchty,SK,Buchty,Бухты,Buchty,dessert,vegetarian,medium,12,100,35,380,9,14,56,11,7,https://theunitools.com/recipes/sladke-buchty.jpg
+struklji,SI,Štruklji,Штрукли,Štruklji,dessert,vegetarian,hard,8,70,45,480,20,22,50,12,7,https://theunitools.com/recipes/struklji.jpg
+kranjska-klobasa,SI,Carniolan sausage,Краньская колбаса,Kranjska klobasa,main,,medium,6,60,30,620,32,48,22,10,7,https://theunitools.com/recipes/kranjska-klobasa.jpg
+begova-corba,BA,Begova čorba,Бегова чорба,Begova čorba,soup,,medium,6,30,75,520,44,30,16,13,7,https://theunitools.com/recipes/begova-corba.jpg
+tufahije,BA,Tufahije,Туфахие,Tufahije,dessert,vegetarian|gluten-free,easy,6,30,30,520,8,32,54,9,7,
+ohridska-pastrmka,MK,Ohrid trout,Охридская форель,Ohridska pastrmka,main,pescatarian|gluten-free,easy,4,20,30,520,46,24,32,10,7,https://theunitools.com/recipes/ohridska-pastrmka.jpg
+pastrmajlija,MK,Pastrmajlija,Пастрмалия,Пастрмалија,main,,medium,4,90,25,720,38,38,58,9,7,https://theunitools.com/recipes/pastrmajlija.jpg
+olla-de-carne,CR,Olla de carne,Олья де карне,Olla de carne,soup,gluten-free,easy,6,35,180,620,42,20,68,13,7,https://theunitools.com/recipes/olla-de-carne.jpg
+chorreadas,CR,Chorreadas,Чорреадас,Chorreadas,breakfast,vegetarian|gluten-free,easy,4,20,20,380,12,18,44,8,7,https://theunitools.com/recipes/chorreadas.jpg
+montucas,HN,Montucas,Монтукас,Montucas,main,gluten-free,hard,8,70,75,540,28,28,46,11,7,
+pastelitos-hondurenos,HN,Pastelitos,Пастелитос,Pastelitos de perro,snack,gluten-free,medium,6,55,30,520,20,26,52,11,7,
+vigoron,NI,Vigorón,Вигорон,Vigorón,main,gluten-free,medium,5,40,90,680,24,38,62,10,7,https://theunitools.com/recipes/vigoron.jpg
+indio-viejo,NI,Indio viejo,Индио вьехо,Indio viejo,main,gluten-free,medium,5,30,120,560,42,24,44,11,7,https://theunitools.com/recipes/indio-viejo.jpg
+vori-vori,PY,Vori vori,Вори вори,Vori vori,soup,gluten-free,medium,6,35,70,560,38,24,46,13,7,https://theunitools.com/recipes/vori-vori.jpg
+mbeju,PY,Mbejú,Мбеху,Mbejú,bread,vegetarian|gluten-free,medium,6,20,25,460,14,24,48,6,7,https://theunitools.com/recipes/mbeju.jpg
+musakhan,JO,Musakhan,Мусахан,مسخن,main,,medium,6,35,90,780,44,46,48,11,7,https://theunitools.com/recipes/musakhan.jpg
+galayet-bandora,JO,Galayet bandora,Галает бандора,قلاية بندورة,main,vegetarian|vegan,easy,4,15,35,380,8,26,32,8,7,
+omani-halwa,OM,Omani halwa,Оманская халва,حلوى عمانية,dessert,vegetarian|gluten-free,hard,16,25,130,420,3,22,56,9,7,https://theunitools.com/recipes/omani-halwa.jpg
+maqdeed,OM,Maqdeed,Макдид,مقديد,main,gluten-free,hard,6,45,60,620,52,32,34,9,7,
+zurbian,YE,Zurbian,Зурбиан,زربيان,main,gluten-free,medium,6,40,110,780,44,34,78,12,7,https://theunitools.com/recipes/zurbian.jpg
+fahsa,YE,Fahsa,Фахса,فحسة,main,,hard,5,40,120,620,48,34,30,11,7,https://theunitools.com/recipes/fahsa.jpg
+kuwaiti-jireesh,KW,Kuwaiti gereesh,Кувейтский гриш,قريش,main,,easy,6,25,130,680,42,26,72,10,7,
+kuwaiti-darabeel,KW,Darabeel,Дарабиль,درابيل,dessert,vegetarian,medium,12,95,25,380,7,12,62,11,7,
+rechta,DZ,Rechta,Решта,رشتة,main,,hard,6,90,80,720,42,26,82,11,7,https://theunitools.com/recipes/rechta.jpg
+makroud,DZ,Makroud,Макруд,مقروض,dessert,vegetarian|vegan,medium,14,70,35,420,5,16,66,10,7,https://theunitools.com/recipes/makroud.jpg
+gurasa,SD,Gurasa,Гураса,قراصة,bread,vegetarian|vegan,easy,6,80,30,320,9,7,56,6,7,https://theunitools.com/recipes/gurasa.jpg
+salata-aswad,SD,Salata aswad,Салата асвад,سلطة أسود,salad,vegetarian|vegan|gluten-free,easy,5,25,25,380,10,30,18,9,7,
+mchuzi-wa-samaki,TZ,Mchuzi wa samaki,Мчузи ва самаки,Mchuzi wa samaki,main,pescatarian|gluten-free,easy,5,25,35,520,44,30,18,12,7,
+vitumbua,TZ,Vitumbua,Витумбуа,Vitumbua,breakfast,vegetarian|vegan|gluten-free,medium,8,40,30,320,5,12,48,8,7,https://theunitools.com/recipes/vitumbua.jpg
+eru,CM,Eru,Эру,Eru,main,gluten-free,medium,6,50,70,620,42,42,14,11,7,https://theunitools.com/recipes/eru.jpg
+koki-corn,CM,Koki,Коки,Koki,main,vegetarian|vegan|gluten-free,hard,6,100,90,520,20,32,42,9,7,
+kleftiko,CY,Kleftiko,Клефтико,Κλέφτικο,main,gluten-free,easy,6,30,300,780,52,48,34,10,7,https://theunitools.com/recipes/kleftiko.jpg
+koupepia,CY,Koupepia,Купепья,Κουπέπια,main,,medium,6,70,60,520,28,28,40,12,7,
+lampuki-pie,MT,Lampuki pie,Пирог с лампукой,Torta tal-lampuki,main,pescatarian,hard,8,70,60,680,36,38,48,13,7,
+imqaret,MT,Imqaret,Имарет,Imqaret,dessert,vegetarian|vegan,medium,12,70,40,420,5,18,62,10,7,https://theunitools.com/recipes/imqaret.jpg
+fergese,AL,Fërgesë,Фергесе,Fërgesë,main,vegetarian,easy,4,30,35,420,22,28,18,10,7,https://theunitools.com/recipes/fergese.jpg
+ballokume,AL,Ballokume,Баллокуме,Ballokume,dessert,vegetarian|gluten-free,medium,14,50,25,380,4,18,52,7,7,https://theunitools.com/recipes/ballokume.jpg
+sarmale-moldovenesti,MD,Moldovan sarmale,Молдавские сармале,Sarmale,main,,medium,8,90,180,520,28,30,32,11,7,
+mucenici,MD,Mucenici,Мученичи,Mucenici,dessert,vegetarian,medium,12,100,25,420,9,16,60,11,7,https://theunitools.com/recipes/mucenici.jpg
+kuurdak,KG,Kuurdak,Куурдак,Куурдак,main,,easy,5,25,55,780,44,54,28,9,7,https://theunitools.com/recipes/kuurdak.jpg
+boorsok,KG,Boorsok,Боорсок,Боорсок,bread,vegetarian,easy,10,90,30,320,7,14,42,8,7,
+tushbera,TJ,Tushbera,Тушбера,Тушбера,soup,,hard,5,90,50,620,32,30,54,11,7,
+chakka,TJ,Chakka,Чакка,Чакка,snack,vegetarian,easy,6,25,0,220,12,14,10,9,7,https://theunitools.com/recipes/chakka.jpg
+khuushuur,MN,Khuushuur,Хуушуур,Хуушуур,snack,,medium,6,70,35,620,28,34,52,9,7,https://theunitools.com/recipes/khuushuur.jpg
+suutei-tsai,MN,Suutei tsai,Сутэй цай,Сүүтэй цай,drink,vegetarian,easy,6,5,25,140,5,9,8,6,7,https://theunitools.com/recipes/suutei-tsai.jpg
+ashak,AF,Ashak,Ашак,آشک,main,,hard,5,80,50,620,32,28,58,12,7,
+bolani,AF,Bolani,Болани,بولانی,snack,vegetarian|vegan,easy,6,50,30,420,10,12,68,9,7,https://theunitools.com/recipes/bolani.jpg

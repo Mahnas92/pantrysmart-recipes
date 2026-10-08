@@ -77,7 +77,8 @@ jobs:
           print(path)
           PY
           )"
-          trap 'rm -f "$option_file"' EXIT
+          error_file="$(mktemp)"
+          trap 'rm -f "$option_file" "$error_file"' EXIT
 
           expected_counts="$(node --input-type=module -e '
           import { readFile } from "node:fs/promises";
@@ -109,8 +110,16 @@ jobs:
             --skip-column-names \
             --database="$STRATO_DB_NAME" \
             < "$RUNNER_TEMP/pantrysmart-recipes.sql" \
-            2>/dev/null)"; then
-            echo "Database update failed. Check the configured secrets, MySQL permissions, and hosting access rules."
+            2>"$error_file")"; then
+            if grep -Eiq 'timed out|Can.t connect|connection refused|No route to host|Network is unreachable|Unknown MySQL server host|Name or service not known' "$error_file"; then
+              echo "The GitHub-hosted runner could not reach the MySQL server. Verify the hostname and whether STRATO allows external MySQL connections."
+            elif grep -Eiq 'Access denied for user' "$error_file"; then
+              echo "MySQL rejected the credentials or database grants. Verify the recipe repository Actions secrets and the account permissions."
+            elif grep -Eiq 'Unknown database' "$error_file"; then
+              echo "MySQL was reached, but the configured database name was not found."
+            else
+              echo "MySQL rejected the update. Check the database grants and server compatibility."
+            fi
             exit 1
           fi
 

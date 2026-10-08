@@ -141,17 +141,19 @@ jobs:
           ].join("\t"));
           ')"
 
-          if ! remote_tmp="$(ssh_run "$ssh_destination" \
-            'umask 077 && mktemp -d .pantrysmart-import.XXXXXX' \
+          if ! remote_tmp_output="$(ssh_run "$ssh_destination" \
+            'umask 077 && remote_dir="$(mktemp -d .pantrysmart-import.XXXXXX)" && printf "__PANTRY_TMP__%s\n" "${remote_dir##*/}"' \
             2>"$ssh_error_file")"; then
             echo "Could not create a temporary import directory over STRATO SSH. Check the SSH secrets, account password, and shell access."
             exit 1
           fi
 
-          if [[ ! "$remote_tmp" =~ ^\./\.pantrysmart-import\.[A-Za-z0-9]+$ ]]; then
+          remote_tmp="$(printf '%s\n' "$remote_tmp_output" | sed -n 's/^__PANTRY_TMP__//p' | tail -n 1)"
+          if [[ ! "$remote_tmp" =~ ^\.pantrysmart-import\.[A-Za-z0-9]+$ ]]; then
             echo "STRATO returned an unexpected temporary directory path; refusing to upload."
             exit 1
           fi
+          remote_tmp="./$remote_tmp"
 
           if ! SSHPASS="$STRATO_SSH_PASSWORD" sshpass -e scp \
             -P 22 \

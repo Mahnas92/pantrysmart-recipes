@@ -131,6 +131,9 @@ test('replace mode clears recipe rows in foreign-key order inside the import tra
     }
 
     assert.ok(commit > previousDelete, 'The replacement transaction should commit after all deletes.');
+    const firstInsert = sql.indexOf('INSERT INTO `ps_recipe_dataset`');
+    assert.ok(firstInsert > previousDelete, 'The new snapshot should be inserted after stale rows are cleared.');
+    assert.ok(commit > firstInsert, 'The replacement snapshot should commit only after inserts.');
     assert.equal(sql.includes('DROP TABLE'), false);
     assert.match(sql, /AS step_translations;/);
 });

@@ -102,8 +102,20 @@ repository Actions secrets under **Settings → Secrets and variables → Action
 - `STRATO_SSH_USERNAME` — the generated SFTP + SSH account username
 - `STRATO_SSH_PASSWORD` — the password for the SFTP + SSH account
 
-The updater uses the SSH password only for the remote transfer and command,
-and pins STRATO's ED25519 host key in the workflow; there is no `known_hosts`
-secret. The separate **Test STRATO database connection** workflow tests direct
+The updater uses the SSH password only for the remote transfer and command.
+It reads the pinned public SSH host key from the
+`STRATO_SSH_HOST_KEY` Actions **variable** (not a secret), allowing the SSH
+host and key to be changed without editing workflow code. Keep strict host-key
+checking enabled; do not replace this pin with an unverified `ssh-keyscan`.
+The separate **Test STRATO database connection** workflow tests direct
 GitHub-runner-to-MySQL connectivity only; STRATO currently blocks that route,
 so it is not part of the updater.
+
+**Recipe repository (`mahnas92/pantrysmart-recipes`):** Add the public key
+algorithm and base64 key, without the hostname, as the Actions variable
+`STRATO_SSH_HOST_KEY` under **Settings → Secrets and variables → Actions →
+Variables**. For the current STRATO server, its pinned ED25519 value is:
+
+```text
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINbBMvvDjN4IP04VAZlDH42A+HL25ifeIK9CorAvaMA/
+```

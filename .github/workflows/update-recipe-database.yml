@@ -43,12 +43,13 @@ jobs:
           STRATO_SSH_HOST: ${{ secrets.STRATO_SSH_HOST }}
           STRATO_SSH_USERNAME: ${{ secrets.STRATO_SSH_USERNAME }}
           STRATO_SSH_PASSWORD: ${{ secrets.STRATO_SSH_PASSWORD }}
+          STRATO_SSH_HOST_KEY: ${{ vars.STRATO_SSH_HOST_KEY }}
         run: |
           set -euo pipefail
 
           for secret_name in \
             STRATO_DB_HOST STRATO_DB_NAME STRATO_DB_USER STRATO_DB_PASSWORD \
-            STRATO_SSH_HOST STRATO_SSH_USERNAME STRATO_SSH_PASSWORD; do
+            STRATO_SSH_HOST STRATO_SSH_USERNAME STRATO_SSH_PASSWORD STRATO_SSH_HOST_KEY; do
             if [ -z "${!secret_name:-}" ]; then
               echo "Required repository secret is missing: $secret_name"
               exit 1
@@ -88,9 +89,12 @@ jobs:
           trap cleanup EXIT
 
           umask 077
-          printf '%s\n' \
-            '558790779.ssh.w1.strato.hosting ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINbBMvvDjN4IP04VAZlDH42A+HL25ifeIK9CorAvaMA/' \
-            > "$known_hosts_file"
+          if [[ ! "$STRATO_SSH_HOST" =~ ^[A-Za-z0-9.-]+$ ]] \
+            || [[ ! "$STRATO_SSH_HOST_KEY" =~ ^(ssh-ed25519|ecdsa-sha2-nistp256|ssh-rsa)[[:space:]][A-Za-z0-9+/]+={0,3}$ ]]; then
+            echo "The STRATO SSH hostname or pinned host-key format is invalid."
+            exit 1
+          fi
+          printf '%s %s\n' "$STRATO_SSH_HOST" "$STRATO_SSH_HOST_KEY" > "$known_hosts_file"
 
           node --input-type=module -e '
           import { writeFile } from "node:fs/promises";

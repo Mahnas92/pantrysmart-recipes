@@ -12,6 +12,8 @@
 - Do not guess when repository state is ambiguous; clarify or document the
   limitation.
 - Keep secrets out of source control.
+- When explaining where to configure secrets, explicitly name the target
+  repository on its own line before listing the secret names.
 - Review the complete diff before committing.
 - Verify behavior after structural changes.
 - Keep documentation synchronized with architectural changes.

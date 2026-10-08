@@ -100,9 +100,10 @@ repository Actions secrets under **Settings → Secrets and variables → Action
 - `STRATO_DB_PASSWORD` — the database password
 - `STRATO_SSH_HOST` — the STRATO SSH server hostname
 - `STRATO_SSH_USERNAME` — the generated SFTP + SSH account username
-- `STRATO_SSH_PRIVATE_KEY` — an unencrypted OpenSSH private key whose public key is installed for that account
+- `STRATO_SSH_PRIVATE_KEY` — an unencrypted OpenSSH private key or PuTTY `.ppk` key whose public key is installed for that account
 
-The updater pins STRATO's ED25519 host key in the workflow; there is no
-`known_hosts` secret. The separate **Test STRATO database connection** workflow
-tests direct GitHub-runner-to-MySQL connectivity only; STRATO currently blocks
-that route, so it is not part of the updater.
+The updater converts unencrypted PuTTY `.ppk` keys on the ephemeral runner and
+pins STRATO's ED25519 host key in the workflow; there is no `known_hosts`
+secret. The separate **Test STRATO database connection** workflow tests direct
+GitHub-runner-to-MySQL connectivity only; STRATO currently blocks that route,
+so it is not part of the updater.

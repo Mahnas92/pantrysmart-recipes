@@ -42,27 +42,29 @@ jobs:
           STRATO_DB_PASSWORD: ${{ secrets.STRATO_DB_PASSWORD }}
           STRATO_SSH_HOST: ${{ secrets.STRATO_SSH_HOST }}
           STRATO_SSH_USERNAME: ${{ secrets.STRATO_SSH_USERNAME }}
-          STRATO_SSH_PRIVATE_KEY: ${{ secrets.STRATO_SSH_PRIVATE_KEY }}
+          STRATO_SSH_PASSWORD: ${{ secrets.STRATO_SSH_PASSWORD }}
         run: |
           set -euo pipefail
 
           for secret_name in \
             STRATO_DB_HOST STRATO_DB_NAME STRATO_DB_USER STRATO_DB_PASSWORD \
-            STRATO_SSH_HOST STRATO_SSH_USERNAME STRATO_SSH_PRIVATE_KEY; do
+            STRATO_SSH_HOST STRATO_SSH_USERNAME STRATO_SSH_PASSWORD; do
             if [ -z "${!secret_name:-}" ]; then
               echo "Required repository secret is missing: $secret_name"
               exit 1
             fi
           done
 
-          if ! command -v ssh >/dev/null 2>&1 \
-            || ! command -v scp >/dev/null 2>&1 \
-            || ! command -v ssh-keygen >/dev/null 2>&1; then
+          if ! command -v ssh >/dev/null 2>&1 || ! command -v scp >/dev/null 2>&1; then
             echo "The GitHub runner does not have the required OpenSSH client tools."
             exit 1
           fi
 
-          key_file="$RUNNER_TEMP/strato-ssh-key"
+          if ! command -v sshpass >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes sshpass
+          fi
+
           known_hosts_file="$RUNNER_TEMP/strato-known-hosts"
           mysql_option_file="$RUNNER_TEMP/strato-mysql.cnf"
           ssh_error_file="$RUNNER_TEMP/strato-ssh-error"
@@ -70,41 +72,22 @@ jobs:
           ssh_destination="$STRATO_SSH_USERNAME@$STRATO_SSH_HOST"
           ssh_options=()
 
+          ssh_run() {
+            SSHPASS="$STRATO_SSH_PASSWORD" sshpass -e ssh "${ssh_options[@]}" "$@"
+          }
+
           cleanup() {
             if [ -n "$remote_tmp" ]; then
-              if ! ssh "${ssh_options[@]}" "$ssh_destination" \
+              if ! ssh_run "$ssh_destination" \
                 "rm -rf -- '$remote_tmp'" >/dev/null 2>&1; then
                 echo "Warning: the temporary STRATO import directory could not be removed."
               fi
             fi
-            rm -f "$key_file" "$known_hosts_file" "$mysql_option_file" "$ssh_error_file"
+            rm -f "$known_hosts_file" "$mysql_option_file" "$ssh_error_file"
           }
           trap cleanup EXIT
 
           umask 077
-          printf '%s\n' "$STRATO_SSH_PRIVATE_KEY" > "$key_file"
-          if ! ssh-keygen -y -P "" -f "$key_file" >/dev/null 2>"$ssh_error_file"; then
-            if ! grep -q '^PuTTY-User-Key-File-' "$key_file"; then
-              echo "The SSH private key is invalid, encrypted, or not in a supported format. Use an unencrypted OpenSSH private key or PuTTY .ppk key."
-              exit 1
-            fi
-
-            sudo apt-get update
-            sudo apt-get install --yes putty-tools
-            converted_key_file="$RUNNER_TEMP/strato-ssh-key-openssh"
-            if ! puttygen "$key_file" -O private-openssh -o "$converted_key_file" \
-              </dev/null 2>"$ssh_error_file"; then
-              echo "Could not convert the PuTTY private key. It may be passphrase-protected; use an unencrypted deployment key."
-              exit 1
-            fi
-            chmod 600 "$converted_key_file"
-            mv "$converted_key_file" "$key_file"
-
-            if ! ssh-keygen -y -P "" -f "$key_file" >/dev/null 2>"$ssh_error_file"; then
-              echo "The converted SSH private key is invalid. Check the key format and try again."
-              exit 1
-            fi
-          fi
           printf '%s\n' \
             '558790779.ssh.w1.strato.hosting ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINbBMvvDjN4IP04VAZlDH42A+HL25ifeIK9CorAvaMA/' \
             > "$known_hosts_file"
@@ -130,9 +113,8 @@ jobs:
 
           ssh_options=(
             -p 22
-            -i "$key_file"
-            -o BatchMode=yes
-            -o IdentitiesOnly=yes
+            -o PubkeyAuthentication=no
+            -o PreferredAuthentications=password,keyboard-interactive
             -o StrictHostKeyChecking=yes
             -o UserKnownHostsFile="$known_hosts_file"
             -o ConnectTimeout=10
@@ -159,10 +141,10 @@ jobs:
           ].join("\t"));
           ')"
 
-          if ! remote_tmp="$(ssh "${ssh_options[@]}" "$ssh_destination" \
+          if ! remote_tmp="$(ssh_run "$ssh_destination" \
             'umask 077 && mktemp -d .pantrysmart-import.XXXXXX' \
             2>"$ssh_error_file")"; then
-            echo "Could not create a temporary import directory over STRATO SSH. Check the SSH secrets, public-key setup, and account shell access."
+            echo "Could not create a temporary import directory over STRATO SSH. Check the SSH secrets, account password, and shell access."
             exit 1
           fi
 
@@ -171,11 +153,10 @@ jobs:
             exit 1
           fi
 
-          if ! scp \
+          if ! SSHPASS="$STRATO_SSH_PASSWORD" sshpass -e scp \
             -P 22 \
-            -i "$key_file" \
-            -o BatchMode=yes \
-            -o IdentitiesOnly=yes \
+            -o PubkeyAuthentication=no \
+            -o PreferredAuthentications=password,keyboard-interactive \
             -o StrictHostKeyChecking=yes \
             -o UserKnownHostsFile="$known_hosts_file" \
             -o ConnectTimeout=10 \
@@ -187,7 +168,7 @@ jobs:
             exit 1
           fi
 
-          if ! actual_counts="$(ssh "${ssh_options[@]}" "$ssh_destination" \
+          if ! actual_counts="$(ssh_run "$ssh_destination" \
             "mysql --defaults-extra-file='$remote_tmp/strato-mysql.cnf' --connect-timeout=10 --default-character-set=utf8mb4 --binary-mode --batch --skip-column-names < '$remote_tmp/pantrysmart-recipes.sql'" \
             2>"$ssh_error_file")"; then
             if grep -Eiq 'Access denied for user' "$ssh_error_file"; then

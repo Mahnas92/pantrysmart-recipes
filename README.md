@@ -76,25 +76,20 @@ Photos carry their own Commons licences — author and licence sit in each dish'
 
 ## Database updater
 
-The `Update recipe database` workflow is currently **manual-only** while
-STRATO access is configured as SFTP-only. GitHub-hosted runners cannot reach
-the STRATO MySQL server directly, and SFTP transfers files but does not provide
-a way to run the import on the server. Automatic push-triggered runs are
-disabled until an execution route is configured.
+The `Update recipe database` workflow mirrors
+`unitools-recipes-v1.json` to MySQL after commits touching the dataset or
+importer on `main`. It also supports manual runs from
+**Actions → Update recipe database → Run workflow**.
 
-To enable automatic updates, create an **SFTP + SSH** access in the STRATO
-customer login (**Datenbanken und Webspace → SFTP & SSH**). SSH provides the
-terminal access needed to run the MySQL import. Once that access is available,
-the workflow can upload the validated import and run it on STRATO.
-
-When run manually from **Actions → Update recipe database → Run workflow**,
-the current workflow validates and generates a full-replacement SQL import,
-then attempts a direct MySQL connection. With GitHub-hosted runners blocked
-from MySQL, that database step fails without changing data.
+The workflow validates the dataset, generates a full-replacement SQL import,
+uploads it over SSH/SFTP, and runs MySQL on STRATO, since GitHub-hosted runners
+cannot connect directly to the database. SSH host verification is pinned to
+STRATO's ED25519 host key in the workflow.
 
 Each successful mirror replaces all rows in the `ps_*` recipe tables, so
 removed recipes and related records are removed from the database. Table
-definitions are preserved, and the workflow verifies row counts after import.
+definitions are preserved, row counts are checked after import, and temporary
+database credential files are removed from STRATO when the workflow exits.
 
 **Recipe repository (`mahnas92/pantrysmart-recipes`):** Configure these
 repository Actions secrets under **Settings → Secrets and variables → Actions**:
@@ -103,6 +98,11 @@ repository Actions secrets under **Settings → Secrets and variables → Action
 - `STRATO_DB_NAME` — the database name
 - `STRATO_DB_USER` — the database username
 - `STRATO_DB_PASSWORD` — the database password
+- `STRATO_SSH_HOST` — the STRATO SSH server hostname
+- `STRATO_SSH_USERNAME` — the generated SFTP + SSH account username
+- `STRATO_SSH_PRIVATE_KEY` — an unencrypted OpenSSH private key whose public key is installed for that account
 
-The separate **Test STRATO database connection** workflow remains available
-for a non-writing `SELECT 1` connectivity check.
+The updater pins STRATO's ED25519 host key in the workflow; there is no
+`known_hosts` secret. The separate **Test STRATO database connection** workflow
+tests direct GitHub-runner-to-MySQL connectivity only; STRATO currently blocks
+that route, so it is not part of the updater.

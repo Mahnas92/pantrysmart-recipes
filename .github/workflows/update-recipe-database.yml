@@ -1,6 +1,13 @@
 name: Update recipe database
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - unitools-recipes-v1.json
+      - database/**
+      - .github/workflows/update-recipe-database.yml
   workflow_dispatch:
 
 permissions:
@@ -27,51 +34,91 @@ jobs:
             "$RUNNER_TEMP/pantrysmart-recipes.sql" \
             --replace
 
-      - name: Replace database rows and verify committed dataset counts
+      - name: Transfer import over SSH, update MySQL on STRATO, and verify counts
         env:
           STRATO_DB_HOST: ${{ secrets.STRATO_DB_HOST }}
           STRATO_DB_NAME: ${{ secrets.STRATO_DB_NAME }}
           STRATO_DB_USER: ${{ secrets.STRATO_DB_USER }}
           STRATO_DB_PASSWORD: ${{ secrets.STRATO_DB_PASSWORD }}
+          STRATO_SSH_HOST: ${{ secrets.STRATO_SSH_HOST }}
+          STRATO_SSH_USERNAME: ${{ secrets.STRATO_SSH_USERNAME }}
+          STRATO_SSH_PRIVATE_KEY: ${{ secrets.STRATO_SSH_PRIVATE_KEY }}
         run: |
           set -euo pipefail
 
-          for secret_name in STRATO_DB_HOST STRATO_DB_NAME STRATO_DB_USER STRATO_DB_PASSWORD; do
+          for secret_name in \
+            STRATO_DB_HOST STRATO_DB_NAME STRATO_DB_USER STRATO_DB_PASSWORD \
+            STRATO_SSH_HOST STRATO_SSH_USERNAME STRATO_SSH_PRIVATE_KEY; do
             if [ -z "${!secret_name:-}" ]; then
               echo "Required repository secret is missing: $secret_name"
               exit 1
             fi
           done
 
-          if ! command -v mysql >/dev/null 2>&1; then
-            sudo apt-get update
-            sudo apt-get install --yes default-mysql-client
+          if ! command -v ssh >/dev/null 2>&1 \
+            || ! command -v scp >/dev/null 2>&1 \
+            || ! command -v ssh-keygen >/dev/null 2>&1; then
+            echo "The GitHub runner does not have the required OpenSSH client tools."
+            exit 1
           fi
 
-          option_file="$(python3 - <<'PY'
-          import os
-          import tempfile
+          key_file="$RUNNER_TEMP/strato-ssh-key"
+          known_hosts_file="$RUNNER_TEMP/strato-known-hosts"
+          mysql_option_file="$RUNNER_TEMP/strato-mysql.cnf"
+          ssh_error_file="$RUNNER_TEMP/strato-ssh-error"
+          remote_tmp=""
+          ssh_destination="$STRATO_SSH_USERNAME@$STRATO_SSH_HOST"
+          ssh_options=()
 
-          fields = {
-              "host": os.environ["STRATO_DB_HOST"],
-              "user": os.environ["STRATO_DB_USER"],
-              "password": os.environ["STRATO_DB_PASSWORD"],
+          cleanup() {
+            if [ -n "$remote_tmp" ]; then
+              if ! ssh "${ssh_options[@]}" "$ssh_destination" \
+                "rm -rf -- '$remote_tmp'" >/dev/null 2>&1; then
+                echo "Warning: the temporary STRATO import directory could not be removed."
+              fi
+            fi
+            rm -f "$key_file" "$known_hosts_file" "$mysql_option_file" "$ssh_error_file"
           }
-          if any("\n" in value or "\r" in value for value in fields.values()):
-              raise SystemExit("Database connection secrets contain unsupported line breaks.")
+          trap cleanup EXIT
 
-          descriptor, path = tempfile.mkstemp(prefix="mysql-client-", suffix=".cnf")
-          os.fchmod(descriptor, 0o600)
-          with os.fdopen(descriptor, "w", encoding="utf-8") as option_file:
-              option_file.write("[client]\n")
-              for key, value in fields.items():
-                  escaped = value.replace("\\", "\\\\").replace('"', '\\"')
-                  option_file.write(f'{key}="{escaped}"\n')
-          print(path)
-          PY
-          )"
-          error_file="$(mktemp)"
-          trap 'rm -f "$option_file" "$error_file"' EXIT
+          umask 077
+          printf '%s\n' "$STRATO_SSH_PRIVATE_KEY" > "$key_file"
+          if ! ssh-keygen -y -P "" -f "$key_file" >/dev/null 2>"$ssh_error_file"; then
+            echo "The SSH private key is invalid, encrypted, or not in an OpenSSH-compatible format. Use an unencrypted OpenSSH private key for this repository secret."
+            exit 1
+          fi
+          printf '%s\n' \
+            '558790779.ssh.w1.strato.hosting ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINbBMvvDjN4IP04VAZlDH42A+HL25ifeIK9CorAvaMA/' \
+            > "$known_hosts_file"
+
+          node --input-type=module -e '
+          import { writeFile } from "node:fs/promises";
+
+          const fields = {
+            host: process.env.STRATO_DB_HOST,
+            user: process.env.STRATO_DB_USER,
+            password: process.env.STRATO_DB_PASSWORD,
+            database: process.env.STRATO_DB_NAME,
+          };
+          if (Object.values(fields).some((value) => /[\r\n]/.test(value))) {
+            throw new Error("Database connection secrets contain unsupported line breaks.");
+          }
+
+          const contents = "[client]\n" + Object.entries(fields)
+            .map(([key, value]) => `${key}="${value.replaceAll("\\", "\\\\").replaceAll("\"", "\\\"")}"\n`)
+            .join("");
+          await writeFile(`${process.env.RUNNER_TEMP}/strato-mysql.cnf`, contents, { mode: 0o600 });
+          '
+
+          ssh_options=(
+            -p 22
+            -i "$key_file"
+            -o BatchMode=yes
+            -o IdentitiesOnly=yes
+            -o StrictHostKeyChecking=yes
+            -o UserKnownHostsFile="$known_hosts_file"
+            -o ConnectTimeout=10
+          )
 
           expected_counts="$(node --input-type=module -e '
           import { readFile } from "node:fs/promises";
@@ -94,24 +141,45 @@ jobs:
           ].join("\t"));
           ')"
 
-          if ! actual_counts="$(mysql \
-            --defaults-extra-file="$option_file" \
-            --connect-timeout=10 \
-            --default-character-set=utf8mb4 \
-            --binary-mode \
-            --batch \
-            --skip-column-names \
-            --database="$STRATO_DB_NAME" \
-            < "$RUNNER_TEMP/pantrysmart-recipes.sql" \
-            2>"$error_file")"; then
-            if grep -Eiq 'timed out|Can.t connect|connection refused|No route to host|Network is unreachable|Unknown MySQL server host|Name or service not known' "$error_file"; then
-              echo "The GitHub-hosted runner could not reach the MySQL server. Verify the hostname and whether STRATO allows external MySQL connections."
-            elif grep -Eiq 'Access denied for user' "$error_file"; then
-              echo "MySQL rejected the credentials or database grants. Verify the recipe repository Actions secrets and the account permissions."
-            elif grep -Eiq 'Unknown database' "$error_file"; then
-              echo "MySQL was reached, but the configured database name was not found."
+          if ! remote_tmp="$(ssh "${ssh_options[@]}" "$ssh_destination" \
+            'umask 077 && mktemp -d .pantrysmart-import.XXXXXX' \
+            2>"$ssh_error_file")"; then
+            echo "Could not create a temporary import directory over STRATO SSH. Check the SSH secrets, public-key setup, and account shell access."
+            exit 1
+          fi
+
+          if [[ ! "$remote_tmp" =~ ^\./\.pantrysmart-import\.[A-Za-z0-9]+$ ]]; then
+            echo "STRATO returned an unexpected temporary directory path; refusing to upload."
+            exit 1
+          fi
+
+          if ! scp \
+            -P 22 \
+            -i "$key_file" \
+            -o BatchMode=yes \
+            -o IdentitiesOnly=yes \
+            -o StrictHostKeyChecking=yes \
+            -o UserKnownHostsFile="$known_hosts_file" \
+            -o ConnectTimeout=10 \
+            "$RUNNER_TEMP/pantrysmart-recipes.sql" \
+            "$mysql_option_file" \
+            "$ssh_destination:$remote_tmp/" \
+            2>"$ssh_error_file"; then
+            echo "Could not securely upload the import to STRATO. Check SSH access and the account's write permissions."
+            exit 1
+          fi
+
+          if ! actual_counts="$(ssh "${ssh_options[@]}" "$ssh_destination" \
+            "mysql --defaults-extra-file='$remote_tmp/strato-mysql.cnf' --connect-timeout=10 --default-character-set=utf8mb4 --binary-mode --batch --skip-column-names < '$remote_tmp/pantrysmart-recipes.sql'" \
+            2>"$ssh_error_file")"; then
+            if grep -Eiq 'Access denied for user' "$ssh_error_file"; then
+              echo "MySQL on STRATO rejected the database credentials or grants. Check the recipe repository STRATO_DB_* secrets and database permissions."
+            elif grep -Eiq 'Unknown database' "$ssh_error_file"; then
+              echo "MySQL on STRATO could not find the configured database."
+            elif grep -Eiq 'command not found|mysql: not found' "$ssh_error_file"; then
+              echo "The STRATO SSH account could not run the MySQL client."
             else
-              echo "MySQL rejected the update. Check the database grants and server compatibility."
+              echo "The import command failed on STRATO. Check the MySQL client and database permissions."
             fi
             exit 1
           fi

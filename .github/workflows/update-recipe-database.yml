@@ -49,12 +49,16 @@ jobs:
 
           for secret_name in \
             STRATO_DB_HOST STRATO_DB_NAME STRATO_DB_USER STRATO_DB_PASSWORD \
-            STRATO_SSH_HOST STRATO_SSH_USERNAME STRATO_SSH_PASSWORD STRATO_SSH_HOST_KEY; do
+            STRATO_SSH_HOST STRATO_SSH_USERNAME STRATO_SSH_PASSWORD; do
             if [ -z "${!secret_name:-}" ]; then
               echo "Required repository secret is missing: $secret_name"
               exit 1
             fi
           done
+          if [ -z "$STRATO_SSH_HOST_KEY" ]; then
+            echo "Required repository Actions variable is missing: STRATO_SSH_HOST_KEY"
+            exit 1
+          fi
 
           if ! command -v ssh >/dev/null 2>&1 || ! command -v scp >/dev/null 2>&1; then
             echo "The GitHub runner does not have the required OpenSSH client tools."

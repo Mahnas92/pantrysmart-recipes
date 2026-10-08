@@ -74,21 +74,27 @@ Other projects build on these files, so the following addresses are kept working
 
 Photos carry their own Commons licences — author and licence sit in each dish's `photo` field.
 
-## Database connection test
+## Automatic database update
 
-The manually triggered GitHub Actions workflow at
-`.github/workflows/test-strato-database-connection.yml` checks whether a
-GitHub-hosted runner can connect to the configured MySQL database. It runs
-only `SELECT 1`; it does not read or change recipe data.
+The `Update recipe database` GitHub Actions workflow mirrors
+`unitools-recipes-v1.json` to the recipe tables in MySQL whenever a commit
+touches that dataset or the importer on `main`. It also supports manual runs
+from **Actions → Update recipe database → Run workflow**.
 
-Before running it, add these repository Actions secrets under **Settings →
-Secrets and variables → Actions**:
+The workflow validates the complete dataset and tests the importer before
+connecting. Each successful run replaces all rows in the `ps_*` recipe tables,
+so removed recipes, translations, and other removed rows are deleted from the
+database. Table definitions are preserved. It then checks that table row
+counts match the committed JSON. Runs are serialized so two commits cannot
+import concurrently.
+
+**Recipe repository (`mahnas92/pantrysmart-recipes`):** Configure these
+repository Actions secrets under **Settings → Secrets and variables → Actions**:
 
 - `STRATO_DB_HOST` — the database server hostname shown in the hosting panel
 - `STRATO_DB_NAME` — the database name
 - `STRATO_DB_USER` — the database username
 - `STRATO_DB_PASSWORD` — the database password
 
-Run it from **Actions → Test STRATO database connection → Run workflow**.
-The workflow reports only whether the connection test succeeded; it does not
-print credentials or raw connection errors.
+The separate **Test STRATO database connection** workflow remains available
+for a non-writing `SELECT 1` connectivity check.

@@ -1,0 +1,126 @@
+name: Update recipe database
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - unitools-recipes-v1.json
+      - database/**
+      - .github/workflows/update-recipe-database.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-recipe-database
+  cancel-in-progress: false
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out committed recipe data
+        uses: actions/checkout@v4
+
+      - name: Validate data and generate a full-replacement import
+        run: |
+          set -euo pipefail
+          node --test database/build-import.test.mjs
+          node database/build-import.mjs \
+            unitools-recipes-v1.json \
+            "$RUNNER_TEMP/pantrysmart-recipes.sql" \
+            --replace
+
+      - name: Replace database rows and verify committed dataset counts
+        env:
+          STRATO_DB_HOST: ${{ secrets.STRATO_DB_HOST }}
+          STRATO_DB_NAME: ${{ secrets.STRATO_DB_NAME }}
+          STRATO_DB_USER: ${{ secrets.STRATO_DB_USER }}
+          STRATO_DB_PASSWORD: ${{ secrets.STRATO_DB_PASSWORD }}
+        run: |
+          set -euo pipefail
+
+          for secret_name in STRATO_DB_HOST STRATO_DB_NAME STRATO_DB_USER STRATO_DB_PASSWORD; do
+            if [ -z "${!secret_name:-}" ]; then
+              echo "Required repository secret is missing: $secret_name"
+              exit 1
+            fi
+          done
+
+          if ! command -v mysql >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes default-mysql-client
+          fi
+
+          option_file="$(python3 - <<'PY'
+          import os
+          import tempfile
+
+          fields = {
+              "host": os.environ["STRATO_DB_HOST"],
+              "user": os.environ["STRATO_DB_USER"],
+              "password": os.environ["STRATO_DB_PASSWORD"],
+          }
+          if any("\n" in value or "\r" in value for value in fields.values()):
+              raise SystemExit("Database connection secrets contain unsupported line breaks.")
+
+          descriptor, path = tempfile.mkstemp(prefix="mysql-client-", suffix=".cnf")
+          os.fchmod(descriptor, 0o600)
+          with os.fdopen(descriptor, "w", encoding="utf-8") as option_file:
+              option_file.write("[client]\n")
+              for key, value in fields.items():
+                  escaped = value.replace("\\", "\\\\").replace('"', '\\"')
+                  option_file.write(f'{key}="{escaped}"\n')
+          print(path)
+          PY
+          )"
+          trap 'rm -f "$option_file"' EXIT
+
+          expected_counts="$(node --input-type=module -e '
+          import { readFile } from "node:fs/promises";
+          const data = JSON.parse(await readFile("unitools-recipes-v1.json", "utf8"));
+          const languages = Object.keys(data.countries[0].name).length;
+          const ingredientCount = data.recipes.reduce((count, recipe) => count + recipe.ingredients.length, 0);
+          const stepCount = data.recipes.reduce((count, recipe) => count + recipe.steps.length, 0);
+          const dietCount = data.recipes.reduce((count, recipe) => count + recipe.diets.length, 0);
+          console.log([
+            1,
+            data.countries.length,
+            data.countries.length * languages,
+            data.recipes.length,
+            data.recipes.length * languages,
+            dietCount,
+            ingredientCount,
+            ingredientCount * languages,
+            stepCount,
+            stepCount * languages,
+          ].join("\t"));
+          ')"
+
+          if ! actual_counts="$(mysql \
+            --defaults-extra-file="$option_file" \
+            --connect-timeout=10 \
+            --default-character-set=utf8mb4 \
+            --binary-mode \
+            --batch \
+            --skip-column-names \
+            --database="$STRATO_DB_NAME" \
+            < "$RUNNER_TEMP/pantrysmart-recipes.sql" \
+            2>/dev/null)"; then
+            echo "Database update failed. Check the configured secrets, MySQL permissions, and hosting access rules."
+            exit 1
+          fi
+
+          if [ "$actual_counts" != "$expected_counts" ]; then
+            echo "Database update completed, but table row counts do not match the committed recipe dataset."
+            exit 1
+          fi
+
+          printf 'Database now mirrors the committed dataset: %s recipes, %s countries, %s ingredients, and %s steps.\n' \
+            "$(cut -f4 <<< "$actual_counts")" \
+            "$(cut -f2 <<< "$actual_counts")" \
+            "$(cut -f7 <<< "$actual_counts")" \
+            "$(cut -f9 <<< "$actual_counts")"

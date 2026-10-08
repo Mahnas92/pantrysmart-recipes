@@ -1,13 +1,6 @@
 name: Update recipe database
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - unitools-recipes-v1.json
-      - database/**
-      - .github/workflows/update-recipe-database.yml
   workflow_dispatch:
 
 permissions:

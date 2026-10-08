@@ -74,19 +74,27 @@ Other projects build on these files, so the following addresses are kept working
 
 Photos carry their own Commons licences — author and licence sit in each dish's `photo` field.
 
-## Automatic database update
+## Database updater
 
-The `Update recipe database` GitHub Actions workflow mirrors
-`unitools-recipes-v1.json` to the recipe tables in MySQL whenever a commit
-touches that dataset or the importer on `main`. It also supports manual runs
-from **Actions → Update recipe database → Run workflow**.
+The `Update recipe database` workflow is currently **manual-only** while
+STRATO access is configured as SFTP-only. GitHub-hosted runners cannot reach
+the STRATO MySQL server directly, and SFTP transfers files but does not provide
+a way to run the import on the server. Automatic push-triggered runs are
+disabled until an execution route is configured.
 
-The workflow validates the complete dataset and tests the importer before
-connecting. Each successful run replaces all rows in the `ps_*` recipe tables,
-so removed recipes, translations, and other removed rows are deleted from the
-database. Table definitions are preserved. It then checks that table row
-counts match the committed JSON. Runs are serialized so two commits cannot
-import concurrently.
+To enable automatic updates, create an **SFTP + SSH** access in the STRATO
+customer login (**Datenbanken und Webspace → SFTP & SSH**). SSH provides the
+terminal access needed to run the MySQL import. Once that access is available,
+the workflow can upload the validated import and run it on STRATO.
+
+When run manually from **Actions → Update recipe database → Run workflow**,
+the current workflow validates and generates a full-replacement SQL import,
+then attempts a direct MySQL connection. With GitHub-hosted runners blocked
+from MySQL, that database step fails without changing data.
+
+Each successful mirror replaces all rows in the `ps_*` recipe tables, so
+removed recipes and related records are removed from the database. Table
+definitions are preserved, and the workflow verifies row counts after import.
 
 **Recipe repository (`mahnas92/pantrysmart-recipes`):** Configure these
 repository Actions secrets under **Settings → Secrets and variables → Actions**:

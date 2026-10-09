@@ -13,6 +13,7 @@ function dataset(languages) {
     return {
         name: 'Recipe dataset',
         version: '2.0.0',
+        ingredientCatalogVersion: '1.0.0',
         homepage: 'https://example.test/recipes',
         license: 'CC BY-SA 4.0',
         licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
@@ -72,10 +73,29 @@ test('SQL generator includes every source translation language', async (context)
 
     assert.equal(result.status, 0, result.stderr);
     const sql = await readFile(outputPath, 'utf8');
+    assert.match(sql, /INSERT INTO `ps_ingredient_catalog_metadata`/);
+    assert.match(sql, /\(1, '1\.0\.0'\)/);
     assert.equal(sql.includes('DELETE FROM'), false, 'Default upsert mode must preserve existing rows.');
     for (const language of ['ar', 'en', 'ru', 'sv']) {
         assert.ok(sql.includes(`'${language}'`), `SQL should include ${language} translations.`);
     }
+});
+
+test('SQL generator rejects an invalid ingredient catalog version', async (context) => {
+    const directory = await mkdtemp(path.join(os.tmpdir(), 'pantrysmart-import-'));
+    context.after(() => rm(directory, { recursive: true, force: true }));
+    const inputPath = path.join(directory, 'recipes.json');
+    const outputPath = path.join(directory, 'recipes.sql');
+    const input = dataset(['en', 'ru']);
+    input.ingredientCatalogVersion = 'catalog-latest';
+    await writeFile(inputPath, JSON.stringify(input));
+
+    const result = spawnSync(process.execPath, [generatorPath, inputPath, outputPath], {
+        encoding: 'utf8',
+    });
+
+    assert.notEqual(result.status, 0);
+    assert.match(result.stderr, /ingredientCatalogVersion must be a semantic version/);
 });
 
 test('SQL generator rejects inconsistent translation languages', async (context) => {

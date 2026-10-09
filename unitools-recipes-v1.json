@@ -1,6 +1,7 @@
 {
  "name": "UniTools World Recipes",
  "version": "2.0.0",
+ "ingredientCatalogVersion": "1.0.0",
  "landingPage": "https://theunitools.com/en/data",
  "license": "CC BY-SA 4.0",
  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",

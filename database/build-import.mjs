@@ -92,6 +92,11 @@ function insertRows(table, columns, rows, keyColumns) {
 function validateDataset(dataset) {
     assert(dataset && typeof dataset === 'object', 'Dataset root must be an object.');
     requireString(dataset.version, 'version');
+    requireString(dataset.ingredientCatalogVersion, 'ingredientCatalogVersion');
+    assert(
+        /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-(?:0|[1-9]\d*|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*)(?:\.(?:0|[1-9]\d*|[0-9A-Za-z-]*[A-Za-z-][0-9A-Za-z-]*))*)?(?:\+[0-9A-Za-z-]+(?:\.[0-9A-Za-z-]+)*)?$/.test(dataset.ingredientCatalogVersion),
+        'ingredientCatalogVersion must be a semantic version.'
+    );
     assert(Array.isArray(dataset.countries) && dataset.countries.length > 0, 'Dataset countries must be a non-empty array.');
     assert(Array.isArray(dataset.recipes) && dataset.recipes.length > 0, 'Dataset recipes must be a non-empty array.');
     requireString(dataset.name, 'name');
@@ -196,6 +201,13 @@ SET SESSION sql_mode = IF(
     \`recipe_count\` SMALLINT UNSIGNED NOT NULL,
     \`country_count\` SMALLINT UNSIGNED NOT NULL,
     PRIMARY KEY (\`dataset_version\`)
+) ${tableOptions};`);
+
+    statements.push(`CREATE TABLE IF NOT EXISTS \`ps_ingredient_catalog_metadata\` (
+    \`catalog_id\` TINYINT UNSIGNED NOT NULL,
+    \`catalog_version\` VARCHAR(32) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+    \`updated_at\` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (\`catalog_id\`)
 ) ${tableOptions};`);
 
     statements.push(`CREATE TABLE IF NOT EXISTS \`ps_countries\` (
@@ -334,6 +346,13 @@ DELETE FROM \`ps_recipe_dataset\`;`);
         'dataset_version', 'dataset_name', 'homepage', 'license', 'license_url',
         'attribution', 'generated_at', 'recipe_count', 'country_count',
     ], datasetRows, ['dataset_version']));
+
+    statements.push(insertRows('ps_ingredient_catalog_metadata', [
+        'catalog_id', 'catalog_version',
+    ], [[
+        '1',
+        sqlString(dataset.ingredientCatalogVersion, 'ingredientCatalogVersion'),
+    ]], ['catalog_id']));
 
     const countries = dataset.countries.map((country) => [
         sqlString(country.code, `country ${country.code}.code`),

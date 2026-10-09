@@ -76,6 +76,11 @@ Photos carry their own Commons licences — author and licence sit in each dish'
 
 ## Database updater
 
+The `ingredientCatalogVersion` field in `unitools-recipes-v1.json` is an
+independent semantic version for selectable ingredient IDs, localized names,
+and aliases. Increment it whenever those catalog values change, even if the
+overall recipe dataset version does not.
+
 The `Update recipe database` workflow mirrors
 `unitools-recipes-v1.json` to MySQL after commits touching the dataset or
 importer on `main`. It also supports manual runs from
@@ -90,6 +95,8 @@ Each successful mirror replaces all rows in the `ps_*` recipe tables, so
 removed recipes and related records are removed from the database. Table
 definitions are preserved, row counts are checked after import, and temporary
 database credential files are removed from STRATO when the workflow exits.
+The import also updates `ps_ingredient_catalog_metadata`, which supplies the
+catalog version reported by the backend API.
 
 **Recipe repository (`mahnas92/pantrysmart-recipes`):** Configure these
 repository Actions secrets under **Settings → Secrets and variables → Actions**:
